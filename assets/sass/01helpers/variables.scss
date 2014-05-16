@@ -1,0 +1,90 @@
+/**************************************************
+ FONT STACKS
+**************************************************/
+
+$sans-serif: Helmet, Freesans, sans-serif;
+$monospace: Monaco, Consolas, "Lucida Console", monospace;;
+
+/**************************************************
+ FONTS IN USE
+**************************************************/
+
+$body-font: $sans-serif;
+$headline-font: $sans-serif;
+$nav-font: $sans-serif;
+$input-font: $sans-serif;
+$button-font: $sans-serif;
+
+$code-font: $monospace;
+
+/**************************************************
+ COLORS
+**************************************************/
+
+// Tones
+
+$black: #1a1a1a;
+$dk-gray: #4d4d4d;
+$gray: #999;
+$lt-gray: #e6e6e6;
+$white: #fff;
+
+/**************************************************
+ COLORS IN USE
+**************************************************/
+
+// Base Colors
+
+$selection-text: $white;
+$selection-bg: $black;
+$border-color: $gray;
+
+$body-text: $black;
+$body-bg: $white;
+
+// Text Colors
+
+$headline-text: $black;
+$link-color: $gray;
+$link-hover: $dk-gray;
+
+// Form Colors
+
+$input-bg: $white;
+$label-color: $black;
+
+// Button Colors
+
+$button-text: $white;
+$button-bg: $gray;
+$button-hover-bg: $dk-gray;
+
+// Main Section Colors
+
+$main-bg: $white;
+
+// Footer Colors
+
+$footer-bg: $dk-gray;
+$footer-text-color: $white;
+$footer-link-color: $lt-gray;
+$footer-link-hover: $white;
+$footer-divider-color: $gray;
+$footer-social-button: $lt-gray;
+$footer-social-hover: $white;
+
+/**************************************************
+ SITE SPECIFIC VARIABLES
+**************************************************/
+
+$base-size: 10;
+
+// Spacing
+
+$side-padding: 6%;
+
+// Generated Content
+
+$bullet: '\25CF';
+$down-arrow: '\25BE';
+$vertical-bar: '\007C';
