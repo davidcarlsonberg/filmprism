@@ -3,5 +3,61 @@
 **************************************************/
 
 header {
+  position: relative;
+  background-color: $header-bg;
+  border-bottom: 1px solid $border-color;
+  @include break-up($medium){
+    padding: 6em 0 1em;
+  }
+  h1 {
+    margin: 0;
+    padding: .5em $side-padding;
+    text-align: center;
+    @include break-up($medium){
+      padding: 0;
+      text-align: left;
+    }
+  }
+  .site-search {
+    overflow: hidden;
+    @include break-up($medium){
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    input{
+      @include font-size(18);
+    }
+  }
+  nav {
+    ol {
+      display: none;
+      @include break-up($medium){
+        display: block;
+      }
+    }
+    .select-box {
+      @include break-up($medium){
+        display: none;
+      }
+    }
+  }
+}
 
+.nav-toggle {
+  @include font-size(18);
+  display: block;
+  padding: .5em $side-padding;
+  background-color: $nav-toggle-bg;
+  color: $nav-toggle-text;
+  text-align: center;
+  &:hover, 
+  &:focus {
+    background-color: $nav-toggle-hover;
+    color: $nav-toggle-text;
+  }
+  @include break-up($medium){
+    display: none;
+  }
 }

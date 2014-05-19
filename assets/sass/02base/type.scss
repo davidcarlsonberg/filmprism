@@ -24,23 +24,57 @@ h1, h2 ,h3, h4, h5, h6 {
 }
 
 h1 {
-  @include font-size(24);
+  @include font-size(36);
+  @include break-up($small){
+    @include font-size(48);
+  }
 }
 
 h2 {
-  @include font-size(20);
+  @include font-size(30);
+  @include break-up($small){
+    @include font-size(36);
+  }
 }
 
 h3 {
-  @include font-size(18);
+  @include font-size(24);
+  @include break-up($small){
+    @include font-size(30);
+  }
 }
 
-h4, h5, h6 {
-  @include font-size(16);
+h4 {
+  @include font-size(20);
+  @include break-up($small){
+    @include font-size(24);
+  }
+}
+
+h5, h6 {
+  @include font-size(18);
+  @include break-up($small){
+    @include font-size(20);
+  }
+}
+
+.title {
+  margin: 0 0 .25em;
+}
+
+.heading {
+  margin: 0 0 1em;
+  padding: .25em .75em;
+  background-color: $gray;
+  color: $white;
 }
 
 %base-type {
-  @include font-size(16);
+  @include font-size(14);
+  line-height: 1.6;
+  @include break-up($small){
+    @include font-size(16);
+  }
 }
 
 p {
@@ -59,6 +93,11 @@ ol { list-style-type: decimal; }
 ul { list-style-type: disc; }
 
 blockquote {
+  @include font-size(24);
+  padding: 1em .5em;
+  border: 1px solid $border-color;
+  border-left: none;
+  border-right: none;
   p {
     font-size: 1em;
     margin: 0;

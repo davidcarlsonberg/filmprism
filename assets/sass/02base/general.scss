@@ -36,8 +36,3 @@ textarea {
 .wrapper {
   background-color: $body-bg;
 }
-
-.inner {
-  @extend %clearfix;
-  @extend %site-column;
-}

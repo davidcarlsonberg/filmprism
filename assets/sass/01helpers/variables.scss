@@ -27,6 +27,7 @@ $black: #1a1a1a;
 $dk-gray: #4d4d4d;
 $gray: #999;
 $lt-gray: #e6e6e6;
+$x-lt-gray: #f2f2f2;
 $white: #fff;
 
 /**************************************************
@@ -59,9 +60,23 @@ $button-text: $white;
 $button-bg: $gray;
 $button-hover-bg: $dk-gray;
 
+// Header Colors
+
+$header-bg: $x-lt-gray;
+
+$nav-toggle-text: $white;
+$nav-toggle-bg: $dk-gray;
+$nav-toggle-hover: $black;
+
+$narrow-nav-text: $dk-gray;
+$narrow-nav-bg: $lt-gray;
+$narrow-nav-hover: $gray;
+
 // Main Section Colors
 
 $main-bg: $white;
+
+$box-bg: $x-lt-gray;
 
 // Footer Colors
 
@@ -81,7 +96,7 @@ $base-size: 10;
 
 // Spacing
 
-$side-padding: 6%;
+$side-padding: 8%;
 
 // Generated Content
 

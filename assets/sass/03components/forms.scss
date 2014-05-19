@@ -17,6 +17,7 @@ textarea,
 .select-box {
   display: block;
   width: 100%;
+  padding: .5em 1em;
   background-color: $input-bg;
   border: none;
   font-family: $input-font;
@@ -41,6 +42,7 @@ select {
   outline: none;
   display: block;
   width: 100%;
+  font-size: large;
   &:hover {
     cursor: pointer;
   }
