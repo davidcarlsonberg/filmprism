@@ -2,90 +2,56 @@
  FORM STYLES
 **************************************************/
 
-input,
-textarea {
-  outline: none;
-}
-
 input[type='text'],
 input[type='email'],
 input[type='search'],
 input[type='tel'],
 input[type='url'],
 input[type='password'],
-textarea, 
-.select-box {
+textarea {
+  @include transition;
+  @include border-radius(3px);
+  @include font-size(14);
   display: block;
   width: 100%;
-  padding: .5em 1em;
-  background-color: $input-bg;
+  margin-bottom: 1.25em;
+  padding: .5em;
+  background-color: $form-field-color;
   border: none;
-  font-family: $input-font;
-  -webkit-appearance: none;
-}
-
-input[type='text'],
-input[type='email'],
-input[type='search'],
-input[type='tel'],
-input[type='url'],
-input[type='password'], 
-.select-box {
-
+	outline: none;
+	-webkit-appearance: none;
+	&:focus {
+  	background-color: $form-field-focus;
+	}
 }
 
 textarea {
+  height: 8em;
   resize: vertical;
 }
 
-select {
-  outline: none;
+button {
+  @include transition;
+  @include border-radius(3px);
+  @include font-size(18);
   display: block;
   width: 100%;
-  font-size: large;
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.select-box {
-  position: relative;
-  &:after {
-    @include font-size(18);
-    content: $down-arrow;
-    display: block;
-    position: absolute;
-    z-index: 2;
-    top: .2em;
-    right: 1em;
-  }
-  p {
-    @include font-size(16);
-    margin: 0;
-  }
-  select {
-    @include opacity(0);
-    @include border-radius(0);
-    position: absolute;
-    z-index: 5;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border: none;
-    -webkit-appearance: none;
-  }
-}
-
-button, 
-input[type="submit"]{
-  @extend %button;
-  @include transition;
-  margin-top: 1em;
+  margin-top: 1.5em;
+  padding: .5em;
+  background-color: $button-bg;
+  border: none;
+  color: $button-text;
+  font-family: $button-font;
   -webkit-appearance: none;
+  @include break-up($large){
+    width: 50%;
+  }
+  &:hover, 
+  &:focus {
+    background-color: $button-hover;
+  }
 }
 
-label {
-  display: inline;
-  color: $label-color;
+input[type='submit']{
+  @extend button;
 }

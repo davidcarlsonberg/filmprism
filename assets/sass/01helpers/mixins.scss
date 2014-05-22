@@ -8,37 +8,14 @@
 }
 
 /**************************************************
- HI-RES BACKGROUND IMAGES
+ RETINAL BACKGROUND IMAGES
 **************************************************/
 
-@mixin image-2x($lg-image, $height, $width) {
+@mixin image-2x($sm-image, $lg-image) {
+  background-image: url($sm-image);
   @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi) {
     background-image: url($lg-image);
-    background-size: $width $height;
-  }
-}
-
-/**************************************************
- BUTTON STYLES
-**************************************************/
-
-@mixin button($color: $button-bg) {
-  @include border-radius(.5em);
-  @include font-size(24);
-  display: block;
-  padding: .5em 1em;
-  background-color: $color;
-  border: 1px solid darken($color, 10%);
-  color: $button-text;
-  font-family: $button-font;
-  font-weight: 700;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  &:hover, 
-  &:focus {
-    background-color: lighten($color, 10%);
-    border-color: $color;
-    color: $button-text;
+    background-size: image-width($sm-image) image-height($sm-image);
   }
 }
 
@@ -58,20 +35,4 @@ $x-large:  1200;
 
 @mixin break-down($point) {
   @media screen and (max-width: pem($point - 1)) { @content; }
-}
-
-/**************************************************
-
- BORDER IMAGE
-
- Example
- @include border-image(url(../my_image.png), 12px, 10, repeat);
- @include border-image(url(../my_image.png), 12px, 10 5 15 20, stretch repeat);
-
-**************************************************/
-    
-@mixin border-image($url, $offsets, $repeats)  {
-	border-color: transparent;
-	border-style: solid;
-  @include experimental("border-image", $url $offsets $repeats,  -moz, not -webkit, -o, -ms, -khtml, official);
 }

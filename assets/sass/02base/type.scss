@@ -17,87 +17,57 @@ a {
 **************************************************/
 
 h1, h2 ,h3, h4, h5, h6 {
-  margin: 1em 0;
-  color: $headline-text;
   font-family: $headline-font;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-h1 {
-  @include font-size(36);
-  @include break-up($small){
-    @include font-size(48);
-  }
+h1, h2 {
+  @include font-size(18);
+  margin-bottom: 1em;
 }
 
-h2 {
-  @include font-size(30);
-  @include break-up($small){
-    @include font-size(36);
-  }
-}
-
-h3 {
-  @include font-size(24);
-  @include break-up($small){
-    @include font-size(30);
-  }
-}
-
-h4 {
-  @include font-size(20);
-  @include break-up($small){
-    @include font-size(24);
-  }
+h3, h4 {
+  @include font-size(16);
+  margin-bottom: .5em;
 }
 
 h5, h6 {
-  @include font-size(18);
-  @include break-up($small){
-    @include font-size(20);
-  }
+  @include font-size(14);
+  margin-bottom: .5em;
 }
 
 .title {
-  margin: 0 0 .25em;
-}
-
-.heading {
-  margin: 0 0 1em;
-  padding: .25em .75em;
-  background-color: $gray;
-  color: $white;
+  margin: 0 0 1.25em;
+  padding: 0 0 1em;
+  border-bottom: 1px solid $border-color;
 }
 
 %base-type {
   @include font-size(14);
-  line-height: 1.6;
-  @include break-up($small){
-    @include font-size(16);
-  }
 }
-
 p {
   @extend %base-type;
   margin: 0 0 1em;
+  line-height: 1.6em;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: square;
 }
 
 ul, ol {
   @extend %base-type;
-  margin: 1em 0 1em 1.5em;
+  margin: 1em 0 1em 1.75em;
   li {
-    margin-bottom: 0.25em;
+    margin-bottom: 0.3em;
   }
 }
-ol { list-style-type: decimal; }
-ul { list-style-type: disc; }
 
 blockquote {
-  @include font-size(24);
-  padding: 1em .5em;
-  border: 1px solid $border-color;
-  border-left: none;
-  border-right: none;
   p {
     font-size: 1em;
     margin: 0;
@@ -106,21 +76,14 @@ blockquote {
 
 figcaption {
   @include font-size(12);
+  margin-top: 1em;
 }
 
 address {
   @extend %base-type;
+  margin-bottom: 1em;
 }
 
 small {
   @include font-size(12);
-}
-
-code, 
-pre {
-  @include font-size(14);
-}
-
-span {
-  white-space: nowrap;
 }

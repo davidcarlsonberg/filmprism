@@ -1,20 +1,30 @@
 var Site = window.Site || {};
 (function($) {
   $(function() {
-  
-    // NAV SELECT BOX
+		
+    // NAV TOGGLE
     
-    $('nav select').change(function(){
-			var navLink = $(this).find(':selected').attr('value');
-			window.location.assign(navLink);
-			return false;
+    $('.wrapper').click(function(){
+      if ($('body').hasClass('open-nav')){
+        $('body').removeClass('open-nav');
+      }
     });
     
-    // SELECT BOX
-    
-    $('.select-box select').change(function(){
-      var navText = $(this).find(':selected').text();
-      $(this).siblings('p').html(navText);
+    $('header .nav-toggle').click(function(event){
+      event.stopPropagation();
+      $('body').toggleClass('open-nav');
+    });
+
+    // FLEXSLIDER
+
+    $('.slideshow').flexslider({
+      animation: "fade",
+      slideshow: false,
+      prevText: "&#10094;",
+      nextText: "&#10095;",
+      start: function(slider){
+      $('body').removeClass('loading');
+      }
     });
 
   });

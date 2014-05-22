@@ -2,8 +2,8 @@
  FONT STACKS
 **************************************************/
 
-$sans-serif: Helmet, Freesans, sans-serif;
-$monospace: Monaco, Consolas, "Lucida Console", monospace;;
+$sans-serif: 'Helvetica Neue', Helmet, Freesans, sans-serif;
+$monospace: 'courier new', monospace, serif;
 
 /**************************************************
  FONTS IN USE
@@ -11,8 +11,8 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace;;
 
 $body-font: $sans-serif;
 $headline-font: $sans-serif;
+$label-font: $sans-serif;
 $nav-font: $sans-serif;
-$input-font: $sans-serif;
 $button-font: $sans-serif;
 
 $code-font: $monospace;
@@ -21,13 +21,12 @@ $code-font: $monospace;
  COLORS
 **************************************************/
 
-// Tones
-
 $black: #1a1a1a;
-$dk-gray: #4d4d4d;
+$dk-gray: #333;
+$md-gray: #666;
 $gray: #999;
-$lt-gray: #e6e6e6;
-$x-lt-gray: #f2f2f2;
+$lt-gray: #ccc;
+$x-lt-gray: #e6e6e6;
 $white: #fff;
 
 /**************************************************
@@ -37,69 +36,56 @@ $white: #fff;
 // Base Colors
 
 $selection-text: $white;
-$selection-bg: $black;
-$border-color: $gray;
+$selection-bg: $dk-gray;
 
 $body-text: $black;
 $body-bg: $white;
 
-// Text Colors
+$link-color: $md-gray;
+$link-hover: $gray;
 
-$headline-text: $black;
-$link-color: $gray;
-$link-hover: $dk-gray;
+$border-color: $lt-gray;
 
 // Form Colors
 
-$input-bg: $white;
-$label-color: $black;
+$form-field-color: $white;
+$form-field-focus: $x-lt-gray;
 
 // Button Colors
 
 $button-text: $white;
-$button-bg: $gray;
-$button-hover-bg: $dk-gray;
+$button-bg: $black;
+$button-hover: $dk-gray;
 
 // Header Colors
 
-$header-bg: $x-lt-gray;
+$header-link-color: $black;
+$header-link-hover: $dk-gray;
 
-$nav-toggle-text: $white;
-$nav-toggle-bg: $dk-gray;
-$nav-toggle-hover: $black;
+$nav-toggle-bg: $lt-gray;
+$nav-toggle-hover: $md-gray;
 
 $narrow-nav-text: $dk-gray;
+$narrow-nav-hover: $white;
+$narrow-nav-border: $gray;;
 $narrow-nav-bg: $lt-gray;
-$narrow-nav-hover: $gray;
 
-// Main Section Colors
+$nav-link-color: $dk-gray;
+$nav-link-hover: $md-gray;
 
-$main-bg: $white;
+// Slider Colors
 
-$box-bg: $x-lt-gray;
+$slide-marker: $lt-gray;
+$slide-marker-hover: $black;
+$slide-marker-active: $dk-gray;
 
 // Footer Colors
 
-$footer-bg: $dk-gray;
-$footer-text-color: $white;
-$footer-link-color: $lt-gray;
-$footer-link-hover: $white;
-$footer-divider-color: $gray;
-$footer-social-button: $lt-gray;
-$footer-social-hover: $white;
+$footer-text-color: $gray;
 
 /**************************************************
  SITE SPECIFIC VARIABLES
 **************************************************/
 
 $base-size: 10;
-
-// Spacing
-
-$side-padding: 8%;
-
-// Generated Content
-
-$bullet: '\25CF';
-$down-arrow: '\25BE';
-$vertical-bar: '\007C';
+$side-padding: 6%;

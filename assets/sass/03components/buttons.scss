@@ -3,5 +3,23 @@
 **************************************************/
 
 %button {
-  @include button;
+  @include transition;
+  @include border-radius(3px);
+  @include font-size(18);
+  display: block;
+  width: 100%;
+  margin-top: 1.5em;
+  padding: .5em;
+  background-color: $button-bg;
+  color: $button-text;
+  font-family: $button-font;
+  &:hover, 
+  &:focus {
+    background-color: $button-hover;
+    color: $button-text;
+  }
+}
+
+.button {
+  @extend %button;
 }

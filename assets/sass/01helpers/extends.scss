@@ -2,24 +2,7 @@
  EXTENDABLE STYLES
 **************************************************/
 
-// Clear Fix for Floated Elements
-
-%clearfix {
-  zoom: 1;
-  &:before,
-  &:after {
-    display:table;
-    visibility:hidden;
-    content:"";
-  }
-  &:after {
-    clear:both;
-  }
-}
-
-// Max Width for Main Site Column
-
 %site-column {
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }

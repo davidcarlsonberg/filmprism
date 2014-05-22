@@ -2,34 +2,17 @@
  FOOTER STYLES
 **************************************************/
 
-%footer-bg {
-  background-color: $footer-bg;
-}
-
 footer {
-  padding: 3em $side-padding 4em;
+  @extend %clearfix;
+  position: relative;
+  z-index: 10;
+  padding: 6em $side-padding;
+  background-color: $body-bg;
+  border-top: 1px solid $border-color;
+  color: $footer-text-color;
   text-align: center;
-  h2 {
-    margin: 0 0 .5em;
-  }
-  nav {
-    ol {
-      list-style: none;
-      margin: 0;
-    }
-    li {
-      @include inline-block;
-      margin: 0 .5em;
-      .generatedcontent & {
-        margin: 0;
-        &:before {
-          content: $vertical-bar;
-          margin: 0 .5em;
-        }
-        &:first-child:before {
-          display: none;
-        }
-      }
-    }
+  @include break-up($medium){
+    padding: 30px 30px;
+    text-align: left;
   }
 }
