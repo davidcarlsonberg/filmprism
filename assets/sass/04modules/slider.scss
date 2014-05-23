@@ -1,0 +1,52 @@
+/**************************************************
+ SLIDE STYLES
+**************************************************/
+
+.flex-control-nav {
+  overflow: hidden;
+  margin: 0;
+  list-style: none;
+  border: 1px solid $black;
+  li {
+    @include float;
+    width: 25%;
+    margin: 0;
+    border: 1px solid $black;
+    a {
+      display: block;
+      overflow: hidden;
+      height: 0;
+      padding-top: 10px;
+      background-color: $slide-marker;
+      &:hover {
+        background-color: $slide-marker-hover;
+      }
+      &.flex-active {
+        background-color: $slide-marker-active;
+      }
+    }
+  }
+}
+
+.flex-direction-nav {
+  @extend %clearfix;
+  @include font-size(18);
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  li {
+    @include float;
+    width: 50%;
+    margin: 0;
+  }
+  a {
+    display: block;
+    padding: .5em 1em;
+    color: $slide-direction-text;
+    background-color: $slide-direction-button;
+    &:hover, 
+    &:focus {
+      background-color: $slide-direction-hover;
+    }
+  }
+}

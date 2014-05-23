@@ -19,7 +19,6 @@ var Site = window.Site || {};
 
     $('.slideshow').flexslider({
       animation: "fade",
-      slideshow: false,
       prevText: "&#10094;",
       nextText: "&#10095;",
       start: function(slider){

@@ -13,29 +13,31 @@ nav {
   }
 }
 
-/***** Header Nav Styles *****/
+/* ----- Header Navigation ----- */
 
 header {
+  @extend %clearfix;
   nav {
     display: none;
+    margin-left: 180px;
+    padding-top: 1em;
     @include break-up($medium){
       display: block;
     }
-    ol {
-      @include font-size(14);
-      border-bottom: 1px solid $x-lt-gray;
+    .site-nav {
+      @include float;
+    }
+    .user-nav {
+      @include float(right);
     }
     li {
-      padding: .5em 0;
-      border-top: 1px solid $x-lt-gray;
-      ol {
-        @include font-size(12);
-        padding: .5em 0;
-        border-bottom: none;
+      @include inline-block;
+      &:before {
+        content: '\002F';
+        margin: 0 .5em;
       }
-      li {
-        padding: .25em 0;
-        border-top: none;
+      &:first-child:before {
+        display: none;
       }
     }
   }
@@ -48,7 +50,7 @@ header {
   }
 }
 
-/***** Mobile Nav Styles *****/
+/* ----- Mobile Navigation ----- */
 
 .mobile-nav {
   position: fixed;
@@ -56,7 +58,7 @@ header {
   top: 0;
   left: 0;
   height: 100%;
-  width: 75%;
+  width: 260px;
   padding: 0;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -71,64 +73,40 @@ header {
   }
   .search-bar {
     input[type='search']{
-      @include float;
-      @include font-size(16);
-      width: 80%;
-      height: 2.5em;
-    }
-    input[type='submit']{
-      @include float;
-      @include border-radius(0);
-      @include font-size(16);
-      overflow: hidden;
-      width: 20%;
-      height: 0;
-      margin: 0;
-      padding: 2.5em 0 0;
+      padding-left: 30px;
     }
   }
   ol {
     @include font-size(16);
-    border-bottom: $narrow-nav-border;
   }
   li {
-    margin: 0;
-    border-top: $narrow-nav-border;
+    border-bottom: 1px solid $narrow-nav-border;
     a {
       display: block;
-      padding: .5em 30px;
+      padding: .75em 30px;
+      background-color: $narrow-nav-bg;
       color: $narrow-nav-text;
-    }
-    a {
       &:hover, 
       &:focus {
-        color: $narrow-nav-hover;
+        background-color: $narrow-nav-hover;
+        color: $narrow-nav-text;
       }
-    }
-    ol {
-      @include font-size(14);
-      padding: .75em 0;
-      border-top: $narrow-nav-border;
-      border-bottom: none;
-    }
-    li {
-      border-top: none;
     }
   }
 }
 
-/***** Nav Toggle Button *****/
+/* ----- Nav Toggle Button ----- */
 
 .nav-toggle {
   display: block;
   overflow: hidden;
   position: absolute;
-  top: 3em;
+  top: 50%;
   left: $side-padding;
   height: 0;
   width: 24px;
   padding-top: 20px;
-  margin: 0;
+  margin: -10px 0 0;
   background-color: $nav-toggle-bg;
   &:before, 
   &:after {
@@ -138,7 +116,7 @@ header {
     left: 0;
     right: 0;
     height: 4px;
-    background-color: $body-bg;
+    background-color: $header-bg;
   }
   &:before { top: 4px; }
   &:after { bottom: 4px; }
@@ -151,5 +129,29 @@ header {
   }
   @include break-up($medium){
     display: none;
+  }
+}
+
+/* ----- Mobile Nav Wrapper ----- */
+
+.wrapper {
+  @extend %footer-bg;
+  position: relative;
+  z-index: 3;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: $body-bg;
+  @include break-down($medium){
+    @include single-transition(.3s);
+    @include box-shadow(0 0 10px transparentize($black, .5));
+    margin: 0;
+    width: 100%;
+  }
+  .open-nav & {
+    margin-left: 260px;
+    @include break-up($medium){
+      @include box-shadow(none);
+      margin-left: 0;
+    }
   }
 }

@@ -1,0 +1,219 @@
+/**************************************************
+ HOME PAGE STYLES
+**************************************************/
+
+section.topics {
+  .inner {
+    position: relative;
+  }
+  .featured {
+    position: relative;
+    margin-bottom: 15px;
+    @include break-up($medium){
+      @include float;
+      width: 50%;
+    }
+    @include break-up($large){
+      @include float;
+      width: 63.33%;
+    }
+    figure {
+      position: relative;
+      overflow: hidden;
+      height: 270px;
+      background-color: $black;
+      img {
+        @include opacity(.5);
+        position: absolute;
+        left: 50%;
+        margin-left: -270px;
+        width: 540px;
+        max-width: none;
+      }
+      @include break-up($small){
+        height: 360px;
+        img {
+          width: 720px;
+          margin-left: -360px;
+        }
+      }
+      @include break-up($medium){
+        height: 405px;
+        img {
+          width: 720px;
+          margin-left: -360px;
+        }
+      }
+    }
+    .summary {
+      @include background-image(linear-gradient(transparent, transparentize($black, .25)));
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0 2em 1em;
+      color: $white;
+      @include break-up($small){
+        padding: 0 3em 1.5em;
+      }
+    }
+    i {
+      margin-right: .25em;
+      img {
+        margin-bottom: -2px;
+      }
+    }
+  }
+}
+
+.recent-topics {
+  @extend %clearfix;
+  list-style: none;
+  margin: 0 0 15px;
+  @include break-up($small){
+    width: 102.5%;
+    margin-left: -2.5%;
+  }
+  @include break-up($medium){
+    @include float(right);
+    width: 45%;
+  }
+  @include break-up($large){
+    @include float(right);
+    width: 33.33%;
+  }
+  li {
+    margin-bottom: 15px;
+    @include break-up($small){
+      @include float;
+      width: 47.5%;
+      margin-left: 2.5%;
+    }
+    @include break-up($medium){
+      @include reset-float;
+      width: auto;
+      margin-left: 0;
+    }
+    a {
+      display: block;
+      overflow: hidden;
+      background-color: $white;
+      &:hover, 
+      &:focus {
+        background-color: $x-lt-gray;
+        img {
+          @include opacity(.75);
+        }
+        .summary {
+          border-color: $lt-gray;
+        }
+      }
+    }
+    figure {
+      @include float;
+      width: 90px;
+      background-color: $black;
+    }
+    .summary {
+      height: 90px;
+      margin-left: 90px;
+      padding: 1em 2em;
+      border: 1px solid $lt-gray;
+      border-left: none;
+      @include break-up($small){
+        padding: 1em 1.5em 0;
+      }
+    }
+    h4 {
+      @include font-size(16);
+      margin: 0 0 .25em;
+      @include break-up($small){
+        @include font-size(16);
+      }
+    }
+    p {
+      @include font-size(12);
+      margin: 0;
+      white-space: nowrap;
+    }
+    i {
+      margin-right: .25em;
+      img {
+        width: 12px;
+        margin-bottom: -1px;
+      }
+    }
+  }
+}
+
+section.films {
+  padding-top: 6em;
+  background-color: $x-lt-gray;
+}
+
+.recent-films {
+  @extend %clearfix;
+  list-style: none;
+  width: 105%;
+  margin: 0 0 15px -5%;
+  @include break-up($small){
+    width: 103.33%;
+    margin-left: -3.33%;
+  }
+  @include break-up($medium){
+    width: 101.66%;
+    margin-left: -1.66%;
+  }
+  li {
+    @include float;
+    width: 45%;
+    margin: 0 0 5% 5%;
+    @include break-up($small){
+      width: 30%;
+      margin: 0 0 3.33% 3.33%;
+    }
+    @include break-up($medium){
+      width: 15%;
+      margin: 0 0 0 1.66%;
+    }
+  }
+  figcaption {
+    margin: 0;
+    padding: 1em;
+    background-color: $white;
+    border: 1px solid $lt-gray;
+    border-top: none;
+    h4 {
+      @include font-size(14);
+      margin: 0;
+    }
+    p {
+      @include font-size(12);
+      margin: 0;
+    }
+    i {
+      margin-right: .25em;
+      img {
+        width: 12px;
+        margin-bottom: -2px;
+      }
+    }
+  }
+}
+
+section.topics, 
+section.films {
+  .inner {
+    position: relative;    
+  }
+  .button {
+    clear: both;
+    @include break-up($medium){
+      @include font-size(14);
+      position: absolute;
+      top: -5px;
+      right: 0;
+      width: auto;
+    }
+  }
+}

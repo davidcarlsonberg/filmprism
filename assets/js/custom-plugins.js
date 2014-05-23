@@ -75,6 +75,7 @@
           }
           return false;
         }());
+        slider.ensureAnimationEnd = '';
         // CONTROLSCONTAINER:
         if (slider.vars.controlsContainer !== "") slider.controlsContainer = $(slider.vars.controlsContainer).length > 0 && $(slider.vars.controlsContainer);
         // MANUAL:
@@ -299,7 +300,7 @@
       },
       directionNav: {
         setup: function() {
-          var directionNavScaffold = $('<ul class="' + namespace + 'direction-nav"><li class="prev-slide"><a class="' + namespace + 'prev" href="#">' + slider.vars.prevText + '</a></li><li class="next-slide"><a class="' + namespace + 'next" href="#">' + slider.vars.nextText + '</a></li></ul>');
+          var directionNavScaffold = $('<ul class="' + namespace + 'direction-nav"><li><a class="' + namespace + 'prev" href="#">' + slider.vars.prevText + '</a></li><li><a class="' + namespace + 'next" href="#">' + slider.vars.nextText + '</a></li></ul>');
 
           // CONTROLSCONTAINER:
           if (slider.controlsContainer) {
@@ -724,10 +725,20 @@
               slider.animating = false;
               slider.currentSlide = slider.animatingTo;
             }
+            
+            // Unbind previous transitionEnd events and re-bind new transitionEnd event
             slider.container.unbind("webkitTransitionEnd transitionend");
             slider.container.bind("webkitTransitionEnd transitionend", function() {
+              clearTimeout(slider.ensureAnimationEnd);
               slider.wrapup(dimension);
             });
+
+            // Insurance for the ever-so-fickle transitionEnd event
+            clearTimeout(slider.ensureAnimationEnd);
+            slider.ensureAnimationEnd = setTimeout(function() {
+              slider.wrapup(dimension);
+            }, slider.vars.animationSpeed + 100);
+
           } else {
             slider.container.animate(slider.args, slider.vars.animationSpeed, slider.vars.easing, function(){
               slider.wrapup(dimension);
@@ -877,8 +888,8 @@
           // clear out old clones
           if (type !== "init") slider.container.find('.clone').remove();
           // slider.container.append(slider.slides.first().clone().addClass('clone').attr('aria-hidden', 'true')).prepend(slider.slides.last().clone().addClass('clone').attr('aria-hidden', 'true'));
-          methods.uniqueID( slider.slides.first().clone().addClass('clone').attr('aria-hidden', 'true') ).appendTo( slider.container );
-          methods.uniqueID( slider.slides.last().clone().addClass('clone').attr('aria-hidden', 'true') ).prependTo( slider.container );
+		      methods.uniqueID( slider.slides.first().clone().addClass('clone').attr('aria-hidden', 'true') ).appendTo( slider.container );
+		      methods.uniqueID( slider.slides.last().clone().addClass('clone').attr('aria-hidden', 'true') ).prependTo( slider.container );
         }
         slider.newSlides = $(slider.vars.selector, slider);
 
@@ -1069,7 +1080,7 @@
     // Usability features
     pauseOnAction: true,            //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
     pauseOnHover: false,            //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-    pauseInvisible: true,       //{NEW} Boolean: Pause the slideshow when tab is invisible, resume when visible. Provides better UX, lower CPU usage.
+    pauseInvisible: true,   		//{NEW} Boolean: Pause the slideshow when tab is invisible, resume when visible. Provides better UX, lower CPU usage.
     useCSS: true,                   //{NEW} Boolean: Slider will use CSS3 transitions if available
     touch: true,                    //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
     video: false,                   //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches

@@ -17,6 +17,7 @@ address,caption,cite,code,dfn,th,var { font-style: normal; font-weight: normal; 
 a { font-size: 100%; vertical-align: baseline; background: transparent; }
 a:hover, a:active {outline: none;}
 img, object, embed {max-width: 100%; height: auto !important; border: 0; .ie8 & {width: auto;}}
+figure img {width: 100%; vertical-align: bottom;}
 svg:not(:root) { overflow: hidden; }
 
 ins { color: $body-text; text-decoration: none; }
@@ -52,16 +53,3 @@ button, input, select, textarea { margin: 0; }
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 *, *:after, *:before { @include box-sizing(border-box); }
-
-%clearfix {
-  zoom: 1;
-  &:before,
-  &:after {
-    display:table;
-    visibility:hidden;
-    content:"";
-  }
-  &:after {
-    clear:both;
-  }
-}

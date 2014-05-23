@@ -2,17 +2,15 @@
  FOOTER STYLES
 **************************************************/
 
+%footer-bg {
+  background-color: $dk-gray;
+}
+
 footer {
-  @extend %clearfix;
-  position: relative;
-  z-index: 10;
   padding: 6em $side-padding;
-  background-color: $body-bg;
-  border-top: 1px solid $border-color;
   color: $footer-text-color;
   text-align: center;
   @include break-up($medium){
-    padding: 30px 30px;
     text-align: left;
   }
 }

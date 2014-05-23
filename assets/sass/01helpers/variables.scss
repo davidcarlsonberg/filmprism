@@ -49,7 +49,7 @@ $border-color: $lt-gray;
 // Form Colors
 
 $form-field-color: $white;
-$form-field-focus: $x-lt-gray;
+$form-field-focus: $white;
 
 // Button Colors
 
@@ -59,25 +59,29 @@ $button-hover: $dk-gray;
 
 // Header Colors
 
+$header-bg: $lt-gray;
 $header-link-color: $black;
 $header-link-hover: $dk-gray;
 
-$nav-toggle-bg: $lt-gray;
+$nav-toggle-bg: $gray;
 $nav-toggle-hover: $md-gray;
 
-$narrow-nav-text: $dk-gray;
-$narrow-nav-hover: $white;
-$narrow-nav-border: $gray;;
-$narrow-nav-bg: $lt-gray;
+$narrow-nav-text: $white;
+$narrow-nav-bg: $gray;
+$narrow-nav-hover: $md-gray;
+$narrow-nav-border: $md-gray;
 
 $nav-link-color: $dk-gray;
 $nav-link-hover: $md-gray;
 
 // Slider Colors
 
-$slide-marker: $lt-gray;
-$slide-marker-hover: $black;
-$slide-marker-active: $dk-gray;
+$slide-marker: $md-gray;
+$slide-marker-hover: $md-gray;
+$slide-marker-active: $white;
+$slide-direction-text: $white;
+$slide-direction-button: $dk-gray;
+$slide-direction-hover: $black;
 
 // Footer Colors
 

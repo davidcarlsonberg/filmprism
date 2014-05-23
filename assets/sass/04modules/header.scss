@@ -4,24 +4,16 @@
 
 header {
   position: relative;
+  background-color: $header-bg;
   padding: 3em $side-padding;
   @include break-up($medium){
-    overflow: scroll;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding: 60px 30px 90px;
-    width: 240px;
+    padding: 6em $side-padding 2em;
   }
   h1 {
     margin: 0;
     text-align: center;
-    @include break-up($x-small){
-      text-align: center;
-    }
     @include break-up($medium){
-      margin-bottom: 1em;
+      @include float;
       text-align: left;
     }
     a {
@@ -31,5 +23,41 @@ header {
         color: $header-link-hover;
       }
     }
+  }
+}
+
+.search-bar {
+  overflow: hidden;
+  header & {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    @include break-up($medium){
+      display: block;
+    }
+  }
+  input[type='search']{
+    @include float;
+    @include border-radius(0);
+    @include font-size(16);
+    height: 2.5em;
+    width: 80%;
+    margin: 0;
+    padding: .625em 1em .625em $side-padding;
+  }
+  input[type='submit']{
+    @include float;
+    @include border-radius(0);
+    @include font-size(16);
+    overflow: hidden;
+    height: 0;
+    width: 20%;
+    margin: 0;
+    padding: 2.5em 0 0;
+    background-image: url('../img/graphics/search-icon-sm.png');
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 }

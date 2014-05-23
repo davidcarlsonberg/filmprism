@@ -31,8 +31,6 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-  <link href="assets/css/print.css" media="print" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Belleza" rel="stylesheet" type="text/css">
   
   <script>
     var b = document.documentElement;

@@ -2,7 +2,24 @@
  EXTENDABLE STYLES
 **************************************************/
 
+/* ----- Clear Fix ----- */
+
+%clearfix {
+  zoom: 1;
+  &:before,
+  &:after {
+    display:table;
+    visibility:hidden;
+    content:"";
+  }
+  &:after {
+    clear:both;
+  }
+}
+
+/* ----- Center Column ----- */
+
 %site-column {
-  max-width: 900px;
+  max-width: 1080px;
   margin: 0 auto;
 }
