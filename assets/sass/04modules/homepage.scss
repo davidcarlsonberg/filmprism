@@ -2,7 +2,7 @@
  HOME PAGE STYLES
 **************************************************/
 
-section.topics {
+.topics {
   .inner {
     position: relative;
   }
@@ -11,7 +11,7 @@ section.topics {
     margin-bottom: 15px;
     @include break-up($medium){
       @include float;
-      width: 50%;
+      width: 48.75%;
     }
     @include break-up($large){
       @include float;
@@ -67,16 +67,15 @@ section.topics {
 }
 
 .recent-topics {
-  @extend %clearfix;
-  list-style: none;
-  margin: 0 0 15px;
+  @extend %card-styles;
+  margin-bottom: 0 0 15px;
   @include break-up($small){
     width: 102.5%;
     margin-left: -2.5%;
   }
   @include break-up($medium){
     @include float(right);
-    width: 45%;
+    width: 48.75%;
   }
   @include break-up($large){
     @include float(right);
@@ -94,54 +93,21 @@ section.topics {
       width: auto;
       margin-left: 0;
     }
-    a {
-      display: block;
-      overflow: hidden;
-      background-color: $white;
-      &:hover, 
-      &:focus {
-        background-color: $x-lt-gray;
-        img {
-          @include opacity(.75);
-        }
-        .summary {
-          border-color: $lt-gray;
-        }
-      }
-    }
     figure {
       @include float;
       width: 90px;
-      background-color: $black;
     }
     .summary {
       height: 90px;
       margin-left: 90px;
       padding: 1em 2em;
-      border: 1px solid $lt-gray;
       border-left: none;
       @include break-up($small){
         padding: 1em 1.5em 0;
       }
     }
-    h4 {
-      @include font-size(16);
-      margin: 0 0 .25em;
-      @include break-up($small){
-        @include font-size(16);
-      }
-    }
     p {
-      @include font-size(12);
-      margin: 0;
-      white-space: nowrap;
-    }
-    i {
-      margin-right: .25em;
-      img {
-        width: 12px;
-        margin-bottom: -1px;
-      }
+      white-space: nowrap; 
     }
   }
 }
@@ -152,51 +118,24 @@ section.films {
 }
 
 .recent-films {
-  @extend %clearfix;
-  list-style: none;
+  @extend %card-styles;
   width: 105%;
   margin: 0 0 15px -5%;
-  @include break-up($small){
-    width: 103.33%;
-    margin-left: -3.33%;
-  }
   @include break-up($medium){
-    width: 101.66%;
-    margin-left: -1.66%;
+    width: 102.5%;
+    margin-left: -2.5%;
   }
   li {
     @include float;
     width: 45%;
     margin: 0 0 5% 5%;
-    @include break-up($small){
-      width: 30%;
-      margin: 0 0 3.33% 3.33%;
-    }
     @include break-up($medium){
-      width: 15%;
-      margin: 0 0 0 1.66%;
+      width: 22.5%;
+      margin-left: 2.5%;
+      margin-bottom: 0;
     }
-  }
-  figcaption {
-    margin: 0;
-    padding: 1em;
-    background-color: $white;
-    border: 1px solid $lt-gray;
-    border-top: none;
-    h4 {
-      @include font-size(14);
-      margin: 0;
-    }
-    p {
-      @include font-size(12);
-      margin: 0;
-    }
-    i {
-      margin-right: .25em;
-      img {
-        width: 12px;
-        margin-bottom: -2px;
-      }
+    .summary {
+      padding: 1em 1.5em;
     }
   }
 }

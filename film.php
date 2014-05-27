@@ -41,6 +41,8 @@
         include '_partials/film-card.php';
         include '_partials/film-card.php';
         include '_partials/film-card.php';
+        include '_partials/film-card.php';
+        include '_partials/film-card.php';
       ?>
     </ol>
     <a href="films.php" class="button">See More Films</a>
