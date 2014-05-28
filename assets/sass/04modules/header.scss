@@ -7,7 +7,7 @@ header {
   background-color: $header-bg;
   padding: 3em $side-padding;
   @include break-up($medium){
-    padding: 6em $side-padding 2em;
+    padding: 8em $side-padding 2em;
   }
   h1 {
     margin: 0;
@@ -34,6 +34,7 @@ header {
     top: 0;
     right: 0;
     left: 0;
+    border-bottom: 5px solid $black;
     @include break-up($medium){
       display: block;
     }

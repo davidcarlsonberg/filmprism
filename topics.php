@@ -1,5 +1,5 @@
 <?php
-  $pageTitle = 'Film Prism';
+  $pageTitle = 'Topics | Film Prism';
   $bodyId = 'topics';
   include '_partials/head.php';
   include '_partials/header.php';
@@ -12,25 +12,25 @@
       <li>
         <select>
           <option> - Topic - </option>
-          <option>Comedy</option>
-          <option>Drama</option>
-          <option>Romance</option>
+          <option>Topic 1</option>
+          <option>Topic 2</option>
+          <option>Topic 3</option>
         </select>
       </li>
       <li>
         <select>
           <option> - Genre - </option>
-          <option>Comedy</option>
-          <option>Drama</option>
-          <option>Romance</option>
+          <option>Genre 1</option>
+          <option>Genre 2</option>
+          <option>Genre 3</option>
         </select>
       </li>
       <li>
         <select>
-          <option> - Genre - </option>
-          <option>Comedy</option>
-          <option>Drama</option>
-          <option>Romance</option>
+          <option> - Author - </option>
+          <option>Author 1</option>
+          <option>Author 2</option>
+          <option>Author 3</option>
         </select>
       </li>
     </ol>

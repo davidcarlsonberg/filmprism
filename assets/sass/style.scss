@@ -42,7 +42,12 @@
 @import "04modules/header";
 @import "04modules/nav";
 @import "04modules/main";
-@import "04modules/homepage";
-@import "04modules/topics";
-@import "04modules/slider";
 @import "04modules/footer";
+
+/**************************************************
+ PAGE STYLES
+**************************************************/
+
+@import "05pages/home-page";
+@import "05pages/list-pages";
+@import "05pages/topic-page";

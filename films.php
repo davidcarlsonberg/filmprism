@@ -1,48 +1,65 @@
 <?php
-  $pageTitle = 'Film Prism';
-  $bodyId = 'home';
+  $pageTitle = 'Films | Film Prism';
+  $bodyId = 'films';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
 
-<section class="topics">
+<section class="filters">
   <div class="inner">
-    <h4 class="title">Recent Topics</h4>
-    <article class="featured">
-      <a href="topic.php">
-        <figure>
-          <img src="http://placehold.it/720x405.jpg" />
-        </figure>
-        <div class="summary">
-          <h3>Topic Title</h3>
-          <p>Short summary of the topic. It should only be two or three lines long. Just a brief description.</p>
-          <p><i><img src="assets/img/graphics/bubble-light.png" /></i> 36</p>
-        </div>
-      </a>
-    </article>
-    <ol class="recent-topics">
-      <?php
-        include '_partials/topic-card.php';
-        include '_partials/topic-card.php';
-        include '_partials/topic-card.php';
-        include '_partials/topic-card.php';
-      ?>
+    <h4>Filter by:</h4>
+    <ol>
+      <li>
+        <select>
+          <option> - Title - </option>
+          <option>A to Z</option>
+          <option>Z to A</option>
+        </select>
+      </li>
+      <li>
+        <select>
+          <option> - Genre - </option>
+          <option>Genre 1</option>
+          <option>Genre 2</option>
+          <option>Genre 3</option>
+        </select>
+      </li>
+      <li>
+        <select>
+          <option> - Topic - </option>
+          <option>Author 1</option>
+          <option>Author 2</option>
+          <option>Author 3</option>
+        </select>
+      </li>
+      <li>
+        <select>
+          <option> - Year Released - </option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+        </select>
+      </li>
     </ol>
-    <a href="topics.php" class="button">See More Topics</a>
   </div>
 </section>
 
-<section class="films">
+<section class="main">
   <div class="inner">
-    <h4 class="title">Recently Added Films</h4>
-    <ol class="recent-films">
+    <ol class="films-list">
       <?php
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
+        include '_partials/film-card-2.php';
       ?>
     </ol>
     <a href="films.php" class="button">See More Films</a>

@@ -1,0 +1,123 @@
+/**************************************************
+ LIST PAGE STYLES
+**************************************************/
+
+/* ----- List Filter Styles ----- */
+
+.filters {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background-color: $dk-gray;
+  h4 {
+    margin: 0 0 .5em;
+    color: $white;
+    @include break-up($medium){
+      @include float;
+      margin-bottom: 0;
+    }
+  }
+  ol {
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    @include break-up($small){
+      #topics & {
+        width: 104.5%;
+        margin: 0 0 0 -4.5%;
+      }
+      #films & {
+        width: 102.5%;
+        margin: 0 0 0 -2.5%;
+      }
+    }
+    @include break-up($medium){
+      #topics & {
+        width: auto;
+        margin-left: 4em;
+      }
+      #films & {
+        width: auto;
+        margin-left: 5em;
+      }
+    }
+  }
+  li {
+    margin: 0 0 15px;
+    @include break-up($small){
+      @include float;
+      margin-bottom: 0;
+      #topics & {
+        width: 30%;
+        margin-left: 3.33%;
+      }
+      #films & {
+        width: 22.5%;
+        margin-left: 2.5%;
+      }
+    }
+  }
+  select {
+    width: 100%;
+    font-size: xx-large;
+  }
+}
+
+/* ----- Shared List Styles ----- */
+
+%card-list {
+  @extend %card-styles;
+  width: 105%;
+  margin: 0 0 15px -5%;
+  @include break-up($medium){
+    width: 102.5%;
+    margin-left: -2.5%;
+  }
+  li {
+    @include float;
+    width: 45%;
+    margin: 0 0 5% 5%;
+    @include break-up($small){
+      width: 30%%;
+      margin-left: 3.33%;
+      margin-bottom: 3.33%;
+    }
+    @include break-up($medium){
+      width: 22.5%;
+      margin-left: 2.5%;
+      margin-bottom: 2.5%;
+    }
+  }
+}
+
+/* ----- Topics List Styles ----- */
+
+.topic-list {
+  @extend %card-styles;
+  @extend %card-list;
+  li {
+    .summary {
+      padding: .5em 1em;
+    }
+  }
+}
+
+/* ----- Films List Styles ----- */
+
+.films-list {
+  @extend %card-styles;
+  @extend %card-list;
+  @include break-up($large){
+    width: 101.66%;
+    margin-left: -1.66%;
+  }
+  li {
+    @include break-up($large){
+      width: 15%;
+      margin-left: 1.66%;
+      margin-bottom: 1.66%;
+    }
+    .summary {
+      padding: .5em 1em;
+    }
+  }
+}

@@ -1,0 +1,142 @@
+/**************************************************
+ TOPIC PAGE STYLES
+**************************************************/
+
+.top {
+  padding: 0;
+  background-color: $dk-gray;
+  figure {
+    @extend %site-column;
+    position: relative;
+    overflow: hidden;
+    height: 270px;
+    background-color: $black;
+    img {
+      @include opacity(.5);
+      position: absolute;
+      left: 50%;
+      width: 720px;
+      margin-left: -360px;
+      margin-top: -45px;
+      max-width: none;
+    }
+    @include break-up($small){
+      img {
+        width: 900px;
+        margin-left: -450px;
+        margin-top: -90px;
+      }
+    }
+    @include break-up($medium){
+      height: 360px;
+      img {
+        width: 1080px;
+        margin-left: -540px;
+        margin-top: -90px;
+      }
+    }
+    figcaption {
+      @include background-image(linear-gradient(transparent, transparentize($black, .25)));
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 2em $side-padding;
+      color: $white;
+    }
+    h1, h3 {
+      margin: 0;
+    }
+    h1 {
+      @include break-up($small){
+        @include float;
+      }
+      @include break-up($medium){
+        @include font-size(42);
+      }
+    }
+    h3 {
+      @include break-up($small){
+        @include float(right);
+        margin-top: .25em;
+      }
+      @include break-up($medium){
+        margin-top: 1em;
+      }
+    }
+  }
+}
+
+.main {
+  #topic & {
+    article {
+      margin-bottom: 6em;
+      @include break-up($small){
+        @include float;
+        width: 63.33%;
+      }
+    }
+  }
+  aside {
+    @include break-up($small){
+      @include float(right);
+      width: 30%;
+    }
+    h4 {
+      margin: 0;
+      padding: 1em 0 0;
+      border-top: 1px solid $border-color;
+    }
+    .related-topics {
+      h4 {
+        @include font-size(16);
+        margin-bottom: .25em;
+        padding: 0;
+        border-top: none;
+      }
+      p {
+        @include font-size(12);
+        margin: 0 0 .5em;
+      }
+    }
+  }
+}
+
+.share-links {
+  @include font-size(10);
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 1.5em 0;
+  li {
+    @include float;
+    margin: 0 .5em 0 0;
+  }
+  a {
+    @include border-radius(50%);
+    display: block;
+    overflow: hidden;
+    height: 0;
+    width: 20px;
+    padding-top: 20px;
+    background-color: $dk-gray;
+  }
+}
+
+.related-topics {
+  list-style: none;
+  margin: 0;
+  padding: 1.5em 0;
+  li {
+    margin-bottom: 10px;
+    border: 1px solid $border-color;
+  }
+  a {
+    display: block;
+    padding: 1em 1.5em .5em;
+  }
+}
+
+.discussion {
+  clear: both;
+}
