@@ -1,0 +1,44 @@
+/**************************************************
+ BASIC PAGE STYLES
+**************************************************/
+
+.main {
+  #page & {
+    article {
+      margin-bottom: 6em;
+      @include break-up($small){
+        @include float;
+        width: 60%;
+      }
+    }
+    aside {
+      border-top: 1px solid $border-color;
+      @include break-up($small){
+        @include float(right);
+        width: 35%;
+        padding-bottom: 2em;
+        border-bottom: 1px solid $border-color;
+      }
+      @include break-up($medium){
+        width: 30%;
+      }
+      p {
+        @include font-size(14);
+      }
+    }
+    form {
+      margin-top: 4em;
+      label {
+        @include font-size(14);
+      }
+      input, 
+      textarea {
+        margin-top: .5em;
+        border: 1px solid $border-color;
+      }
+      input[type="submit"]{
+        width: 100%;
+      }
+    }
+  }
+}

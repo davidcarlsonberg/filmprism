@@ -1,0 +1,76 @@
+/**************************************************
+ FILM PAGE STYLES
+**************************************************/
+
+.main {
+  #film & {
+    .title {
+      margin: 0 0 .75em;
+      @include break-up($small){
+        @include float(right);
+        width: 63.33%;
+      }
+    }
+    article {
+      @include break-up($small){
+        @include float(right);
+        width: 63.33%;
+      }
+    }
+    aside {
+      @include break-up($small){
+        @include float;
+        width: 30%;
+      }
+    }
+    .discussion {
+      clear: none;
+      @include break-up($small){
+        @include float(right);
+        width: 63.33%;
+      }
+    }
+    .related-topics {
+      h4 {
+        @include font-size(16);
+        margin-bottom: .25em;
+        padding: 0;
+        border-top: none;
+      }
+      p {
+        @include font-size(12);
+        margin: 0 0 .5em;
+      }
+    }
+  }
+}
+
+.film-details {
+  @extend %clearfix;
+  margin-bottom: 3em;
+  @include break-up($small){
+    @include float;
+    width: 30%;
+  }
+  figure {
+    @include float;
+    width: 30%;
+    @include break-up($small){
+      @include reset-float;
+      width: auto;
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0 0 0 35%;
+    border-bottom: 1px solid $border-color;
+    @include break-up($small){
+      margin-left: 0;
+    }
+  }
+  li {
+    margin: 0;
+    padding: .5em 0;
+    border-top: 1px solid $border-color;
+  }
+}

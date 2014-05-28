@@ -76,16 +76,16 @@
         width: 63.33%;
       }
     }
-  }
-  aside {
-    @include break-up($small){
-      @include float(right);
-      width: 30%;
-    }
-    h4 {
-      margin: 0;
-      padding: 1em 0 0;
-      border-top: 1px solid $border-color;
+    aside {
+      @include break-up($small){
+        @include float(right);
+        width: 30%;
+      }
+      h4 {
+        margin: 0;
+        padding: 1em 0 0;
+        border-top: 1px solid $border-color;
+      }
     }
     .related-topics {
       h4 {

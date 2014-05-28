@@ -50,9 +50,6 @@ button {
   color: $button-text;
   font-family: $button-font;
   -webkit-appearance: none;
-  @include break-up($large){
-    width: 50%;
-  }
   &:hover, 
   &:focus {
     background-color: $button-hover;
@@ -61,4 +58,8 @@ button {
 
 input[type='submit']{
   @extend button;
+}
+
+label {
+  @include font-size(14);
 }
