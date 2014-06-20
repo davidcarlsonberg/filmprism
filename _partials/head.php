@@ -37,7 +37,7 @@
     b.setAttribute('data-useragent',  navigator.userAgent);
     b.setAttribute('data-platform', navigator.platform );
   </script>
-  <script src="assets/js/scripts.head.deploy.js"></script>
+  <script src="assets/js/modernizr.js"></script>
 
   <link href="assets/img/fav/apple-touch-icon-144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
   <link href="assets/img/fav/apple-touch-icon-114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
@@ -48,5 +48,3 @@
   <link content="http://website.com/permalink" rel="canonical">
 </head>
 <body id="<?php echo $bodyId; ?>">
-
-<div class="wrapper">

@@ -63,8 +63,9 @@ $header-bg: $lt-gray;
 $header-link-color: $black;
 $header-link-hover: $dk-gray;
 
-$nav-toggle-bg: $gray;
-$nav-toggle-hover: $md-gray;
+$nav-toggle-text: $white;
+$nav-toggle-bg: $md-gray;
+$nav-toggle-hover: $dk-gray;
 
 $narrow-nav-text: $white;
 $narrow-nav-bg: $gray;
@@ -100,3 +101,7 @@ $footer-text-color: $gray;
 
 $base-size: 10;
 $side-padding: 6%;
+
+
+$down-triangle: '\25BC';
+$up-triangle: '\25B2';

@@ -16,80 +16,65 @@ nav {
 /* ----- Header Navigation ----- */
 
 header {
-  @extend %clearfix;
   nav {
     display: none;
-    margin-left: 180px;
-    padding-top: 1em;
+    overflow: hidden;
     @include break-up($medium){
-      display: block;
+      display: block !important;
+      margin-left: 220px;
     }
-    .site-nav {
-      @include float;
-    }
-    .user-nav {
-      @include float(right);
+    ol {
+      @include font-size(16);
     }
     li {
-      @include inline-block;
-      &:before {
-        content: '\002F';
-        margin: 0 .5em;
+      text-align: center;
+      border-bottom: 1px solid $narrow-nav-border;
+      @include break-up($medium){
+        display: inline;
+        border-bottom: none;
+        &:before {
+          content: '\002F';
+          margin: 0 .5em;
+        }
+        &:first-child:before {
+          display: none;
+        }
       }
-      &:first-child:before {
-        display: none;
-      }
     }
-  }
-  a {
-    color: $nav-link-color;
-    &:hover, 
-    &:focus {
-      color: $nav-link-hover;
-    }
-  }
-}
-
-/* ----- Mobile Navigation ----- */
-
-.mobile-nav {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 260px;
-  padding: 0;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  background-color: $narrow-nav-bg;
-  -webkit-overflow-scrolling: touch;
-  @include break-up($medium){
-    display: none !important;
-  }
-  .open-nav & {
-    display: block;
-    z-index: 1;
-  }
-  .search-bar {
-    input[type='search']{
-      padding-left: 30px;
-    }
-  }
-  ol {
-    @include font-size(16);
-  }
-  li {
-    border-bottom: 1px solid $narrow-nav-border;
     a {
       display: block;
-      padding: .75em 30px;
+      padding: .75em $side-padding;
       background-color: $narrow-nav-bg;
       color: $narrow-nav-text;
+      white-space: nowrap;
+      @include break-up($medium){
+        display: inline;
+        padding: 0;
+        background-color: transparent;
+        color: $nav-link-color;
+      }
       &:hover, 
       &:focus {
         background-color: $narrow-nav-hover;
         color: $narrow-nav-text;
+        @include break-up($medium){
+          background-color: transparent;
+          color: $nav-link-hover;
+        }
+      }
+    }
+    .site-nav {
+      @include break-up($medium){
+        @include float;
+        width: 75%;
+        text-align: left;
+      }
+    }
+    .user-nav {
+      @include break-up($medium){
+        @include float(right);
+        margin-right: .5em;
+        text-align: right;
       }
     }
   }
@@ -98,60 +83,30 @@ header {
 /* ----- Nav Toggle Button ----- */
 
 .nav-toggle {
+  @include font-size(16);
   display: block;
-  overflow: hidden;
-  position: absolute;
-  top: 50%;
-  left: $side-padding;
-  height: 0;
-  width: 24px;
-  padding-top: 20px;
-  margin: -10px 0 0;
+  padding: .75em $side-padding;
   background-color: $nav-toggle-bg;
-  &:before, 
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background-color: $header-bg;
-  }
-  &:before { top: 4px; }
-  &:after { bottom: 4px; }
-  &:hover, 
-  &:focus {
-    background-color: $nav-toggle-hover;
-  }
-  .no-generatedcontent & {
-    background: url('../img/graphics/nav-toggle.png') 0 0 no-repeat;
-  }
+  color: $nav-toggle-text;
+  text-align: center;
+  text-transform: uppercase;
   @include break-up($medium){
     display: none;
   }
-}
-
-/* ----- Mobile Nav Wrapper ----- */
-
-.wrapper {
-  @extend %footer-bg;
-  position: relative;
-  z-index: 3;
-  min-height: 100%;
-  margin: 0 auto;
-  background-color: $body-bg;
-  @include break-down($medium){
-    @include single-transition(.3s);
-    @include box-shadow(0 0 10px transparentize($black, .5));
-    margin: 0;
-    width: 100%;
+  &:hover, 
+  &:focus {
+    background-color: $nav-toggle-hover;
+    color: $nav-toggle-text;
   }
-  .open-nav & {
-    margin-left: 260px;
-    @include break-up($medium){
-      @include box-shadow(none);
-      margin-left: 0;
+  &:before, 
+  &:after {
+    @include font-size(12);
+    content: $down-triangle;
+    margin-top: .25em;
+    .open & {
+      content: $up-triangle;
     }
   }
+  &:before { @include float; }
+  &:after { @include float(right); }
 }

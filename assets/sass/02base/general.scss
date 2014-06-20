@@ -17,22 +17,19 @@ img::-moz-selection { background: transparent; }
 **************************************************/
 
 html {
-  height: 100%;
   font-size: percentage($base-size/16);
 }
 
 body {
   @extend %footer-bg;
-  height: 100%;
-  width: 100%;
   font-family: $body-font;
   line-height: 1.3;
-  &.open-nav {
-    overflow-x: hidden;
-  }
 }
 
-body, select, input, textarea {
+body, 
+select, 
+input, 
+textarea {
   color: $body-text;
 }
 

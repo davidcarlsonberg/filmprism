@@ -3,17 +3,17 @@
 **************************************************/
 
 header {
-  position: relative;
   background-color: $header-bg;
-  padding: 3em $side-padding;
   @include break-up($medium){
-    padding: 8em $side-padding 2em;
+    padding: 3em $side-padding;
   }
   h1 {
     margin: 0;
+    padding: 1em $side-padding;
     text-align: center;
     @include break-up($medium){
-      @include float;
+      margin-top: -1em;
+      padding: 0;
       text-align: left;
     }
     a {
@@ -28,16 +28,8 @@ header {
 
 .search-bar {
   overflow: hidden;
-  header & {
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    border-bottom: 5px solid $black;
-    @include break-up($medium){
-      display: block;
-    }
+  @include break-up($medium){
+    margin-bottom: 4em;
   }
   input[type='search']{
     @include float;
@@ -47,6 +39,9 @@ header {
     width: 80%;
     margin: 0;
     padding: .625em 1em .625em $side-padding;
+    @include break-up($medium){
+      padding-left: 1em;
+    }
   }
   input[type='submit']{
     @include float;
