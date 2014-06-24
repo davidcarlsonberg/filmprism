@@ -7,10 +7,102 @@
 }
 
 footer {
+  @extend %clearfix;
   padding: 6em $side-padding;
   color: $footer-text-color;
   text-align: center;
+  h2 {
+    margin: 0 0 .5em;
+  }
+  .site-map {
+    margin-bottom: 3em;
+  }
+  nav {
+    margin-bottom: 3em;
+    ol {
+      list-style: none;
+      margin: 0 0 1em;
+    }
+    li {
+      @include inline-block;
+      margin: 0;
+      text-align: center;
+      &:before {
+        content: '\007C';
+        margin: 0 .5em;
+      }
+      &:first-child:before {
+        display: none;
+      }
+    }
+  }
+  .site-nav {
+    @include font-size(16);
+  }
+  .legal {
+    @include font-size(12);
+  }
+  .social {
+    list-style: none;
+    li {
+      @include inline-block;
+      margin: 0 .25em;
+    }
+  }
+  .mailing-list {
+    margin-bottom: 4.5em;
+    padding-top: 3em;
+    border-top: 2px solid darken($border-color, 50%);
+    h3 {
+      @include font-size(16);
+      margin: 0 0 1.5em;
+    }
+    form {
+      display: block;
+      max-width: 270px;
+      margin: 0 auto;
+    }
+    input {
+      @include font-size(14);
+      margin: 0 0 .5em;
+    }
+  }
+  small {
+    display: block;
+    clear: right;
+  }
   @include break-up($medium){
-    text-align: left;
+    .site-map {
+      @include float;
+      width: 50%;
+      margin: 0;
+      text-align: left;
+    }
+    .social {
+      margin: 0 .5em 0 0;
+    }
+    .mailing-list {
+      @include float(right);
+      width: 35%;
+      margin-bottom: 2em;
+      padding: 0;
+      border-top: none;
+      form {
+        max-width: none;
+      }
+    }
+    small {
+      text-align: right;
+    }
+  }
+  @include break-up($large){
+    .mailing-list {
+      width: 30%;
+    }
+  }
+  @include break-up($x-large){
+    .mailing-list {
+      width: 25%;
+    }
   }
 }

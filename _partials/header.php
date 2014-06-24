@@ -15,6 +15,6 @@
       </ol>
     </nav>
     <a href="#" class="nav-toggle">Navigation</a>
-    <h1><a href="index.php">Screen Prism</a></h1>
+    <h1><a href="index.php">ScreenPrism</a></h1>
   </div>
 </header>

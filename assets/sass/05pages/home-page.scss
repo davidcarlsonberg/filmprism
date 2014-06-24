@@ -6,6 +6,16 @@
   .inner {
     position: relative;
   }
+  .title {
+    span {
+      @include font-size(14);
+      margin-left: .25em;
+      font-weight: normal;
+      a {
+        margin: 0 .5em;
+      }
+    }
+  }
   .featured {
     position: relative;
     margin-bottom: 15px;
@@ -56,6 +66,24 @@
       @include break-up($small){
         padding: 0 3em 1.5em;
       }
+      h3 {
+        margin: .5em 0;
+      }
+      .meta {
+        @include font-size(14);
+        list-style: none;
+        margin: 1.5em 0 0;
+        li {
+          @include inline-block;
+          &:before {
+            content: '\007C';
+            margin: 0 1em 0 .75em;
+          }
+          &:first-child:before {
+            display: none;
+          }
+        }
+      }
     }
     i {
       margin-right: .25em;
@@ -102,8 +130,27 @@
       margin-left: 90px;
       padding: 1em 2em;
       border-left: none;
+      white-space: nowrap;
       @include break-up($small){
         padding: 1em 1.5em 0;
+      }
+      .meta {
+        @include font-size(12);
+        list-style: none;
+        margin: .5em 0 0;
+        li {
+          @include inline-block;
+          float: none;
+          width: auto;
+          margin: 0;
+          &:before {
+            content: '\007C';
+            margin: 0 1em 0 .75em;
+          }
+          &:first-child:before {
+            display: none;
+          }
+        }
       }
     }
     p {

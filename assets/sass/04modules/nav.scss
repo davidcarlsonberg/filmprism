@@ -21,17 +21,17 @@ header {
     overflow: hidden;
     @include break-up($medium){
       display: block !important;
-      margin-left: 220px;
+      margin-left: 210px;
     }
     ol {
       @include font-size(16);
     }
     li {
       text-align: center;
-      border-bottom: 1px solid $narrow-nav-border;
+      border-top: 1px solid $narrow-nav-border;
       @include break-up($medium){
         display: inline;
-        border-bottom: none;
+        border-top: none;
         &:before {
           content: '\002F';
           margin: 0 .5em;
