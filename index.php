@@ -9,7 +9,7 @@
   <div class="inner">
     <h4 class="title">Features</h4>
     <article class="featured">
-      <a href="topic.php">
+      <a href="q-and-a.php">
         <figure>
           <img src="http://placehold.it/720x405.jpg" />
         </figure>

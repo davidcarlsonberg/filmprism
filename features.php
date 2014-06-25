@@ -1,9 +1,10 @@
 <?php
   $pageTitle = 'Features | Film Prism';
-  $bodyId = 'features';
+  $bodyId = 'features-list';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
+
 <section class="filters">
   <p>Filter by Category: <a href="features.php">Q &amp; A</a> <a href="features.php">Articles</a></p>
 </section>

@@ -2,8 +2,8 @@
  FILM PAGE STYLES
 **************************************************/
 
-.main {
-  #film & {
+#film {
+  .main {
     .title {
       margin: 0 0 .75em;
       @include break-up($small){
@@ -11,11 +11,14 @@
         width: 63.33%;
       }
     }
-    article {
+    .content {
       @include break-up($small){
         @include float(right);
         width: 63.33%;
       }
+    }
+    article {
+      margin-bottom: 3em;
     }
     aside {
       @include break-up($small){
@@ -40,6 +43,134 @@
       p {
         @include font-size(12);
         margin: 0 0 .5em;
+      }
+    }
+  }
+  .questions, 
+  .related-links,
+  .submit-question {
+    @extend %clearfix;
+    margin-bottom: 3em;
+    border-top: 1px solid $border-color;
+  }
+  .questions, 
+  .related-links {
+    ol {
+      list-style: none;
+      margin: 0;
+    }
+    li {
+      margin: 1em 0 0;
+      a {
+        display: block;
+        padding: 1em 1.5em .5em;
+        border: 1px solid $border-color;
+      }
+      h3 {
+        margin: 0 0 .5em;
+      }
+    }
+  }
+  .questions {
+    li {
+      p {
+        @include font-size(14);
+        margin: 0;
+        img {
+          width: 12px;
+        }
+      }
+    }
+  }
+  .related-links {
+    ul {
+      list-style: none;
+      margin: 0;
+      @include break-up($medium){
+        width: 102.5%;
+        margin-left: -2.5%;
+      }
+    }
+    li {
+      @include break-up($medium){
+        @include float;
+        width: 47.5%;
+        margin: 0 0 2.5% 2.5%;
+      }
+      a {
+        display: block;
+        padding: 1em 1.5em;
+      }
+      h3 {
+        @include font-size(14);
+      }
+      p {
+        @include font-size(11);
+        margin: 0;
+        img {
+          width: 12px;
+        }
+      }
+    }
+  }
+  .submit-question {
+    form {
+      padding: 1em;
+      background-color: $gray;
+    }
+    textarea{
+      margin-bottom: .5em;
+    }
+    input[type="submit"]{
+      margin-top: 0;
+      @include break-up($small){
+        width: 50%;
+      }
+    }
+  }
+  .related-films {
+    margin-top: 6em;
+    border-top: 1px solid $border-color;
+    @include break-up($small){
+      margin-top: 0;
+      border-top: none;
+    }
+    ul {
+      @extend %card-styles;
+      width: 105%;
+      margin: 0 0 0 -5%;
+      @include break-up($small){
+        width: auto;
+        margin-left: 0;
+      }
+      @include break-up($medium){
+        width: 105%;
+        margin-left: -5%;
+      }
+      li {
+        @include float;
+        width: 45%;
+        margin: 0 0 5% 5%;
+        @include break-up($small){
+          float: none;
+          display: block;
+          width: auto;
+          margin: 0 0 1.5em 0;
+        }
+        @include break-up($medium){
+          @include float;
+          width: 45%;
+          margin: 0 0 5% 5%;
+        }
+        .summary {
+          padding: 1em 1.5em;
+          @include break-up($medium){
+            padding: .5em 1em;
+            h4 {
+              @include font-size(14);
+            }
+          }
+        }
       }
     }
   }

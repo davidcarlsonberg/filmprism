@@ -2,8 +2,8 @@
  USER PAGE STYLES
 **************************************************/
 
-.main {
-  #user & {
+#user {
+  .main {
     h1 {
       text-align: center;
     }
@@ -17,6 +17,14 @@
       }
       input[type="submit"]{
         margin: 1.5em 0 .5em;
+      }
+    }
+    .login, 
+    .sign-up {
+      @include break-up($medium){
+        @include float;
+        width: 50%;
+        padding: 0 2.5%;
       }
     }
   }

@@ -2,7 +2,7 @@
  LIST PAGE STYLES
 **************************************************/
 
-#features {
+#features-list {
   .main {
     padding-top: 4em;
     @include break-up($medium){
@@ -25,6 +25,51 @@
     .meta {
       span {
         margin: 0 .5em;
+      }
+    }
+  }
+  .feature-qanda {
+    h2 {
+      @include font-size(30);
+    }
+  }
+}
+
+#films-list {
+  .main {
+    padding-top: 4em;
+    .inner {
+      max-width: 900px;
+    }
+    ol {
+      @extend %card-styles;
+      width: 105%;
+      margin: 0 0 15px -5%;
+      @include break-up($small){
+        width: 103.33%;
+        margin-left: -3.33%;
+      }
+      @include break-up($small){
+        width: 102.5%;
+        margin-left: -2.5%;
+      }
+    }
+    li {
+      @include float;
+      width: 45%;
+      margin: 0 0 5% 5%;
+      @include break-up($small){
+        width: 30%;
+        margin-left: 3.33%;
+        margin-bottom: 3.33%;
+      }
+      @include break-up($medium){
+        width: 22.5%;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+      }
+      .summary {
+        padding: 1em 1.5em;
       }
     }
   }

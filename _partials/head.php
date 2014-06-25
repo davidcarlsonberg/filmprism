@@ -16,7 +16,7 @@
 
   <meta content="Page Title Repeated Here" name="DC.title">
   <meta content="Page Description Repeated Here" name="DC.subject">
-  <meta content="Michael Boles and Haunt Design Group" name="DC.creator">
+  <meta content="Page Author and Developer Go Here" name="DC.creator">
 
   <meta content="Page Title Repeated Here" property="og:title">
   <meta content="Page Description Repeated Here" property="og:description">

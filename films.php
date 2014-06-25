@@ -1,47 +1,12 @@
 <?php
   $pageTitle = 'Films | Film Prism';
-  $bodyId = 'films';
+  $bodyId = 'films-list';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
 
 <section class="filters">
-  <div class="inner">
-    <h4>Filter by:</h4>
-    <ol>
-      <li>
-        <select>
-          <option> - Title - </option>
-          <option>A to Z</option>
-          <option>Z to A</option>
-        </select>
-      </li>
-      <li>
-        <select>
-          <option> - Genre - </option>
-          <option>Genre 1</option>
-          <option>Genre 2</option>
-          <option>Genre 3</option>
-        </select>
-      </li>
-      <li>
-        <select>
-          <option> - Topic - </option>
-          <option>Author 1</option>
-          <option>Author 2</option>
-          <option>Author 3</option>
-        </select>
-      </li>
-      <li>
-        <select>
-          <option> - Year Released - </option>
-          <option>2014</option>
-          <option>2013</option>
-          <option>2012</option>
-        </select>
-      </li>
-    </ol>
-  </div>
+  <p>Sort by: <a href="films.php">Release Date</a> <a href="films.php">Title</a></p>
 </section>
 
 <section class="main">

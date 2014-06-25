@@ -1,30 +1,26 @@
 /**************************************************
- TOPIC PAGE STYLES
+ FEATURES PAGE STYLES
 **************************************************/
 
-.tops {
-  padding: 0;
-  background-color: $dk-gray;
-  figure {
-    @extend %site-column;
+#features {
+  .article-image {
     position: relative;
     overflow: hidden;
-    height: 270px;
-    background-color: $black;
+    height: 240px;
+    background-color: $dk-gray;
     img {
-      @include opacity(.5);
+      @include opacity(.75);
       position: absolute;
       left: 50%;
       width: 720px;
-      margin-left: -360px;
-      margin-top: -45px;
       max-width: none;
+      margin-left: -360px;
     }
-    @include break-up($small){
+    @include break-up($medium){
+      height: 300px;
       img {
         width: 900px;
         margin-left: -450px;
-        margin-top: -90px;
       }
     }
     @include break-up($medium){
@@ -32,43 +28,10 @@
       img {
         width: 1080px;
         margin-left: -540px;
-        margin-top: -90px;
-      }
-    }
-    figcaption {
-      @include background-image(linear-gradient(transparent, transparentize($black, .25)));
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 2em $side-padding;
-      color: $white;
-    }
-    h1, h3 {
-      margin: 0;
-    }
-    h1 {
-      @include break-up($small){
-        @include float;
-      }
-      @include break-up($medium){
-        @include font-size(42);
-      }
-    }
-    h3 {
-      @include break-up($small){
-        @include float(right);
-        margin-top: .25em;
-      }
-      @include break-up($medium){
-        margin-top: 1em;
       }
     }
   }
-}
-
-.main {
-  #topic & {
+  .main {
     article {
       margin-bottom: 6em;
       @include break-up($small){
@@ -76,18 +39,43 @@
         width: 63.33%;
       }
     }
+    .question {
+      margin-bottom: 3em;
+      padding-bottom: 3em;
+      border-bottom: 1px solid $border-color;
+      h1 {
+        margin: 0;
+      }
+    }
+    .meta {
+      margin-bottom: 3em;
+      padding-bottom: 1.5em;
+      border-bottom: 1px solid $border-color;
+      h1 {
+        margin: 0 0 .25em;
+      }
+      p {
+        margin-bottom: 0;
+        span {
+          margin: 0 .5em;
+        }
+      }
+    }
     aside {
+      margin-bottom: 6em;
+      padding-top: 1.5em;
+      border-top: 1px solid $border-color;
       @include break-up($small){
         @include float(right);
         width: 30%;
+        padding-top: 0;
+        border-top: none;
       }
       h4 {
         margin: 0;
-        padding: 1em 0 0;
-        border-top: 1px solid $border-color;
       }
     }
-    .related-topics {
+    .related {
       h4 {
         @include font-size(16);
         margin-bottom: .25em;
@@ -102,12 +90,16 @@
   }
 }
 
+/* ----- Shared Styles ----- */
+
 .share-links {
-  @include font-size(10);
-  overflow: hidden;
-  list-style: none;
-  margin: 0;
-  padding: 1.5em 0;
+  margin-bottom: 2em;
+  ul {
+    @include font-size(10);
+    overflow: hidden;
+    list-style: none;
+    margin: 1em 0 0;
+  }
   li {
     @include float;
     margin: 0 .5em 0 0;
@@ -123,17 +115,27 @@
   }
 }
 
-.related-topics {
-  list-style: none;
-  margin: 0;
-  padding: 1.5em 0;
+.related {
+  padding-top: 3em;
+  border-top: 1px solid $border-color;
+  ul {
+    list-style: none;
+    margin: 1em 0 0;
+  }
   li {
     margin-bottom: 10px;
     border: 1px solid $border-color;
   }
   a {
     display: block;
-    padding: 1em 1.5em .5em;
+    padding: 1em 1.5em .25em;
+  }
+  i {
+    margin-right: .25em;
+    img {
+      margin-bottom: -1px;
+      width: 12px;
+    }
   }
 }
 

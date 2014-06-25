@@ -1,10 +1,10 @@
 <li>
-  <a href="topic.php">
+  <a href="article.php">
     <figure>
       <img src="http://placehold.it/180x180.jpg" />
     </figure>
     <div class="summary">
-      <h4>Feature Article Title</h4>
+      <h4>Article Title</h4>
       <p>Short description of the article.</p>
       <ul class="meta">
         <li>Article</li>
