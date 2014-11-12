@@ -6,8 +6,6 @@
   @include transition;
 }
 
-/* ----- Clear Fix ----- */
-
 %clearfix {
   zoom: 1;
   &:before,
@@ -18,58 +16,5 @@
   }
   &:after {
     clear:both;
-  }
-}
-
-/* ----- Center Column ----- */
-
-%site-column {
-  max-width: 1080px;
-  margin: 0 auto;
-}
-
-/* ----- Shared Card Styles ----- */
-
-%card-styles {
-  @extend %clearfix;
-  list-style: none;
-  margin: 0;
-  li {
-    a {
-      display: block;
-      overflow: hidden;
-      background-color: $card-bg-color;
-      &:hover, 
-      &:focus {
-        background-color: $card-bg-hover;
-        img {
-          @include opacity(.75);
-        }
-        .summary {
-          border-color: $card-border-hover;
-        }
-      }
-    }
-    figure {
-      background-color: $black;
-    }
-    .summary {
-      border: 1px solid $card-border-color;
-    }
-    h4 {
-      @include font-size(16);
-      margin: 0 0 .25em;
-    }
-    p {
-      @include font-size(12);
-      margin: 0;
-    }
-    i {
-      margin-right: .25em;
-      img {
-        width: 12px;
-        margin-bottom: -1px;
-      }
-    }
   }
 }

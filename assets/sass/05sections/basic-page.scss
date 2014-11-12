@@ -4,7 +4,8 @@
 
 #page {
   .main {
-    .wrapper {
+    .content {
+      @extend %site-column;
       @include border-radius;
       @include box-shadow;
       overflow: hidden;

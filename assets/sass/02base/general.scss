@@ -23,12 +23,11 @@ html {
 body {
   @extend %footer-bg;
   font-family: $body-font;
-  line-height: 1.3;
 }
 
-body, 
-select, 
-input, 
+body,
+input,
+select,
 textarea {
   color: $body-text;
   font-family: $body-font;
@@ -36,10 +35,11 @@ textarea {
 
 section {
   @extend %clearfix;
-  background-color: $body-bg;
   padding: 4em $side-padding 8em;
 }
 
-.inner, .top {
+.top,
+.inner,
+.content {
   @extend %site-column;
 }

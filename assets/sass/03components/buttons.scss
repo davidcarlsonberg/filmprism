@@ -29,6 +29,7 @@
 
 .load {
   @include font-size(30);
+  margin-top: 1em;
   background-color: $load-button-bg;
   font-weight: 300;
   &:hover, 

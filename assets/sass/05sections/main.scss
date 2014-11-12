@@ -1,0 +1,39 @@
+/**************************************************
+ MAIN SECTION STYLES
+**************************************************/
+
+.main {
+  background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  padding: 3em $side-padding 9em;
+  @include break-up($medium){
+    padding-top: $fixed-top-padding;
+  }
+}
+
+/**************************************************
+ LIST FILTER STYLES
+**************************************************/
+
+.filters {
+  padding: 1.5em $side-padding;
+  background-color: $filters-bar-bg;
+  @include break-up($medium){
+    padding-top: $fixed-top-padding;
+    padding-bottom: 2em;
+  }
+  p {
+    @extend %site-column;
+    @include font-size(14);
+    margin: 0 auto;
+    color: $filters-bar-text;
+  }
+  a {
+    @include inline-block;
+    @include border-radius;
+    margin-left: .25em;
+    padding: .25em .5em;
+    background-color: $filters-bar-link-bg;
+    color: $filters-bar-link-text;
+    &:hover,&:focus{background-color:$filters-bar-link-hover}
+  }
+}

@@ -85,6 +85,7 @@
   button{
     @include float;
     @include border-radius(0);
+    @include box-shadow(none);
     @include font-size(16);
     height: 2.5em;
     width: 25%;
@@ -99,7 +100,7 @@
       width: 20%;
     }
     svg {
-      @include inline-block;
+      @include inline-block(top);
       width: (20/16)+em;
       margin: 0 .5em;;
       fill: #fff;

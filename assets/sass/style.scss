@@ -33,6 +33,7 @@
 **************************************************/
 
 @import "02base/general";
+@import "02base/layout";
 @import "02base/type";
 
 /**************************************************
@@ -48,16 +49,17 @@
 
 @import "04modules/header";
 @import "04modules/nav";
-@import "04modules/main";
 @import "04modules/footer";
 
 /**************************************************
  PAGE STYLES
 **************************************************/
 
-@import "05pages/basic-page";
-@import "05pages/home-page";
-@import "05pages/list-pages";
-@import "05pages/film-page";
-@import "05pages/features-page";
-@import "05pages/user-pages";
+@import "05sections/main";
+@import "05sections/home-page";
+@import "05sections/basic-page";
+@import "05sections/thoughts-list";
+@import "05sections/thoughts-page";
+@import "05sections/films-list";
+@import "05sections/films-page";
+@import "05sections/user-pages";

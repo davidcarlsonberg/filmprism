@@ -12,10 +12,10 @@
         <li><a href="sign-up.php">Login <span>/</span> Sign-up</a></li>
       </ol>
       <ol class="site-nav">
-        <li class="topics"><a href="features.php">Thoughts</a></li>
-        <li class="films"><a href="films.php">Films &amp; Shows</a></li>
-        <li class="easter-eggs"><a href="easter-eggs.php">Easter Eggs</a></li>
-        <li class="about"><a href="about.php">About</a></li>
+        <li><a href="thoughts.php">Thoughts</a></li>
+        <li><a href="films-and-shows.php">Films &amp; Shows</a></li>
+        <li><a href="easter-eggs.php">Easter Eggs</a></li>
+        <li><a href="about.php">About</a></li>
       </ol>
     </div>
   </nav>

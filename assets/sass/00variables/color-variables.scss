@@ -81,9 +81,9 @@ $search-button-border: darken($purple, 5%);
 // Card Colors
 
 $card-bg-color: $white;
-$card-bg-hover: $x-lt-gray;
-$card-border-color: $lt-gray;
-$card-border-hover: $gray;
+$card-image-bg: $teal;
+$card-link-color: $purple;
+$card-link-hover: $teal;
 
 // Module Colors
 
@@ -91,11 +91,11 @@ $module-bg: $white;
 $module-footer-bg: $purple;
 $module-footer-link: $white;
 $module-footer-hover: lighten($purple, 40%);
-$module-aside-bg: $lt-gray;
+$module-aside-bg: $dk-teal;
 $module-aside-text: $white;
 $module-aside-button: $black;
-$module-aside-button-hover: lighten($black, 5%);
-$module-aside-border: $purple;
+$module-aside-button-hover: darken($black, 5%);
+$module-aside-border: $teal;
 
 // Filters Bar
 
@@ -108,4 +108,4 @@ $filters-bar-link-hover: $dk-teal;
 // Footer Colors
 
 $footer-text-color: $white;
-$footer-bg: $black;
+$footer-bg: $purple;

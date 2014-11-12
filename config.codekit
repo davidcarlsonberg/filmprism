@@ -119,6 +119,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/css\/05sections\/thoughts-list.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/05sections\/thoughts-list.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -525,6 +534,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/sass\/02base\/layout.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/02base\/layout.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/layout.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/sass\/02base\/type.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -605,22 +630,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/04modules\/main.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/04modules\/main.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/assets\/sass\/04modules\/nav.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -637,14 +646,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/05pages\/basic-page.scss": {
+	"\/assets\/sass\/05sections\/basic-page.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/05pages\/basic-page.scss",
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/basic-page.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/basic-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -653,15 +662,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/05pages\/features-page.scss": {
+	"\/assets\/sass\/05sections\/films-list.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/05pages\/features-page.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/features-page.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/films-list.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/films-list.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -669,15 +678,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/05pages\/film-page.scss": {
+	"\/assets\/sass\/05sections\/films-page.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/05pages\/film-page.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/film-page.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/films-page.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/films-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -685,14 +694,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/05pages\/home-page.scss": {
+	"\/assets\/sass\/05sections\/home-page.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/05pages\/home-page.scss",
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/home-page.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/home-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -701,15 +710,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/05pages\/list-pages.scss": {
+	"\/assets\/sass\/05sections\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/05pages\/list-pages.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/list-pages.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/main.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -717,14 +726,46 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/05pages\/user-pages.scss": {
+	"\/assets\/sass\/05sections\/thoughts-list.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/05pages\/user-pages.scss",
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/thoughts-list.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/thoughts-list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/sass\/05sections\/thoughts-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/thoughts-page.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/thoughts-page.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/sass\/05sections\/user-pages.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/user-pages.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/user-pages.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -758,15 +799,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/features.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/features.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/film.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -776,11 +808,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/films.php": {
+	"\/films-and-shows.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/films.php",
+		"inputAbbreviatedPath": "\/films-and-shows.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -820,6 +852,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sign-up.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/thoughts.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/thoughts.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
