@@ -1,6 +1,6 @@
 <?php
   $pageTitle = 'Films | Film Prism';
-  $bodyId = 'films-list';
+  $bodyId = 'films';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
@@ -27,7 +27,7 @@
         include '_partials/film-card-2.php';
       ?>
     </ol>
-    <a href="films.php" class="button">See More Films</a>
+    <a href="films.php" class="button load">Load More</a>
   </div>
 </section>
 

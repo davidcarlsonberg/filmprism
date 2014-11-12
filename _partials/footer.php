@@ -1,4 +1,4 @@
-<footer>
+<footer class="site-footer">
   <div class="inner">
     <div class="site-map">
       <h2><a href="index.php">ScreenPrism</a></h2>
@@ -9,8 +9,8 @@
           <li><a href="about.php">About</a></li>
         </ol>
         <ol class="legal">
-          <li><a href="javascript:void()">Terms &amp; Conditions</a></li>
-          <li><a href="javascript:void()">Privacy Policy</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
         </ol>
       </nav>
       <ol class="social">

@@ -46,7 +46,7 @@ h5, h6 { @include font-size(18) }
 p {
   @extend %base-type;
   margin: 0 0 1em;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 ol {list-style-type:decimal}

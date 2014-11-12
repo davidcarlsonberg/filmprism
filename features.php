@@ -1,6 +1,6 @@
 <?php
-  $pageTitle = 'Features | Film Prism';
-  $bodyId = 'features-list';
+  $pageTitle = 'Thoughts | Film Prism';
+  $bodyId = 'thoughts';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
@@ -21,7 +21,7 @@
       include '_partials/article-card.php';
       include '_partials/qanda-card.php';
     ?>
-    <a href="topics.php" class="button">See More Features</a>
+    <a href="topics.php" class="button load">Load More</a>
   </div>
 </section>
 

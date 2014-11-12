@@ -40,6 +40,9 @@ $button-text: $white;
 $button-bg: $purple;
 $button-hover: darken($purple, 5%);
 
+$load-button-bg: $black;
+$load-button-hover: lighten($black, 5%);
+
 // Form Colors
 
 $form-field-color: $white;
@@ -85,6 +88,14 @@ $card-border-hover: $gray;
 // Module Colors
 
 $module-bg: $white;
+$module-footer-bg: $purple;
+$module-footer-link: $white;
+$module-footer-hover: lighten($purple, 40%);
+$module-aside-bg: $lt-gray;
+$module-aside-text: $white;
+$module-aside-button: $black;
+$module-aside-button-hover: lighten($black, 5%);
+$module-aside-border: $purple;
 
 // Filters Bar
 
@@ -97,4 +108,4 @@ $filters-bar-link-hover: $dk-teal;
 // Footer Colors
 
 $footer-text-color: $white;
-$footer-bg: $purple;
+$footer-bg: $black;

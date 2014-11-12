@@ -16,8 +16,8 @@ input[type='tel'],
 input[type='url'],
 input[type='password'],
 textarea {
-  @include transition;
-  @include border-radius(3px);
+  @extend %transition;
+  @include border-radius;
   @include font-size(14);
   display: block;
   width: 100%;
@@ -38,22 +38,12 @@ textarea {
 }
 
 button {
-  @include transition;
-  @include border-radius(3px);
-  @include font-size(18);
-  display: block;
+  @extend %button;
+  @extend %transition;
   width: 100%;
   margin-top: 1.5em;
-  padding: .5em;
-  background-color: $button-bg;
   border: none;
-  color: $button-text;
-  font-family: $button-font;
   -webkit-appearance: none;
-  &:hover, 
-  &:focus {
-    background-color: $button-hover;
-  }
 }
 
 input[type='submit']{
@@ -61,5 +51,7 @@ input[type='submit']{
 }
 
 label {
-  @include font-size(14);
+  @include font-size(16);
+  font-family: $label-font;
+  font-weight: 300;
 }

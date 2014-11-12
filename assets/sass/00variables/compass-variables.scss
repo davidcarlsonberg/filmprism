@@ -17,10 +17,10 @@ $default-box-direction: normal;
 $default-box-lines: single;
 $default-box-pack: start;
 
-$default-box-shadow-color: transparentize($black, .5);
+$default-box-shadow-color: transparentize($black, .75);
 $default-box-shadow-h-offset: 0px;
 $default-box-shadow-v-offset: 0px;
-$default-box-shadow-blur: 10px;
+$default-box-shadow-blur: 8px;
 $default-box-shadow-spread: false;
 $default-box-shadow-inset: false;
 

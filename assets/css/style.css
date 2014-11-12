@@ -250,20 +250,32 @@ html {
 /**************************************************
  EXTENDABLE STYLES
 **************************************************/
+input[type='text'],
+input[type='email'],
+input[type='search'],
+input[type='tel'],
+input[type='url'],
+input[type='password'],
+textarea, button, input[type='submit'], #thoughts .main footer svg {
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s; }
+
 /* ----- Clear Fix ----- */
-.recent-topics, .recent-films, #films-list .main ol, #film .related-films ul, section, footer, #film .questions,
+.recent-topics, .recent-films, #films .main ol, #film .related-films ul, section, .site-footer, #film .questions,
 #film .related-links,
 #film .submit-question, .film-details {
   zoom: 1; }
-  .recent-topics:before, .recent-films:before, #films-list .main ol:before, #film .related-films ul:before, section:before, footer:before, #film .questions:before,
+  .recent-topics:before, .recent-films:before, #films .main ol:before, #film .related-films ul:before, section:before, .site-footer:before, #film .questions:before,
   #film .related-links:before,
-  #film .submit-question:before, .film-details:before, .recent-topics:after, .recent-films:after, #films-list .main ol:after, #film .related-films ul:after, section:after, footer:after, #film .questions:after,
+  #film .submit-question:before, .film-details:before, .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after, section:after, .site-footer:after, #film .questions:after,
   #film .related-links:after,
   #film .submit-question:after, .film-details:after {
     display: table;
     visibility: hidden;
     content: ""; }
-  .recent-topics:after, .recent-films:after, #films-list .main ol:after, #film .related-films ul:after, section:after, footer:after, #film .questions:after,
+  .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after, section:after, .site-footer:after, #film .questions:after,
   #film .related-links:after,
   #film .submit-question:after, .film-details:after {
     clear: both; }
@@ -274,35 +286,35 @@ html {
   margin: 0 auto; }
 
 /* ----- Shared Card Styles ----- */
-.recent-topics, .recent-films, #films-list .main ol, #film .related-films ul {
+.recent-topics, .recent-films, #films .main ol, #film .related-films ul {
   list-style: none;
   margin: 0; }
-  .recent-topics li a, .recent-films li a, #films-list .main ol li a, #film .related-films ul li a {
+  .recent-topics li a, .recent-films li a, #films .main ol li a, #film .related-films ul li a {
     display: block;
     overflow: hidden;
     background-color: #fff; }
-    .recent-topics li a:hover, .recent-films li a:hover, #films-list .main ol li a:hover, #film .related-films ul li a:hover, .recent-topics li a:focus, .recent-films li a:focus, #films-list .main ol li a:focus, #film .related-films ul li a:focus {
+    .recent-topics li a:hover, .recent-films li a:hover, #films .main ol li a:hover, #film .related-films ul li a:hover, .recent-topics li a:focus, .recent-films li a:focus, #films .main ol li a:focus, #film .related-films ul li a:focus {
       background-color: #f0f0ed; }
-      .recent-topics li a:hover img, .recent-films li a:hover img, #films-list .main ol li a:hover img, #film .related-films ul li a:hover img, .recent-topics li a:focus img, .recent-films li a:focus img, #films-list .main ol li a:focus img, #film .related-films ul li a:focus img {
+      .recent-topics li a:hover img, .recent-films li a:hover img, #films .main ol li a:hover img, #film .related-films ul li a:hover img, .recent-topics li a:focus img, .recent-films li a:focus img, #films .main ol li a:focus img, #film .related-films ul li a:focus img {
         filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
         opacity: 0.75; }
-      .recent-topics li a:hover .summary, .recent-films li a:hover .summary, #films-list .main ol li a:hover .summary, #film .related-films ul li a:hover .summary, .recent-topics li a:focus .summary, .recent-films li a:focus .summary, #films-list .main ol li a:focus .summary, #film .related-films ul li a:focus .summary {
+      .recent-topics li a:hover .summary, .recent-films li a:hover .summary, #films .main ol li a:hover .summary, #film .related-films ul li a:hover .summary, .recent-topics li a:focus .summary, .recent-films li a:focus .summary, #films .main ol li a:focus .summary, #film .related-films ul li a:focus .summary {
         border-color: #999; }
-  .recent-topics li figure, .recent-films li figure, #films-list .main ol li figure, #film .related-films ul li figure {
+  .recent-topics li figure, .recent-films li figure, #films .main ol li figure, #film .related-films ul li figure {
     background-color: #303040; }
-  .recent-topics li .summary, .recent-films li .summary, #films-list .main ol li .summary, #film .related-films ul li .summary {
+  .recent-topics li .summary, .recent-films li .summary, #films .main ol li .summary, #film .related-films ul li .summary {
     border: 1px solid #918a98; }
-  .recent-topics li h4, .recent-films li h4, #films-list .main ol li h4, #film .related-films ul li h4 {
+  .recent-topics li h4, .recent-films li h4, #films .main ol li h4, #film .related-films ul li h4 {
     font-size: 16px;
     font-size: 1.6rem;
     margin: 0 0 .25em; }
-  .recent-topics li p, .recent-films li p, #films-list .main ol li p, #film .related-films ul li p {
+  .recent-topics li p, .recent-films li p, #films .main ol li p, #film .related-films ul li p {
     font-size: 12px;
     font-size: 1.2rem;
     margin: 0; }
-  .recent-topics li i, .recent-films li i, #films-list .main ol li i, #film .related-films ul li i {
+  .recent-topics li i, .recent-films li i, #films .main ol li i, #film .related-films ul li i {
     margin-right: .25em; }
-    .recent-topics li i img, .recent-films li i img, #films-list .main ol li i img, #film .related-films ul li i img {
+    .recent-topics li i img, .recent-films li i img, #films .main ol li i img, #film .related-films ul li i img {
       width: 12px;
       margin-bottom: -1px; }
 
@@ -413,7 +425,7 @@ p, ul li, ol li, address {
 
 p {
   margin: 0 0 1em;
-  line-height: 1.6; }
+  line-height: 1.7; }
 
 ol {
   list-style-type: decimal; }
@@ -448,26 +460,39 @@ small {
 /**************************************************
  BUTTON STYLES
 **************************************************/
-.button {
+.button, button, input[type='submit'] {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 18px;
-  font-size: 1.8rem;
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  font-size: 24px;
+  font-size: 2.4rem;
   display: block;
   width: 100%;
   padding: .5em;
   background-color: #732d55;
   color: #fff;
   font-family: "Lato", Helmet, Freesans, sans-serif;
-  text-align: center; }
-  .button:hover, .button:focus {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase; }
+  .button:hover, button:hover, input[type='submit']:hover, .button:focus, button:focus, input[type='submit']:focus {
     background-color: #612647;
     color: #fff; }
+
+.load {
+  font-size: 30px;
+  font-size: 3rem;
+  background-color: #303040;
+  font-weight: 300; }
+  .load:hover, .load:focus {
+    background-color: #3b3b4f; }
 
 /**************************************************
  FORM STYLES
@@ -486,13 +511,9 @@ input[type='tel'],
 input[type='url'],
 input[type='password'],
 textarea {
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
   font-size: 14px;
   font-size: 1.4rem;
   display: block;
@@ -517,30 +538,16 @@ textarea {
   resize: vertical; }
 
 button, input[type='submit'] {
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  font-size: 18px;
-  font-size: 1.8rem;
-  display: block;
   width: 100%;
   margin-top: 1.5em;
-  padding: .5em;
-  background-color: #732d55;
   border: none;
-  color: #fff;
-  font-family: "Lato", Helmet, Freesans, sans-serif;
   -webkit-appearance: none; }
-  button:hover, input[type='submit']:hover, button:focus, input[type='submit']:focus {
-    background-color: #612647; }
 
 label {
-  font-size: 14px;
-  font-size: 1.4rem; }
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: "Lato", Helmet, Freesans, sans-serif;
+  font-weight: 300; }
 
 /**************************************************
  MODULE STYLES
@@ -552,9 +559,9 @@ label {
   background-color: #f0f0ed; }
   @media screen and (min-width: 50em) {
     .site-header {
-      -moz-box-shadow: 0px 0px 10px rgba(48, 48, 64, 0.5);
-      -webkit-box-shadow: 0px 0px 10px rgba(48, 48, 64, 0.5);
-      box-shadow: 0px 0px 10px rgba(48, 48, 64, 0.5);
+      -moz-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
+      -webkit-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
+      box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
       position: fixed;
       z-index: 10;
       top: 0;
@@ -627,7 +634,7 @@ label {
     height: 2.5em;
     width: 75%;
     margin: 0;
-    padding: 0.625em 1em 0.625em 7%;
+    padding: 0.625em 0 0.625em 7%;
     border-bottom: 1px solid #d9d9d1; }
     @media screen and (min-width: 50em) {
       .search-bar input[type='text'] {
@@ -805,22 +812,22 @@ nav li {
  FOOTER STYLES
 **************************************************/
 body {
-  background-color: #732d55; }
+  background-color: #303040; }
 
-footer {
+.site-footer {
   padding: 6em 7%;
   color: #fff;
   text-align: center; }
-  footer h2 {
+  .site-footer h2 {
     margin: 0 0 .5em; }
-  footer .site-map {
+  .site-footer .site-map {
     margin-bottom: 3em; }
-  footer nav {
+  .site-footer nav {
     margin-bottom: 3em; }
-    footer nav ol {
+    .site-footer nav ol {
       list-style: none;
       margin: 0 0 1em; }
-    footer nav li {
+    .site-footer nav li {
       display: inline-block;
       vertical-align: middle;
       *vertical-align: auto;
@@ -828,68 +835,68 @@ footer {
       *display: inline;
       margin: 0;
       text-align: center; }
-      footer nav li:before {
+      .site-footer nav li:before {
         content: '\007C';
         margin: 0 .5em; }
-      footer nav li:first-child:before {
+      .site-footer nav li:first-child:before {
         display: none; }
-  footer .site-nav {
+  .site-footer .site-nav {
     font-size: 16px;
     font-size: 1.6rem; }
-  footer .legal {
+  .site-footer .legal {
     font-size: 12px;
     font-size: 1.2rem; }
-  footer .social {
+  .site-footer .social {
     list-style: none; }
-    footer .social li {
+    .site-footer .social li {
       display: inline-block;
       vertical-align: middle;
       *vertical-align: auto;
       *zoom: 1;
       *display: inline;
       margin: 0 .25em; }
-  footer .mailing-list {
+  .site-footer .mailing-list {
     margin-bottom: 4.5em;
     padding-top: 3em;
     border-top: 2px solid #797965; }
-    footer .mailing-list h3 {
+    .site-footer .mailing-list h3 {
       font-size: 16px;
       font-size: 1.6rem;
       margin: 0 0 1.5em; }
-    footer .mailing-list form {
+    .site-footer .mailing-list form {
       display: block;
       max-width: 270px;
       margin: 0 auto; }
-    footer .mailing-list input {
+    .site-footer .mailing-list input {
       font-size: 14px;
       font-size: 1.4rem;
       margin: 0 0 .5em; }
-  footer small {
+  .site-footer small {
     display: block;
     clear: right; }
   @media screen and (min-width: 50em) {
-    footer .site-map {
+    .site-footer .site-map {
       float: left;
       width: 50%;
       margin: 0;
       text-align: left; }
-    footer .social {
+    .site-footer .social {
       margin: 0 .5em 0 0; }
-    footer .mailing-list {
+    .site-footer .mailing-list {
       float: right;
       width: 35%;
       margin-bottom: 2em;
       padding: 0;
       border-top: none; }
-      footer .mailing-list form {
+      .site-footer .mailing-list form {
         max-width: none; }
-    footer small {
+    .site-footer small {
       text-align: right; } }
   @media screen and (min-width: 62.5em) {
-    footer .mailing-list {
+    .site-footer .mailing-list {
       width: 30%; } }
   @media screen and (min-width: 75em) {
-    footer .mailing-list {
+    .site-footer .mailing-list {
       width: 25%; } }
 
 /**************************************************
@@ -898,37 +905,72 @@ footer {
 /**************************************************
  BASIC PAGE STYLES
 **************************************************/
+#page .main .wrapper {
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  overflow: hidden;
+  background-color: #918a98; }
 #page .main article {
-  margin-bottom: 6em; }
+  padding: 1.5em;
+  background-color: #fff; }
   @media screen and (min-width: 37.5em) {
     #page .main article {
+      padding: 3em 3em 6em; } }
+  @media screen and (min-width: 50em) {
+    #page .main article {
       float: left;
-      width: 60%; } }
+      width: 60%;
+      padding-right: 4.5em; } }
+  @media screen and (min-width: 62.5em) {
+    #page .main article {
+      width: 70%; } }
+  #page .main article p {
+    max-width: 36em; }
+#page .main header {
+  margin-bottom: 1.5em;
+  padding: 1.5em 0;
+  border-bottom: 1px solid #f0f0ed; }
+  @media screen and (min-width: 37.5em) {
+    #page .main header {
+      margin-bottom: 3em;
+      padding-bottom: 3em; } }
+  #page .main header h1 {
+    margin: 0; }
 #page .main aside {
-  border-top: 1px solid #f0f0ed; }
+  padding: 3em 1.5em;
+  color: #fff; }
   @media screen and (min-width: 37.5em) {
     #page .main aside {
-      float: right;
-      width: 35%;
-      padding-bottom: 2em;
-      border-bottom: 1px solid #f0f0ed; } }
+      padding: 3em; } }
   @media screen and (min-width: 50em) {
     #page .main aside {
+      float: right;
+      width: 40%; } }
+  @media screen and (min-width: 62.5em) {
+    #page .main aside {
       width: 30%; } }
+  #page .main aside h4 {
+    margin: 0 0 1em;
+    color: #fff;
+    text-transform: uppercase; }
   #page .main aside p {
     font-size: 14px;
     font-size: 1.4rem; }
 #page .main form {
-  margin-top: 4em; }
-  #page .main form label {
-    font-size: 14px;
-    font-size: 1.4rem; }
+  margin-top: 3em;
+  padding-top: 3em;
+  border-top: 1px solid #732d55; }
   #page .main form input,
   #page .main form textarea {
-    margin-top: .5em;
-    border: 1px solid #f0f0ed; }
+    margin-top: .5em; }
   #page .main form input[type="submit"] {
-    width: 100%; }
+    background-color: #303040; }
+    #page .main form input[type="submit"]:hover, #page .main form input[type="submit"]:focus {
+      background-color: #3b3b4f; }
 
 /**************************************************
  HOME PAGE STYLES
@@ -1117,62 +1159,109 @@ section.films .button {
       width: auto; } }
 
 /**************************************************
- LIST PAGE STYLES
+ THOUGHTS PAGE STYLES
 **************************************************/
-#features-list .main {
+#thoughts .main {
   padding-top: 3em; }
-  #features-list .main .inner {
+  #thoughts .main .inner {
     max-width: 720px; }
-  #features-list .main article {
+  #thoughts .main article {
     -moz-border-radius: 0.3rem;
     -webkit-border-radius: 0.3rem;
     border-radius: 0.3rem;
+    -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    overflow: hidden;
     margin-bottom: 3em;
-    padding: 1.5em;
     background-color: #fff; }
-  #features-list .main figure {
-    margin: 0 0 3em; }
-  #features-list .main h2 {
-    margin: 0 0 .5em; }
-  #features-list .main .meta span {
-    margin: 0 .5em; }
-#features-list .feature-qanda h2 {
-  font-size: 30px;
-  font-size: 3rem; }
+    @media screen and (min-width: 50em) {
+      #thoughts .main article {
+        margin-bottom: 4.5em; } }
+  #thoughts .main .summary {
+    padding: 1.5em; }
+    @media screen and (min-width: 37.5em) {
+      #thoughts .main .summary {
+        padding: 3em; } }
+    #thoughts .main .summary h2 {
+      margin: 0 0 .5em; }
+  #thoughts .main footer {
+    padding: 1.5em 2em;
+    background-color: #732d55;
+    text-align: right; }
+    @media screen and (min-width: 37.5em) {
+      #thoughts .main footer {
+        padding-left: 3em;
+        padding-right: 3em; } }
+    #thoughts .main footer p {
+      margin: 0;
+      color: #4e1f3a; }
+    #thoughts .main footer a {
+      color: #fff; }
+      #thoughts .main footer a svg {
+        fill: #fff; }
+      #thoughts .main footer a:hover, #thoughts .main footer a:focus {
+        color: #d696bb; }
+        #thoughts .main footer a:hover svg, #thoughts .main footer a:focus svg {
+          fill: #d696bb; }
+    #thoughts .main footer svg {
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      *zoom: 1;
+      *display: inline;
+      height: 1em;
+      width: 1em;
+      margin-right: .25em; }
+    #thoughts .main footer span {
+      margin: .5em; }
+  #thoughts .main .qanda {
+    padding-top: 1em; }
+    @media screen and (min-width: 37.5em) {
+      #thoughts .main .qanda h2 {
+        font-size: 36px;
+        font-size: 3.6rem; } }
+  #thoughts .main .button {
+    margin-top: 2em; }
 
-#films-list .main {
+/**************************************************
+ FILM LIST PAGE STYLES
+**************************************************/
+#films .main {
   padding-top: 4em; }
-  #films-list .main .inner {
+  #films .main .inner {
     max-width: 900px; }
-  #films-list .main ol {
+  #films .main ol {
     width: 105%;
     margin: 0 0 15px -5%; }
     @media screen and (min-width: 37.5em) {
-      #films-list .main ol {
+      #films .main ol {
         width: 103.33%;
         margin-left: -3.33%; } }
     @media screen and (min-width: 37.5em) {
-      #films-list .main ol {
+      #films .main ol {
         width: 102.5%;
         margin-left: -2.5%; } }
-  #films-list .main li {
+  #films .main li {
     float: left;
     width: 45%;
     margin: 0 0 5% 5%; }
     @media screen and (min-width: 37.5em) {
-      #films-list .main li {
+      #films .main li {
         width: 30%;
         margin-left: 3.33%;
         margin-bottom: 3.33%; } }
     @media screen and (min-width: 50em) {
-      #films-list .main li {
+      #films .main li {
         width: 22.5%;
         margin-left: 2.5%;
         margin-bottom: 2.5%; } }
-    #films-list .main li .summary {
+    #films .main li .summary {
       padding: 1em 1.5em; }
 
-/* ----- List Filter Styles ----- */
+/**************************************************
+ LIST FILTER STYLES
+**************************************************/
 .filters {
   padding: 1.5em 7%;
   background-color: #2d9099; }
@@ -1186,6 +1275,11 @@ section.films .button {
     margin: 0 auto;
     color: #fff; }
   .filters a {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
     -moz-border-radius: 0.3rem;
     -webkit-border-radius: 0.3rem;
     border-radius: 0.3rem;

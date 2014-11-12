@@ -5,7 +5,7 @@
 .site-header {
   background-color: $header-bg;
   @include break-up($medium){
-    @include box-shadow;
+    @include box-shadow(0 0 10px transparentize($black, .5));
     position: fixed;
     z-index: 10;
     top: 0;
@@ -70,7 +70,7 @@
     height: 2.5em;
     width: 75%;
     margin: 0;
-    padding: .625em 1em .625em $side-padding;
+    padding: .625em 0 .625em $side-padding;
     border-bottom: 1px solid $search-input-border;
     @include break-up($medium){
       @include border-left-radius;

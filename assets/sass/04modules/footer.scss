@@ -6,7 +6,7 @@
   background-color: $footer-bg;
 }
 
-footer {
+.site-footer {
   @extend %clearfix;
   padding: 6em $side-padding;
   color: $footer-text-color;

@@ -1,8 +1,8 @@
 /**************************************************
- LIST PAGE STYLES
+ THOUGHTS PAGE STYLES
 **************************************************/
 
-#features-list {
+#thoughts {
   .main {
     padding-top: 3em;
     .inner {
@@ -10,30 +10,70 @@
     }
     article {
       @include border-radius;
+      @include box-shadow;
+      overflow: hidden;
       margin-bottom: 3em;
-      padding: 1.5em;
       background-color: $module-bg;
+      @include break-up($medium){margin-bottom:4.5em}
     }
-    figure {
-      margin: 0 0 3em;
-    }
-    h2 {
-      margin: 0 0 .5em;
-    }
-    .meta {
-      span {
-        margin: 0 .5em;
+    .summary {
+      padding: 1.5em;
+      @include break-up($small){padding:3em}
+      h2 {
+        margin: 0 0 .5em;
       }
     }
-  }
-  .feature-qanda {
-    h2 {
-      @include font-size(30);
+    footer {
+      padding: 1.5em 2em;
+      background-color: $module-footer-bg;
+      text-align: right;
+      @include break-up($small){
+        padding-left: 3em;
+        padding-right: 3em;
+      }
+      p {
+        margin: 0;
+        color: darken($module-footer-bg, 10%);
+      }
+      a {
+        color: $module-footer-link;
+        svg {fill:$module-footer-link}
+        &:hover, 
+        &:focus {
+          color: $module-footer-hover;
+          svg {fill:$module-footer-hover}
+        }
+      }
+      svg {
+        @extend %transition;
+        @include inline-block;
+        height: 1em;
+        width: 1em;
+        margin-right: .25em;
+      }
+      span {
+        margin: .5em;
+      }
+    }
+    .qanda {
+      padding-top: 1em;
+      h2 {
+        @include break-up($small){
+          @include font-size(36);
+        }
+      }
+    }
+    .button {
+      margin-top: 2em;
     }
   }
 }
 
-#films-list {
+/**************************************************
+ FILM LIST PAGE STYLES
+**************************************************/
+
+#films {
   .main {
     padding-top: 4em;
     .inner {
@@ -73,8 +113,9 @@
   }
 }
 
-
-/* ----- List Filter Styles ----- */
+/**************************************************
+ LIST FILTER STYLES
+**************************************************/
 
 .filters {
   padding: 1.5em $side-padding;
@@ -90,6 +131,7 @@
     color: $filters-bar-text;
   }
   a {
+    @include inline-block;
     @include border-radius;
     margin-left: .25em;
     padding: .25em .5em;

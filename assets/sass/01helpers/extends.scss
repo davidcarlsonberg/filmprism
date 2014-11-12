@@ -2,6 +2,10 @@
  EXTENDABLE STYLES
 **************************************************/
 
+%transition {
+  @include transition;
+}
+
 /* ----- Clear Fix ----- */
 
 %clearfix {

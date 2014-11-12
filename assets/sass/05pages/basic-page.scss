@@ -2,42 +2,76 @@
  BASIC PAGE STYLES
 **************************************************/
 
-.main {
-  #page & {
+#page {
+  .main {
+    .wrapper {
+      @include border-radius;
+      @include box-shadow;
+      overflow: hidden;
+      background-color: $module-aside-bg;
+    }
     article {
-      margin-bottom: 6em;
-      @include break-up($small){
+      padding: 1.5em;
+      background-color: $module-bg;
+      @include break-up($small){padding:3em 3em 6em}
+      @include break-up($medium){
         @include float;
         width: 60%;
+        padding-right: 4.5em;
+      }
+      @include break-up($large){
+        width: 70%;
+      }
+      p {
+        max-width: 36em;
+      }
+    }
+    header {
+      margin-bottom: 1.5em;
+      padding: 1.5em 0;
+      border-bottom: 1px solid $border-color;
+      @include break-up($small){
+        margin-bottom: 3em;
+        padding-bottom: 3em;
+      }
+      h1 {
+        margin: 0;
       }
     }
     aside {
-      border-top: 1px solid $border-color;
-      @include break-up($small){
-        @include float(right);
-        width: 35%;
-        padding-bottom: 2em;
-        border-bottom: 1px solid $border-color;
-      }
+      padding: 3em 1.5em;
+      color: $module-aside-text;
+      @include break-up($small){padding:3em}
       @include break-up($medium){
+        @include float(right);
+        width: 40%;
+      }
+      @include break-up($large){
         width: 30%;
+      }
+      h4 {
+        margin: 0 0 1em;
+        color: $module-aside-text;
+        text-transform: uppercase;
       }
       p {
         @include font-size(14);
       }
     }
     form {
-      margin-top: 4em;
-      label {
-        @include font-size(14);
-      }
+      margin-top: 3em;
+      padding-top: 3em;
+      border-top: 1px solid $module-aside-border;
       input, 
       textarea {
         margin-top: .5em;
-        border: 1px solid $border-color;
       }
       input[type="submit"]{
-        width: 100%;
+        background-color: $module-aside-button;
+        &:hover, 
+        &:focus {
+          background-color: $module-aside-button-hover;
+        }
       }
     }
   }
