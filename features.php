@@ -5,11 +5,10 @@
   include '_partials/header.php';
 ?>
 
-<section class="filters">
-  <p>Filter by Category: <a href="features.php">Q &amp; A</a> <a href="features.php">Articles</a></p>
-</section>
-
 <section class="main">
+  <header class="filters">
+    <p>Filter by Category: <a href="features.php">Q &amp; A</a> <a href="features.php">Articles</a></p>
+  </header>
   <div class="inner">
     <?php
       include '_partials/article-card.php';

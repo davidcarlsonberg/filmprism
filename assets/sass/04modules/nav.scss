@@ -3,7 +3,6 @@
 **************************************************/
 
 nav {
-  font-family: $nav-font;
   ol {
     list-style: none;
     margin: 0;
@@ -13,32 +12,37 @@ nav {
   }
 }
 
-/* ----- Header Navigation ----- */
+/**************************************************
+ HEADER NAVIGATION STYLES
+**************************************************/
 
-header {
+.site-header {
   nav {
+    clear: both;
     display: none;
     overflow: hidden;
     @include break-up($medium){
       display: block !important;
-      margin-left: 210px;
-    }
-    ol {
-      @include font-size(16);
+      padding: 1.25em $side-padding;
+      border-top: 1px solid $nav-border;
     }
     li {
-      text-align: center;
+      @include font-size(16);
       border-top: 1px solid $narrow-nav-border;
+      font-family: $nav-font;
+      font-weight: 300;
+      text-align: center;
+      text-transform: uppercase;
       @include break-up($medium){
         display: inline;
         border-top: none;
-        &:before {
-          content: '\002F';
-          margin: 0 .5em;
+        font-weight: 400;
+        &:before{
+          content:$vertical-bar;
+          margin: 0 .75em 0 .625em;
+          color: $nav-divider-color;
         }
-        &:first-child:before {
-          display: none;
-        }
+        &:first-child:before{content:none}
       }
     }
     a {
@@ -76,11 +80,31 @@ header {
         margin-right: .5em;
         text-align: right;
       }
+      li {
+        border-top-color: darken($teal, 10%);
+        @include break-up($medium){
+          text-transform: none;
+        }
+      }
+      a {
+        background-color: $narrow-user-nav-bg;
+        &:hover,&:focus{background-color:$narrow-user-nav-hover}
+        @include break-up($medium){
+          background-color: transparent;
+          color: $user-nav-link-color;
+          &:hover,&:focus{
+            background-color: transparent;
+            color: $user-nav-link-hover;
+          }
+          span {
+            margin: 0 .25em;
+            color: $nav-divider-color;
+          }
+        }
+      }
     }
   }
 }
-
-/* ----- Nav Toggle Button ----- */
 
 .nav-toggle {
   @include font-size(16);
@@ -88,6 +112,8 @@ header {
   padding: .75em $side-padding;
   background-color: $nav-toggle-bg;
   color: $nav-toggle-text;
+  font-family: $nav-font;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   @include break-up($medium){
@@ -98,15 +124,4 @@ header {
     background-color: $nav-toggle-hover;
     color: $nav-toggle-text;
   }
-  &:before, 
-  &:after {
-    @include font-size(12);
-    content: $down-triangle;
-    margin-top: .25em;
-    .open & {
-      content: $up-triangle;
-    }
-  }
-  &:before { @include float; }
-  &:after { @include float(right); }
 }

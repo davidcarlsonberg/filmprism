@@ -16,6 +16,30 @@ a {
  TYPE STYLES
 **************************************************/
 
+// Headings
+
+h1, h2, h3 {
+  margin: 1em 0;
+  color: $headline-color;
+  font-family: $headline-font;
+  font-weight: 300;
+}
+
+h4, h5, h6 {
+  margin: 1.5em 0;
+  color: $subheadline-color;
+  font-family: $subheadline-font;
+  font-weight: 300;
+}
+
+h1 { @include font-size(36) }
+h2 { @include font-size(30) }
+h3 { @include font-size(24) }
+h4 { @include font-size(21) }
+h5, h6 { @include font-size(18) }
+
+// Body Type
+
 %base-type {
   @include font-size(14);
   @include break-up($medium){
@@ -23,59 +47,20 @@ a {
   }
 }
 
-/* ----- Headings ----- */
-
-h1, h2 ,h3, h4, h5, h6 {
-  margin: 1em 0;
-  font-family: $headline-font;
-  font-weight: 700;
-}
-
-h1 {
-  @include font-size(30);
-}
-
-h2 {
-  @include font-size(24);
-}
-
-h3 {
-  @include font-size(20);
-}
-
-h4 {
-  @include font-size(18);
-}
-
-h5, h6 {
-  @include font-size(16);
-}
-
-.title {
-  margin: 0 0 1.5em;
-}
-
-/* ----- Body Type ----- */
-
 p {
   @extend %base-type;
   margin: 0 0 1em;
   line-height: 1.6;
 }
 
-ol {
-  list-style-type: decimal;
-}
-
-ul {
-  list-style-type: square;
-}
+ol {list-style-type:decimal}
+ul {list-style-type:square}
 
 ul, ol {
-  @extend %base-type;
   margin: 1em 0 1em 1.75em;
   li {
-    margin-bottom: 0.3em;
+    @extend %base-type;
+    margin: .25em 0;
   }
 }
 
@@ -86,7 +71,7 @@ blockquote {
   }
 }
 
-/* ----- Misc Type ----- */
+// Misc Type
 
 figcaption {
   @include font-size(12);
@@ -98,6 +83,4 @@ address {
   margin-bottom: 1em;
 }
 
-small {
-  @include font-size(12);
-}
+small { @include font-size(12) }

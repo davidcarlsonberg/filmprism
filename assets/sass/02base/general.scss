@@ -31,6 +31,7 @@ select,
 input, 
 textarea {
   color: $body-text;
+  font-family: $body-font;
 }
 
 section {
@@ -39,6 +40,6 @@ section {
   padding: 4em $side-padding 8em;
 }
 
-.inner {
+.inner, .top {
   @extend %site-column;
 }

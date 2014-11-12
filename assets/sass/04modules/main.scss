@@ -3,5 +3,9 @@
 **************************************************/
 
 .main {
+  background: url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
   padding: 3em $side-padding 9em;
+  @include break-up($medium){
+    padding-top: $fixed-top-padding;
+  }
 }

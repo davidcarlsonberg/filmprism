@@ -1,0 +1,97 @@
+/**************************************************
+ COLORS
+**************************************************/
+
+$purple: #732d55;
+$teal: #2d9099;
+$dk-teal: #1f5466;
+$black: #303040;
+$lt-gray: #918a98;
+$x-lt-gray: #f0f0ed;
+
+$dk-gray: #333;
+$md-gray: #666;
+$gray: #999;
+$white: #fff;
+
+/**************************************************
+ COLORS IN USE
+**************************************************/
+
+// Base Colors
+
+$selection-text: $white;
+$selection-bg: $purple;
+
+$body-text: $black;
+$body-bg: $white;
+
+$headline-color: $purple;
+$subheadline-color: $lt-gray;
+
+$link-color: $teal;
+$link-hover: darken($teal, 10%);
+
+$border-color: $x-lt-gray;
+
+// Button Colors
+
+$button-text: $white;
+$button-bg: $purple;
+$button-hover: darken($purple, 5%);
+
+// Form Colors
+
+$form-field-color: $white;
+$form-field-focus: $white;
+
+// Header Colors
+
+$header-bg: $x-lt-gray;
+$header-link-color: $black;
+$header-link-hover: $dk-gray;
+
+$nav-link-color: $black;
+$nav-link-hover: $purple;
+$user-nav-link-color: $teal;
+$user-nav-link-hover: $dk-teal;
+$nav-divider-color: darken($x-lt-gray, 5%);
+$nav-border: darken($x-lt-gray, 5%);
+
+$narrow-nav-text: $white;
+$narrow-nav-bg: $purple;
+$narrow-nav-hover: darken($purple, 5%);
+$narrow-nav-border: darken($purple, 5%);
+$narrow-user-nav-bg: $teal;
+$narrow-user-nav-hover: darken($teal, 5%);
+$narrow-user-nav-border: darken($teal, 5%);
+
+$nav-toggle-text: $white;
+$nav-toggle-bg: $black;
+$nav-toggle-hover: darken($black, 5%);
+
+$search-input-bg: $white;
+$search-input-border: darken($x-lt-gray, 10%);
+$search-button-bg: $purple;
+$search-button-border: darken($purple, 5%);
+
+// Card Colors
+
+$card-bg-color: $white;
+$card-bg-hover: $x-lt-gray;
+$card-border-color: $lt-gray;
+$card-border-hover: $gray;
+
+// Slider Colors
+
+$slide-marker: $md-gray;
+$slide-marker-hover: $md-gray;
+$slide-marker-active: $white;
+$slide-direction-text: $white;
+$slide-direction-button: $dk-gray;
+$slide-direction-hover: $black;
+
+// Footer Colors
+
+$footer-text-color: $white;
+$footer-bg: $purple;
