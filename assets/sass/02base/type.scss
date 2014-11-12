@@ -16,8 +16,6 @@ a {
  TYPE STYLES
 **************************************************/
 
-// Headings
-
 h1, h2, h3 {
   margin: 1em 0;
   color: $headline-color;
@@ -37,8 +35,6 @@ h2 { @include font-size(30) }
 h3 { @include font-size(24) }
 h4 { @include font-size(21) }
 h5, h6 { @include font-size(18) }
-
-// Body Type
 
 %base-type {
   @include font-size(14);
@@ -70,8 +66,6 @@ blockquote {
     margin: 0;
   }
 }
-
-// Misc Type
 
 figcaption {
   @include font-size(12);

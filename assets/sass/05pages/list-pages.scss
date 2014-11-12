@@ -4,17 +4,15 @@
 
 #features-list {
   .main {
-    padding-top: 4em;
-    @include break-up($medium){
-      padding-top: 6em;
-    }
+    padding-top: 3em;
     .inner {
       max-width: 720px;
     }
     article {
-      margin-bottom: 6em;
-      padding-bottom: 3em;
-      border-bottom: 1px solid $border-color;
+      @include border-radius;
+      margin-bottom: 3em;
+      padding: 1.5em;
+      background-color: $module-bg;
     }
     figure {
       margin: 0 0 3em;
@@ -79,23 +77,24 @@
 /* ----- List Filter Styles ----- */
 
 .filters {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  background-color: $dk-gray;
+  padding: 1.5em $side-padding;
+  background-color: $filters-bar-bg;
+  @include break-up($medium){
+    padding-top: $fixed-top-padding;
+    padding-bottom: 2em;
+  }
   p {
     @extend %site-column;
     @include font-size(14);
     margin: 0 auto;
-    color: $gray;
+    color: $filters-bar-text;
   }
   a {
-    @include border-radius(.25em);
+    @include border-radius;
+    margin-left: .25em;
     padding: .25em .5em;
-    background-color: $gray;
-    color: $dk-gray;
-    &:hover, 
-    &:focus {
-      background-color: $white;
-    }
+    background-color: $filters-bar-link-bg;
+    color: $filters-bar-link-text;
+    &:hover,&:focus{background-color:$filters-bar-link-hover}
   }
 }

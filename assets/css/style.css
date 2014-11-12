@@ -1120,16 +1120,16 @@ section.films .button {
  LIST PAGE STYLES
 **************************************************/
 #features-list .main {
-  padding-top: 4em; }
-  @media screen and (min-width: 50em) {
-    #features-list .main {
-      padding-top: 6em; } }
+  padding-top: 3em; }
   #features-list .main .inner {
     max-width: 720px; }
   #features-list .main article {
-    margin-bottom: 6em;
-    padding-bottom: 3em;
-    border-bottom: 1px solid #f0f0ed; }
+    -moz-border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    margin-bottom: 3em;
+    padding: 1.5em;
+    background-color: #fff; }
   #features-list .main figure {
     margin: 0 0 3em; }
   #features-list .main h2 {
@@ -1174,23 +1174,27 @@ section.films .button {
 
 /* ----- List Filter Styles ----- */
 .filters {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  background-color: #333; }
+  padding: 1.5em 7%;
+  background-color: #2d9099; }
+  @media screen and (min-width: 50em) {
+    .filters {
+      padding-top: 15em;
+      padding-bottom: 2em; } }
   .filters p {
     font-size: 14px;
     font-size: 1.4rem;
     margin: 0 auto;
-    color: #999; }
+    color: #fff; }
   .filters a {
-    -moz-border-radius: 0.25em;
-    -webkit-border-radius: 0.25em;
-    border-radius: 0.25em;
+    -moz-border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    margin-left: .25em;
     padding: .25em .5em;
-    background-color: #999;
-    color: #333; }
+    background-color: #303040;
+    color: #fff; }
     .filters a:hover, .filters a:focus {
-      background-color: #fff; }
+      background-color: #1f5466; }
 
 /**************************************************
  FILM PAGE STYLES
