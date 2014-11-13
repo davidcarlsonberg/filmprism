@@ -45,8 +45,13 @@ $load-button-hover: lighten($black, 5%);
 
 // Form Colors
 
+$form-bg: $white;
+$form-label-color: $black;
 $form-field-color: $white;
+$form-field-border: darken($x-lt-gray, 10%);
 $form-field-focus: $white;
+$form-button-color: $teal;
+$form-button-hover: darken($teal, 5%);
 
 // Header Colors
 
@@ -74,9 +79,7 @@ $nav-toggle-bg: $black;
 $nav-toggle-hover: darken($black, 5%);
 
 $search-input-bg: $white;
-$search-input-border: darken($x-lt-gray, 10%);
 $search-button-bg: $purple;
-$search-button-border: darken($purple, 5%);
 
 // Card Colors
 
@@ -93,8 +96,7 @@ $module-footer-link: $white;
 $module-footer-hover: lighten($purple, 40%);
 $module-aside-bg: $dk-teal;
 $module-aside-text: $white;
-$module-aside-button: $black;
-$module-aside-button-hover: darken($black, 5%);
+$module-aside-button: $teal;
 $module-aside-border: $teal;
 
 // Filters Bar

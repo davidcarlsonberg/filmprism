@@ -10,9 +10,9 @@
     <div class="login">
       <h1>Login</h1>
       <form class="login-form">
-        <label>Username</label>
+        <h5><label>Username</label></h5>
         <input type="text" />
-        <label>Password</label>
+        <h5><label>Password</label></h5>
         <input type="password" />
         <input type="submit" value="Login" />
       </form>
@@ -20,11 +20,11 @@
     <div class="sign-up">
       <h1>Create Your Account</h1>
       <form class="login-form">
-        <label>E-Mail Address</label>
+        <h5><label>E-Mail Address</label></h5>
         <input type="text" />
-        <label>Create Password</label>
+        <h5><label>Create Password</label></h5>
         <input type="password" />
-        <label>Confirm Password</label>
+        <h5><label>Confirm Password</label></h5>
         <input type="password" />
         <input type="submit" value="Sign Up" />
       </form>

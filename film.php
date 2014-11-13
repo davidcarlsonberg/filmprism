@@ -6,8 +6,10 @@
 ?>
 
 <section class="main">
-  <div class="inner">
-    <h1 class="title">Film Title</h1>
+  <div class="content">
+    <header>
+      <h1>Film Title</h1>
+    </header>
     <aside class="film-details">
       <figure>
         <img src="http://placehold.it/210x270.jpg" />
@@ -18,11 +20,14 @@
         <li><strong>Written By:</strong> Writer's Name</li>
       </ul>
     </aside>
-    <div class="content">
+
+    <div class="article-body">
+
       <article>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci. Phasellus at facilisis nisi, id tincidunt enim. Aliquam vel felis feugiat, mollis orci tristique, hendrerit justo. Morbi mi dui, fringilla a ante eget, sollicitudin cursus nibh. Sed ut felis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer volutpat tempus porttitor. Nulla ut ligula condimentum, fermentum neque vel, accumsan sapien. Nulla facilisi. Morbi bibendum id elit id vulputate. Nulla a commodo ante, et porttitor arcu. Vivamus suscipit nibh lectus, et commodo dui vehicula ac.</p>
         <p><strong><a href="javascript:void(0)">Read More</a></strong></p>
       </article>
+
       <div class="questions">
         <h2>Q &amp; A</h2>
         <ol>
@@ -40,6 +45,7 @@
           </li>
         </ol>
       </div>
+
       <div class="related-links">
         <h2>Related Links</h2>
         <ul>
@@ -69,39 +75,25 @@
           </li>
         </ul>
       </div>
+
       <div class="submit-question">
         <h2>Submit a Question</h2>
+        <p>Have a question about this film or want to start a discussion? Use the form below to submit a question and get the converstion started.</p>
         <form>
           <textarea></textarea>
           <input type="submit" value="Submit" />
         </form>
       </div>
+
     </div>
+
     <aside class="related-films">
       <h4>Related Films</h4>
       <ul>
-        <li>
-          <a href="film.php">
-            <figure>
-              <img src="http://placehold.it/210x270.jpg" />
-            </figure>
-            <div class="summary">
-              <h4>Film Title</h4>
-              <p><i><img src="assets/img/graphics/bubble-dark.png" /></i> 102</p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="film.php">
-            <figure>
-              <img src="http://placehold.it/210x270.jpg" />
-            </figure>
-            <div class="summary">
-              <h4>Film Title</h4>
-              <p><i><img src="assets/img/graphics/bubble-dark.png" /></i> 102</p>
-            </div>
-          </a>
-        </li>
+        <?php include '_partials/film-card.php'; ?>
+        <?php include '_partials/film-card.php'; ?>
+        <?php include '_partials/film-card.php'; ?>
+        <?php include '_partials/film-card.php'; ?>
       </ul>
     </aside>
 

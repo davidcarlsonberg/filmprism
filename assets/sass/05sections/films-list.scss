@@ -16,13 +16,21 @@
       background-color: $card-bg-color;
       &:hover, 
       &:focus {
+        h5 {color:$card-link-hover}
         p {color:$card-link-hover}
         svg {fill:$card-link-hover}
         figure img {@include opacity(.5)}
       }
     }
-    figure {background-color:$card-image-bg}
-    .details {padding:1.5em}
+    figure {
+      background-color: $card-image-bg;
+      img {
+        @extend %transition;
+      }
+    }
+    .details {
+      padding: 1em 1.5em;
+    }
     h5 {
       overflow: hidden;
       margin: 0;
@@ -34,7 +42,6 @@
       @include font-size(14);
       margin: 0;
       color: $card-link-color;
-      font-family: $sans-serif;
     }
     svg {
       @include inline-block(middle);

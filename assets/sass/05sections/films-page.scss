@@ -4,21 +4,37 @@
 
 #film {
   .main {
-    .title {
-      margin: 0 0 .75em;
+    .content {
+      @include border-radius;
+      @include box-shadow;
+      overflow: hidden;
+      background-color: $black;
+    }
+    header {
+      padding: 1.5em;
+      background-color: $module-bg;
       @include break-up($small){
         @include float(right);
-        width: 63.33%;
+        width: 70%;
+        padding: 3em;
+        border-bottom: 1px solid $border-color;
+      }
+      h1 {
+        margin: 0;
       }
     }
-    .content {
+    .article-body {
+      background-color: $module-bg;
       @include break-up($small){
         @include float(right);
-        width: 63.33%;
+        width: 70%;
       }
     }
     article {
-      margin-bottom: 3em;
+      padding: 1.5em;
+      @include break-up($small){
+        padding: 3em;
+      }
     }
     aside {
       @include break-up($small){
@@ -26,32 +42,15 @@
         width: 30%;
       }
     }
-    .discussion {
-      clear: none;
-      @include break-up($small){
-        @include float(right);
-        width: 63.33%;
-      }
-    }
-    .related-topics {
-      h4 {
-        @include font-size(16);
-        margin-bottom: .25em;
-        padding: 0;
-        border-top: none;
-      }
-      p {
-        @include font-size(12);
-        margin: 0 0 .5em;
-      }
-    }
   }
   .questions, 
   .related-links,
   .submit-question {
-    @extend %clearfix;
-    margin-bottom: 3em;
-    border-top: 1px solid $border-color;
+    overflow: hidden;
+    padding: 1.5em;
+    @include break-up($small){
+      padding: 3em;
+    }
   }
   .questions, 
   .related-links {
@@ -72,6 +71,7 @@
     }
   }
   .questions {
+    background-color: $lt-gray;
     li {
       p {
         @include font-size(14);
@@ -114,12 +114,19 @@
     }
   }
   .submit-question {
-    form {
-      padding: 1em;
-      background-color: $gray;
+    background-color: $purple;
+    h2 {
+      margin: 0 0 .5em;
+      color: $white;
     }
-    textarea{
-      margin-bottom: .5em;
+    p {
+      color: $white;
+    }
+    form {
+      @include border-radius(0);
+      @include box-shadow(none);
+      padding: 0;
+      background-color: transparent;
     }
     input[type="submit"]{
       margin-top: 0;
@@ -129,11 +136,10 @@
     }
   }
   .related-films {
-    margin-top: 6em;
-    border-top: 1px solid $border-color;
-    @include break-up($small){
-      margin-top: 0;
-      border-top: none;
+    padding: 1.5em;
+    h4 {
+      color: $white;
+      text-transform: uppercase;
     }
     ul {
       @extend %card-styles;
@@ -143,7 +149,7 @@
         width: auto;
         margin-left: 0;
       }
-      @include break-up($medium){
+      @include break-up($large){
         width: 105%;
         margin-left: -5%;
       }
@@ -153,18 +159,19 @@
         margin: 0 0 5% 5%;
         @include break-up($small){
           float: none;
-          display: block;
           width: auto;
           margin: 0 0 1.5em 0;
+          &:nth-child(n+3){display:none}
         }
-        @include break-up($medium){
+        @include break-up($large){
           @include float;
           width: 45%;
           margin: 0 0 5% 5%;
+          &:nth-child(n+3){display:block}
         }
         .summary {
           padding: 1em 1.5em;
-          @include break-up($medium){
+          @include break-up($large){
             padding: .5em 1em;
             h4 {
               @include font-size(14);
@@ -177,15 +184,15 @@
 }
 
 .film-details {
-  @extend %clearfix;
-  margin-bottom: 3em;
+  overflow: hidden;
+  background-color: $x-lt-gray;
   @include break-up($small){
     @include float;
     width: 30%;
   }
   figure {
     @include float;
-    width: 30%;
+    width: 25%;
     @include break-up($small){
       @include reset-float;
       width: auto;
@@ -193,15 +200,18 @@
   }
   ul {
     list-style: none;
-    margin: 0 0 0 35%;
-    border-bottom: 1px solid $border-color;
+    margin: 0 0 0 25%;
+    padding: 1em 0;
     @include break-up($small){
       margin-left: 0;
     }
   }
   li {
+    @include font-size(12);
     margin: 0;
-    padding: .5em 0;
-    border-top: 1px solid $border-color;
+    padding: .5em 1em;
+    @include break-up($small){
+      @include font-size(14);
+    }
   }
 }

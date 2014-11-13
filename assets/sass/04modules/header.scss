@@ -17,7 +17,7 @@
     @include box-sizing(content-box);
     overflow: hidden;
     @include break-up($medium){
-      padding: 1.5em $side-padding;
+      padding: 1em $side-padding;
     }
   }
   h1 {
@@ -55,7 +55,11 @@
 }
 
 .search-bar {
+  @include border-radius(0);
+  @include box-shadow(none);
   overflow: hidden;
+  padding: 0;
+  background-color: transparent;
   @include break-up($medium){
     @include float(right);
     width: 70%;
@@ -71,11 +75,13 @@
     width: 75%;
     margin: 0;
     padding: .625em 0 .625em $side-padding;
-    border-bottom: 1px solid $search-input-border;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     @include break-up($medium){
       @include border-left-radius;
       padding-left: 1em;
-      border: 1px solid $search-input-border;
+      border: 1px solid $form-field-border;
       border-right: none;
     }
     @include break-up($large){
@@ -90,15 +96,14 @@
     height: 2.5em;
     width: 25%;
     margin: 0;
-    border-bottom: 1px solid $search-button-border;
+    background-color: $search-button-bg;
+    border-color: darken($search-button-bg, 5%);
+    border-right: none;
+    border-top: none;
     text-align: center;
-    @include break-up($medium){
-      @include border-right-radius;
-      border: 1px solid $search-button-border;
-    }
-    @include break-up($large){
-      width: 20%;
-    }
+    @include break-up($medium){@include border-right-radius}
+    @include break-up($large){width:20%}
+    &:hover,&:focus {background-color:darken($search-button-bg,5%)}
     svg {
       @include inline-block(top);
       width: (20/16)+em;

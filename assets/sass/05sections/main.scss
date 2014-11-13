@@ -18,7 +18,7 @@
   padding: 1.5em $side-padding;
   background-color: $filters-bar-bg;
   @include break-up($medium){
-    padding-top: $fixed-top-padding;
+    padding-top: 13.5em;
     padding-bottom: 2em;
   }
   p {
@@ -26,6 +26,8 @@
     @include font-size(14);
     margin: 0 auto;
     color: $filters-bar-text;
+    font-family: $filters-font;
+    text-transform: uppercase;
   }
   a {
     @include inline-block;

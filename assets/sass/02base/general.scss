@@ -43,3 +43,7 @@ section {
 .content {
   @extend %site-column;
 }
+
+svg {
+  @extend %transition;
+}

@@ -250,33 +250,25 @@ html {
 /**************************************************
  EXTENDABLE STYLES
 **************************************************/
-input[type='text'],
+svg, input[type='text'],
 input[type='email'],
 input[type='search'],
 input[type='tel'],
 input[type='url'],
 input[type='password'],
-textarea, button, input[type='submit'], #thoughts .main footer svg {
+textarea, button, input[type='submit'], #thoughts .main footer svg, .recent-topics li figure img, .recent-films li figure img, #films .main ol li figure img, #film .related-films ul li figure img {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
 
-section, .site-footer, .recent-topics, .recent-films, #films .main ol, #film .related-films ul, #film .questions,
-#film .related-links,
-#film .submit-question, .film-details {
+section, .site-footer, .recent-topics, .recent-films, #films .main ol, #film .related-films ul {
   zoom: 1; }
-  section:before, .site-footer:before, .recent-topics:before, .recent-films:before, #films .main ol:before, #film .related-films ul:before, #film .questions:before,
-  #film .related-links:before,
-  #film .submit-question:before, .film-details:before, section:after, .site-footer:after, .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after, #film .questions:after,
-  #film .related-links:after,
-  #film .submit-question:after, .film-details:after {
+  section:before, .site-footer:before, .recent-topics:before, .recent-films:before, #films .main ol:before, #film .related-films ul:before, section:after, .site-footer:after, .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after {
     display: table;
     visibility: hidden;
     content: ""; }
-  section:after, .site-footer:after, .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after, #film .questions:after,
-  #film .related-links:after,
-  #film .submit-question:after, .film-details:after {
+  section:after, .site-footer:after, .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after {
     clear: both; }
 
 /**************************************************
@@ -466,6 +458,19 @@ small {
 /**************************************************
  FORM STYLES
 **************************************************/
+form {
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  padding: 1.5em;
+  background-color: #fff; }
+  form h5 {
+    margin: .5em 0;
+    color: #303040; }
+
 input,
 select,
 textarea,
@@ -487,10 +492,10 @@ textarea {
   font-size: 1.4rem;
   display: block;
   width: 100%;
-  margin-bottom: 1.25em;
+  margin-bottom: 1em;
   padding: .5em;
   background-color: #fff;
-  border: none;
+  border: 1px solid #d9d9d1;
   outline: none;
   -webkit-appearance: none; }
   input[type='text']:focus,
@@ -508,15 +513,12 @@ textarea {
 
 button, input[type='submit'] {
   width: 100%;
-  margin-top: 1.5em;
-  border: none;
+  margin-top: 1em;
+  background-color: #2d9099;
+  border: 1px solid #277d85;
   -webkit-appearance: none; }
-
-label {
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-family: "Lato", Helmet, Freesans, sans-serif;
-  font-weight: 300; }
+  button:hover, input[type='submit']:hover, button:focus, input[type='submit']:focus {
+    background-color: #277d85; }
 
 /**************************************************
  MODULE STYLES
@@ -543,7 +545,7 @@ label {
     overflow: hidden; }
     @media screen and (min-width: 50em) {
       .site-header .top {
-        padding: 1.5em 7%; } }
+        padding: 1em 7%; } }
   .site-header h1 {
     font-size: 10px;
     font-size: 1rem;
@@ -581,7 +583,15 @@ label {
           margin: 0; } }
 
 .search-bar {
-  overflow: hidden; }
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  overflow: hidden;
+  padding: 0;
+  background-color: transparent; }
   @media screen and (min-width: 50em) {
     .search-bar {
       float: right;
@@ -604,7 +614,9 @@ label {
     width: 75%;
     margin: 0;
     padding: 0.625em 0 0.625em 7%;
-    border-bottom: 1px solid #d9d9d1; }
+    border-top: none;
+    border-left: none;
+    border-right: none; }
     @media screen and (min-width: 50em) {
       .search-bar input[type='text'] {
         -moz-border-radius-topleft: 0.3rem;
@@ -632,7 +644,10 @@ label {
     height: 2.5em;
     width: 25%;
     margin: 0;
-    border-bottom: 1px solid #612647;
+    background-color: #732d55;
+    border-color: #612647;
+    border-right: none;
+    border-top: none;
     text-align: center; }
     @media screen and (min-width: 50em) {
       .search-bar button, .search-bar input[type='submit'] {
@@ -641,11 +656,12 @@ label {
         border-top-right-radius: 0.3rem;
         -moz-border-radius-bottomright: 0.3rem;
         -webkit-border-bottom-right-radius: 0.3rem;
-        border-bottom-right-radius: 0.3rem;
-        border: 1px solid #612647; } }
+        border-bottom-right-radius: 0.3rem; } }
     @media screen and (min-width: 62.5em) {
       .search-bar button, .search-bar input[type='submit'] {
         width: 20%; } }
+    .search-bar button:hover, .search-bar input[type='submit']:hover, .search-bar button:focus, .search-bar input[type='submit']:focus {
+      background-color: #612647; }
     .search-bar button svg, .search-bar input[type='submit'] svg {
       display: inline-block;
       vertical-align: top;
@@ -882,13 +898,15 @@ body {
   background-color: #2d9099; }
   @media screen and (min-width: 50em) {
     .filters {
-      padding-top: 15em;
+      padding-top: 13.5em;
       padding-bottom: 2em; } }
   .filters p {
     font-size: 14px;
     font-size: 1.4rem;
     margin: 0 auto;
-    color: #fff; }
+    color: #fff;
+    font-family: "Lato", Helmet, Freesans, sans-serif;
+    text-transform: uppercase; }
   .filters a {
     display: inline-block;
     vertical-align: middle;
@@ -1150,16 +1168,28 @@ section.films .button {
     font-size: 14px;
     font-size: 1.4rem; }
 #page .main form {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
   margin-top: 3em;
-  padding-top: 3em;
+  padding: 3em 0 0;
+  background-color: transparent;
   border-top: 1px solid #2d9099; }
+  #page .main form h5 {
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: #fff;
+    text-transform: uppercase; }
   #page .main form input,
   #page .main form textarea {
-    margin-top: .5em; }
+    border: none; }
   #page .main form input[type="submit"] {
-    background-color: #303040; }
+    background-color: #2d9099; }
     #page .main form input[type="submit"]:hover, #page .main form input[type="submit"]:focus {
-      background-color: #252531; }
+      background-color: #277d85; }
 
 /**************************************************
  THOUGHTS PAGE STYLES
@@ -1361,6 +1391,8 @@ section.films .button {
       display: block;
       overflow: hidden;
       background-color: #fff; }
+      .recent-topics li a:hover h5, .recent-films li a:hover h5, #films .main ol li a:hover h5, #film .related-films ul li a:hover h5, .recent-topics li a:focus h5, .recent-films li a:focus h5, #films .main ol li a:focus h5, #film .related-films ul li a:focus h5 {
+        color: #2d9099; }
       .recent-topics li a:hover p, .recent-films li a:hover p, #films .main ol li a:hover p, #film .related-films ul li a:hover p, .recent-topics li a:focus p, .recent-films li a:focus p, #films .main ol li a:focus p, #film .related-films ul li a:focus p {
         color: #2d9099; }
       .recent-topics li a:hover svg, .recent-films li a:hover svg, #films .main ol li a:hover svg, #film .related-films ul li a:hover svg, .recent-topics li a:focus svg, .recent-films li a:focus svg, #films .main ol li a:focus svg, #film .related-films ul li a:focus svg {
@@ -1371,7 +1403,7 @@ section.films .button {
     .recent-topics li figure, .recent-films li figure, #films .main ol li figure, #film .related-films ul li figure {
       background-color: #2d9099; }
     .recent-topics li .details, .recent-films li .details, #films .main ol li .details, #film .related-films ul li .details {
-      padding: 1.5em; }
+      padding: 1em 1.5em; }
     .recent-topics li h5, .recent-films li h5, #films .main ol li h5, #film .related-films ul li h5 {
       overflow: hidden;
       margin: 0;
@@ -1382,8 +1414,7 @@ section.films .button {
       font-size: 14px;
       font-size: 1.4rem;
       margin: 0;
-      color: #732d55;
-      font-family: Helmet, Freesans, sans-serif; }
+      color: #732d55; }
     .recent-topics li svg, .recent-films li svg, #films .main ol li svg, #film .related-films ul li svg {
       display: inline-block;
       vertical-align: middle;
@@ -1428,43 +1459,51 @@ section.films .button {
 /**************************************************
  FILM PAGE STYLES
 **************************************************/
-#film .main .title {
-  margin: 0 0 .75em; }
+#film .main .content {
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  overflow: hidden;
+  background-color: #303040; }
+#film .main header {
+  padding: 1.5em;
+  background-color: #fff; }
   @media screen and (min-width: 37.5em) {
-    #film .main .title {
+    #film .main header {
       float: right;
-      width: 63.33%; } }
-@media screen and (min-width: 37.5em) {
-  #film .main .content {
-    float: right;
-    width: 63.33%; } }
+      width: 70%;
+      padding: 3em;
+      border-bottom: 1px solid #f0f0ed; } }
+  #film .main header h1 {
+    margin: 0; }
+#film .main .article-body {
+  background-color: #fff; }
+  @media screen and (min-width: 37.5em) {
+    #film .main .article-body {
+      float: right;
+      width: 70%; } }
 #film .main article {
-  margin-bottom: 3em; }
+  padding: 1.5em; }
+  @media screen and (min-width: 37.5em) {
+    #film .main article {
+      padding: 3em; } }
 @media screen and (min-width: 37.5em) {
   #film .main aside {
     float: left;
     width: 30%; } }
-#film .main .discussion {
-  clear: none; }
-  @media screen and (min-width: 37.5em) {
-    #film .main .discussion {
-      float: right;
-      width: 63.33%; } }
-#film .main .related-topics h4 {
-  font-size: 16px;
-  font-size: 1.6rem;
-  margin-bottom: .25em;
-  padding: 0;
-  border-top: none; }
-#film .main .related-topics p {
-  font-size: 12px;
-  font-size: 1.2rem;
-  margin: 0 0 .5em; }
 #film .questions,
 #film .related-links,
 #film .submit-question {
-  margin-bottom: 3em;
-  border-top: 1px solid #f0f0ed; }
+  overflow: hidden;
+  padding: 1.5em; }
+  @media screen and (min-width: 37.5em) {
+    #film .questions,
+    #film .related-links,
+    #film .submit-question {
+      padding: 3em; } }
 #film .questions ol,
 #film .related-links ol {
   list-style: none;
@@ -1480,12 +1519,14 @@ section.films .button {
   #film .questions li h3,
   #film .related-links li h3 {
     margin: 0 0 .5em; }
-#film .questions li p {
-  font-size: 14px;
-  font-size: 1.4rem;
-  margin: 0; }
-  #film .questions li p img {
-    width: 12px; }
+#film .questions {
+  background-color: #918a98; }
+  #film .questions li p {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 0; }
+    #film .questions li p img {
+      width: 12px; }
 #film .related-links ul {
   list-style: none;
   margin: 0; }
@@ -1510,23 +1551,32 @@ section.films .button {
   margin: 0; }
   #film .related-links li p img {
     width: 12px; }
-#film .submit-question form {
-  padding: 1em;
-  background-color: #999; }
-#film .submit-question textarea {
-  margin-bottom: .5em; }
-#film .submit-question input[type="submit"] {
-  margin-top: 0; }
-  @media screen and (min-width: 37.5em) {
-    #film .submit-question input[type="submit"] {
-      width: 50%; } }
+#film .submit-question {
+  background-color: #732d55; }
+  #film .submit-question h2 {
+    margin: 0 0 .5em;
+    color: #fff; }
+  #film .submit-question p {
+    color: #fff; }
+  #film .submit-question form {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    background-color: transparent; }
+  #film .submit-question input[type="submit"] {
+    margin-top: 0; }
+    @media screen and (min-width: 37.5em) {
+      #film .submit-question input[type="submit"] {
+        width: 50%; } }
 #film .related-films {
-  margin-top: 6em;
-  border-top: 1px solid #f0f0ed; }
-  @media screen and (min-width: 37.5em) {
-    #film .related-films {
-      margin-top: 0;
-      border-top: none; } }
+  padding: 1.5em; }
+  #film .related-films h4 {
+    color: #fff;
+    text-transform: uppercase; }
   #film .related-films ul {
     width: 105%;
     margin: 0 0 0 -5%; }
@@ -1534,7 +1584,7 @@ section.films .button {
       #film .related-films ul {
         width: auto;
         margin-left: 0; } }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 62.5em) {
       #film .related-films ul {
         width: 105%;
         margin-left: -5%; } }
@@ -1545,17 +1595,20 @@ section.films .button {
       @media screen and (min-width: 37.5em) {
         #film .related-films ul li {
           float: none;
-          display: block;
           width: auto;
-          margin: 0 0 1.5em 0; } }
-      @media screen and (min-width: 50em) {
+          margin: 0 0 1.5em 0; }
+          #film .related-films ul li:nth-child(n+3) {
+            display: none; } }
+      @media screen and (min-width: 62.5em) {
         #film .related-films ul li {
           float: left;
           width: 45%;
-          margin: 0 0 5% 5%; } }
+          margin: 0 0 5% 5%; }
+          #film .related-films ul li:nth-child(n+3) {
+            display: block; } }
       #film .related-films ul li .summary {
         padding: 1em 1.5em; }
-        @media screen and (min-width: 50em) {
+        @media screen and (min-width: 62.5em) {
           #film .related-films ul li .summary {
             padding: .5em 1em; }
             #film .related-films ul li .summary h4 {
@@ -1563,29 +1616,35 @@ section.films .button {
               font-size: 1.4rem; } }
 
 .film-details {
-  margin-bottom: 3em; }
+  overflow: hidden;
+  background-color: #f0f0ed; }
   @media screen and (min-width: 37.5em) {
     .film-details {
       float: left;
       width: 30%; } }
   .film-details figure {
     float: left;
-    width: 30%; }
+    width: 25%; }
     @media screen and (min-width: 37.5em) {
       .film-details figure {
         float: none;
         width: auto; } }
   .film-details ul {
     list-style: none;
-    margin: 0 0 0 35%;
-    border-bottom: 1px solid #f0f0ed; }
+    margin: 0 0 0 25%;
+    padding: 1em 0; }
     @media screen and (min-width: 37.5em) {
       .film-details ul {
         margin-left: 0; } }
   .film-details li {
+    font-size: 12px;
+    font-size: 1.2rem;
     margin: 0;
-    padding: .5em 0;
-    border-top: 1px solid #f0f0ed; }
+    padding: .5em 1em; }
+    @media screen and (min-width: 37.5em) {
+      .film-details li {
+        font-size: 14px;
+        font-size: 1.4rem; } }
 
 /**************************************************
  USER PAGE STYLES
@@ -1593,17 +1652,20 @@ section.films .button {
 #user .main h1 {
   text-align: center; }
 #user .main form {
-  max-width: 360px;
-  margin: 0 auto;
-  padding: 1.5em 2em;
-  background-color: #918a98; }
-  #user .main form input {
-    margin: .5em 0 1em; }
-  #user .main form input[type="submit"] {
-    margin: 1.5em 0 .5em; }
+  max-width: 36em;
+  margin: 0 auto; }
 @media screen and (min-width: 50em) {
   #user .main .login,
   #user .main .sign-up {
     float: left;
     width: 50%;
     padding: 0 2.5%; } }
+#user .main .login {
+  padding-bottom: 6em;
+  margin-bottom: 6em;
+  border-bottom: 1px solid #303040; }
+  @media screen and (min-width: 50em) {
+    #user .main .login {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none; } }

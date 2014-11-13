@@ -8,16 +8,8 @@
       text-align: center;
     }
     form {
-      max-width: 360px;
+      max-width: 36em;
       margin: 0 auto;
-      padding: 1.5em 2em;
-      background-color: $lt-gray;
-      input {
-        margin: .5em 0 1em;
-      }
-      input[type="submit"]{
-        margin: 1.5em 0 .5em;
-      }
     }
     .login, 
     .sign-up {
@@ -25,6 +17,16 @@
         @include float;
         width: 50%;
         padding: 0 2.5%;
+      }
+    }
+    .login {
+      padding-bottom: 6em;
+      margin-bottom: 6em;
+      border-bottom: 1px solid $black;
+      @include break-up($medium){
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
       }
     }
   }

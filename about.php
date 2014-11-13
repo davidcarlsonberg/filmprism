@@ -19,13 +19,13 @@
       <h4>Contact Info</h4>
       <p>Have questions, comments, or concerns? Please reach out to us using the form below.</p>
       <form>
-        <label for="name">Your Name</label>
+        <h5><label for="name">Your Name</label></h5>
         <input type="text" id="name" name="name">
-        <label for="email">E-Mail Address</label>
+        <h5><label for="email">E-Mail Address</label></h5>
         <input type="text" id="email" name="email">
-        <label for="subject">Subject</label>
+        <h5><label for="subject">Subject</label></h5>
         <input type="text" id="subject" name="subject">
-        <label for="message">Message</label>
+        <h5><label for="message">Message</label></h5>
         <textarea id="message" name="message"></textarea>
         <input type="submit" value="Send">
       </form>
