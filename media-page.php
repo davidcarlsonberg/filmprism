@@ -28,47 +28,21 @@
       <div class="questions">
         <h2>Q &amp; A</h2>
         <ul>
-          <li>
-            <a href="q-and-a.php">
-              <h3>Q: Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h3>
-              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36</p>
-            </a>
-          </li>
-          <li>
-            <a href="q-and-a.php">
-              <h3>Q: Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus?</h3>
-              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36</p>
-            </a>
-          </li>
+          <?php
+            include '_partials/related-qanda-card.php';
+            include '_partials/related-qanda-card.php';
+          ?>
         </ul>
       </div>
       <div class="related-links">
         <h2>Related Links</h2>
         <ul>
-          <li>
-            <a href="article.php">
-              <h5>Article Title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
-            </a>
-          </li>
-          <li>
-            <a href="article.php">
-              <h5>Article Title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
-            </a>
-          </li>
-          <li>
-            <a href="article.php">
-              <h5>Article Title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
-            </a>
-          </li>
-          <li>
-            <a href="article.php">
-              <h5>Article Title</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
-            </a>
-          </li>
+          <?php
+            include '_partials/related-link-card.php';
+            include '_partials/related-link-card.php';
+            include '_partials/related-link-card.php';
+            include '_partials/related-link-card.php';
+          ?>
         </ul>
       </div>
       <div class="submit-question">

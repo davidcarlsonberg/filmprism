@@ -2,7 +2,11 @@
  FEATURES PAGE STYLES
 **************************************************/
 
-#features {
+.thoughts-article {
+  @include border-radius;
+  @include box-shadow;
+  overflow: hidden;
+  background-color: $module-aside-bg;
   .article-image {
     position: relative;
     overflow: hidden;
@@ -31,61 +35,65 @@
       }
     }
   }
-  .main {
-    article {
-      margin-bottom: 6em;
-      @include break-up($small){
-        @include float;
-        width: 63.33%;
+  article {
+    margin-bottom: 6em;
+    padding: 1.5em;
+    background-color: $module-bg;
+    @include break-up($small){
+      @include float;
+      width: 60%;
+      padding: 3em;
+    }
+    @include break-up($large){
+      width: 70%;
+    }
+  }
+  .question {
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid $border-color;
+    h1 {
+      margin: 0;
+    }
+  }
+  .meta {
+    margin-bottom: 3em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid $border-color;
+    h1 {
+      margin: 0 0 .25em;
+    }
+    p {
+      margin-bottom: 0;
+      span {
+        margin: 0 .5em;
       }
     }
-    .question {
-      margin-bottom: 3em;
-      padding-bottom: 3em;
-      border-bottom: 1px solid $border-color;
-      h1 {
-        margin: 0;
-      }
+  }
+  aside {
+    margin-bottom: 6em;
+    padding-top: 1.5em;
+    border-top: 1px solid $border-color;
+    @include break-up($small){
+      @include float(right);
+      width: 30%;
+      padding-top: 0;
+      border-top: none;
     }
-    .meta {
-      margin-bottom: 3em;
-      padding-bottom: 1.5em;
-      border-bottom: 1px solid $border-color;
-      h1 {
-        margin: 0 0 .25em;
-      }
-      p {
-        margin-bottom: 0;
-        span {
-          margin: 0 .5em;
-        }
-      }
+    h4 {
+      margin: 0;
     }
-    aside {
-      margin-bottom: 6em;
-      padding-top: 1.5em;
-      border-top: 1px solid $border-color;
-      @include break-up($small){
-        @include float(right);
-        width: 30%;
-        padding-top: 0;
-        border-top: none;
-      }
-      h4 {
-        margin: 0;
-      }
+  }
+  .related {
+    h4 {
+      @include font-size(16);
+      margin-bottom: .25em;
+      padding: 0;
+      border-top: none;
     }
-    .related {
-      h4 {
-        @include font-size(16);
-        margin-bottom: .25em;
-        padding: 0;
-        border-top: none;
-      }
-      p {
-        @include font-size(12);
-        margin: 0 0 .5em;
-      }
+    p {
+      @include font-size(12);
+      margin: 0 0 .5em;
     }
   }
 }
@@ -95,23 +103,20 @@
 .share-links {
   margin-bottom: 2em;
   ul {
-    @include font-size(10);
     overflow: hidden;
     list-style: none;
     margin: 1em 0 0;
   }
   li {
     @include float;
+    @include font-size(10);
     margin: 0 .5em 0 0;
   }
-  a {
-    @include border-radius(50%);
-    display: block;
-    overflow: hidden;
-    height: 0;
-    width: 20px;
-    padding-top: 20px;
-    background-color: $dk-gray;
+  a {display:block}
+  svg {
+    fill: $white;
+    height: 3em;
+    width: 3em;
   }
 }
 
@@ -141,4 +146,9 @@
 
 .discussion {
   clear: both;
+  padding: 3em 1.5em;
+  background-color: $purple;
+  @include break-up($small){
+    padding: 3em;
+  }
 }

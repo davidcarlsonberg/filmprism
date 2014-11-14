@@ -1,5 +1,5 @@
 <li>
-  <a href="article.php">
+  <a href="feature.php">
     <figure>
       <img src="http://placehold.it/180x180.jpg" />
     </figure>

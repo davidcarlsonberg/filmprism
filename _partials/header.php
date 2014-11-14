@@ -11,12 +11,7 @@
       <ol class="user-nav">
         <li><a href="sign-up.php">Login <span>/</span> Sign-up</a></li>
       </ol>
-      <ol class="site-nav">
-        <li><a href="thoughts.php">Thoughts</a></li>
-        <li><a href="films-list.php">Films &amp; Shows</a></li>
-        <li><a href="easter-eggs.php">Easter Eggs</a></li>
-        <li><a href="about.php">About</a></li>
-      </ol>
+      <?php include '_partials/nav.php'; ?>
     </div>
   </nav>
   <a href="#" class="nav-toggle">Navigation</a>

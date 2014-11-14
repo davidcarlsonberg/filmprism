@@ -1,21 +1,15 @@
-<?php
-  $pageTitle = 'Article Title | Film Prism';
-  $bodyId = 'features';
+  <?php
+  $pageTitle = 'Question Title | Film Prism';
+  $bodyId = 'thoughts';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
 
-
-<figure class="article-image">
-  <img src="http://placehold.it/1080x360.jpg" />
-</figure>
-
 <section class="main">
-  <div class="inner">
+  <div class="content thoughts-article qanda">
     <article>
-      <div class="meta">
-        <h1>Article Title</h1>
-        <p><a href="javascript:void(0)">Author Name</a> <span>|</span> <time>June 24, 2014</time></p>
+      <div class="question">
+        <h1>Q: Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h1>
       </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci. Phasellus at facilisis nisi, id tincidunt enim. Aliquam vel felis feugiat, mollis orci tristique, hendrerit justo. Morbi mi dui, fringilla a ante eget, sollicitudin cursus nibh. Sed ut felis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer volutpat tempus porttitor. Nulla ut ligula condimentum, fermentum neque vel, accumsan sapien. Nulla facilisi. Morbi bibendum id elit id vulputate. Nulla a commodo ante, et porttitor arcu. Vivamus suscipit nibh lectus, et commodo dui vehicula ac.</p>
       <h1>H1 Headline</h1>
@@ -29,12 +23,7 @@
     <aside>
       <div class="share-links">
         <h4>Share this article</h4>
-        <ul>
-          <li><a href="javascript:void(0)">Share on Facebook</a></li>
-          <li><a href="javascript:void(0)">Share on Pinterest</a></li>
-          <li><a href="javascript:void(0)">Share on Twitter</a></li>
-          <li><a href="javascript:void(0)">E-Mail this Page</a></li>
-        </ul>
+        <?php include '_partials/share-links.php'; ?>
       </div>
       <div class="related">
         <h4>Related Features</h4>
@@ -43,20 +32,20 @@
             <a href="article.php">
               <h4>Article Title</h4>
               <p>Short description of the article. Duis ac leo id quam ornare tincidunt vestibulum quis purus. Vivamus eleifend est lacus, ac auctor nunc feugiat mollis.</p>
-              <p><i><img src="assets/img/graphics/bubble-dark.png" /></i> 36</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36</p>
             </a>
           </li>
           <li>
             <a href="q-and-a.php">
               <h4>Q: Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4>
-              <p><i><img src="assets/img/graphics/bubble-dark.png" /></i> 36</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36</p>
             </a>
           </li>
           <li>
             <a href="article.php">
               <h4>Article Title</h4>
               <p>Short description of the article. Duis ac leo id quam ornare tincidunt vestibulum quis purus. Vivamus eleifend est lacus, ac auctor nunc feugiat mollis.</p>
-              <p><i><img src="assets/img/graphics/bubble-dark.png" /></i> 36</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36</p>
             </a>
           </li>
         </ul>
@@ -64,7 +53,6 @@
     </aside>
     <div class="discussion">
       <h1>Discussion</h1>
-      
       <div id="disqus_thread"></div>
       <script type="text/javascript">
         var disqus_shortname = 'filmprism';
@@ -76,7 +64,6 @@
       </script>
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-      
     </div>
   </div>
 </section>

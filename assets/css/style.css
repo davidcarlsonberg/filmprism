@@ -1346,98 +1346,109 @@ section.films .button {
 /**************************************************
  FEATURES PAGE STYLES
 **************************************************/
-#features .article-image {
-  position: relative;
+.thoughts-article {
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
   overflow: hidden;
-  height: 240px;
-  background-color: #333; }
-  #features .article-image img {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
-    opacity: 0.75;
-    position: absolute;
-    left: 50%;
-    width: 720px;
-    max-width: none;
-    margin-left: -360px; }
-  @media screen and (min-width: 50em) {
-    #features .article-image {
-      height: 300px; }
-      #features .article-image img {
-        width: 900px;
-        margin-left: -450px; } }
-  @media screen and (min-width: 50em) {
-    #features .article-image {
-      height: 360px; }
-      #features .article-image img {
-        width: 1080px;
-        margin-left: -540px; } }
-#features .main article {
-  margin-bottom: 6em; }
-  @media screen and (min-width: 37.5em) {
-    #features .main article {
-      float: left;
-      width: 63.33%; } }
-#features .main .question {
-  margin-bottom: 3em;
-  padding-bottom: 3em;
-  border-bottom: 1px solid #d9d9d1; }
-  #features .main .question h1 {
-    margin: 0; }
-#features .main .meta {
-  margin-bottom: 3em;
-  padding-bottom: 1.5em;
-  border-bottom: 1px solid #d9d9d1; }
-  #features .main .meta h1 {
-    margin: 0 0 .25em; }
-  #features .main .meta p {
-    margin-bottom: 0; }
-    #features .main .meta p span {
-      margin: 0 .5em; }
-#features .main aside {
-  margin-bottom: 6em;
-  padding-top: 1.5em;
-  border-top: 1px solid #d9d9d1; }
-  @media screen and (min-width: 37.5em) {
-    #features .main aside {
-      float: right;
-      width: 30%;
-      padding-top: 0;
-      border-top: none; } }
-  #features .main aside h4 {
-    margin: 0; }
-#features .main .related h4 {
-  font-size: 16px;
-  font-size: 1.6rem;
-  margin-bottom: .25em;
-  padding: 0;
-  border-top: none; }
-#features .main .related p {
-  font-size: 12px;
-  font-size: 1.2rem;
-  margin: 0 0 .5em; }
+  background-color: #303040; }
+  .thoughts-article .article-image {
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+    background-color: #333; }
+    .thoughts-article .article-image img {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+      opacity: 0.75;
+      position: absolute;
+      left: 50%;
+      width: 720px;
+      max-width: none;
+      margin-left: -360px; }
+    @media screen and (min-width: 50em) {
+      .thoughts-article .article-image {
+        height: 300px; }
+        .thoughts-article .article-image img {
+          width: 900px;
+          margin-left: -450px; } }
+    @media screen and (min-width: 50em) {
+      .thoughts-article .article-image {
+        height: 360px; }
+        .thoughts-article .article-image img {
+          width: 1080px;
+          margin-left: -540px; } }
+  .thoughts-article article {
+    margin-bottom: 6em;
+    padding: 1.5em;
+    background-color: #fff; }
+    @media screen and (min-width: 37.5em) {
+      .thoughts-article article {
+        float: left;
+        width: 60%;
+        padding: 3em; } }
+    @media screen and (min-width: 62.5em) {
+      .thoughts-article article {
+        width: 70%; } }
+  .thoughts-article .question {
+    margin-bottom: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #d9d9d1; }
+    .thoughts-article .question h1 {
+      margin: 0; }
+  .thoughts-article .meta {
+    margin-bottom: 3em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #d9d9d1; }
+    .thoughts-article .meta h1 {
+      margin: 0 0 .25em; }
+    .thoughts-article .meta p {
+      margin-bottom: 0; }
+      .thoughts-article .meta p span {
+        margin: 0 .5em; }
+  .thoughts-article aside {
+    margin-bottom: 6em;
+    padding-top: 1.5em;
+    border-top: 1px solid #d9d9d1; }
+    @media screen and (min-width: 37.5em) {
+      .thoughts-article aside {
+        float: right;
+        width: 30%;
+        padding-top: 0;
+        border-top: none; } }
+    .thoughts-article aside h4 {
+      margin: 0; }
+  .thoughts-article .related h4 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-bottom: .25em;
+    padding: 0;
+    border-top: none; }
+  .thoughts-article .related p {
+    font-size: 12px;
+    font-size: 1.2rem;
+    margin: 0 0 .5em; }
 
 /* ----- Shared Styles ----- */
 .share-links {
   margin-bottom: 2em; }
   .share-links ul {
-    font-size: 10px;
-    font-size: 1rem;
     overflow: hidden;
     list-style: none;
     margin: 1em 0 0; }
   .share-links li {
     float: left;
+    font-size: 10px;
+    font-size: 1rem;
     margin: 0 .5em 0 0; }
   .share-links a {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    display: block;
-    overflow: hidden;
-    height: 0;
-    width: 20px;
-    padding-top: 20px;
-    background-color: #333; }
+    display: block; }
+  .share-links svg {
+    fill: #fff;
+    height: 3em;
+    width: 3em; }
 
 .related {
   padding-top: 3em;
@@ -1458,7 +1469,12 @@ section.films .button {
       width: 12px; }
 
 .discussion {
-  clear: both; }
+  clear: both;
+  padding: 3em 1.5em;
+  background-color: #732d55; }
+  @media screen and (min-width: 37.5em) {
+    .discussion {
+      padding: 3em; } }
 
 /**************************************************
  FILM LIST PAGE STYLES

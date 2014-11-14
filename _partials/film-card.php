@@ -1,5 +1,5 @@
 <li>
-  <a href="films-page.php">
+  <a href="media-page.php">
     <figure>
       <img src="assets/img/graphics/placeholder-cover-01.png" />
     </figure>
