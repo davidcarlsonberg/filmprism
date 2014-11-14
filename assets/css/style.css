@@ -164,7 +164,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #f0f0ed;
+  border-top: 1px solid #d9d9d1;
   margin: 1em 0;
   padding: 0; }
 
@@ -256,19 +256,19 @@ input[type='search'],
 input[type='tel'],
 input[type='url'],
 input[type='password'],
-textarea, button, input[type='submit'], #thoughts .main footer svg, .recent-topics li figure img, .recent-films li figure img, #films .main ol li figure img, #film .related-films ul li figure img {
+textarea, button, input[type='submit'], .recent-topics li figure img, .recent-films li figure img, .films-list ol li figure img, .media-article .related-films ul li figure img {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
 
-section, .site-footer, .recent-topics, .recent-films, #films .main ol, #film .related-films ul {
+section, .site-footer, .recent-topics, .recent-films, .films-list ol, .media-article .related-films ul, .topics .inner {
   zoom: 1; }
-  section:before, .site-footer:before, .recent-topics:before, .recent-films:before, #films .main ol:before, #film .related-films ul:before, section:after, .site-footer:after, .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after {
+  section:before, .site-footer:before, .recent-topics:before, .recent-films:before, .films-list ol:before, .media-article .related-films ul:before, .topics .inner:before, section:after, .site-footer:after, .recent-topics:after, .recent-films:after, .films-list ol:after, .media-article .related-films ul:after, .topics .inner:after {
     display: table;
     visibility: hidden;
     content: ""; }
-  section:after, .site-footer:after, .recent-topics:after, .recent-films:after, #films .main ol:after, #film .related-films ul:after {
+  section:after, .site-footer:after, .recent-topics:after, .recent-films:after, .films-list ol:after, .media-article .related-films ul:after, .topics .inner:after {
     clear: both; }
 
 /**************************************************
@@ -317,6 +317,16 @@ textarea {
 
 section {
   padding: 4em 7% 8em; }
+
+p svg {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 1em;
+  width: 1em;
+  margin-right: .25em; }
 
 /**************************************************
  BASE LAYOUT STYLES
@@ -836,7 +846,7 @@ body {
   .site-footer .mailing-list {
     margin-bottom: 4.5em;
     padding-top: 3em;
-    border-top: 2px solid #797965; }
+    border-top: 2px solid #5d5d4e; }
     .site-footer .mailing-list h3 {
       font-size: 16px;
       font-size: 1.6rem;
@@ -884,11 +894,67 @@ body {
  MAIN SECTION STYLES
 **************************************************/
 .main {
+  position: relative;
+  z-index: 2;
   background: #fff url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
   padding: 3em 7% 9em; }
   @media screen and (min-width: 50em) {
     .main {
       padding-top: 15em; } }
+
+/**************************************************
+ CARD STYLES
+**************************************************/
+.recent-topics, .recent-films, .films-list ol, .media-article .related-films ul {
+  list-style: none;
+  margin: 0; }
+  .recent-topics li, .recent-films li, .films-list ol li, .media-article .related-films ul li {
+    font-size: 10px;
+    font-size: 1rem; }
+    .recent-topics li a, .recent-films li a, .films-list ol li a, .media-article .related-films ul li a {
+      -moz-border-radius: 0.3rem;
+      -webkit-border-radius: 0.3rem;
+      border-radius: 0.3rem;
+      -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      display: block;
+      overflow: hidden;
+      background-color: #fff; }
+      .recent-topics li a:hover h5, .recent-films li a:hover h5, .films-list ol li a:hover h5, .media-article .related-films ul li a:hover h5, .recent-topics li a:focus h5, .recent-films li a:focus h5, .films-list ol li a:focus h5, .media-article .related-films ul li a:focus h5 {
+        color: #2d9099; }
+      .recent-topics li a:hover p, .recent-films li a:hover p, .films-list ol li a:hover p, .media-article .related-films ul li a:hover p, .recent-topics li a:focus p, .recent-films li a:focus p, .films-list ol li a:focus p, .media-article .related-films ul li a:focus p {
+        color: #2d9099; }
+      .recent-topics li a:hover svg, .recent-films li a:hover svg, .films-list ol li a:hover svg, .media-article .related-films ul li a:hover svg, .recent-topics li a:focus svg, .recent-films li a:focus svg, .films-list ol li a:focus svg, .media-article .related-films ul li a:focus svg {
+        fill: #2d9099; }
+      .recent-topics li a:hover figure img, .recent-films li a:hover figure img, .films-list ol li a:hover figure img, .media-article .related-films ul li a:hover figure img, .recent-topics li a:focus figure img, .recent-films li a:focus figure img, .films-list ol li a:focus figure img, .media-article .related-films ul li a:focus figure img {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+        opacity: 0.5; }
+    .recent-topics li figure, .recent-films li figure, .films-list ol li figure, .media-article .related-films ul li figure {
+      background-color: #2d9099; }
+    .recent-topics li .details, .recent-films li .details, .films-list ol li .details, .media-article .related-films ul li .details {
+      padding: 1em 1.5em; }
+    .recent-topics li h5, .recent-films li h5, .films-list ol li h5, .media-article .related-films ul li h5 {
+      overflow: hidden;
+      margin: 0;
+      padding: .125em 0;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+    .recent-topics li p, .recent-films li p, .films-list ol li p, .media-article .related-films ul li p {
+      font-size: 14px;
+      font-size: 1.4rem;
+      margin: 0;
+      color: #732d55; }
+    .recent-topics li svg, .recent-films li svg, .films-list ol li svg, .media-article .related-films ul li svg {
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      *zoom: 1;
+      *display: inline;
+      height: 1em;
+      width: 1em;
+      margin-right: .25em;
+      fill: #732d55; }
 
 /**************************************************
  LIST FILTER STYLES
@@ -898,6 +964,11 @@ body {
   background-color: #2d9099; }
   @media screen and (min-width: 50em) {
     .filters {
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      right: 0;
       padding-top: 13.5em;
       padding-bottom: 2em; } }
   .filters p {
@@ -923,92 +994,108 @@ body {
     .filters a:hover, .filters a:focus {
       background-color: #1f5466; }
 
+.thoughts-feed, .films-list {
+  position: relative;
+  z-index: 2;
+  padding-top: 4em; }
+  @media screen and (min-width: 50em) {
+    .thoughts-feed, .films-list {
+      margin-top: 18.5em; } }
+
 /**************************************************
  HOME PAGE STYLES
 **************************************************/
-.topics .inner {
-  position: relative; }
-.topics .title span {
-  font-size: 14px;
-  font-size: 1.4rem;
-  margin-left: .25em;
-  font-weight: normal; }
-  .topics .title span a {
-    margin: 0 .5em; }
-.topics .featured {
-  position: relative;
-  margin-bottom: 15px; }
+.topics {
+  background-color: #303040;
+  padding-bottom: 4em; }
   @media screen and (min-width: 50em) {
-    .topics .featured {
-      float: left;
-      width: 48.75%; } }
-  @media screen and (min-width: 62.5em) {
-    .topics .featured {
-      float: left;
-      width: 63.33%; } }
-  .topics .featured figure {
+    .topics {
+      padding-top: 15em; } }
+  .topics .inner {
+    position: relative; }
+  .topics h4 {
+    margin: 0 0 1em; }
+  .topics .title span {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin-left: .25em;
+    font-weight: normal; }
+    .topics .title span a {
+      margin: 0 .5em; }
+  .topics .featured {
     position: relative;
-    overflow: hidden;
-    height: 270px;
-    background-color: #303040; }
-    .topics .featured figure img {
-      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-      opacity: 0.5;
-      position: absolute;
-      left: 50%;
-      margin-left: -270px;
-      width: 540px;
-      max-width: none; }
-    @media screen and (min-width: 37.5em) {
-      .topics .featured figure {
-        height: 360px; }
-        .topics .featured figure img {
-          width: 720px;
-          margin-left: -360px; } }
+    margin-bottom: 15px; }
     @media screen and (min-width: 50em) {
-      .topics .featured figure {
-        height: 405px; }
-        .topics .featured figure img {
-          width: 720px;
-          margin-left: -360px; } }
-  .topics .featured .summary {
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMDMwNDAiIHN0b3Atb3BhY2l0eT0iMC43NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(48, 48, 64, 0.75)));
-    background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0 2em 1em;
-    color: #fff; }
-    @media screen and (min-width: 37.5em) {
-      .topics .featured .summary {
-        padding: 0 3em 1.5em; } }
-    .topics .featured .summary h3 {
-      margin: .5em 0; }
-    .topics .featured .summary .meta {
-      font-size: 14px;
-      font-size: 1.4rem;
-      list-style: none;
-      margin: 1.5em 0 0; }
-      .topics .featured .summary .meta li {
-        display: inline-block;
-        vertical-align: middle;
-        *vertical-align: auto;
-        *zoom: 1;
-        *display: inline; }
-        .topics .featured .summary .meta li:before {
-          content: '\007C';
-          margin: 0 1em 0 .75em; }
-        .topics .featured .summary .meta li:first-child:before {
-          display: none; }
-  .topics .featured i {
-    margin-right: .25em; }
-    .topics .featured i img {
-      margin-bottom: -2px; }
+      .topics .featured {
+        float: left;
+        width: 48.75%; } }
+    @media screen and (min-width: 62.5em) {
+      .topics .featured {
+        float: left;
+        width: 63.33%; } }
+    .topics .featured figure {
+      position: relative;
+      overflow: hidden;
+      height: 270px;
+      background-color: #303040; }
+      .topics .featured figure img {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+        opacity: 0.5;
+        position: absolute;
+        left: 50%;
+        margin-left: -270px;
+        width: 540px;
+        max-width: none; }
+      @media screen and (min-width: 37.5em) {
+        .topics .featured figure {
+          height: 360px; }
+          .topics .featured figure img {
+            width: 720px;
+            margin-left: -360px; } }
+      @media screen and (min-width: 50em) {
+        .topics .featured figure {
+          height: 405px; }
+          .topics .featured figure img {
+            width: 720px;
+            margin-left: -360px; } }
+    .topics .featured .summary {
+      background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMDMwNDAiIHN0b3Atb3BhY2l0eT0iMC43NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+      background-size: 100%;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(48, 48, 64, 0.75)));
+      background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
+      background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
+      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0 2em 1em;
+      color: #fff; }
+      @media screen and (min-width: 37.5em) {
+        .topics .featured .summary {
+          padding: 0 3em 1.5em; } }
+      .topics .featured .summary h3 {
+        margin: .5em 0; }
+      .topics .featured .summary .meta {
+        font-size: 14px;
+        font-size: 1.4rem;
+        list-style: none;
+        margin: 1.5em 0 0; }
+        .topics .featured .summary .meta li {
+          display: inline-block;
+          vertical-align: middle;
+          *vertical-align: auto;
+          *zoom: 1;
+          *display: inline; }
+          .topics .featured .summary .meta li:before {
+            content: '\007C';
+            margin: 0 1em 0 .75em; }
+          .topics .featured .summary .meta li:first-child:before {
+            display: none; }
+    .topics .featured i {
+      margin-right: .25em; }
+      .topics .featured i img {
+        margin-bottom: -2px; }
 
 .recent-topics {
   margin-bottom: 0 0 15px; }
@@ -1072,7 +1159,7 @@ body {
 
 section.films {
   padding-top: 6em;
-  background-color: #f0f0ed; }
+  background-color: #fff; }
 
 .recent-films {
   width: 105%;
@@ -1120,7 +1207,7 @@ section.films .button {
   -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
   box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
   overflow: hidden;
-  background-color: #1f5466; }
+  background-color: #303040; }
 #page .main article {
   padding: 1.5em;
   background-color: #fff; }
@@ -1140,7 +1227,7 @@ section.films .button {
 #page .main header {
   margin-bottom: 1.5em;
   padding: 1.5em 0;
-  border-bottom: 1px solid #f0f0ed; }
+  border-bottom: 1px solid #d9d9d1; }
   @media screen and (min-width: 37.5em) {
     #page .main header {
       margin-bottom: 3em;
@@ -1194,66 +1281,67 @@ section.films .button {
 /**************************************************
  THOUGHTS PAGE STYLES
 **************************************************/
-#thoughts .main {
-  padding-top: 3em; }
-  #thoughts .main .inner {
-    max-width: 720px; }
-  #thoughts .main article {
-    -moz-border-radius: 0.3rem;
-    -webkit-border-radius: 0.3rem;
-    border-radius: 0.3rem;
-    -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
-    -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
-    box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
-    overflow: hidden;
-    margin-bottom: 3em;
-    background-color: #fff; }
-    @media screen and (min-width: 50em) {
-      #thoughts .main article {
-        margin-bottom: 4.5em; } }
-  #thoughts .main .summary {
-    padding: 1.5em; }
-    @media screen and (min-width: 37.5em) {
-      #thoughts .main .summary {
-        padding: 3em; } }
-    #thoughts .main .summary h2 {
-      margin: 0 0 .5em; }
-  #thoughts .main footer {
-    padding: 1.5em 2em;
-    background-color: #732d55;
-    text-align: right; }
-    @media screen and (min-width: 37.5em) {
-      #thoughts .main footer {
-        padding-left: 3em;
-        padding-right: 3em; } }
-    #thoughts .main footer p {
-      margin: 0;
+.thoughts-feed .inner {
+  max-width: 720px; }
+.thoughts-feed article {
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+  overflow: hidden;
+  margin-bottom: 3em;
+  background-color: #fff; }
+  @media screen and (min-width: 50em) {
+    .thoughts-feed article {
+      margin-bottom: 4.5em; } }
+.thoughts-feed h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 1em 1.5em;
+  background-color: #732d55;
+  color: #fff; }
+.thoughts-feed .summary {
+  padding: 1.5em; }
+  @media screen and (min-width: 37.5em) {
+    .thoughts-feed .summary {
+      padding: 3em; } }
+  .thoughts-feed .summary h2 {
+    margin: 0 0 .5em; }
+.thoughts-feed footer {
+  padding: 1em 2em;
+  background-color: #f0f0ed;
+  text-align: right; }
+  @media screen and (min-width: 37.5em) {
+    .thoughts-feed footer {
+      padding-left: 3em;
+      padding-right: 3em; } }
+  .thoughts-feed footer p {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 0;
+    color: #d9d9d1; }
+  .thoughts-feed footer span {
+    margin: .5em; }
+  .thoughts-feed footer a {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    *zoom: 1;
+    *display: inline;
+    color: #732d55; }
+    .thoughts-feed footer a svg {
+      fill: #732d55; }
+    .thoughts-feed footer a:hover, .thoughts-feed footer a:focus {
       color: #4e1f3a; }
-    #thoughts .main footer a {
-      color: #fff; }
-      #thoughts .main footer a svg {
-        fill: #fff; }
-      #thoughts .main footer a:hover, #thoughts .main footer a:focus {
-        color: #d696bb; }
-        #thoughts .main footer a:hover svg, #thoughts .main footer a:focus svg {
-          fill: #d696bb; }
-    #thoughts .main footer svg {
-      display: inline-block;
-      vertical-align: middle;
-      *vertical-align: auto;
-      *zoom: 1;
-      *display: inline;
-      height: 1em;
-      width: 1em;
-      margin-right: .25em; }
-    #thoughts .main footer span {
-      margin: .5em; }
-  #thoughts .main .qanda {
-    padding-top: 1em; }
-    @media screen and (min-width: 37.5em) {
-      #thoughts .main .qanda h2 {
-        font-size: 36px;
-        font-size: 3.6rem; } }
+      .thoughts-feed footer a:hover svg, .thoughts-feed footer a:focus svg {
+        fill: #4e1f3a; }
+@media screen and (min-width: 37.5em) {
+  .thoughts-feed .qanda h2 {
+    font-size: 36px;
+    font-size: 3.6rem; } }
 
 /**************************************************
  FEATURES PAGE STYLES
@@ -1292,13 +1380,13 @@ section.films .button {
 #features .main .question {
   margin-bottom: 3em;
   padding-bottom: 3em;
-  border-bottom: 1px solid #f0f0ed; }
+  border-bottom: 1px solid #d9d9d1; }
   #features .main .question h1 {
     margin: 0; }
 #features .main .meta {
   margin-bottom: 3em;
   padding-bottom: 1.5em;
-  border-bottom: 1px solid #f0f0ed; }
+  border-bottom: 1px solid #d9d9d1; }
   #features .main .meta h1 {
     margin: 0 0 .25em; }
   #features .main .meta p {
@@ -1308,7 +1396,7 @@ section.films .button {
 #features .main aside {
   margin-bottom: 6em;
   padding-top: 1.5em;
-  border-top: 1px solid #f0f0ed; }
+  border-top: 1px solid #d9d9d1; }
   @media screen and (min-width: 37.5em) {
     #features .main aside {
       float: right;
@@ -1353,13 +1441,13 @@ section.films .button {
 
 .related {
   padding-top: 3em;
-  border-top: 1px solid #f0f0ed; }
+  border-top: 1px solid #d9d9d1; }
   .related ul {
     list-style: none;
     margin: 1em 0 0; }
   .related li {
     margin-bottom: 10px;
-    border: 1px solid #f0f0ed; }
+    border: 1px solid #d9d9d1; }
   .related a {
     display: block;
     padding: 1em 1.5em .25em; }
@@ -1375,91 +1463,38 @@ section.films .button {
 /**************************************************
  FILM LIST PAGE STYLES
 **************************************************/
-.recent-topics, .recent-films, #films .main ol, #film .related-films ul {
-  list-style: none;
-  margin: 0; }
-  .recent-topics li, .recent-films li, #films .main ol li, #film .related-films ul li {
-    font-size: 10px;
-    font-size: 1rem; }
-    .recent-topics li a, .recent-films li a, #films .main ol li a, #film .related-films ul li a {
-      -moz-border-radius: 0.3rem;
-      -webkit-border-radius: 0.3rem;
-      border-radius: 0.3rem;
-      -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
-      -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
-      box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
-      display: block;
-      overflow: hidden;
-      background-color: #fff; }
-      .recent-topics li a:hover h5, .recent-films li a:hover h5, #films .main ol li a:hover h5, #film .related-films ul li a:hover h5, .recent-topics li a:focus h5, .recent-films li a:focus h5, #films .main ol li a:focus h5, #film .related-films ul li a:focus h5 {
-        color: #2d9099; }
-      .recent-topics li a:hover p, .recent-films li a:hover p, #films .main ol li a:hover p, #film .related-films ul li a:hover p, .recent-topics li a:focus p, .recent-films li a:focus p, #films .main ol li a:focus p, #film .related-films ul li a:focus p {
-        color: #2d9099; }
-      .recent-topics li a:hover svg, .recent-films li a:hover svg, #films .main ol li a:hover svg, #film .related-films ul li a:hover svg, .recent-topics li a:focus svg, .recent-films li a:focus svg, #films .main ol li a:focus svg, #film .related-films ul li a:focus svg {
-        fill: #2d9099; }
-      .recent-topics li a:hover figure img, .recent-films li a:hover figure img, #films .main ol li a:hover figure img, #film .related-films ul li a:hover figure img, .recent-topics li a:focus figure img, .recent-films li a:focus figure img, #films .main ol li a:focus figure img, #film .related-films ul li a:focus figure img {
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-        opacity: 0.5; }
-    .recent-topics li figure, .recent-films li figure, #films .main ol li figure, #film .related-films ul li figure {
-      background-color: #2d9099; }
-    .recent-topics li .details, .recent-films li .details, #films .main ol li .details, #film .related-films ul li .details {
-      padding: 1em 1.5em; }
-    .recent-topics li h5, .recent-films li h5, #films .main ol li h5, #film .related-films ul li h5 {
-      overflow: hidden;
-      margin: 0;
-      padding: .125em 0;
-      white-space: nowrap;
-      text-overflow: ellipsis; }
-    .recent-topics li p, .recent-films li p, #films .main ol li p, #film .related-films ul li p {
-      font-size: 14px;
-      font-size: 1.4rem;
-      margin: 0;
-      color: #732d55; }
-    .recent-topics li svg, .recent-films li svg, #films .main ol li svg, #film .related-films ul li svg {
-      display: inline-block;
-      vertical-align: middle;
-      *vertical-align: auto;
-      *zoom: 1;
-      *display: inline;
-      height: 1em;
-      width: 1em;
-      margin-right: .25em;
-      fill: #732d55; }
-
-#films .main {
-  padding-top: 4em; }
-  #films .main .content {
-    max-width: 900px; }
-  #films .main ol {
-    width: 105%;
-    margin: 0 0 15px -5%; }
-    @media screen and (min-width: 37.5em) {
-      #films .main ol {
-        width: 103.33%;
-        margin-left: -3.33%; } }
-    @media screen and (min-width: 37.5em) {
-      #films .main ol {
-        width: 102.5%;
-        margin-left: -2.5%; } }
-  #films .main li {
-    float: left;
-    width: 45%;
-    margin: 0 0 5% 5%; }
-    @media screen and (min-width: 37.5em) {
-      #films .main li {
-        width: 30%;
-        margin-left: 3.33%;
-        margin-bottom: 3.33%; } }
-    @media screen and (min-width: 50em) {
-      #films .main li {
-        width: 22.5%;
-        margin-left: 2.5%;
-        margin-bottom: 2.5%; } }
+.films-list .inner {
+  max-width: 900px; }
+.films-list ol {
+  width: 105%;
+  margin: 0 0 15px -5%; }
+  @media screen and (min-width: 37.5em) {
+    .films-list ol {
+      width: 103.33%;
+      margin-left: -3.33%; } }
+  @media screen and (min-width: 37.5em) {
+    .films-list ol {
+      width: 102.5%;
+      margin-left: -2.5%; } }
+.films-list li {
+  float: left;
+  width: 45%;
+  margin: 0 0 5% 5%; }
+  @media screen and (min-width: 37.5em) {
+    .films-list li {
+      width: 30%;
+      margin-left: 3.33%;
+      margin-bottom: 3.33%; } }
+  @media screen and (min-width: 50em) {
+    .films-list li {
+      width: 22.5%;
+      margin-left: 2.5%;
+      margin-bottom: 2.5%; } }
 
 /**************************************************
  FILM PAGE STYLES
 **************************************************/
-#film .main .content {
+.media-article {
   -moz-border-radius: 0.3rem;
   -webkit-border-radius: 0.3rem;
   border-radius: 0.3rem;
@@ -1468,183 +1503,229 @@ section.films .button {
   box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
   overflow: hidden;
   background-color: #303040; }
-#film .main header {
-  padding: 1.5em;
-  background-color: #fff; }
-  @media screen and (min-width: 37.5em) {
-    #film .main header {
-      float: right;
-      width: 70%;
-      padding: 3em;
-      border-bottom: 1px solid #f0f0ed; } }
-  #film .main header h1 {
-    margin: 0; }
-#film .main .article-body {
-  background-color: #fff; }
-  @media screen and (min-width: 37.5em) {
-    #film .main .article-body {
-      float: right;
-      width: 70%; } }
-#film .main article {
-  padding: 1.5em; }
-  @media screen and (min-width: 37.5em) {
-    #film .main article {
-      padding: 3em; } }
-@media screen and (min-width: 37.5em) {
-  #film .main aside {
-    float: left;
-    width: 30%; } }
-#film .questions,
-#film .related-links,
-#film .submit-question {
-  overflow: hidden;
-  padding: 1.5em; }
-  @media screen and (min-width: 37.5em) {
-    #film .questions,
-    #film .related-links,
-    #film .submit-question {
-      padding: 3em; } }
-#film .questions ol,
-#film .related-links ol {
-  list-style: none;
-  margin: 0; }
-#film .questions li,
-#film .related-links li {
-  margin: 1em 0 0; }
-  #film .questions li a,
-  #film .related-links li a {
-    display: block;
-    padding: 1em 1.5em .5em;
-    border: 1px solid #f0f0ed; }
-  #film .questions li h3,
-  #film .related-links li h3 {
-    margin: 0 0 .5em; }
-#film .questions {
-  background-color: #918a98; }
-  #film .questions li p {
-    font-size: 14px;
-    font-size: 1.4rem;
-    margin: 0; }
-    #film .questions li p img {
-      width: 12px; }
-#film .related-links ul {
-  list-style: none;
-  margin: 0; }
-  @media screen and (min-width: 50em) {
-    #film .related-links ul {
-      width: 102.5%;
-      margin-left: -2.5%; } }
-@media screen and (min-width: 50em) {
-  #film .related-links li {
-    float: left;
-    width: 47.5%;
-    margin: 0 0 2.5% 2.5%; } }
-#film .related-links li a {
-  display: block;
-  padding: 1em 1.5em; }
-#film .related-links li h3 {
-  font-size: 14px;
-  font-size: 1.4rem; }
-#film .related-links li p {
-  font-size: 11px;
-  font-size: 1.1rem;
-  margin: 0; }
-  #film .related-links li p img {
-    width: 12px; }
-#film .submit-question {
-  background-color: #732d55; }
-  #film .submit-question h2 {
-    margin: 0 0 .5em;
-    color: #fff; }
-  #film .submit-question p {
-    color: #fff; }
-  #film .submit-question form {
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding: 0;
-    background-color: transparent; }
-  #film .submit-question input[type="submit"] {
-    margin-top: 0; }
-    @media screen and (min-width: 37.5em) {
-      #film .submit-question input[type="submit"] {
-        width: 50%; } }
-#film .related-films {
-  padding: 1.5em; }
-  #film .related-films h4 {
-    color: #fff;
-    text-transform: uppercase; }
-  #film .related-films ul {
-    width: 105%;
-    margin: 0 0 0 -5%; }
-    @media screen and (min-width: 37.5em) {
-      #film .related-films ul {
-        width: auto;
-        margin-left: 0; } }
+  .media-article header {
+    padding: 1.5em;
+    background-color: #fff; }
+    @media screen and (min-width: 50em) {
+      .media-article header {
+        float: right;
+        width: 70%;
+        padding: 3em;
+        border-bottom: 1px solid #d9d9d1; } }
     @media screen and (min-width: 62.5em) {
-      #film .related-films ul {
-        width: 105%;
-        margin-left: -5%; } }
-    #film .related-films ul li {
-      float: left;
-      width: 45%;
-      margin: 0 0 5% 5%; }
-      @media screen and (min-width: 37.5em) {
-        #film .related-films ul li {
-          float: none;
-          width: auto;
-          margin: 0 0 1.5em 0; }
-          #film .related-films ul li:nth-child(n+3) {
-            display: none; } }
-      @media screen and (min-width: 62.5em) {
-        #film .related-films ul li {
-          float: left;
-          width: 45%;
-          margin: 0 0 5% 5%; }
-          #film .related-films ul li:nth-child(n+3) {
-            display: block; } }
-      #film .related-films ul li .summary {
-        padding: 1em 1.5em; }
-        @media screen and (min-width: 62.5em) {
-          #film .related-films ul li .summary {
-            padding: .5em 1em; }
-            #film .related-films ul li .summary h4 {
-              font-size: 14px;
-              font-size: 1.4rem; } }
-
-.film-details {
-  overflow: hidden;
-  background-color: #f0f0ed; }
-  @media screen and (min-width: 37.5em) {
-    .film-details {
+      .media-article header {
+        width: 75%; } }
+    .media-article header h1 {
+      margin: 0; }
+  @media screen and (min-width: 50em) {
+    .media-article aside {
       float: left;
       width: 30%; } }
-  .film-details figure {
-    float: left;
-    width: 25%; }
+  @media screen and (min-width: 62.5em) {
+    .media-article aside {
+      width: 25%; } }
+  .media-article aside.meta-details {
+    overflow: hidden;
+    background-color: #f0f0ed; }
+    .media-article aside.meta-details figure {
+      background-color: #918a98; }
+      @media screen and (min-width: 37.5em) {
+        .media-article aside.meta-details figure {
+          float: left;
+          width: 25%; } }
+      @media screen and (min-width: 50em) {
+        .media-article aside.meta-details figure {
+          float: none;
+          width: auto; } }
+      .media-article aside.meta-details figure img {
+        display: block;
+        width: auto;
+        margin: 0 auto; }
+    .media-article aside.meta-details ul {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      @media screen and (min-width: 37.5em) {
+        .media-article aside.meta-details ul {
+          margin-left: 25%; } }
+      @media screen and (min-width: 50em) {
+        .media-article aside.meta-details ul {
+          margin-left: 0; } }
+    .media-article aside.meta-details li {
+      font-size: 12px;
+      font-size: 1.2rem;
+      margin: 0;
+      padding: 1em;
+      border-top: 1px solid #d9d9d1; }
+      .media-article aside.meta-details li:first-child {
+        border-top: none; }
+      @media screen and (min-width: 37.5em) {
+        .media-article aside.meta-details li {
+          font-size: 14px;
+          font-size: 1.4rem; } }
+      @media screen and (min-width: 50em) {
+        .media-article aside.meta-details li {
+          font-size: 12px;
+          font-size: 1.2rem; } }
+  .media-article .article-body {
+    background-color: #fff; }
+    @media screen and (min-width: 50em) {
+      .media-article .article-body {
+        float: right;
+        width: 70%; } }
+    @media screen and (min-width: 62.5em) {
+      .media-article .article-body {
+        width: 75%; } }
+  .media-article article {
+    padding: 1.5em; }
     @media screen and (min-width: 37.5em) {
-      .film-details figure {
-        float: none;
-        width: auto; } }
-  .film-details ul {
+      .media-article article {
+        padding: 3em; } }
+  .media-article .questions,
+  .media-article .related-links,
+  .media-article .submit-question {
+    overflow: hidden;
+    padding: 3em 1.5em; }
+    @media screen and (min-width: 37.5em) {
+      .media-article .questions,
+      .media-article .related-links,
+      .media-article .submit-question {
+        padding: 3em; } }
+    .media-article .questions h2,
+    .media-article .related-links h2,
+    .media-article .submit-question h2 {
+      margin: 0 0 1em; }
+  .media-article .questions ul,
+  .media-article .related-links ul {
     list-style: none;
-    margin: 0 0 0 25%;
-    padding: 1em 0; }
-    @media screen and (min-width: 37.5em) {
-      .film-details ul {
-        margin-left: 0; } }
-  .film-details li {
-    font-size: 12px;
-    font-size: 1.2rem;
-    margin: 0;
-    padding: .5em 1em; }
-    @media screen and (min-width: 37.5em) {
-      .film-details li {
+    margin: 0; }
+  .media-article .questions h2,
+  .media-article .submit-question h2 {
+    color: #fff; }
+  .media-article .questions {
+    background-color: #918a98; }
+    .media-article .questions li {
+      font-size: 10px;
+      font-size: 1rem;
+      margin: 1em 0 0; }
+      .media-article .questions li h3 {
+        margin: 0 0 .25em;
+        line-height: 1.2; }
+      .media-article .questions li p {
         font-size: 14px;
-        font-size: 1.4rem; } }
+        font-size: 1.4rem;
+        margin: 0; }
+      .media-article .questions li h3, .media-article .questions li p {
+        color: #732d55; }
+      .media-article .questions li svg {
+        fill: #732d55; }
+      .media-article .questions li a {
+        -moz-border-radius: 0.3rem;
+        -webkit-border-radius: 0.3rem;
+        border-radius: 0.3rem;
+        display: block;
+        padding: 1.5em;
+        background-color: #fff; }
+        .media-article .questions li a:hover, .media-article .questions li a:focus {
+          background-color: #fafdfe; }
+          .media-article .questions li a:hover h3, .media-article .questions li a:hover p, .media-article .questions li a:focus h3, .media-article .questions li a:focus p {
+            color: #2d9099; }
+          .media-article .questions li a:hover svg, .media-article .questions li a:focus svg {
+            fill: #2d9099; }
+  .media-article .related-links {
+    background-color: #f0f0ed; }
+    @media screen and (min-width: 37.5em) {
+      .media-article .related-links ul {
+        width: 102%;
+        margin-left: -2%; } }
+    .media-article .related-links li {
+      font-size: 10px;
+      font-size: 1rem;
+      margin: 1em 0 0; }
+      @media screen and (min-width: 37.5em) {
+        .media-article .related-links li {
+          float: left;
+          width: 48%;
+          margin: 0 0 2% 2%; }
+          .media-article .related-links li:nth-child(odd) {
+            clear: left; } }
+      .media-article .related-links li h5 {
+        margin: .25em 0 .75em;
+        color: #732d55; }
+      .media-article .related-links li p {
+        font-size: 12px;
+        font-size: 1.2rem;
+        margin: 0;
+        color: #303040; }
+      .media-article .related-links li a {
+        -moz-border-radius: 0.3rem;
+        -webkit-border-radius: 0.3rem;
+        border-radius: 0.3rem;
+        display: block;
+        padding: 1.5em;
+        background-color: #fff;
+        border: 1px solid #d9d9d1; }
+        .media-article .related-links li a:hover, .media-article .related-links li a:focus {
+          background-color: #fafdfe;
+          border-color: #2d9099; }
+          .media-article .related-links li a:hover h5, .media-article .related-links li a:hover p, .media-article .related-links li a:focus h5, .media-article .related-links li a:focus p {
+            color: #2d9099; }
+  .media-article .submit-question {
+    background-color: #732d55; }
+    @media screen and (min-width: 50em) {
+      .media-article .submit-question {
+        padding-bottom: 6em; } }
+    .media-article .submit-question p {
+      color: #fff; }
+    .media-article .submit-question form {
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 1em 0;
+      background-color: transparent; }
+    .media-article .submit-question textarea {
+      border: none; }
+    .media-article .submit-question input[type="submit"] {
+      margin-top: 0; }
+      @media screen and (min-width: 50em) {
+        .media-article .submit-question input[type="submit"] {
+          width: 50%; } }
+  .media-article .related-films {
+    padding: 3em 1.5em; }
+    @media screen and (min-width: 37.5em) {
+      .media-article .related-films {
+        padding: 3em; } }
+    .media-article .related-films h4 {
+      margin: 0 0 1em;
+      color: #fff;
+      text-transform: uppercase; }
+    .media-article .related-films ul {
+      width: 105%;
+      margin: 0 0 0 -5%; }
+      @media screen and (min-width: 50em) {
+        .media-article .related-films ul {
+          width: auto;
+          margin-left: 0; } }
+      .media-article .related-films ul li {
+        float: left;
+        width: 45%;
+        margin: 0 0 5% 5%; }
+        @media screen and (min-width: 50em) {
+          .media-article .related-films ul li {
+            float: none;
+            width: auto;
+            margin: 0 0 1.5em 0; } }
+        .media-article .related-films ul li .summary {
+          padding: 1em 1.5em; }
+          @media screen and (min-width: 62.5em) {
+            .media-article .related-films ul li .summary {
+              padding: .5em 1em; }
+              .media-article .related-films ul li .summary h4 {
+                font-size: 14px;
+                font-size: 1.4rem; } }
 
 /**************************************************
  USER PAGE STYLES

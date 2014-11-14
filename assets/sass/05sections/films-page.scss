@@ -2,172 +2,214 @@
  FILM PAGE STYLES
 **************************************************/
 
-#film {
-  .main {
-    .content {
-      @include border-radius;
-      @include box-shadow;
+.media-article {
+  @include border-radius;
+  @include box-shadow;
+  overflow: hidden;
+  background-color: $module-aside-bg;
+  header {
+    padding: 1.5em;
+    background-color: $module-bg;
+    @include break-up($medium){
+      @include float(right);
+      width: 70%;
+      padding: 3em;
+      border-bottom: 1px solid $border-color;
+    }
+    @include break-up($large){width:75%}
+    h1 {
+      margin: 0;
+    }
+  }
+  aside {
+    @include break-up($medium){
+      @include float;
+      width: 30%;
+    }
+    @include break-up($large){width:25%}
+    &.meta-details {
       overflow: hidden;
-      background-color: $black;
-    }
-    header {
-      padding: 1.5em;
-      background-color: $module-bg;
-      @include break-up($small){
-        @include float(right);
-        width: 70%;
-        padding: 3em;
-        border-bottom: 1px solid $border-color;
+      background-color: $media-meta-details-bg;
+      figure {
+        background-color: $media-cover-bg;
+        @include break-up($small){
+          @include float;
+          width: 25%;
+        }
+        @include break-up($medium){
+          @include reset-float;
+          width: auto;
+        }
+        img {
+          display: block;
+          width: auto;
+          margin: 0 auto;
+        }
       }
-      h1 {
+      ul {
+        list-style: none;
         margin: 0;
+        padding: 0;
+        @include break-up($small){margin-left:25%}
+        @include break-up($medium){margin-left:0}
       }
-    }
-    .article-body {
-      background-color: $module-bg;
-      @include break-up($small){
-        @include float(right);
-        width: 70%;
-      }
-    }
-    article {
-      padding: 1.5em;
-      @include break-up($small){
-        padding: 3em;
-      }
-    }
-    aside {
-      @include break-up($small){
-        @include float;
-        width: 30%;
+      li {
+        @include font-size(12);
+        margin: 0;
+        padding: 1em;
+        border-top: 1px solid $border-color;
+        &:first-child{border-top:none}
+        @include break-up($small){@include font-size(14)}
+        @include break-up($medium){@include font-size(12)}
       }
     }
   }
-  .questions, 
-  .related-links,
-  .submit-question {
-    overflow: hidden;
+  .article-body {
+    background-color: $module-bg;
+    @include break-up($medium){
+      @include float(right);
+      width: 70%;
+    }
+    @include break-up($large){width:75%}
+  }
+  article {
     padding: 1.5em;
     @include break-up($small){
       padding: 3em;
     }
   }
   .questions, 
-  .related-links {
-    ol {
-      list-style: none;
-      margin: 0;
-    }
-    li {
-      margin: 1em 0 0;
-      a {
-        display: block;
-        padding: 1em 1.5em .5em;
-        border: 1px solid $border-color;
-      }
-      h3 {
-        margin: 0 0 .5em;
-      }
-    }
+  .related-links,
+  .submit-question {
+    overflow: hidden;
+    padding: 3em 1.5em;
+    @include break-up($small){padding:3em}
+    h2 {margin:0 0 1em}
+  }
+  .questions,
+  .related-links{
+    ul{list-style:none;margin:0}
+  }
+  .questions,
+  .submit-question {
+    h2 {color:$media-subsection-headline}
   }
   .questions {
-    background-color: $lt-gray;
+    background-color: $related-qanda-bg;
     li {
+      @include font-size(10);
+      margin: 1em 0 0;
+      h3 {
+        margin:0 0 .25em;
+        line-height: 1.2;
+      }
       p {
         @include font-size(14);
         margin: 0;
-        img {
-          width: 12px;
+      }
+      h3,p{color:$media-link-block-text}
+      svg {fill:$media-link-block-text}
+      a {
+        @include border-radius;
+        display: block;
+        padding: 1.5em;
+        background-color: $media-link-block-bg;
+        &:hover,
+        &:focus {
+          background-color: $media-link-block-hover-bg;
+          h3,p{color:$media-link-block-hover}
+          svg{fill:$media-link-block-hover}
         }
       }
     }
   }
   .related-links {
+    background-color: $related-links-bg;
     ul {
-      list-style: none;
-      margin: 0;
-      @include break-up($medium){
-        width: 102.5%;
-        margin-left: -2.5%;
+      @include break-up($small){
+        width: 102%;
+        margin-left: -2%;
       }
     }
     li {
-      @include break-up($medium){
+      @include font-size(10);
+      margin: 1em 0 0;
+      @include break-up($small){
         @include float;
-        width: 47.5%;
-        margin: 0 0 2.5% 2.5%;
+        width: 48%;
+        margin: 0 0 2% 2%;
+        &:nth-child(odd){clear:left}
       }
-      a {
-        display: block;
-        padding: 1em 1.5em;
-      }
-      h3 {
-        @include font-size(14);
+      h5 {
+        margin: .25em 0 .75em;
+        color: $media-link-block-text;
       }
       p {
-        @include font-size(11);
+        @include font-size(12);
         margin: 0;
-        img {
-          width: 12px;
+        color: $body-text;
+      }
+      a {
+        @include border-radius;
+        display: block;
+        padding: 1.5em;
+        background-color: $media-link-block-bg;
+        border: 1px solid $border-color;
+        &:hover,
+        &:focus {
+          background-color: $media-link-block-hover-bg;
+          border-color: $media-link-block-hover;
+          h5,p{color:$media-link-block-hover}
         }
       }
     }
   }
   .submit-question {
-    background-color: $purple;
-    h2 {
-      margin: 0 0 .5em;
-      color: $white;
-    }
-    p {
-      color: $white;
-    }
+    background-color: $submit-question-bg;
+    @include break-up($medium){padding-bottom:6em}
+    p {color:$white}
     form {
       @include border-radius(0);
       @include box-shadow(none);
-      padding: 0;
+      padding: 1em 0;
       background-color: transparent;
+    }
+    textarea {
+      border: none;
     }
     input[type="submit"]{
       margin-top: 0;
-      @include break-up($small){
+      @include break-up($medium){
         width: 50%;
       }
     }
   }
   .related-films {
-    padding: 1.5em;
+    padding: 3em 1.5em;
+    @include break-up($small){
+      padding: 3em;
+    }
     h4 {
-      color: $white;
+      margin: 0 0 1em;
+      color: $module-aside-text;
       text-transform: uppercase;
     }
     ul {
       @extend %card-styles;
       width: 105%;
       margin: 0 0 0 -5%;
-      @include break-up($small){
+      @include break-up($medium){
         width: auto;
         margin-left: 0;
-      }
-      @include break-up($large){
-        width: 105%;
-        margin-left: -5%;
       }
       li {
         @include float;
         width: 45%;
         margin: 0 0 5% 5%;
-        @include break-up($small){
+        @include break-up($medium){
           float: none;
           width: auto;
           margin: 0 0 1.5em 0;
-          &:nth-child(n+3){display:none}
-        }
-        @include break-up($large){
-          @include float;
-          width: 45%;
-          margin: 0 0 5% 5%;
-          &:nth-child(n+3){display:block}
         }
         .summary {
           padding: 1em 1.5em;
@@ -179,39 +221,6 @@
           }
         }
       }
-    }
-  }
-}
-
-.film-details {
-  overflow: hidden;
-  background-color: $x-lt-gray;
-  @include break-up($small){
-    @include float;
-    width: 30%;
-  }
-  figure {
-    @include float;
-    width: 25%;
-    @include break-up($small){
-      @include reset-float;
-      width: auto;
-    }
-  }
-  ul {
-    list-style: none;
-    margin: 0 0 0 25%;
-    padding: 1em 0;
-    @include break-up($small){
-      margin-left: 0;
-    }
-  }
-  li {
-    @include font-size(12);
-    margin: 0;
-    padding: .5em 1em;
-    @include break-up($small){
-      @include font-size(14);
     }
   }
 }

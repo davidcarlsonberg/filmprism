@@ -1,7 +1,7 @@
 <li>
-  <a href="film.php">
+  <a href="films-page.php">
     <figure>
-      <img src="http://placehold.it/210x270.jpg" />
+      <img src="assets/img/graphics/placeholder-cover-01.png" />
     </figure>
     <div class="details">
       <h5>Film Title</h5>

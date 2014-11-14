@@ -9,7 +9,7 @@
   <p>Filter by Category <a href="features.php">Q &amp; A</a> <a href="features.php">Articles</a></p>
 </section>
 
-<section class="main">
+<section class="main thoughts-feed">
   <div class="inner">
     <?php
       include '_partials/article-card.php';

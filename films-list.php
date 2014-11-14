@@ -1,6 +1,6 @@
 <?php
   $pageTitle = 'Films | Film Prism';
-  $bodyId = 'films';
+  $bodyId = 'media';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
@@ -9,9 +9,9 @@
   <p>Sort by <a href="films.php">Release Date</a> <a href="films.php">Title</a></p>
 </section>
 
-<section class="main">
-  <div class="content">
-    <ol class="films-list">
+<section class="main films-list">
+  <div class="inner">
+    <ol>
       <?php
         include '_partials/film-card.php';
         include '_partials/film-card.php';

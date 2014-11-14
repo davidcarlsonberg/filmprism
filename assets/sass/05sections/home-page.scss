@@ -3,8 +3,17 @@
 **************************************************/
 
 .topics {
+  background-color: $black;
+  padding-bottom: 4em;
+  @include break-up($medium){
+    padding-top: $fixed-top-padding;
+  }
   .inner {
+    @extend %clearfix;
     position: relative;
+  }
+  h4 {
+    margin: 0 0 1em;
   }
   .title {
     span {
@@ -161,7 +170,7 @@
 
 section.films {
   padding-top: 6em;
-  background-color: $x-lt-gray;
+  background-color: $white;
 }
 
 .recent-films {

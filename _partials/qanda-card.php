@@ -1,4 +1,5 @@
 <article class="qanda">
+  <h6>Q &amp; A</h6>
   <div class="summary">
     <h2>Q: <a href="q-and-a.php">This is the question?</a></h2>
     <p>Phasellus malesuada turpis scelerisque dui elementum auctor. Phasellus eu ipsum sodales, posuere erat ac, consectetur odio. Aliquam fermentum blandit justo varius fringilla. Vestibulum tristique leo magna, sodales congue sapien dictum nec.</p>

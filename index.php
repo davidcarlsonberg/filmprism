@@ -7,7 +7,9 @@
 
 <section class="topics">
   <div class="inner">
-    <h4 class="title">Features</h4>
+    <header>
+      <h4>Features</h4>
+    </header>
     <article class="featured">
       <a href="q-and-a.php">
         <figure>

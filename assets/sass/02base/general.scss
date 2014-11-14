@@ -46,4 +46,10 @@ section {
 
 svg {
   @extend %transition;
+  p & {
+    @include inline-block;
+    height: 1em;
+    width: 1em;
+    margin-right: .25em;
+  }
 }

@@ -2,65 +2,58 @@
  THOUGHTS PAGE STYLES
 **************************************************/
 
-#thoughts {
-  .main {
-    padding-top: 3em;
-    .inner {
-      max-width: 720px;
+.thoughts-feed {
+  @extend %filters-main;
+  .inner{max-width:720px}
+  article {
+    @include border-radius;
+    @include box-shadow;
+    overflow: hidden;
+    margin-bottom: 3em;
+    background-color: $module-bg;
+    @include break-up($medium){margin-bottom:4.5em}
+  }
+  h6 {
+    @include font-size(14);
+    margin: 0;
+    padding: 1em 1.5em;
+    background-color: $module-header-bg;
+    color: $module-header-text;
+  }
+  .summary {
+    padding: 1.5em;
+    @include break-up($small){padding:3em}
+    h2{margin:0 0 .5em}
+  }
+  footer {
+    padding: 1em 2em;
+    background-color: $module-footer-bg;
+    text-align: right;
+    @include break-up($small){
+      padding-left: 3em;
+      padding-right: 3em;
     }
-    article {
-      @include border-radius;
-      @include box-shadow;
-      overflow: hidden;
-      margin-bottom: 3em;
-      background-color: $module-bg;
-      @include break-up($medium){margin-bottom:4.5em}
+    p {
+      @include font-size(14);
+      margin: 0;
+      color: darken($module-footer-bg, 10%);
     }
-    .summary {
-      padding: 1.5em;
-      @include break-up($small){padding:3em}
-      h2 {
-        margin: 0 0 .5em;
+    span{margin:.5em}
+    a {
+      @include inline-block;
+      color: $module-footer-link;
+      svg {fill:$module-footer-link}
+      &:hover, 
+      &:focus {
+        color: $module-footer-hover;
+        svg {fill:$module-footer-hover}
       }
     }
-    footer {
-      padding: 1.5em 2em;
-      background-color: $module-footer-bg;
-      text-align: right;
+  }
+  .qanda {
+    h2 {
       @include break-up($small){
-        padding-left: 3em;
-        padding-right: 3em;
-      }
-      p {
-        margin: 0;
-        color: darken($module-footer-bg, 10%);
-      }
-      a {
-        color: $module-footer-link;
-        svg {fill:$module-footer-link}
-        &:hover, 
-        &:focus {
-          color: $module-footer-hover;
-          svg {fill:$module-footer-hover}
-        }
-      }
-      svg {
-        @extend %transition;
-        @include inline-block;
-        height: 1em;
-        width: 1em;
-        margin-right: .25em;
-      }
-      span {
-        margin: .5em;
-      }
-    }
-    .qanda {
-      padding-top: 1em;
-      h2 {
-        @include break-up($small){
-          @include font-size(36);
-        }
+        @include font-size(36);
       }
     }
   }

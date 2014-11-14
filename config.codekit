@@ -20,15 +20,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_partials\/film-card-2.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_partials\/film-card-2.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_partials\/film-card.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -119,15 +110,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/css\/05sections\/thoughts-list.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/05sections\/thoughts-list.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -148,57 +130,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/graphics\/bubble-dark.png": {
+	"\/assets\/img\/graphics\/placeholder-cover-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1071,
-		"inputAbbreviatedPath": "\/assets\/img\/graphics\/bubble-dark.png",
-		"outputAbbreviatedPath": "\/assets\/img\/graphics\/bubble-dark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/graphics\/bubble-light.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1067,
-		"inputAbbreviatedPath": "\/assets\/img\/graphics\/bubble-light.png",
-		"outputAbbreviatedPath": "\/assets\/img\/graphics\/bubble-light.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/graphics\/nav-toggle.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 951,
-		"inputAbbreviatedPath": "\/assets\/img\/graphics\/nav-toggle.png",
-		"outputAbbreviatedPath": "\/assets\/img\/graphics\/nav-toggle.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/graphics\/search-icon-md.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1437,
-		"inputAbbreviatedPath": "\/assets\/img\/graphics\/search-icon-md.png",
-		"outputAbbreviatedPath": "\/assets\/img\/graphics\/search-icon-md.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/img\/graphics\/search-icon-sm.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1264,
-		"inputAbbreviatedPath": "\/assets\/img\/graphics\/search-icon-sm.png",
-		"outputAbbreviatedPath": "\/assets\/img\/graphics\/search-icon-sm.png",
+		"initialSize": 7052,
+		"inputAbbreviatedPath": "\/assets\/img\/graphics\/placeholder-cover-01.png",
+		"outputAbbreviatedPath": "\/assets\/img\/graphics\/placeholder-cover-01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

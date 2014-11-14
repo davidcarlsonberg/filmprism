@@ -32,7 +32,7 @@ $subheadline-color: $lt-gray;
 $link-color: $teal;
 $link-hover: darken($teal, 10%);
 
-$border-color: $x-lt-gray;
+$border-color: darken($x-lt-gray, 10%);
 
 // Button Colors
 
@@ -48,7 +48,7 @@ $load-button-hover: lighten($black, 5%);
 $form-bg: $white;
 $form-label-color: $black;
 $form-field-color: $white;
-$form-field-border: darken($x-lt-gray, 10%);
+$form-field-border: $border-color;
 $form-field-focus: $white;
 $form-button-color: $teal;
 $form-button-hover: darken($teal, 5%);
@@ -91,13 +91,28 @@ $card-link-hover: $teal;
 // Module Colors
 
 $module-bg: $white;
-$module-footer-bg: $purple;
-$module-footer-link: $white;
-$module-footer-hover: lighten($purple, 40%);
-$module-aside-bg: $dk-teal;
+$module-footer-bg: $x-lt-gray;
+$module-header-bg: $purple;
+$module-header-text: $white;
+$module-footer-link: $purple;
+$module-footer-hover: darken($purple, 10%);
+$module-aside-bg: $black;
 $module-aside-text: $white;
 $module-aside-button: $teal;
 $module-aside-border: $teal;
+
+// Media Article
+
+$media-cover-bg: $lt-gray;
+$media-meta-details-bg: $x-lt-gray;
+$media-subsection-headline: $white;
+$media-link-block-bg: $white;
+$media-link-block-text: $purple;
+$media-link-block-hover: $teal;
+$media-link-block-hover-bg: lighten($teal, 60%);
+$related-qanda-bg: $lt-gray;
+$related-links-bg: $x-lt-gray;
+$submit-question-bg: $purple;
 
 // Filters Bar
 

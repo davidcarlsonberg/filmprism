@@ -13,7 +13,7 @@
       </ol>
       <ol class="site-nav">
         <li><a href="thoughts.php">Thoughts</a></li>
-        <li><a href="films-and-shows.php">Films &amp; Shows</a></li>
+        <li><a href="films-list.php">Films &amp; Shows</a></li>
         <li><a href="easter-eggs.php">Easter Eggs</a></li>
         <li><a href="about.php">About</a></li>
       </ol>
