@@ -2,8 +2,11 @@
  THOUGHTS PAGE STYLES
 **************************************************/
 
-.thoughts-feed {
-  @extend %filters-main;
+.thoughts-feed {@extend %filters-main}
+
+.home-feed,
+.thoughts-feed,
+.easter-eggs-feed {
   .inner{max-width:720px}
   article {
     @include border-radius;

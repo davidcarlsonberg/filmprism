@@ -8,10 +8,6 @@ $dk-teal: #1f5466;
 $black: #303040;
 $lt-gray: #918a98;
 $x-lt-gray: #f0f0ed;
-
-$dk-gray: #333;
-$md-gray: #666;
-$gray: #999;
 $white: #fff;
 
 /**************************************************
@@ -56,8 +52,6 @@ $form-button-hover: darken($teal, 5%);
 // Header Colors
 
 $header-bg: $x-lt-gray;
-$header-link-color: $black;
-$header-link-hover: $dk-gray;
 
 $nav-link-color: $black;
 $nav-link-hover: $purple;
@@ -100,6 +94,13 @@ $module-aside-bg: $black;
 $module-aside-text: $white;
 $module-aside-button: $teal;
 $module-aside-border: $teal;
+$module-aside-blocklink-bg: $white;
+$module-aside-blocklink-hover: $teal;
+$module-aside-blocklink-bg-hover: lighten($teal, 60%);
+
+$discussion-module-bg: $purple;
+$discussion-module-headline: $white;
+$discussion-module-text: $white;
 
 // Media Article
 
@@ -114,6 +115,12 @@ $related-qanda-bg: $lt-gray;
 $related-links-bg: $x-lt-gray;
 $submit-question-bg: $purple;
 
+// Thoughts Article
+
+$artice-image-bg: $black;
+$share-icons-fill: $white;
+$share-icons-hover: $lt-gray;
+
 // Filters Bar
 
 $filters-bar-bg: $teal;
@@ -124,5 +131,9 @@ $filters-bar-link-hover: $dk-teal;
 
 // Footer Colors
 
-$footer-text-color: $white;
-$footer-bg: $purple;
+$footer-text: $white;
+$footer-bg: $black;
+$footer-link: $white;
+$footer-hover: $lt-gray;
+$footer-icon: $white;
+$footer-border: $teal;

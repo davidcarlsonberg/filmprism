@@ -6,7 +6,7 @@
 ?>
 
 <section class="main">
-  <div class="content">
+  <div class="content single">
     <article>
       <header>
         <h1>About Us</h1>

@@ -2,103 +2,84 @@
  FEATURES PAGE STYLES
 **************************************************/
 
-.thoughts-article {
-  @include border-radius;
-  @include box-shadow;
-  overflow: hidden;
-  background-color: $module-aside-bg;
+.single.thoughts, 
+.single.easter-eggs {
   .article-image {
     position: relative;
     overflow: hidden;
     height: 240px;
-    background-color: $dk-gray;
+    background-color: $artice-image-bg;
     img {
-      @include opacity(.75);
       position: absolute;
       left: 50%;
       width: 720px;
-      max-width: none;
       margin-left: -360px;
+      max-width: none;
     }
     @include break-up($medium){
       height: 300px;
-      img {
-        width: 900px;
-        margin-left: -450px;
-      }
+      img {width:900px;margin-left:-450px}
     }
     @include break-up($medium){
       height: 360px;
-      img {
-        width: 1080px;
-        margin-left: -540px;
-      }
+      img {width: 1080px;margin-left:-540px}
     }
   }
-  article {
-    margin-bottom: 6em;
-    padding: 1.5em;
-    background-color: $module-bg;
-    @include break-up($small){
-      @include float;
-      width: 60%;
-      padding: 3em;
-    }
-    @include break-up($large){
-      width: 70%;
-    }
-  }
-  .question {
-    margin-bottom: 3em;
-    padding-bottom: 3em;
-    border-bottom: 1px solid $border-color;
-    h1 {
-      margin: 0;
-    }
-  }
-  .meta {
-    margin-bottom: 3em;
-    padding-bottom: 1.5em;
-    border-bottom: 1px solid $border-color;
-    h1 {
-      margin: 0 0 .25em;
-    }
-    p {
-      margin-bottom: 0;
-      span {
-        margin: 0 .5em;
-      }
-    }
-  }
-  aside {
-    margin-bottom: 6em;
+  footer {
+    margin-top: 3em;
     padding-top: 1.5em;
     border-top: 1px solid $border-color;
     @include break-up($small){
-      @include float(right);
-      width: 30%;
-      padding-top: 0;
-      border-top: none;
-    }
-    h4 {
-      margin: 0;
+      margin-top: 6em;
+      padding-top: 3em;
     }
   }
+  .tags {
+    list-style: none;
+    margin: 0;
+    li{display:inline;margin-right:.25em}
+    li:after{content:$comma}
+    li:last-child:after{content:none}
+  }
   .related {
-    h4 {
-      @include font-size(16);
-      margin-bottom: .25em;
-      padding: 0;
-      border-top: none;
+    padding-top: 3em;
+    border-top: 1px solid $module-aside-border;
+    ul {
+      list-style: none;
+      margin: 1em 0 0;
     }
-    p {
-      @include font-size(12);
-      margin: 0 0 .5em;
+    li {
+      @include font-size(10);
+      margin-bottom: 1.5em;
+    }
+    a {
+      @include border-radius;
+      display: block;
+      padding: 1.5em;
+      background-color: $white;
+      h5 {
+        margin: 0 0 .5em;
+        padding: 0;
+        border-top: none;
+      }
+      p {
+        @include font-size(12);
+        margin: 0 0 .5em;
+        color: $body-text;
+      }
+      .meta{
+        margin: 1em 0 0;
+        svg{fill:$body-text}
+      }
+      &:hover, 
+      &:focus {
+        background-color: $module-aside-blocklink-bg-hover;
+        h5,p{color:$module-aside-blocklink-hover}
+        svg{fill:$module-aside-blocklink-hover}
+      }
     }
   }
 }
-
-/* ----- Shared Styles ----- */
 
 .share-links {
   margin-bottom: 2em;
@@ -108,47 +89,31 @@
     margin: 1em 0 0;
   }
   li {
-    @include float;
+    @include inline-block;
     @include font-size(10);
     margin: 0 .5em 0 0;
   }
-  a {display:block}
-  svg {
-    fill: $white;
-    height: 3em;
-    width: 3em;
-  }
-}
-
-.related {
-  padding-top: 3em;
-  border-top: 1px solid $border-color;
-  ul {
-    list-style: none;
-    margin: 1em 0 0;
-  }
-  li {
-    margin-bottom: 10px;
-    border: 1px solid $border-color;
-  }
   a {
     display: block;
-    padding: 1em 1.5em .25em;
-  }
-  i {
-    margin-right: .25em;
-    img {
-      margin-bottom: -1px;
-      width: 12px;
+    &:hover,&:focus{
+      svg{fill:$share-icons-hover}
     }
+  }
+  svg {
+    fill: $share-icons-fill;
+    height: 2.5em;
+    width: 2.5em;
   }
 }
 
 .discussion {
   clear: both;
   padding: 3em 1.5em;
-  background-color: $purple;
-  @include break-up($small){
-    padding: 3em;
+  background-color: $discussion-module-bg;
+  color: $discussion-module-text;
+  @include break-up($small){padding:3em}
+  h1 {
+    margin: 0 0 1em;
+    color: $discussion-module-headline;
   }
 }
