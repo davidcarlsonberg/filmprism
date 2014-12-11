@@ -13,7 +13,8 @@
     <article>
       <header>
         <h1>Article Title</h1>
-        <h5><a href="javascript:void(0)">Author Name</a> <span>|</span> <time>June 24, 2014</time></h5>
+        <h5><a href="media-page.php">Related Film Name</a></h5>
+        <p class="by-line"><a href="#">Author Name</a> <span>|</span> <time>June 24, 2014</time></p>
       </header>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci. Phasellus at facilisis nisi, id tincidunt enim. Aliquam vel felis feugiat, mollis orci tristique, hendrerit justo. Morbi mi dui, fringilla a ante eget, sollicitudin cursus nibh. Sed ut felis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer volutpat tempus porttitor. Nulla ut ligula condimentum, fermentum neque vel, accumsan sapien. Nulla facilisi. Morbi bibendum id elit id vulputate. Nulla a commodo ante, et porttitor arcu. Vivamus suscipit nibh lectus, et commodo dui vehicula ac.</p>
       <h1>H1 Headline</h1>

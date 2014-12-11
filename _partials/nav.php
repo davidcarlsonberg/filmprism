@@ -1,6 +1,6 @@
 <ol class="site-nav">
-  <li><a href="thoughts.php">Thoughts</a></li>
-  <li><a href="media.php">Films &amp; Shows</a></li>
-  <li><a href="easter-eggs.php">Easter Eggs</a></li>
+  <li><a href="trending.php">Trending</a></li>
+  <li><a href="film.php">Film</a></li>
+  <li><a href="tv.php">TV</a></li>
   <li><a href="about.php">About</a></li>
 </ol>

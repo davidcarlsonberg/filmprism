@@ -2,8 +2,7 @@
  FEATURES PAGE STYLES
 **************************************************/
 
-.single.thoughts, 
-.single.easter-eggs {
+.single.thoughts {
   .article-image {
     position: relative;
     overflow: hidden;
@@ -101,8 +100,8 @@
   }
   svg {
     fill: $share-icons-fill;
-    height: 2.5em;
-    width: 2.5em;
+    height: 3em;
+    width: 3em;
   }
 }
 

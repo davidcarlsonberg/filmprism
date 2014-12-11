@@ -8,9 +8,6 @@
   </div>
   <nav>
     <div class="inner">
-      <ol class="user-nav">
-        <li><a href="sign-up.php">Login <span>/</span> Sign-up</a></li>
-      </ol>
       <?php include '_partials/nav.php'; ?>
     </div>
   </nav>

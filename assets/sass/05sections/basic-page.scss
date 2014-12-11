@@ -21,19 +21,23 @@
     @include break-up($large){
       width: 70%;
     }
-    header {
-      margin-bottom: 1.5em;
-      padding: 1.5em 0;
-      border-bottom: 1px solid $border-color;
-      @include break-up($small){
-        margin-bottom: 3em;
-        padding-bottom: 3em;
-      }
-      h1{margin:0}
-      h5{margin-bottom:0}
-      span{color:$lt-gray}
-    }
     p{max-width:36em}
+  }
+  header {
+    margin-bottom: 3em;
+    padding: 1.5em 0 3em;
+    border-bottom: 1px solid $border-color;
+    h1{margin:0}
+    h5{margin:.75em 0 0}
+    .by-line{
+      @include font-size(12);
+      max-width: none;
+      margin: 1.5em 0 0;
+      padding: .5em 0;
+      border-top: 1px solid $border-color;
+      font-family: $by-line-font;
+      span{margin:0 .375em;color:$lt-gray}
+    }
   }
   aside {
     padding: 3em 1.5em;

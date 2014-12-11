@@ -38,7 +38,7 @@ h5, h6 { @include font-size(18) }
 
 %base-type {
   @include font-size(14);
-  @include break-up($medium){
+  @include break-up($large){
     @include font-size(16);
   }
 }
