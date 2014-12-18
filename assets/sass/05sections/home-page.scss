@@ -1,48 +1,29 @@
 /**************************************************
- HOME PAGE STYLES
+ "POPULAR" SECTION STYLES
 **************************************************/
 
-.topics {
-  background-color: $black;
+.popular {
+  background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
   padding-bottom: 4em;
+  border-bottom: 1.5em solid $purple;
   @include break-up($medium){
     padding-top: $fixed-top-padding;
   }
-  .inner {
-    @extend %clearfix;
-    position: relative;
-  }
-  h4 {
-    margin: 0 0 1em;
-  }
-  .title {
-    span {
-      @include font-size(14);
-      margin-left: .25em;
-      font-weight: normal;
-      a {
-        margin: 0 .5em;
-      }
-    }
-  }
   .featured {
+    @include box-shadow;
+    @include border-radius;
+    overflow: hidden;
     position: relative;
-    margin-bottom: 15px;
-    @include break-up($medium){
-      @include float;
-      width: 48.75%;
-    }
-    @include break-up($large){
-      @include float;
-      width: 63.33%;
-    }
+    margin-bottom: 1.5em;
+    @include break-up($large){float:left;width:48.75%}
+    @include break-up($x-large){width:65.75%}
     figure {
+      @include border-radius;
       position: relative;
       overflow: hidden;
       height: 270px;
-      background-color: $black;
+      background-color: $teal;
       img {
-        @include opacity(.5);
         position: absolute;
         left: 50%;
         margin-left: -270px;
@@ -50,165 +31,149 @@
         max-width: none;
       }
       @include break-up($small){
-        height: 360px;
-        img {
-          width: 720px;
-          margin-left: -360px;
-        }
-      }
-      @include break-up($medium){
         height: 405px;
-        img {
-          width: 720px;
-          margin-left: -360px;
-        }
+        img {width:800px;margin-left:-400px}
       }
     }
     .summary {
-      @include background-image(linear-gradient(transparent, transparentize($black, .25)));
+      @extend %transition;
+      @include stretch(auto, 0, 0, 0);
       position: absolute;
       left: 0;
       right: 0;
       bottom: 0;
-      padding: 0 2em 1em;
+      padding: 1em 2em;
+      background-color: $black;
+      background-color: transparentize($black, .25);
       color: $white;
       @include break-up($small){
-        padding: 0 3em 1.5em;
+        padding: 1.5em 3em;
       }
       h3 {
-        margin: .5em 0;
+        margin-top: 0;
+        margin-bottom: .5em;
+        color: $white;
       }
-      .meta {
+      p {
         @include font-size(14);
-        list-style: none;
-        margin: 1.5em 0 0;
-        li {
-          @include inline-block;
-          &:before {
-            content: '\007C';
-            margin: 0 1em 0 .75em;
-          }
-          &:first-child:before {
-            display: none;
-          }
+        margin: .5em 0;
+        &.meta {
+          @include font-size(12);
+          margin: 1.5em 0 0;
         }
       }
     }
-    i {
-      margin-right: .25em;
-      img {
-        margin-bottom: -2px;
+    a {
+      display: block;
+      &:hover,
+      &:focus {
+        .summary {
+          background-color: $teal;
+          background-color: transparentize($teal, .25);
+        }
+      }
+    }
+  }
+  .article-list {
+    @extend %card-styles;
+    margin: 0;
+    @include break-up($medium){width:102.5%;margin-left:-2.5%}
+    @include break-up($large){float:right;width:48.75%}
+    @include break-up($x-large){width:31.75%}
+    li {
+      margin: 0 0 1.5em;
+      @include break-up($medium){
+        float: left;
+        width: 47.5%;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+      }
+      @include break-up($large){
+        float: none;
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 1.5em;
+      }
+      figure {
+        float: left;
+        width: 9em;
+      }
+      .summary {
+        height: 9em;
+        margin-left: 9em;
+        padding: 2em 2em 0;
+        border-left: none;
+        .meta {
+          @include font-size(12);
+          list-style: none;
+          margin: .5em 0 0;
+        }
       }
     }
   }
 }
 
-.recent-topics {
-  @extend %card-styles;
-  margin-bottom: 0 0 15px;
-  @include break-up($small){
-    width: 102.5%;
-    margin-left: -2.5%;
-  }
-  @include break-up($medium){
-    @include float(right);
-    width: 48.75%;
-  }
-  @include break-up($large){
-    @include float(right);
-    width: 33.33%;
-  }
-  li {
-    margin-bottom: 15px;
-    @include break-up($small){
-      @include float;
-      width: 47.5%;
-      margin-left: 2.5%;
+/**************************************************
+ "RECENT" SECTION STYLES
+**************************************************/
+
+.recent {
+  background-color: $white;
+  .article-list {
+    list-style: none;
+    margin: 0;
+    @include break-up($medium){width: 102.5%;margin-left:-2.5%}
+    @include break-up($medium){width: 102.33%;margin-left:-2.33%}
+    li {
+      @include font-size(10);
+      margin: 0 0 1.5em;
+      @include break-up($medium){
+        float: left;
+        width: 47.5%;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+        &:nth-child(2n+1){clear:left}
+      }
+      @include break-up($large){
+        width: 31%;
+        margin-left: 2.33%;
+        margin-bottom: 2.33%;
+        &:nth-child(2n+1){clear:none}
+        &:nth-child(3n+1){clear:left}
+      }
     }
-    @include break-up($medium){
-      @include reset-float;
-      width: auto;
-      margin-left: 0;
+    a {
+      @include border-radius;
+      @include box-shadow;
+      display: block;
+      overflow: hidden;
+      background-color: $card-bg-color;
+      &:hover, &:focus {
+        h3, p, .meta {color:$card-link-hover}
+        figure img {@include opacity(.75)}
+        .summary {background-color: lighten($teal, 57.5%)}
+      }
     }
     figure {
-      @include float;
-      width: 90px;
+      background-color: $card-image-bg;
+      img {@extend %transition}
     }
     .summary {
-      height: 90px;
-      margin-left: 90px;
-      padding: 1em 2em;
-      border-left: none;
-      white-space: nowrap;
-      @include break-up($small){
-        padding: 1em 1.5em 0;
-      }
+      padding: 2em 2em 1.5em;
+      color: $body-text;
+      h3 {margin: 0 0 .5em}
+      p {@include font-size(14)}
       .meta {
         @include font-size(12);
-        list-style: none;
-        margin: .5em 0 0;
-        li {
-          @include inline-block;
-          float: none;
-          width: auto;
-          margin: 0;
-          &:before {
-            content: '\007C';
-            margin: 0 1em 0 .75em;
-          }
-          &:first-child:before {
-            display: none;
-          }
+        margin: 1.5em 0 0;
+        color: $card-link-color;
+        svg {
+          @include inline-block(middle);
+          height: 1em;
+          width: 1em;
+          margin-right: .25em;
         }
       }
-    }
-    p {
-      white-space: nowrap; 
-    }
-  }
-}
-
-section.films {
-  padding-top: 6em;
-  background-color: $white;
-}
-
-.recent-films {
-  @extend %card-styles;
-  width: 105%;
-  margin: 0 0 15px -5%;
-  @include break-up($medium){
-    width: 102.5%;
-    margin-left: -2.5%;
-  }
-  li {
-    @include float;
-    width: 45%;
-    margin: 0 0 5% 5%;
-    @include break-up($medium){
-      width: 22.5%;
-      margin-left: 2.5%;
-      margin-bottom: 0;
-    }
-    .summary {
-      padding: 1em 1.5em;
-    }
-  }
-}
-
-section.topics, 
-section.films {
-  .inner {
-    position: relative;    
-  }
-  .button {
-    clear: both;
-    @include break-up($medium){
-      @include font-size(14);
-      position: absolute;
-      top: -5px;
-      right: 0;
-      width: auto;
     }
   }
 }

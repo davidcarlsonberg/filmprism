@@ -32,8 +32,8 @@
       &:focus {
         h5 {color:$card-link-hover}
         p {color:$card-link-hover}
-        svg {fill:$card-link-hover}
-        figure img {@include opacity(.5)}
+        figure img {@include opacity(.75)}
+        .summary {background-color: lighten($teal, 57.5%)}
       }
     }
     figure {
@@ -62,7 +62,6 @@
       height: 1em;
       width: 1em;
       margin-right: .25em;
-      fill: $card-link-color;
     }
   }
 }

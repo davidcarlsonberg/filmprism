@@ -8,7 +8,7 @@
     </symbol>
     
     <symbol id="comment-icon">
-      <path d="M16,1H4C1.8,1,0,2.8,0,5v7c0,2.2,1.8,4,4,4h2l4,4l4-4h2c2.2,0,4-1.8,4-4V5C20,2.8,18.2,1,16,1z"/>
+      <path fill="currentColor" d="M16,1H4C1.8,1,0,2.8,0,5v7c0,2.2,1.8,4,4,4h2l4,4l4-4h2c2.2,0,4-1.8,4-4V5C20,2.8,18.2,1,16,1z"/>
     </symbol>
     
     <symbol id="facebook-icon">

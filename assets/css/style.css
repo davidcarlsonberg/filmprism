@@ -32,13 +32,13 @@
  CONVERT PX TO EM
 **************************************************/
 /**************************************************
+ BREAKPOINTS
+**************************************************/
+/**************************************************
  FONT SIZE
 **************************************************/
 /**************************************************
  HI-RES BACKGROUND IMAGES
-**************************************************/
-/**************************************************
- BREAK POINTS
 **************************************************/
 /**************************************************
  COMPASS GLOBAL RESET
@@ -256,19 +256,19 @@ input[type='search'],
 input[type='tel'],
 input[type='url'],
 input[type='password'],
-textarea, button, input[type='submit'], .recent-topics li figure img, .recent-films li figure img, .films-list ol li figure img, .media-article .related-films ul li figure img {
+textarea, button, input[type='submit'], .site-header .mailing-list .form-wrapper, .popular .article-list li figure img, .films-list ol li figure img, .media-article .related-films ul li figure img, .popular .featured .summary, .recent .article-list figure img {
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
 
-section, .site-footer, .recent-topics, .recent-films, .films-list ol, .media-article .related-films ul, .topics .inner {
+section, .site-header .header-top, .site-header .header-bottom, .site-footer, .popular .article-list, .films-list ol, .media-article .related-films ul {
   zoom: 1; }
-  section:before, .site-footer:before, .recent-topics:before, .recent-films:before, .films-list ol:before, .media-article .related-films ul:before, .topics .inner:before, section:after, .site-footer:after, .recent-topics:after, .recent-films:after, .films-list ol:after, .media-article .related-films ul:after, .topics .inner:after {
+  section:before, .site-header .header-top:before, .site-header .header-bottom:before, .site-footer:before, .popular .article-list:before, .films-list ol:before, .media-article .related-films ul:before, section:after, .site-header .header-top:after, .site-header .header-bottom:after, .site-footer:after, .popular .article-list:after, .films-list ol:after, .media-article .related-films ul:after {
     display: table;
     visibility: hidden;
     content: ""; }
-  section:after, .site-footer:after, .recent-topics:after, .recent-films:after, .films-list ol:after, .media-article .related-films ul:after, .topics .inner:after {
+  section:after, .site-header .header-top:after, .site-header .header-bottom:after, .site-footer:after, .popular .article-list:after, .films-list ol:after, .media-article .related-films ul:after {
     clear: both; }
 
 /**************************************************
@@ -316,7 +316,7 @@ textarea {
   font-family: "Merriweather", Georgia, Times, "Times New Roman", serif; }
 
 section {
-  padding: 4em 7% 8em; }
+  padding: 4em 5% 8em; }
 
 p svg {
   display: inline-block;
@@ -333,7 +333,7 @@ p svg {
 **************************************************/
 .top,
 .inner,
-.content, .site-header .top, .filters p {
+.content, .filters p {
   max-width: 1080px;
   margin: 0 auto; }
 
@@ -353,6 +353,9 @@ a {
 /**************************************************
  TYPE STYLES
 **************************************************/
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25; }
+
 h1, h2, h3 {
   margin: 1em 0;
   color: #732d55;
@@ -385,16 +388,25 @@ h5, h6 {
   font-size: 18px;
   font-size: 1.8rem; }
 
+.section-heading {
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #918a98;
+  font-weight: 700;
+  text-transform: uppercase; }
+
 p, ul li, ol li, address {
   font-size: 14px;
   font-size: 1.4rem; }
-  @media screen and (min-width: 62.5em) {
+  @media screen and (min-width: 56.25em) {
     p, ul li, ol li, address {
       font-size: 16px;
       font-size: 1.6rem; } }
 
 p {
-  margin: 0 0 1em;
+  margin: 1em 0;
   line-height: 1.7; }
 
 ol {
@@ -423,6 +435,9 @@ address {
 small {
   font-size: 12px;
   font-size: 1.2rem; }
+
+.divider {
+  margin: 0 .5em; }
 
 /**************************************************
  COMPONENT STYLES
@@ -537,8 +552,8 @@ button, input[type='submit'] {
  HEADER STYLES
 **************************************************/
 .site-header {
-  background-color: #f0f0ed; }
-  @media screen and (min-width: 50em) {
+  background-color: #732d55; }
+  @media screen and (min-width: 45em) {
     .site-header {
       -moz-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
       -webkit-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
@@ -548,27 +563,28 @@ button, input[type='submit'] {
       top: 0;
       left: 0;
       right: 0; } }
-  .site-header .top {
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    box-sizing: content-box;
-    overflow: hidden; }
-    @media screen and (min-width: 50em) {
-      .site-header .top {
-        padding: 1em 7%; } }
+  @media screen and (min-width: 45em) {
+    .site-header .header-top {
+      padding: 1em 5%; } }
+  .site-header .header-bottom {
+    clear: both;
+    background-color: #303040; }
+    @media screen and (min-width: 45em) {
+      .site-header .header-bottom {
+        padding: 0 5%; } }
   .site-header h1 {
     font-size: 10px;
     font-size: 1rem;
     position: relative;
-    height: 9em;
+    height: 7.5em;
     margin: 0;
     text-align: center; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .site-header h1 {
         float: left;
         position: static;
         height: auto;
-        margin-left: -4.75em; } }
+        margin-left: -2em; } }
     .site-header h1 a {
       display: block;
       overflow: hidden;
@@ -576,21 +592,74 @@ button, input[type='submit'] {
       top: 50%;
       left: 50%;
       height: 0;
-      width: 22.5em;
+      width: 215px;
       padding-top: 5em;
       margin-top: -2.5em;
-      margin-left: -13em;
+      margin-left: -12.5em;
       background-position: 0 0;
       background-repeat: no-repeat;
       background-image: url("../img/logo/screenprism-header-logo.png"); }
       @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi) {
         .site-header h1 a {
           background-image: url("../img/logo/screenprism-header-logo-2x.png");
-          background-size: 225px 50px; } }
-      @media screen and (min-width: 50em) {
+          background-size: 215px 50px; } }
+      @media screen and (min-width: 45em) {
         .site-header h1 a {
           position: static;
           margin: 0; } }
+  .site-header .mailing-list {
+    display: none;
+    position: relative;
+    float: right;
+    padding-top: .625em; }
+    @media screen and (min-width: 45em) {
+      .site-header .mailing-list {
+        display: block; } }
+    .site-header .mailing-list a {
+      -moz-border-radius: 0.3rem;
+      -webkit-border-radius: 0.3rem;
+      border-radius: 0.3rem;
+      font-size: 14px;
+      font-size: 1.4rem;
+      display: block;
+      padding: .5em .75em;
+      background-color: #2d9099;
+      font-family: "Lato", Helmet, Freesans, sans-serif;
+      color: #fff; }
+      .site-header .mailing-list a:hover {
+        background-color: #216b72;
+        color: #fff; }
+    .site-header .mailing-list .form-wrapper {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+      opacity: 0;
+      -moz-border-radius: 0.3rem;
+      -webkit-border-radius: 0.3rem;
+      border-radius: 0.3rem;
+      -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      overflow: hidden;
+      position: absolute;
+      top: 1em;
+      right: -1.5em;
+      max-height: 0;
+      width: 25em; }
+      .site-header .mailing-list .form-wrapper.open {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+        top: 3.25em;
+        max-height: 50em; }
+      .site-header .mailing-list .form-wrapper form {
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+      .site-header .mailing-list .form-wrapper input[type="submit"] {
+        font-size: 16px;
+        font-size: 1.6rem;
+        margin-top: 0; }
 
 .search-bar {
   -moz-border-radius: 0;
@@ -602,32 +671,33 @@ button, input[type='submit'] {
   overflow: hidden;
   padding: 0;
   background-color: transparent; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .search-bar {
       float: right;
       width: 70%;
       margin: .5em 0; } }
-  @media screen and (min-width: 62.5em) {
+  @media screen and (min-width: 56.25em) {
     .search-bar {
       width: 75%; } }
-  @media screen and (min-width: 75em) {
+  @media screen and (min-width: 67.5em) {
     .search-bar {
       width: 80%; } }
   .search-bar input[type='text'] {
-    float: left;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
     font-size: 16px;
     font-size: 1.6rem;
+    float: left;
     height: 2.5em;
     width: 75%;
     margin: 0;
-    padding: 0.625em 0 0.625em 7%;
+    padding: 0.625em 0 0.625em 5%;
     border-top: none;
     border-left: none;
-    border-right: none; }
-    @media screen and (min-width: 50em) {
+    border-right: none;
+    border-color: #612647; }
+    @media screen and (min-width: 45em) {
       .search-bar input[type='text'] {
         -moz-border-radius-topleft: 0.3rem;
         -webkit-border-top-left-radius: 0.3rem;
@@ -636,9 +706,9 @@ button, input[type='submit'] {
         -webkit-border-bottom-left-radius: 0.3rem;
         border-bottom-left-radius: 0.3rem;
         padding-left: 1em;
-        border: 1px solid #d9d9d1;
+        border: 1px solid #612647;
         border-right: none; } }
-    @media screen and (min-width: 62.5em) {
+    @media screen and (min-width: 56.25em) {
       .search-bar input[type='text'] {
         width: 80%; } }
   .search-bar button, .search-bar input[type='submit'] {
@@ -654,12 +724,12 @@ button, input[type='submit'] {
     height: 2.5em;
     width: 25%;
     margin: 0;
-    background-color: #732d55;
-    border-color: #612647;
+    background-color: #303040;
+    border-color: #252531;
     border-right: none;
     border-top: none;
     text-align: center; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .search-bar button, .search-bar input[type='submit'] {
         -moz-border-radius-topright: 0.3rem;
         -webkit-border-top-right-radius: 0.3rem;
@@ -667,11 +737,11 @@ button, input[type='submit'] {
         -moz-border-radius-bottomright: 0.3rem;
         -webkit-border-bottom-right-radius: 0.3rem;
         border-bottom-right-radius: 0.3rem; } }
-    @media screen and (min-width: 62.5em) {
+    @media screen and (min-width: 56.25em) {
       .search-bar button, .search-bar input[type='submit'] {
         width: 20%; } }
     .search-bar button:hover, .search-bar input[type='submit']:hover, .search-bar button:focus, .search-bar input[type='submit']:focus {
-      background-color: #612647; }
+      background-color: #252531; }
     .search-bar button svg, .search-bar input[type='submit'] svg {
       display: inline-block;
       vertical-align: top;
@@ -702,23 +772,21 @@ nav li {
  HEADER NAVIGATION STYLES
 **************************************************/
 .site-header nav {
-  clear: both;
-  display: none;
-  overflow: hidden; }
-  @media screen and (min-width: 50em) {
+  display: none; }
+  @media screen and (min-width: 45em) {
     .site-header nav {
       display: block !important;
-      padding: 1.25em 7%;
-      border-top: 1px solid #e4e4df; } }
+      float: left;
+      padding: 1.25em 0; } }
   .site-header nav li {
     font-size: 16px;
     font-size: 1.6rem;
-    border-top: 1px solid #612647;
+    border-top: 1px solid #252531;
     font-family: "Lato", Helmet, Freesans, sans-serif;
     font-weight: 300;
     text-align: center;
     text-transform: uppercase; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .site-header nav li {
         display: inline;
         border-top: none;
@@ -726,74 +794,45 @@ nav li {
         .site-header nav li:before {
           content: "|";
           margin: 0 .75em 0 .625em;
-          color: #e4e4df; }
+          color: #918a98; }
         .site-header nav li:first-child:before {
           content: none; } }
   .site-header nav a {
     display: block;
-    padding: 0.75em 7%;
-    background-color: #732d55;
+    padding: 0.75em 5%;
+    background-color: #303040;
     color: #fff;
     white-space: nowrap; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .site-header nav a {
         display: inline;
         padding: 0;
         background-color: transparent;
-        color: #303040; } }
+        color: #fff; } }
     .site-header nav a:hover, .site-header nav a:focus {
-      background-color: #612647;
+      background-color: #252531;
       color: #fff; }
-      @media screen and (min-width: 50em) {
+      @media screen and (min-width: 45em) {
         .site-header nav a:hover, .site-header nav a:focus {
           background-color: transparent;
-          color: #732d55; } }
-  @media screen and (min-width: 50em) {
-    .site-header nav .site-nav {
-      float: left;
-      width: 75%;
-      text-align: left; } }
-  @media screen and (min-width: 50em) {
-    .site-header nav .user-nav {
-      float: right;
-      margin-right: .5em;
-      text-align: right; } }
-  .site-header nav .user-nav li {
-    border-top-color: #216b72; }
-    @media screen and (min-width: 50em) {
-      .site-header nav .user-nav li {
-        text-transform: none; } }
-  .site-header nav .user-nav a {
-    background-color: #2d9099; }
-    .site-header nav .user-nav a:hover, .site-header nav .user-nav a:focus {
-      background-color: #277d85; }
-    @media screen and (min-width: 50em) {
-      .site-header nav .user-nav a {
-        background-color: transparent;
-        color: #2d9099; }
-        .site-header nav .user-nav a:hover, .site-header nav .user-nav a:focus {
-          background-color: transparent;
-          color: #1f5466; }
-        .site-header nav .user-nav a span {
-          margin: 0 .25em;
-          color: #e4e4df; } }
+          color: #2d9099; } }
 
 .nav-toggle {
   font-size: 16px;
   font-size: 1.6rem;
   display: block;
-  padding: 0.75em 7%;
-  background-color: #303040;
+  padding: 0.75em 5%;
+  background-color: #2d9099;
+  border-bottom: 1px solid #277d85;
   color: #fff;
   font-family: "Lato", Helmet, Freesans, sans-serif;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .nav-toggle {
       display: none; } }
   .nav-toggle:hover, .nav-toggle:focus {
-    background-color: #252531;
     color: #fff; }
 
 /**************************************************
@@ -803,10 +842,10 @@ body {
   background-color: #303040; }
 
 .site-footer {
-  padding: 6em 7%;
+  padding: 6em 5%;
   color: #fff;
   text-align: center; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .site-footer {
       text-align: left; } }
   .site-footer svg {
@@ -848,7 +887,7 @@ body {
     margin: 0 .5em; }
   .site-footer .social-links a {
     display: block; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .site-footer .footer-links {
       float: left;
       width: 60%;
@@ -857,7 +896,7 @@ body {
     margin-bottom: 4.5em;
     padding-top: 3em;
     border-top: 1px solid #2d9099; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .site-footer .mailing-list {
         float: right;
         width: 30%;
@@ -872,7 +911,7 @@ body {
       display: block;
       max-width: 270px;
       margin: 0 auto; }
-      @media screen and (min-width: 50em) {
+      @media screen and (min-width: 45em) {
         .site-footer .mailing-list form {
           max-width: none; } }
     .site-footer .mailing-list input {
@@ -882,7 +921,7 @@ body {
   .site-footer small {
     display: block;
     clear: right; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .site-footer small {
         float: right;
         width: 30%;
@@ -898,21 +937,21 @@ body {
   position: relative;
   z-index: 2;
   background: #fff url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
-  padding: 3em 7% 9em; }
-  @media screen and (min-width: 50em) {
+  padding: 3em 5% 9em; }
+  @media screen and (min-width: 45em) {
     .main {
       padding-top: 15em; } }
 
 /**************************************************
  CARD STYLES
 **************************************************/
-.recent-topics, .recent-films, .films-list ol, .media-article .related-films ul {
+.popular .article-list, .films-list ol, .media-article .related-films ul {
   list-style: none;
   margin: 0; }
-  .recent-topics li, .recent-films li, .films-list ol li, .media-article .related-films ul li {
+  .popular .article-list li, .films-list ol li, .media-article .related-films ul li {
     font-size: 10px;
     font-size: 1rem; }
-    .recent-topics li a, .recent-films li a, .films-list ol li a, .media-article .related-films ul li a {
+    .popular .article-list li a, .films-list ol li a, .media-article .related-films ul li a {
       -moz-border-radius: 0.3rem;
       -webkit-border-radius: 0.3rem;
       border-radius: 0.3rem;
@@ -922,31 +961,31 @@ body {
       display: block;
       overflow: hidden;
       background-color: #fff; }
-      .recent-topics li a:hover h5, .recent-films li a:hover h5, .films-list ol li a:hover h5, .media-article .related-films ul li a:hover h5, .recent-topics li a:focus h5, .recent-films li a:focus h5, .films-list ol li a:focus h5, .media-article .related-films ul li a:focus h5 {
+      .popular .article-list li a:hover h5, .films-list ol li a:hover h5, .media-article .related-films ul li a:hover h5, .popular .article-list li a:focus h5, .films-list ol li a:focus h5, .media-article .related-films ul li a:focus h5 {
         color: #2d9099; }
-      .recent-topics li a:hover p, .recent-films li a:hover p, .films-list ol li a:hover p, .media-article .related-films ul li a:hover p, .recent-topics li a:focus p, .recent-films li a:focus p, .films-list ol li a:focus p, .media-article .related-films ul li a:focus p {
+      .popular .article-list li a:hover p, .films-list ol li a:hover p, .media-article .related-films ul li a:hover p, .popular .article-list li a:focus p, .films-list ol li a:focus p, .media-article .related-films ul li a:focus p {
         color: #2d9099; }
-      .recent-topics li a:hover svg, .recent-films li a:hover svg, .films-list ol li a:hover svg, .media-article .related-films ul li a:hover svg, .recent-topics li a:focus svg, .recent-films li a:focus svg, .films-list ol li a:focus svg, .media-article .related-films ul li a:focus svg {
-        fill: #2d9099; }
-      .recent-topics li a:hover figure img, .recent-films li a:hover figure img, .films-list ol li a:hover figure img, .media-article .related-films ul li a:hover figure img, .recent-topics li a:focus figure img, .recent-films li a:focus figure img, .films-list ol li a:focus figure img, .media-article .related-films ul li a:focus figure img {
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-        opacity: 0.5; }
-    .recent-topics li figure, .recent-films li figure, .films-list ol li figure, .media-article .related-films ul li figure {
+      .popular .article-list li a:hover figure img, .films-list ol li a:hover figure img, .media-article .related-films ul li a:hover figure img, .popular .article-list li a:focus figure img, .films-list ol li a:focus figure img, .media-article .related-films ul li a:focus figure img {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+        opacity: 0.75; }
+      .popular .article-list li a:hover .summary, .films-list ol li a:hover .summary, .media-article .related-films ul li a:hover .summary, .popular .article-list li a:focus .summary, .films-list ol li a:focus .summary, .media-article .related-films ul li a:focus .summary {
+        background-color: #f1fafb; }
+    .popular .article-list li figure, .films-list ol li figure, .media-article .related-films ul li figure {
       background-color: #2d9099; }
-    .recent-topics li .details, .recent-films li .details, .films-list ol li .details, .media-article .related-films ul li .details {
+    .popular .article-list li .details, .films-list ol li .details, .media-article .related-films ul li .details {
       padding: 1em 1.5em; }
-    .recent-topics li h5, .recent-films li h5, .films-list ol li h5, .media-article .related-films ul li h5 {
+    .popular .article-list li h5, .films-list ol li h5, .media-article .related-films ul li h5 {
       overflow: hidden;
       margin: 0;
       padding: .125em 0;
       white-space: nowrap;
       text-overflow: ellipsis; }
-    .recent-topics li p, .recent-films li p, .films-list ol li p, .media-article .related-films ul li p {
+    .popular .article-list li p, .films-list ol li p, .media-article .related-films ul li p {
       font-size: 14px;
       font-size: 1.4rem;
       margin: 0;
       color: #732d55; }
-    .recent-topics li svg, .recent-films li svg, .films-list ol li svg, .media-article .related-films ul li svg {
+    .popular .article-list li svg, .films-list ol li svg, .media-article .related-films ul li svg {
       display: inline-block;
       vertical-align: middle;
       *vertical-align: auto;
@@ -954,16 +993,15 @@ body {
       *display: inline;
       height: 1em;
       width: 1em;
-      margin-right: .25em;
-      fill: #732d55; }
+      margin-right: .25em; }
 
 /**************************************************
  LIST FILTER STYLES
 **************************************************/
 .filters {
-  padding: 1.5em 7%;
+  padding: 1.5em 5%;
   background-color: #2d9099; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .filters {
       position: fixed;
       z-index: 1;
@@ -999,203 +1037,210 @@ body {
   position: relative;
   z-index: 2;
   padding-top: 4em; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .thoughts-feed, .films-list {
       margin-top: 18.5em; } }
 
 /**************************************************
- HOME PAGE STYLES
+ "POPULAR" SECTION STYLES
 **************************************************/
-.topics {
-  background-color: #303040;
-  padding-bottom: 4em; }
-  @media screen and (min-width: 50em) {
-    .topics {
+.popular {
+  background: #fff url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  padding-bottom: 4em;
+  border-bottom: 1.5em solid #732d55; }
+  @media screen and (min-width: 45em) {
+    .popular {
       padding-top: 15em; } }
-  .topics .inner {
-    position: relative; }
-  .topics h4 {
-    margin: 0 0 1em; }
-  .topics .title span {
-    font-size: 14px;
-    font-size: 1.4rem;
-    margin-left: .25em;
-    font-weight: normal; }
-    .topics .title span a {
-      margin: 0 .5em; }
-  .topics .featured {
+  .popular .featured {
+    -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    -moz-border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
     position: relative;
-    margin-bottom: 15px; }
-    @media screen and (min-width: 50em) {
-      .topics .featured {
+    margin-bottom: 1.5em; }
+    @media screen and (min-width: 56.25em) {
+      .popular .featured {
         float: left;
         width: 48.75%; } }
-    @media screen and (min-width: 62.5em) {
-      .topics .featured {
-        float: left;
-        width: 63.33%; } }
-    .topics .featured figure {
+    @media screen and (min-width: 67.5em) {
+      .popular .featured {
+        width: 65.75%; } }
+    .popular .featured figure {
+      -moz-border-radius: 0.3rem;
+      -webkit-border-radius: 0.3rem;
+      border-radius: 0.3rem;
       position: relative;
       overflow: hidden;
       height: 270px;
-      background-color: #303040; }
-      .topics .featured figure img {
-        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-        opacity: 0.5;
+      background-color: #2d9099; }
+      .popular .featured figure img {
         position: absolute;
         left: 50%;
         margin-left: -270px;
         width: 540px;
         max-width: none; }
-      @media screen and (min-width: 37.5em) {
-        .topics .featured figure {
-          height: 360px; }
-          .topics .featured figure img {
-            width: 720px;
-            margin-left: -360px; } }
-      @media screen and (min-width: 50em) {
-        .topics .featured figure {
+      @media screen and (min-width: 33.75em) {
+        .popular .featured figure {
           height: 405px; }
-          .topics .featured figure img {
-            width: 720px;
-            margin-left: -360px; } }
-    .topics .featured .summary {
-      background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMDMwNDAiIHN0b3Atb3BhY2l0eT0iMC43NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-      background-size: 100%;
-      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(48, 48, 64, 0.75)));
-      background-image: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
-      background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
-      background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(48, 48, 64, 0.75));
+          .popular .featured figure img {
+            width: 800px;
+            margin-left: -400px; } }
+    .popular .featured .summary {
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: 0;
+      right: 0;
       position: absolute;
       left: 0;
       right: 0;
       bottom: 0;
-      padding: 0 2em 1em;
+      padding: 1em 2em;
+      background-color: #303040;
+      background-color: rgba(48, 48, 64, 0.75);
       color: #fff; }
-      @media screen and (min-width: 37.5em) {
-        .topics .featured .summary {
-          padding: 0 3em 1.5em; } }
-      .topics .featured .summary h3 {
-        margin: .5em 0; }
-      .topics .featured .summary .meta {
+      @media screen and (min-width: 33.75em) {
+        .popular .featured .summary {
+          padding: 1.5em 3em; } }
+      .popular .featured .summary h3 {
+        margin-top: 0;
+        margin-bottom: .5em;
+        color: #fff; }
+      .popular .featured .summary p {
         font-size: 14px;
         font-size: 1.4rem;
-        list-style: none;
-        margin: 1.5em 0 0; }
-        .topics .featured .summary .meta li {
-          display: inline-block;
-          vertical-align: middle;
-          *vertical-align: auto;
-          *zoom: 1;
-          *display: inline; }
-          .topics .featured .summary .meta li:before {
-            content: '\007C';
-            margin: 0 1em 0 .75em; }
-          .topics .featured .summary .meta li:first-child:before {
-            display: none; }
-    .topics .featured i {
-      margin-right: .25em; }
-      .topics .featured i img {
-        margin-bottom: -2px; }
-
-.recent-topics {
-  margin-bottom: 0 0 15px; }
-  @media screen and (min-width: 37.5em) {
-    .recent-topics {
-      width: 102.5%;
-      margin-left: -2.5%; } }
-  @media screen and (min-width: 50em) {
-    .recent-topics {
-      float: right;
-      width: 48.75%; } }
-  @media screen and (min-width: 62.5em) {
-    .recent-topics {
-      float: right;
-      width: 33.33%; } }
-  .recent-topics li {
-    margin-bottom: 15px; }
-    @media screen and (min-width: 37.5em) {
-      .recent-topics li {
+        margin: .5em 0; }
+        .popular .featured .summary p.meta {
+          font-size: 12px;
+          font-size: 1.2rem;
+          margin: 1.5em 0 0; }
+    .popular .featured a {
+      display: block; }
+      .popular .featured a:hover .summary, .popular .featured a:focus .summary {
+        background-color: #2d9099;
+        background-color: rgba(45, 144, 153, 0.75); }
+  .popular .article-list {
+    margin: 0; }
+    @media screen and (min-width: 45em) {
+      .popular .article-list {
+        width: 102.5%;
+        margin-left: -2.5%; } }
+    @media screen and (min-width: 56.25em) {
+      .popular .article-list {
+        float: right;
+        width: 48.75%; } }
+    @media screen and (min-width: 67.5em) {
+      .popular .article-list {
+        width: 31.75%; } }
+    .popular .article-list li {
+      margin: 0 0 1.5em; }
+      @media screen and (min-width: 45em) {
+        .popular .article-list li {
+          float: left;
+          width: 47.5%;
+          margin-left: 2.5%;
+          margin-bottom: 2.5%; } }
+      @media screen and (min-width: 56.25em) {
+        .popular .article-list li {
+          float: none;
+          width: auto;
+          margin-left: 0;
+          margin-bottom: 1.5em; } }
+      .popular .article-list li figure {
         float: left;
-        width: 47.5%;
-        margin-left: 2.5%; } }
-    @media screen and (min-width: 50em) {
-      .recent-topics li {
-        float: none;
-        width: auto;
-        margin-left: 0; } }
-    .recent-topics li figure {
-      float: left;
-      width: 90px; }
-    .recent-topics li .summary {
-      height: 90px;
-      margin-left: 90px;
-      padding: 1em 2em;
-      border-left: none;
-      white-space: nowrap; }
-      @media screen and (min-width: 37.5em) {
-        .recent-topics li .summary {
-          padding: 1em 1.5em 0; } }
-      .recent-topics li .summary .meta {
+        width: 9em; }
+      .popular .article-list li .summary {
+        height: 9em;
+        margin-left: 9em;
+        padding: 2em 2em 0;
+        border-left: none; }
+        .popular .article-list li .summary .meta {
+          font-size: 12px;
+          font-size: 1.2rem;
+          list-style: none;
+          margin: .5em 0 0; }
+
+/**************************************************
+ "RECENT" SECTION STYLES
+**************************************************/
+.recent {
+  background-color: #fff; }
+  .recent .article-list {
+    list-style: none;
+    margin: 0; }
+    @media screen and (min-width: 45em) {
+      .recent .article-list {
+        width: 102.5%;
+        margin-left: -2.5%; } }
+    @media screen and (min-width: 45em) {
+      .recent .article-list {
+        width: 102.33%;
+        margin-left: -2.33%; } }
+    .recent .article-list li {
+      font-size: 10px;
+      font-size: 1rem;
+      margin: 0 0 1.5em; }
+      @media screen and (min-width: 45em) {
+        .recent .article-list li {
+          float: left;
+          width: 47.5%;
+          margin-left: 2.5%;
+          margin-bottom: 2.5%; }
+          .recent .article-list li:nth-child(2n+1) {
+            clear: left; } }
+      @media screen and (min-width: 56.25em) {
+        .recent .article-list li {
+          width: 31%;
+          margin-left: 2.33%;
+          margin-bottom: 2.33%; }
+          .recent .article-list li:nth-child(2n+1) {
+            clear: none; }
+          .recent .article-list li:nth-child(3n+1) {
+            clear: left; } }
+    .recent .article-list a {
+      -moz-border-radius: 0.3rem;
+      -webkit-border-radius: 0.3rem;
+      border-radius: 0.3rem;
+      -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+      display: block;
+      overflow: hidden;
+      background-color: #fff; }
+      .recent .article-list a:hover h3, .recent .article-list a:hover p, .recent .article-list a:hover .meta, .recent .article-list a:focus h3, .recent .article-list a:focus p, .recent .article-list a:focus .meta {
+        color: #2d9099; }
+      .recent .article-list a:hover figure img, .recent .article-list a:focus figure img {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+        opacity: 0.75; }
+      .recent .article-list a:hover .summary, .recent .article-list a:focus .summary {
+        background-color: #f1fafb; }
+    .recent .article-list figure {
+      background-color: #2d9099; }
+    .recent .article-list .summary {
+      padding: 2em 2em 1.5em;
+      color: #303040; }
+      .recent .article-list .summary h3 {
+        margin: 0 0 .5em; }
+      .recent .article-list .summary p {
+        font-size: 14px;
+        font-size: 1.4rem; }
+      .recent .article-list .summary .meta {
         font-size: 12px;
         font-size: 1.2rem;
-        list-style: none;
-        margin: .5em 0 0; }
-        .recent-topics li .summary .meta li {
+        margin: 1.5em 0 0;
+        color: #732d55; }
+        .recent .article-list .summary .meta svg {
           display: inline-block;
           vertical-align: middle;
           *vertical-align: auto;
           *zoom: 1;
           *display: inline;
-          float: none;
-          width: auto;
-          margin: 0; }
-          .recent-topics li .summary .meta li:before {
-            content: '\007C';
-            margin: 0 1em 0 .75em; }
-          .recent-topics li .summary .meta li:first-child:before {
-            display: none; }
-    .recent-topics li p {
-      white-space: nowrap; }
-
-section.films {
-  padding-top: 6em;
-  background-color: #fff; }
-
-.recent-films {
-  width: 105%;
-  margin: 0 0 15px -5%; }
-  @media screen and (min-width: 50em) {
-    .recent-films {
-      width: 102.5%;
-      margin-left: -2.5%; } }
-  .recent-films li {
-    float: left;
-    width: 45%;
-    margin: 0 0 5% 5%; }
-    @media screen and (min-width: 50em) {
-      .recent-films li {
-        width: 22.5%;
-        margin-left: 2.5%;
-        margin-bottom: 0; } }
-    .recent-films li .summary {
-      padding: 1em 1.5em; }
-
-section.topics .inner,
-section.films .inner {
-  position: relative; }
-section.topics .button,
-section.films .button {
-  clear: both; }
-  @media screen and (min-width: 50em) {
-    section.topics .button,
-    section.films .button {
-      font-size: 14px;
-      font-size: 1.4rem;
-      position: absolute;
-      top: -5px;
-      right: 0;
-      width: auto; } }
+          height: 1em;
+          width: 1em;
+          margin-right: .25em; }
 
 /**************************************************
  BASIC PAGE STYLES
@@ -1212,15 +1257,15 @@ section.films .button {
   .single article {
     padding: 1.5em 1.5em 3em;
     background-color: #fff; }
-    @media screen and (min-width: 37.5em) {
+    @media screen and (min-width: 33.75em) {
       .single article {
         padding: 3em 3em 6em; } }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .single article {
         float: left;
         width: 60%;
         padding-right: 4.5em; } }
-    @media screen and (min-width: 62.5em) {
+    @media screen and (min-width: 56.25em) {
       .single article {
         width: 70%; } }
     .single article p {
@@ -1247,14 +1292,14 @@ section.films .button {
   .single aside {
     padding: 3em 1.5em;
     color: #fff; }
-    @media screen and (min-width: 37.5em) {
+    @media screen and (min-width: 33.75em) {
       .single aside {
         padding: 3em; } }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .single aside {
         float: right;
         width: 40%; } }
-    @media screen and (min-width: 62.5em) {
+    @media screen and (min-width: 56.25em) {
       .single aside {
         width: 30%; } }
     .single aside h4 {
@@ -1306,7 +1351,7 @@ section.films .button {
   overflow: hidden;
   margin-bottom: 3em;
   background-color: #fff; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .home-feed article,
     .thoughts-feed article,
     .easter-eggs-feed article {
@@ -1324,7 +1369,7 @@ section.films .button {
 .thoughts-feed .summary,
 .easter-eggs-feed .summary {
   padding: 1.5em; }
-  @media screen and (min-width: 37.5em) {
+  @media screen and (min-width: 33.75em) {
     .home-feed .summary,
     .thoughts-feed .summary,
     .easter-eggs-feed .summary {
@@ -1339,7 +1384,7 @@ section.films .button {
   padding: 1em 2em;
   background-color: #f0f0ed;
   text-align: right; }
-  @media screen and (min-width: 37.5em) {
+  @media screen and (min-width: 33.75em) {
     .home-feed footer,
     .thoughts-feed footer,
     .easter-eggs-feed footer {
@@ -1381,7 +1426,7 @@ section.films .button {
       .easter-eggs-feed footer a:hover svg,
       .easter-eggs-feed footer a:focus svg {
         fill: #4e1f3a; }
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 33.75em) {
   .home-feed .qanda h2,
   .thoughts-feed .qanda h2,
   .easter-eggs-feed .qanda h2 {
@@ -1402,13 +1447,13 @@ section.films .button {
     width: 720px;
     margin-left: -360px;
     max-width: none; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .single.thoughts .article-image {
       height: 300px; }
       .single.thoughts .article-image img {
         width: 900px;
         margin-left: -450px; } }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .single.thoughts .article-image {
       height: 360px; }
       .single.thoughts .article-image img {
@@ -1418,7 +1463,7 @@ section.films .button {
   margin-top: 3em;
   padding-top: 1.5em;
   border-top: 1px solid #d9d9d1; }
-  @media screen and (min-width: 37.5em) {
+  @media screen and (min-width: 33.75em) {
     .single.thoughts footer {
       margin-top: 6em;
       padding-top: 3em; } }
@@ -1498,7 +1543,7 @@ section.films .button {
   padding: 3em 1.5em;
   background-color: #732d55;
   color: #fff; }
-  @media screen and (min-width: 37.5em) {
+  @media screen and (min-width: 33.75em) {
     .discussion {
       padding: 3em; } }
   .discussion h1 {
@@ -1513,11 +1558,11 @@ section.films .button {
 .films-list ol {
   width: 105%;
   margin: 0 0 15px -5%; }
-  @media screen and (min-width: 37.5em) {
+  @media screen and (min-width: 33.75em) {
     .films-list ol {
       width: 103.33%;
       margin-left: -3.33%; } }
-  @media screen and (min-width: 37.5em) {
+  @media screen and (min-width: 33.75em) {
     .films-list ol {
       width: 102.5%;
       margin-left: -2.5%; } }
@@ -1525,12 +1570,12 @@ section.films .button {
   float: left;
   width: 45%;
   margin: 0 0 5% 5%; }
-  @media screen and (min-width: 37.5em) {
+  @media screen and (min-width: 33.75em) {
     .films-list li {
       width: 30%;
       margin-left: 3.33%;
       margin-bottom: 3.33%; } }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .films-list li {
       width: 22.5%;
       margin-left: 2.5%;
@@ -1551,22 +1596,22 @@ section.films .button {
   .media-article header {
     padding: 1.5em;
     background-color: #fff; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .media-article header {
         float: right;
         width: 70%;
         padding: 3em;
         border-bottom: 1px solid #d9d9d1; } }
-    @media screen and (min-width: 62.5em) {
+    @media screen and (min-width: 56.25em) {
       .media-article header {
         width: 75%; } }
     .media-article header h1 {
       margin: 0; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     .media-article aside {
       float: left;
       width: 30%; } }
-  @media screen and (min-width: 62.5em) {
+  @media screen and (min-width: 56.25em) {
     .media-article aside {
       width: 25%; } }
   .media-article aside.meta-details {
@@ -1574,11 +1619,11 @@ section.films .button {
     background-color: #f0f0ed; }
     .media-article aside.meta-details figure {
       background-color: #918a98; }
-      @media screen and (min-width: 37.5em) {
+      @media screen and (min-width: 33.75em) {
         .media-article aside.meta-details figure {
           float: left;
           width: 25%; } }
-      @media screen and (min-width: 50em) {
+      @media screen and (min-width: 45em) {
         .media-article aside.meta-details figure {
           float: none;
           width: auto; } }
@@ -1590,10 +1635,10 @@ section.films .button {
       list-style: none;
       margin: 0;
       padding: 0; }
-      @media screen and (min-width: 37.5em) {
+      @media screen and (min-width: 33.75em) {
         .media-article aside.meta-details ul {
           margin-left: 25%; } }
-      @media screen and (min-width: 50em) {
+      @media screen and (min-width: 45em) {
         .media-article aside.meta-details ul {
           margin-left: 0; } }
     .media-article aside.meta-details li {
@@ -1604,26 +1649,26 @@ section.films .button {
       border-top: 1px solid #d9d9d1; }
       .media-article aside.meta-details li:first-child {
         border-top: none; }
-      @media screen and (min-width: 37.5em) {
+      @media screen and (min-width: 33.75em) {
         .media-article aside.meta-details li {
           font-size: 14px;
           font-size: 1.4rem; } }
-      @media screen and (min-width: 50em) {
+      @media screen and (min-width: 45em) {
         .media-article aside.meta-details li {
           font-size: 12px;
           font-size: 1.2rem; } }
   .media-article .article-body {
     background-color: #fff; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .media-article .article-body {
         float: right;
         width: 70%; } }
-    @media screen and (min-width: 62.5em) {
+    @media screen and (min-width: 56.25em) {
       .media-article .article-body {
         width: 75%; } }
   .media-article article {
     padding: 1.5em; }
-    @media screen and (min-width: 37.5em) {
+    @media screen and (min-width: 33.75em) {
       .media-article article {
         padding: 3em; } }
   .media-article .questions,
@@ -1631,7 +1676,7 @@ section.films .button {
   .media-article .submit-question {
     overflow: hidden;
     padding: 3em 1.5em; }
-    @media screen and (min-width: 37.5em) {
+    @media screen and (min-width: 33.75em) {
       .media-article .questions,
       .media-article .related-links,
       .media-article .submit-question {
@@ -1679,7 +1724,7 @@ section.films .button {
             fill: #2d9099; }
   .media-article .related-links {
     background-color: #f0f0ed; }
-    @media screen and (min-width: 37.5em) {
+    @media screen and (min-width: 33.75em) {
       .media-article .related-links ul {
         width: 102%;
         margin-left: -2%; } }
@@ -1687,7 +1732,7 @@ section.films .button {
       font-size: 10px;
       font-size: 1rem;
       margin: 1em 0 0; }
-      @media screen and (min-width: 37.5em) {
+      @media screen and (min-width: 33.75em) {
         .media-article .related-links li {
           float: left;
           width: 48%;
@@ -1717,7 +1762,7 @@ section.films .button {
             color: #2d9099; }
   .media-article .submit-question {
     background-color: #732d55; }
-    @media screen and (min-width: 50em) {
+    @media screen and (min-width: 45em) {
       .media-article .submit-question {
         padding-bottom: 6em; } }
     .media-article .submit-question p {
@@ -1735,12 +1780,12 @@ section.films .button {
       border: none; }
     .media-article .submit-question input[type="submit"] {
       margin-top: 0; }
-      @media screen and (min-width: 50em) {
+      @media screen and (min-width: 45em) {
         .media-article .submit-question input[type="submit"] {
           width: 50%; } }
   .media-article .related-films {
     padding: 3em 1.5em; }
-    @media screen and (min-width: 37.5em) {
+    @media screen and (min-width: 33.75em) {
       .media-article .related-films {
         padding: 3em; } }
     .media-article .related-films h4 {
@@ -1750,7 +1795,7 @@ section.films .button {
     .media-article .related-films ul {
       width: 105%;
       margin: 0 0 0 -5%; }
-      @media screen and (min-width: 50em) {
+      @media screen and (min-width: 45em) {
         .media-article .related-films ul {
           width: auto;
           margin-left: 0; } }
@@ -1758,14 +1803,14 @@ section.films .button {
         float: left;
         width: 45%;
         margin: 0 0 5% 5%; }
-        @media screen and (min-width: 50em) {
+        @media screen and (min-width: 45em) {
           .media-article .related-films ul li {
             float: none;
             width: auto;
             margin: 0 0 1.5em 0; } }
         .media-article .related-films ul li .summary {
           padding: 1em 1.5em; }
-          @media screen and (min-width: 62.5em) {
+          @media screen and (min-width: 56.25em) {
             .media-article .related-films ul li .summary {
               padding: .5em 1em; }
               .media-article .related-films ul li .summary h4 {
@@ -1780,7 +1825,7 @@ section.films .button {
 #user .main form {
   max-width: 36em;
   margin: 0 auto; }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 45em) {
   #user .main .login,
   #user .main .sign-up {
     float: left;
@@ -1790,7 +1835,7 @@ section.films .button {
   padding-bottom: 6em;
   margin-bottom: 6em;
   border-bottom: 1px solid #303040; }
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 45em) {
     #user .main .login {
       margin-bottom: 0;
       padding-bottom: 0;

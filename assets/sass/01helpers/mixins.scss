@@ -1,4 +1,23 @@
 /**************************************************
+ BREAKPOINTS
+**************************************************/
+
+$x-small:  360;
+$small:    540;
+$medium:   720;
+$large:    900;
+$x-large:  1080;
+$xx-large: 1260;
+
+@mixin break-up($point) {
+  @media screen and (min-width: pem($point)) { @content; }
+}
+
+@mixin break-down($point) {
+  @media screen and (max-width: pem($point - 1)) { @content; }
+}
+
+/**************************************************
  FONT SIZE
 **************************************************/
 
@@ -17,22 +36,4 @@
     background-image: url($lg-image);
     background-size: image-width($sm-image) image-height($sm-image);
   }
-}
-
-/**************************************************
- BREAK POINTS
-**************************************************/
-
-$x-small:  400;
-$small:    600;
-$medium:   800;
-$large:    1000;
-$x-large:  1200;
-
-@mixin break-up($point) {
-  @media screen and (min-width: pem($point)) { @content; }
-}
-
-@mixin break-down($point) {
-  @media screen and (max-width: pem($point - 1)) { @content; }
 }

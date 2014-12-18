@@ -51,29 +51,27 @@ $form-button-hover: darken($teal, 5%);
 
 // Header Colors
 
-$header-bg: $x-lt-gray;
+$header-bg: $purple;
+$header-button-bg: $teal;
+$header-button-hover-bg: darken($teal, 10%);
+$header-button-text: $white;
 
-$nav-link-color: $black;
-$nav-link-hover: $purple;
-$user-nav-link-color: $teal;
-$user-nav-link-hover: $dk-teal;
-$nav-divider-color: darken($x-lt-gray, 5%);
-$nav-border: darken($x-lt-gray, 5%);
+$nav-bg: $black;
+$nav-link-color: $white;
+$nav-link-hover: $teal;
+$nav-divider-color: $lt-gray;
 
 $narrow-nav-text: $white;
-$narrow-nav-bg: $purple;
-$narrow-nav-hover: darken($purple, 5%);
-$narrow-nav-border: darken($purple, 5%);
-$narrow-user-nav-bg: $teal;
-$narrow-user-nav-hover: darken($teal, 5%);
-$narrow-user-nav-border: darken($teal, 5%);
+$narrow-nav-bg: $black;
+$narrow-nav-hover: darken($black, 5%);
+$narrow-nav-border: darken($black, 5%);
 
+$nav-toggle-bg: $teal;
+$nav-toggle-border: darken($teal, 5%);
 $nav-toggle-text: $white;
-$nav-toggle-bg: $black;
-$nav-toggle-hover: darken($black, 5%);
 
 $search-input-bg: $white;
-$search-button-bg: $purple;
+$search-button-bg: $black;
 
 // Card Colors
 

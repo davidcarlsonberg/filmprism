@@ -1,31 +1,26 @@
 <?php
-  $pageTitle = 'Film Prism';
+  $pageTitle = 'ScreenPrism | Film & TV Decoded';
   $bodyId = 'home';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
 
-<section class="topics">
+<section class="popular">
   <div class="inner">
-    <header>
-      <h4>Features</h4>
-    </header>
+    <h5 class="section-heading">Popular Articles</h5>
     <article class="featured">
       <a href="q-and-a.php">
         <figure>
-          <img src="http://placehold.it/720x405.jpg" />
+          <img src="assets/img/photos/under-the-skin-poster.jpg" />
         </figure>
         <div class="summary">
-          <h3>Q: Lorem ipsum dolor sit amet?</h3>
-          <p>Short summary of the topic. It should only be two or three lines long. Just a brief description.</p>
-          <ul class="meta">
-            <li>Q &amp; A</li>
-            <li><i><img src="assets/img/graphics/bubble-light.png" /></i> 36</li>
-          </ul>
+          <h3>Q: The Question Will Go Here?</h3>
+          <p>A short summary of the article. This only needs to be a few lines long. Just a brief description to catch the reader's attention.</p>
+          <p class="meta">Q &amp; A <span class="divider">|</span> <svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36</p>
         </div>
       </a>
     </article>
-    <ol class="recent-topics">
+    <ol class="article-list">
       <?php
         include '_partials/features-card.php';
         include '_partials/features-card.php';
@@ -33,22 +28,25 @@
         include '_partials/features-card.php';
       ?>
     </ol>
-    <a href="features.php" class="button">More Features</a>
   </div>
 </section>
 
-<section class="films">
+<section class="recent">
   <div class="inner">
-    <h4 class="title">Featured Films</h4>
-    <ol class="recent-films">
+    <h5 class="section-heading">Recent Articles</h5>
+    <ol class="article-list">
       <?php
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
-        include '_partials/film-card.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
       ?>
     </ol>
-    <a href="films.php" class="button">More Films</a>
   </div>
 </section>
 

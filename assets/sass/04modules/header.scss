@@ -12,25 +12,31 @@
     left: 0;
     right: 0;
   }
-  .top {
-    @extend %site-column;
-    @include box-sizing(content-box);
-    overflow: hidden;
+  .header-top {
+    @extend %clearfix;
     @include break-up($medium){
       padding: 1em $side-padding;
+    }
+  }
+  .header-bottom {
+    @extend %clearfix;
+    clear: both;
+    background-color: $nav-bg;
+    @include break-up($medium){
+      padding: 0 $side-padding;
     }
   }
   h1 {
     @include font-size(10);
     position: relative;
-    height: 9em;
+    height: 7.5em;
     margin: 0;
     text-align: center;
     @include break-up($medium){
       @include float;
       position: static;
       height: auto;
-      margin-left: -4.75em;
+      margin-left: -2em;
     }
     a {
       display: block;
@@ -39,16 +45,58 @@
       top: 50%;
       left: 50%;
       height: 0;
-      width: 22.5em;
+      width: 215px;
       padding-top: 5em;
       margin-top: -2.5em;
-      margin-left: -13em;
+      margin-left: -12.5em;
       background-position: 0 0;
       background-repeat: no-repeat;
       @include hires("../img/logo/screenprism-header-logo.png", "../img/logo/screenprism-header-logo-2x.png");
-      @include break-up($medium){
-        position: static;
-        margin: 0;
+      @include break-up($medium){position:static;margin:0}
+    }
+  }
+  .mailing-list {
+    display: none;
+    position: relative;
+    float: right;
+    padding-top: .625em;
+    @include break-up($medium){display:block}
+    a {
+      @include border-radius;
+      @include font-size(14);
+      display: block;
+      padding: .5em .75em;
+      background-color: $header-button-bg;
+      font-family: $button-font;
+      color: $header-button-text;
+      &:hover {
+        background-color: $header-button-hover-bg;
+        color: $header-button-text;
+      }
+    }
+    .form-wrapper {
+      @extend %transition;
+      @include opacity(0);
+      @include border-radius;
+      @include box-shadow;
+      overflow: hidden;
+      position: absolute;
+      top: 1em;
+      right: -1.5em;
+      max-height: 0;
+      width: 25em;
+      &.open {
+        @include opacity(1);
+        top: 3.25em;
+        max-height: 50em;
+      }
+      form {
+        @include border-radius(0);
+        @include box-shadow(none);
+      }
+      input[type="submit"]{
+        @include font-size(16);
+        margin-top: 0;
       }
     }
   }
@@ -61,16 +109,16 @@
   padding: 0;
   background-color: transparent;
   @include break-up($medium){
-    @include float(right);
+    float: right;
     width: 70%;
     margin: .5em 0;
   }
   @include break-up($large){width:75%}
   @include break-up($x-large){width:80%}
   input[type='text']{
-    @include float;
     @include border-radius(0);
     @include font-size(16);
+    float: left;
     height: 2.5em;
     width: 75%;
     margin: 0;
@@ -78,10 +126,11 @@
     border-top: none;
     border-left: none;
     border-right: none;
+    border-color: darken($header-bg, 5%);
     @include break-up($medium){
       @include border-left-radius;
       padding-left: 1em;
-      border: 1px solid $form-field-border;
+      border: 1px solid darken($header-bg, 5%);
       border-right: none;
     }
     @include break-up($large){
