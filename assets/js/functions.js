@@ -21,6 +21,14 @@ var Site = window.Site || {};
     $('header .mailing-list .form-wrapper').click(function(event){
       event.stopPropagation();
     });
+    
+    // SUMMARY TOGGLE
+    
+    $('.summary-toggle a').click(function(){
+      var articleText = $(this).parents('h5').siblings('.summary');
+      $(articleText).toggleClass('open');
+      $(this).toggleText('Show Full Summary', 'Hide Summary');
+    });
 
   });
 })(jQuery);

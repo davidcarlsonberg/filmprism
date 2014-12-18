@@ -49,6 +49,7 @@ h5, h6 { @include font-size(18) }
 
 %base-type {
   @include font-size(14);
+  line-height: 1.5;
   @include break-up($large){
     @include font-size(16);
   }

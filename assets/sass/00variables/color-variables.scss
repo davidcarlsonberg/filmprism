@@ -103,14 +103,15 @@ $discussion-module-text: $white;
 // Media Article
 
 $media-cover-bg: $lt-gray;
-$media-meta-details-bg: $x-lt-gray;
+$media-details-bg: $x-lt-gray;
 $media-subsection-headline: $white;
 $media-link-block-bg: $white;
 $media-link-block-text: $purple;
 $media-link-block-hover: $teal;
 $media-link-block-hover-bg: lighten($teal, 60%);
 $related-qanda-bg: $lt-gray;
-$related-links-bg: $x-lt-gray;
+$related-articles-bg: $x-lt-gray;
+$related-links-bg: $teal;
 $submit-question-bg: $purple;
 
 // Thoughts Article

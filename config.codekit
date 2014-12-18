@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_partials\/article-listing.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_partials\/article-listing.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_partials\/discussion.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -175,6 +184,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/covers\/hobbit-movie-poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67659,
+		"inputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/graphics\/placeholder-cover-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -204,6 +224,39 @@
 		"initialSize": 2906,
 		"inputAbbreviatedPath": "\/assets\/img\/logo\/screenprism-header-logo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/logo\/screenprism-header-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/photos\/grand-budapest-square.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24820,
+		"inputAbbreviatedPath": "\/assets\/img\/photos\/grand-budapest-square.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/photos\/grand-budapest-square.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/photos\/inherent-vice-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59789,
+		"inputAbbreviatedPath": "\/assets\/img\/photos\/inherent-vice-photo.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/photos\/inherent-vice-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/photos\/under-the-skin-poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144299,
+		"inputAbbreviatedPath": "\/assets\/img\/photos\/under-the-skin-poster.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/photos\/under-the-skin-poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -746,24 +799,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/config.rb",
 		"outputAbbreviatedPath": "\/config.rb",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/easter-egg-page.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/easter-egg-page.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/easter-eggs.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/easter-eggs.php",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

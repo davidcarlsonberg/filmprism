@@ -27,9 +27,9 @@
       width: 30%;
     }
     @include break-up($large){width:25%}
-    &.meta-details {
+    &.details {
       overflow: hidden;
-      background-color: $media-meta-details-bg;
+      background-color: $media-details-bg;
       figure {
         background-color: $media-cover-bg;
         @include break-up($small){
@@ -61,6 +61,7 @@
         &:first-child{border-top:none}
         @include break-up($small){@include font-size(14)}
         @include break-up($medium){@include font-size(12)}
+        span {white-space:nowrap}
       }
     }
   }
@@ -74,11 +75,18 @@
   }
   article {
     padding: 1.5em;
-    @include break-up($small){
-      padding: 3em;
+    @include break-up($medium){padding:3em}
+    .section-heading {margin-bottom:1em}
+    .summary {overflow:hidden;max-height:20em;padding-bottom:3em}
+    .summary.open {max-height:none}
+    .summary-toggle {
+      margin: 0;
+      padding-top: .5em;
+      border-top: 1px solid $border-color;
     }
   }
-  .questions, 
+  .related-questions,
+  .related-articles,
   .related-links,
   .submit-question {
     overflow: hidden;
@@ -86,15 +94,17 @@
     @include break-up($small){padding:3em}
     h2 {margin:0 0 1em}
   }
-  .questions,
-  .related-links{
+  .related-questions,
+  .related-articles,
+  .related-links {
     ul{list-style:none;margin:0}
   }
-  .questions,
+  .related-questions,
+  .related-links,
   .submit-question {
     h2 {color:$media-subsection-headline}
   }
-  .questions {
+  .related-questions {
     background-color: $related-qanda-bg;
     li {
       @include font-size(10);
@@ -108,7 +118,6 @@
         margin: 0;
       }
       h3,p{color:$media-link-block-text}
-      svg {fill:$media-link-block-text}
       a {
         @include border-radius;
         display: block;
@@ -117,25 +126,21 @@
         &:hover,
         &:focus {
           background-color: $media-link-block-hover-bg;
-          h3,p{color:$media-link-block-hover}
-          svg{fill:$media-link-block-hover}
+          h3, p {color:$media-link-block-hover}
         }
       }
     }
   }
-  .related-links {
-    background-color: $related-links-bg;
+  .related-articles {
+    background-color: $related-articles-bg;
     ul {
-      @include break-up($small){
-        width: 102%;
-        margin-left: -2%;
-      }
+      @include break-up($small){width:102%;margin-left:-2%}
     }
     li {
       @include font-size(10);
       margin: 1em 0 0;
       @include break-up($small){
-        @include float;
+        float: left;
         width: 48%;
         margin: 0 0 2% 2%;
         &:nth-child(odd){clear:left}
@@ -159,7 +164,44 @@
         &:focus {
           background-color: $media-link-block-hover-bg;
           border-color: $media-link-block-hover;
-          h5,p{color:$media-link-block-hover}
+          h5, p {color:$media-link-block-hover}
+        }
+      }
+    }
+  }
+  .related-links {
+    background-color: $related-links-bg;
+    ul {
+      @include break-up($small){width:102%;margin-left:-2%}
+    }
+    li {
+      @include font-size(10);
+      margin: 1em 0 0;
+      @include break-up($small){
+        float: left;
+        width: 48%;
+        margin: 0 0 2% 2%;
+        &:nth-child(odd){clear:left}
+      }
+      h5 {
+        margin: .25em 0 .75em;
+        color: $media-link-block-text;
+      }
+      p {
+        @include font-size(12);
+        margin: 0;
+        color: $body-text;
+      }
+      a {
+        @include border-radius;
+        display: block;
+        padding: 1.5em;
+        background-color: $media-link-block-bg;
+        border: 1px solid darken($teal, 5%);
+        &:hover,
+        &:focus {
+          background-color: $media-link-block-hover-bg;
+          h5, p {color:$media-link-block-hover}
         }
       }
     }

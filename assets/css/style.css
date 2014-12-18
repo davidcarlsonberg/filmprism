@@ -399,7 +399,8 @@ h5, h6 {
 
 p, ul li, ol li, address {
   font-size: 14px;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  line-height: 1.5; }
   @media screen and (min-width: 56.25em) {
     p, ul li, ol li, address {
       font-size: 16px;
@@ -766,7 +767,8 @@ nav ol {
   list-style: none;
   margin: 0; }
 nav li {
-  margin: 0; }
+  margin: 0;
+  line-height: 1; }
 
 /**************************************************
  HEADER NAVIGATION STYLES
@@ -1614,49 +1616,51 @@ body {
   @media screen and (min-width: 56.25em) {
     .media-article aside {
       width: 25%; } }
-  .media-article aside.meta-details {
+  .media-article aside.details {
     overflow: hidden;
     background-color: #f0f0ed; }
-    .media-article aside.meta-details figure {
+    .media-article aside.details figure {
       background-color: #918a98; }
       @media screen and (min-width: 33.75em) {
-        .media-article aside.meta-details figure {
+        .media-article aside.details figure {
           float: left;
           width: 25%; } }
       @media screen and (min-width: 45em) {
-        .media-article aside.meta-details figure {
+        .media-article aside.details figure {
           float: none;
           width: auto; } }
-      .media-article aside.meta-details figure img {
+      .media-article aside.details figure img {
         display: block;
         width: auto;
         margin: 0 auto; }
-    .media-article aside.meta-details ul {
+    .media-article aside.details ul {
       list-style: none;
       margin: 0;
       padding: 0; }
       @media screen and (min-width: 33.75em) {
-        .media-article aside.meta-details ul {
+        .media-article aside.details ul {
           margin-left: 25%; } }
       @media screen and (min-width: 45em) {
-        .media-article aside.meta-details ul {
+        .media-article aside.details ul {
           margin-left: 0; } }
-    .media-article aside.meta-details li {
+    .media-article aside.details li {
       font-size: 12px;
       font-size: 1.2rem;
       margin: 0;
       padding: 1em;
       border-top: 1px solid #d9d9d1; }
-      .media-article aside.meta-details li:first-child {
+      .media-article aside.details li:first-child {
         border-top: none; }
       @media screen and (min-width: 33.75em) {
-        .media-article aside.meta-details li {
+        .media-article aside.details li {
           font-size: 14px;
           font-size: 1.4rem; } }
       @media screen and (min-width: 45em) {
-        .media-article aside.meta-details li {
+        .media-article aside.details li {
           font-size: 12px;
           font-size: 1.2rem; } }
+      .media-article aside.details li span {
+        white-space: nowrap; }
   .media-article .article-body {
     background-color: #fff; }
     @media screen and (min-width: 45em) {
@@ -1668,62 +1672,113 @@ body {
         width: 75%; } }
   .media-article article {
     padding: 1.5em; }
-    @media screen and (min-width: 33.75em) {
+    @media screen and (min-width: 45em) {
       .media-article article {
         padding: 3em; } }
-  .media-article .questions,
+    .media-article article .section-heading {
+      margin-bottom: 1em; }
+    .media-article article .summary {
+      overflow: hidden;
+      max-height: 20em;
+      padding-bottom: 3em; }
+    .media-article article .summary.open {
+      max-height: none; }
+    .media-article article .summary-toggle {
+      margin: 0;
+      padding-top: .5em;
+      border-top: 1px solid #d9d9d1; }
+  .media-article .related-questions,
+  .media-article .related-articles,
   .media-article .related-links,
   .media-article .submit-question {
     overflow: hidden;
     padding: 3em 1.5em; }
     @media screen and (min-width: 33.75em) {
-      .media-article .questions,
+      .media-article .related-questions,
+      .media-article .related-articles,
       .media-article .related-links,
       .media-article .submit-question {
         padding: 3em; } }
-    .media-article .questions h2,
+    .media-article .related-questions h2,
+    .media-article .related-articles h2,
     .media-article .related-links h2,
     .media-article .submit-question h2 {
       margin: 0 0 1em; }
-  .media-article .questions ul,
+  .media-article .related-questions ul,
+  .media-article .related-articles ul,
   .media-article .related-links ul {
     list-style: none;
     margin: 0; }
-  .media-article .questions h2,
+  .media-article .related-questions h2,
+  .media-article .related-links h2,
   .media-article .submit-question h2 {
     color: #fff; }
-  .media-article .questions {
+  .media-article .related-questions {
     background-color: #918a98; }
-    .media-article .questions li {
+    .media-article .related-questions li {
       font-size: 10px;
       font-size: 1rem;
       margin: 1em 0 0; }
-      .media-article .questions li h3 {
+      .media-article .related-questions li h3 {
         margin: 0 0 .25em;
         line-height: 1.2; }
-      .media-article .questions li p {
+      .media-article .related-questions li p {
         font-size: 14px;
         font-size: 1.4rem;
         margin: 0; }
-      .media-article .questions li h3, .media-article .questions li p {
+      .media-article .related-questions li h3, .media-article .related-questions li p {
         color: #732d55; }
-      .media-article .questions li svg {
-        fill: #732d55; }
-      .media-article .questions li a {
+      .media-article .related-questions li a {
         -moz-border-radius: 0.3rem;
         -webkit-border-radius: 0.3rem;
         border-radius: 0.3rem;
         display: block;
         padding: 1.5em;
         background-color: #fff; }
-        .media-article .questions li a:hover, .media-article .questions li a:focus {
+        .media-article .related-questions li a:hover, .media-article .related-questions li a:focus {
           background-color: #fafdfe; }
-          .media-article .questions li a:hover h3, .media-article .questions li a:hover p, .media-article .questions li a:focus h3, .media-article .questions li a:focus p {
+          .media-article .related-questions li a:hover h3, .media-article .related-questions li a:hover p, .media-article .related-questions li a:focus h3, .media-article .related-questions li a:focus p {
             color: #2d9099; }
-          .media-article .questions li a:hover svg, .media-article .questions li a:focus svg {
-            fill: #2d9099; }
-  .media-article .related-links {
+  .media-article .related-articles {
     background-color: #f0f0ed; }
+    @media screen and (min-width: 33.75em) {
+      .media-article .related-articles ul {
+        width: 102%;
+        margin-left: -2%; } }
+    .media-article .related-articles li {
+      font-size: 10px;
+      font-size: 1rem;
+      margin: 1em 0 0; }
+      @media screen and (min-width: 33.75em) {
+        .media-article .related-articles li {
+          float: left;
+          width: 48%;
+          margin: 0 0 2% 2%; }
+          .media-article .related-articles li:nth-child(odd) {
+            clear: left; } }
+      .media-article .related-articles li h5 {
+        margin: .25em 0 .75em;
+        color: #732d55; }
+      .media-article .related-articles li p {
+        font-size: 12px;
+        font-size: 1.2rem;
+        margin: 0;
+        color: #303040; }
+      .media-article .related-articles li a {
+        -moz-border-radius: 0.3rem;
+        -webkit-border-radius: 0.3rem;
+        border-radius: 0.3rem;
+        display: block;
+        padding: 1.5em;
+        background-color: #fff;
+        border: 1px solid #d9d9d1; }
+        .media-article .related-articles li a:hover, .media-article .related-articles li a:focus {
+          background-color: #fafdfe;
+          border-color: #2d9099; }
+          .media-article .related-articles li a:hover h5, .media-article .related-articles li a:hover p, .media-article .related-articles li a:focus h5, .media-article .related-articles li a:focus p {
+            color: #2d9099; }
+  .media-article .related-links {
+    background-color: #2d9099; }
     @media screen and (min-width: 33.75em) {
       .media-article .related-links ul {
         width: 102%;
@@ -1754,10 +1809,9 @@ body {
         display: block;
         padding: 1.5em;
         background-color: #fff;
-        border: 1px solid #d9d9d1; }
+        border: 1px solid #277d85; }
         .media-article .related-links li a:hover, .media-article .related-links li a:focus {
-          background-color: #fafdfe;
-          border-color: #2d9099; }
+          background-color: #fafdfe; }
           .media-article .related-links li a:hover h5, .media-article .related-links li a:hover p, .media-article .related-links li a:focus h5, .media-article .related-links li a:focus p {
             color: #2d9099; }
   .media-article .submit-question {
