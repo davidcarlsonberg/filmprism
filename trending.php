@@ -1,12 +1,14 @@
 <?php
-  $pageTitle = 'Thoughts | Film Prism';
+  $pageTitle = 'Trending | Film Prism';
   $bodyId = 'thoughts';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
 
 <section class="filters">
-  <p>Filter by Category <a href="features.php">Q &amp; A</a> <a href="features.php">Articles</a></p>
+  <div class="inner">
+    <p>Filter by Category <a href="trending.php">Q &amp; A</a> <a href="trending.php">Articles</a></p>
+  </div>
 </section>
 
 <section class="main thoughts-feed">

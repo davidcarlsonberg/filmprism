@@ -89,6 +89,10 @@
     color: $filters-bar-text;
     font-family: $filters-font;
     text-transform: uppercase;
+    @include break-up($medium){
+      float: left;
+      width: 65%;
+    }
   }
   a {
     @include inline-block;
@@ -98,6 +102,17 @@
     background-color: $filters-bar-link-bg;
     color: $filters-bar-link-text;
     &:hover,&:focus{background-color:$filters-bar-link-hover}
+  }
+  .select-box {
+    margin-top: 1em;
+    @include break-up($medium){
+      float: right;
+      width: 30%;
+      margin-top: 0;
+    }
+    @include break-up($large){
+      width: 24em;
+    }
   }
 }
 

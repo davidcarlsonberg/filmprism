@@ -1,12 +1,24 @@
 <?php
-  $pageTitle = 'Films | Film Prism';
+  $pageTitle = 'TV Shows | FilmPrism';
   $bodyId = 'media';
   include '_partials/head.php';
   include '_partials/header.php';
 ?>
 
 <section class="filters">
-  <p>Sort by <a href="films.php">Release Date</a> <a href="films.php">Title</a></p>
+  <div class="inner">
+    <p>Sort by <a href="tv.php">Release Date</a> <a href="tv.php">Title</a></p>
+    <div class="select-box">
+      <span>Filter by Genre</span>
+      <select>
+        <option>- Filter by Genre -</option>
+        <option>Comedy</option>
+        <option>Drama</option>
+        <option>Horror</option>
+        <option>Romance</option>
+      </select>
+    </div>
+  </div>
 </section>
 
 <section class="main films-list">
