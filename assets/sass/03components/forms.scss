@@ -71,10 +71,11 @@ input[type='submit']{
 .select-box {
   position: relative;
   span {
+    @include box-shadow;
     @include border-radius;
     @include font-size(14);
     display: block;
-    padding: .5em .75em;
+    padding: .75em 1em;
     background-color: $white;
     font-family: $lato;
     &:after {

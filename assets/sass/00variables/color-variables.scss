@@ -89,7 +89,7 @@ $card-link-hover: $teal;
 
 $module-bg: $white;
 $module-footer-bg: $x-lt-gray;
-$module-header-bg: $purple;
+$module-header-bg: $black;
 $module-header-text: $white;
 $module-footer-link: $purple;
 $module-footer-hover: darken($purple, 10%);
@@ -127,10 +127,10 @@ $share-icons-hover: $lt-gray;
 
 // Filters Bar
 
-$filters-bar-bg: $teal;
-$filters-bar-text: $white;
+$filters-bar-bg: $x-lt-gray;
+$filters-bar-text: $black;
 $filters-bar-link-text: $white;
-$filters-bar-link-bg: $black;
+$filters-bar-link-bg: $teal;
 $filters-bar-link-hover: $dk-teal;
 
 // Footer Colors

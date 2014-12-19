@@ -1,8 +1,8 @@
 <article class="feature">
-  <h6>Features</h6>
+  <h6>Articles</h6>
   <figure>
     <a href="feature.php">
-      <img src="http://placehold.it/720x270.jpg" />
+      <img src="assets/img/photos/interstellar-photo-01.jpg" />
     </a>
   </figure>
   <div class="summary">

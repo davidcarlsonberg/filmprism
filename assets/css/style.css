@@ -551,13 +551,16 @@ button, input[type='submit'] {
 .select-box {
   position: relative; }
   .select-box span {
+    -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
+    box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
     -moz-border-radius: 0.3rem;
     -webkit-border-radius: 0.3rem;
     border-radius: 0.3rem;
     font-size: 14px;
     font-size: 1.4rem;
     display: block;
-    padding: .5em .75em;
+    padding: .75em 1em;
     background-color: #fff;
     font-family: "Lato", Helmet, Freesans, sans-serif; }
     .select-box span:after {
@@ -588,9 +591,6 @@ button, input[type='submit'] {
  HEADER STYLES
 **************************************************/
 .site-header {
-  -moz-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
-  -webkit-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
-  box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
   position: relative;
   z-index: 10;
   background-color: #732d55; }
@@ -654,6 +654,9 @@ button, input[type='submit'] {
           padding-top: 7.2em; } }
   @media screen and (min-width: 56.25em) {
     .site-header.smallheader {
+      -moz-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
+      -webkit-box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
+      box-shadow: 0 0 10px rgba(48, 48, 64, 0.5);
       overflow: hidden;
       padding: 0 5%;
       border-bottom: 1px solid #3c172c; }
@@ -988,6 +991,7 @@ body {
 
 .site-footer {
   padding: 6em 5%;
+  border-top: 1.5em solid #732d55;
   color: #fff;
   text-align: center; }
   @media screen and (min-width: 45em) {
@@ -995,14 +999,11 @@ body {
       text-align: left; } }
   .site-footer svg {
     height: 3em;
-    width: 3em;
-    fill: #fff; }
+    width: 3em; }
   .site-footer a {
     color: #fff; }
     .site-footer a:hover, .site-footer a:focus {
       color: #918a98; }
-      .site-footer a:hover svg, .site-footer a:focus svg {
-        fill: #918a98; }
   .site-footer h1 {
     margin: 0; }
   .site-footer ol {
@@ -1145,16 +1146,17 @@ body {
 **************************************************/
 .filters {
   padding: 1.5em 5%;
-  background-color: #2d9099; }
-  @media screen and (min-width: 45em) {
+  background-color: #f0f0ed;
+  border-bottom: 1px solid #d9d9d1; }
+  @media screen and (min-width: 56.25em) {
     .filters {
-      padding-top: 13.5em;
-      padding-bottom: 2em; } }
+      padding-top: 15em;
+      padding-bottom: 1.75em; } }
   .filters p {
     font-size: 14px;
     font-size: 1.4rem;
     margin: 0 auto;
-    color: #fff;
+    color: #303040;
     font-family: "Lato", Helmet, Freesans, sans-serif;
     text-transform: uppercase; }
     @media screen and (min-width: 45em) {
@@ -1163,7 +1165,7 @@ body {
         width: 65%; } }
   .filters a {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: baseline;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline;
@@ -1171,8 +1173,8 @@ body {
     -webkit-border-radius: 0.3rem;
     border-radius: 0.3rem;
     margin-left: .25em;
-    padding: .25em .5em;
-    background-color: #303040;
+    padding: .5em .75em;
+    background-color: #2d9099;
     color: #fff; }
     .filters a:hover, .filters a:focus {
       background-color: #1f5466; }
@@ -1185,7 +1187,7 @@ body {
         margin-top: 0; } }
     @media screen and (min-width: 56.25em) {
       .filters .select-box {
-        width: 24em; } }
+        width: 20%; } }
 
 .thoughts-feed, .films-list {
   padding-top: 4em; }
@@ -1431,7 +1433,7 @@ body {
       font-size: 12px;
       font-size: 1.2rem;
       max-width: none;
-      margin: 1.5em 0 0;
+      margin: 1.5em 0 -2.25em;
       padding: .5em 0;
       border-top: 1px solid #d9d9d1;
       font-family: "Lato", Helmet, Freesans, sans-serif; }
@@ -1512,7 +1514,7 @@ body {
   font-size: 1.4rem;
   margin: 0;
   padding: 1em 1.5em;
-  background-color: #732d55;
+  background-color: #303040;
   color: #fff; }
 .home-feed .summary,
 .thoughts-feed .summary,
@@ -1654,14 +1656,10 @@ body {
       color: #303040; }
     .single.thoughts .related a .meta {
       margin: 1em 0 0; }
-      .single.thoughts .related a .meta svg {
-        fill: #303040; }
     .single.thoughts .related a:hover, .single.thoughts .related a:focus {
       background-color: #fafdfe; }
       .single.thoughts .related a:hover h5, .single.thoughts .related a:hover p, .single.thoughts .related a:focus h5, .single.thoughts .related a:focus p {
         color: #2d9099; }
-      .single.thoughts .related a:hover svg, .single.thoughts .related a:focus svg {
-        fill: #2d9099; }
 
 .share-links {
   margin-bottom: 2em; }
@@ -1679,13 +1677,12 @@ body {
     font-size: 1rem;
     margin: 0 .5em 0 0; }
   .share-links a {
-    display: block; }
-    .share-links a:hover svg, .share-links a:focus svg {
-      fill: #918a98; }
-  .share-links svg {
-    fill: #fff;
+    display: block;
     height: 3em;
-    width: 3em; }
+    width: 3em;
+    color: #fff; }
+    .share-links a:hover, .share-links a:focus {
+      color: #918a98; }
 
 .discussion {
   clear: both;
@@ -2017,27 +2014,3 @@ body {
               .media-article .related-films ul li .summary h4 {
                 font-size: 14px;
                 font-size: 1.4rem; } }
-
-/**************************************************
- USER PAGE STYLES
-**************************************************/
-#user .main h1 {
-  text-align: center; }
-#user .main form {
-  max-width: 36em;
-  margin: 0 auto; }
-@media screen and (min-width: 45em) {
-  #user .main .login,
-  #user .main .sign-up {
-    float: left;
-    width: 50%;
-    padding: 0 2.5%; } }
-#user .main .login {
-  padding-bottom: 6em;
-  margin-bottom: 6em;
-  border-bottom: 1px solid #303040; }
-  @media screen and (min-width: 45em) {
-    #user .main .login {
-      margin-bottom: 0;
-      padding-bottom: 0;
-      border-bottom: none; } }

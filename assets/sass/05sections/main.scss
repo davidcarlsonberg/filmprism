@@ -73,9 +73,10 @@
 .filters {
   padding: 1.5em $side-padding;
   background-color: $filters-bar-bg;
-  @include break-up($medium){
-    padding-top: 13.5em;
-    padding-bottom: 2em;
+  border-bottom: 1px solid darken($filters-bar-bg,10%);
+  @include break-up($large){
+    padding-top: 15em;
+    padding-bottom: 1.75em;
   }
   p {
     @extend %site-column;
@@ -90,10 +91,10 @@
     }
   }
   a {
-    @include inline-block;
+    @include inline-block(baseline);
     @include border-radius;
     margin-left: .25em;
-    padding: .25em .5em;
+    padding: .5em .75em;
     background-color: $filters-bar-link-bg;
     color: $filters-bar-link-text;
     &:hover,&:focus{background-color:$filters-bar-link-hover}
@@ -106,7 +107,7 @@
       margin-top: 0;
     }
     @include break-up($large){
-      width: 24em;
+      width: 20%;
     }
   }
 }

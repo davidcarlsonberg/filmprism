@@ -1,4 +1,4 @@
-<div class="discussion">
+<div class="discussion" id="discussion">
   <h1>Discussion</h1>
   <div id="disqus_thread"></div>
   <script type="text/javascript">

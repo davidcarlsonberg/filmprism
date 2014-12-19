@@ -9,7 +9,7 @@
       </a>
     </li>
     <li>
-      <a href="q-and-a.php">
+      <a href="qanda.php">
         <h5>Q: Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h5>
         <p class="meta"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36</p>
       </a>

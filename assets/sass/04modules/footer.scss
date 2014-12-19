@@ -9,21 +9,14 @@
 .site-footer {
   @extend %clearfix;
   padding: 6em $side-padding;
+  border-top: 1.5em solid $purple;
   color: $footer-text;
   text-align: center;
   @include break-up($medium){text-align:left}
-  svg{
-    height: 3em;
-    width: 3em;
-    fill: $footer-icon;
-  }
+  svg{height:3em;width:3em}
   a {
     color: $footer-link;
-    &:hover, 
-    &:focus {
-      color: $footer-hover;
-      svg {fill:$footer-hover}
-    }
+    &:hover,&:focus{color:$footer-hover}
   }
   h1{margin:0}
   ol {
