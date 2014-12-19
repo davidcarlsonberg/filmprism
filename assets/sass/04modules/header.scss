@@ -3,25 +3,18 @@
 **************************************************/
 
 .site-header {
+  @include box-shadow(0 0 10px $header-shadow);
+  position: relative;
+  z-index: 10;
   background-color: $header-bg;
-  @include break-up($medium){
-    @include box-shadow(0 0 10px transparentize($black, .5));
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    right: 0;
+  @include break-up($large){
+    position: absolute;
+    top:0px;left:0;right:0;
+    &.smallheader {position:fixed;top:-150px}
+    &.fixedheader {top:0;}
   }
   .header-top {
     @extend %clearfix;
-    @include break-up($medium){
-      padding: 1em $side-padding;
-    }
-  }
-  .header-bottom {
-    @extend %clearfix;
-    clear: both;
-    background-color: $nav-bg;
     @include break-up($medium){
       padding: 0 $side-padding;
     }
@@ -29,15 +22,15 @@
   h1 {
     @include font-size(10);
     position: relative;
-    height: 7.5em;
+    height: 10em;
     margin: 0;
     text-align: center;
     @include break-up($medium){
-      @include float;
-      position: static;
-      height: auto;
-      margin-left: -2em;
+      float: left;
+      height: 6.4em;
+      margin-left: -3em;
     }
+    @include break-up($large){height:7.2em}
     a {
       display: block;
       overflow: hidden;
@@ -45,33 +38,98 @@
       top: 50%;
       left: 50%;
       height: 0;
-      width: 215px;
+      width: 21.5em;
       padding-top: 5em;
       margin-top: -2.5em;
       margin-left: -12.5em;
-      background-position: 0 0;
+      background-position: 50% 50%;
       background-repeat: no-repeat;
       @include hires("../img/logo/screenprism-header-logo.png", "../img/logo/screenprism-header-logo-2x.png");
-      @include break-up($medium){position:static;margin:0}
+      @include break-up($medium){
+        position: static;
+        width: 24em;
+        margin: 0;
+        padding-top: 6.4em;
+        &:hover,&:focus {background-color:$nav-link-hover-bg}
+      }
+      @include break-up($large){padding-top:7.2em}
     }
   }
-  .mailing-list {
-    display: none;
-    position: relative;
-    float: right;
-    padding-top: .625em;
-    @include break-up($medium){display:block}
+  &.smallheader {
+    @include break-up($large){
+      overflow: hidden;
+      padding: 0 $side-padding;
+      border-bottom: 1px solid $header-border;
+      .header-top {padding:0}
+      .header-top:before,
+      .header-top:after {content:none}
+      .mailing-list,
+      .social-links {display:none}
+      nav {float:left;margin:0}
+      h1 a {
+        width: 6em;
+        @include hires("../img/logo/screenprism-header-icon.png", "../img/logo/screenprism-header-icon-2x.png");
+      }
+      .search-bar {
+        clear: none;
+        float: right;
+        width: 48.75%;
+        padding: 1.5em 0 0;
+        background-color: transparent;
+        @include break-up(1200){
+          position: absolute;
+          width: 60em;
+          right: 50%;
+          margin-right: -54em;
+        }
+      }
+    }
+  }
+}
+
+/**************************************************
+ HEADER MAILING LIST STYLES
+**************************************************/
+
+.mailing-list {
+  .site-header & {
+    @include break-up($small){
+      float: right;
+      width: 25%;
+    }
+    @include break-up($medium){
+      position: relative;
+      width: auto;
+      margin-top: 1.5em;
+    }
+    @include break-up($large){
+      margin-top: 1.5em;
+    }
     a {
-      @include border-radius;
-      @include font-size(14);
+      @include font-size(16);
       display: block;
-      padding: .5em .75em;
+      padding: .75em 1em;
       background-color: $header-button-bg;
-      font-family: $button-font;
       color: $header-button-text;
-      &:hover {
-        background-color: $header-button-hover-bg;
-        color: $header-button-text;
+      font-family: $button-font;
+      font-weight: 300;
+      text-align: center;
+      text-transform: uppercase;
+      @include break-up($small){
+        @include border-radius;
+        display: block;
+        padding: .5em .75em;
+        text-transform: none;
+        &:hover, &:focus {
+          background-color: $header-button-hover-bg;
+          color: $header-button-text;
+        }
+      }
+      @include break-up($medium){
+        border: 1px solid $header-button-border;
+      }
+      @include break-up($large){
+        padding: .75em 1em;
       }
     }
     .form-wrapper {
@@ -87,8 +145,9 @@
       width: 25em;
       &.open {
         @include opacity(1);
-        top: 3.25em;
+        top: 3em;
         max-height: 50em;
+        @include break-up($large){top:4em}
       }
       form {
         @include border-radius(0);
@@ -102,72 +161,87 @@
   }
 }
 
+/**************************************************
+ HEADER SOCIAL LINKS
+**************************************************/
+
+.social-links {
+  .site-header & {
+    list-style: none;
+    display: none;
+    float: right;
+    margin: 2.25em .5em 0 0;
+    text-align: right;
+    @include break-up($large){display:block}
+    li {
+      @include inline-block;
+      @include font-size(10);
+      width: 2.7em;
+      margin: 0 1.5em 0 0;
+      a {
+        color: $white;
+        &:hover,&:focus {
+          color: lighten($purple,50%);
+        }
+      }
+    }
+  }
+}
+
+/**************************************************
+ HEADER MAILING LIST STYLES
+**************************************************/
+
 .search-bar {
   @include border-radius(0);
   @include box-shadow(none);
+  clear: both;
   overflow: hidden;
-  padding: 0;
-  background-color: transparent;
-  @include break-up($medium){
-    float: right;
-    width: 70%;
-    margin: .5em 0;
+  padding: .75em;
+  background-color: $search-bg;
+  @include break-up($small){
+    padding: 1em $side-padding;
   }
-  @include break-up($large){width:75%}
-  @include break-up($x-large){width:80%}
-  input[type='text']{
+  form {
+    @extend %site-column;
     @include border-radius(0);
+    padding: 0;
+    background-color: transparent;
+  }
+  input[type="text"]{
+    @include border-right-radius(0);
     @include font-size(16);
     float: left;
     height: 2.5em;
     width: 75%;
     margin: 0;
-    padding: .625em 0 .625em $side-padding;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: darken($header-bg, 5%);
-    @include break-up($medium){
-      @include border-left-radius;
-      padding-left: 1em;
-      border: 1px solid darken($header-bg, 5%);
-      border-right: none;
-    }
-    @include break-up($large){
-      width: 80%;
-    }
+    padding: .75em 1em;
+    border-color: darken($black, 5%);
+    border: none;
+    @include break-up($large){width:80%}
   }
   button{
-    @include float;
-    @include border-radius(0);
+    @include border-left-radius(0);
     @include box-shadow(none);
     @include font-size(16);
+    float: left;
     height: 2.5em;
     width: 25%;
     margin: 0;
+    border: none;
     background-color: $search-button-bg;
-    border-color: darken($search-button-bg, 5%);
-    border-right: none;
-    border-top: none;
+    color: $search-button-text;
     text-align: center;
-    @include break-up($medium){@include border-right-radius}
     @include break-up($large){width:20%}
     &:hover,&:focus {background-color:darken($search-button-bg,5%)}
     svg {
       @include inline-block(top);
-      width: (20/16)+em;
+      width: 1.25em;
       margin: 0 .5em;;
-      fill: #fff;
-      .ltie9 & {
-        display: none;
-      }
+      .ltie9 & {display:none}
     }
-    span {
-      display: none;
-      margin: 0 .5em;
-      .ltie9 & {
-        display: inline;
-      }
+    span {display:none;
+      .ltie9 & {display:inline}
     }
   }
 }

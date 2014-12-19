@@ -45,6 +45,9 @@
         include '_partials/article-listing.php';
         include '_partials/article-listing.php';
         include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
+        include '_partials/article-listing.php';
       ?>
     </ol>
   </div>

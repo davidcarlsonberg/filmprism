@@ -9,18 +9,38 @@ var Site = window.Site || {};
       $('header nav').slideToggle();
     });
     
+    // STICKY HEADER
+		$(function() {
+		  function fixedHeader() {
+  		  var siteHeader = $('.site-header');
+  		  
+  	    if ($(window).scrollTop() >= 140) {$(siteHeader).addClass('smallheader');}
+  		  else {$(siteHeader).removeClass('smallheader');}
+  		  
+  	    if ($(window).scrollTop() >= 145) {$(siteHeader).addClass('transition');}
+  		  else {$(siteHeader).removeClass('transition');}
+  		  
+  	    if ($(window).scrollTop() >= 180) {$(siteHeader).addClass('fixedheader');}
+  		  else {$(siteHeader).removeClass('fixedheader');}
+  		  
+		  }
+		  $(window).scroll(fixedHeader);
+		});
+    
     // MAILING LIST TOGGLE
     
-    $('header .mailing-list a').click(function(){
-      $('header .mailing-list .form-wrapper').toggleClass('open');
-      return false;
-    });
-    $('body').click(function(){
-      $('header .mailing-list .form-wrapper').removeClass('open');
-    });
-    $('header .mailing-list .form-wrapper').click(function(event){
-      event.stopPropagation();
-    });
+    if ($(window).width() >= 720){
+      $('header .mailing-list a').click(function(){
+        $('header .mailing-list .form-wrapper').toggleClass('open');
+        return false;
+      });
+      $('body').click(function(){
+        $('header .mailing-list .form-wrapper').removeClass('open');
+      });
+      $('header .mailing-list .form-wrapper').click(function(event){
+        event.stopPropagation();
+      });
+    }
     
     // SUMMARY TOGGLE
     

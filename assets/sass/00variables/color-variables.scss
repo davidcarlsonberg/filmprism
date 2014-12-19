@@ -52,26 +52,31 @@ $form-button-hover: darken($teal, 5%);
 // Header Colors
 
 $header-bg: $purple;
-$header-button-bg: $teal;
-$header-button-hover-bg: darken($teal, 10%);
+$header-border: darken($purple,15%);
+$header-shadow: transparentize($black, .5);
+
 $header-button-text: $white;
+$header-button-bg: $teal;
+$header-button-hover-bg: darken($teal,5%);
+$header-button-border: darken($purple,5%);
 
 $nav-bg: $black;
-$nav-link-color: $white;
-$nav-link-hover: $teal;
-$nav-divider-color: $lt-gray;
+$nav-link-text: $white;
+$nav-link-hover-bg: darken($purple,5%);
 
 $narrow-nav-text: $white;
-$narrow-nav-bg: $black;
-$narrow-nav-hover: darken($black, 5%);
-$narrow-nav-border: darken($black, 5%);
+$narrow-nav-bg: darken($purple,10%);
+$narrow-nav-hover: darken($purple,15%);
+$narrow-nav-border: darken($purple,15%);
 
-$nav-toggle-bg: $teal;
-$nav-toggle-border: darken($teal, 5%);
+$nav-toggle-bg: $lt-gray;
+$nav-toggle-border: darken($purple,15%);
 $nav-toggle-text: $white;
 
+$search-bg: $black;
 $search-input-bg: $white;
-$search-button-bg: $black;
+$search-button-bg: $lt-gray;
+$search-button-text: $white;
 
 // Card Colors
 

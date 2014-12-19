@@ -7,7 +7,7 @@
   z-index: 2;
   background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
   padding: 3em $side-padding 9em;
-  @include break-up($medium){
+  @include break-up($large){
     padding-top: $fixed-top-padding;
   }
 }
@@ -74,11 +74,6 @@
   padding: 1.5em $side-padding;
   background-color: $filters-bar-bg;
   @include break-up($medium){
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
     padding-top: 13.5em;
     padding-bottom: 2em;
   }
@@ -116,11 +111,4 @@
   }
 }
 
-%filters-main {
-  position: relative;
-  z-index: 2;
-  padding-top: 4em;
-  @include break-up($medium){
-    margin-top: 18.5em;
-  }
-}
+%filters-main {padding-top:4em}

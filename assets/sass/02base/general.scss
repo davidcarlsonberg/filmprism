@@ -53,3 +53,7 @@ svg {
     margin-right: .25em;
   }
 }
+
+.transition {
+  @extend %transition;
+}
