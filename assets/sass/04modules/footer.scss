@@ -9,7 +9,6 @@
 .site-footer {
   @extend %clearfix;
   padding: 6em $side-padding;
-  border-top: 1.5em solid $purple;
   color: $footer-text;
   text-align: center;
   @include break-up($medium){text-align:left}
@@ -18,7 +17,11 @@
     color: $footer-link;
     &:hover,&:focus{color:$footer-hover}
   }
-  h1{margin:0}
+  h1{
+    @include font-size(30);
+    margin: 0;
+    text-transform: uppercase;
+  }
   ol {
     list-style: none;
     margin: 3em 0;

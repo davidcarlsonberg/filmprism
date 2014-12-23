@@ -17,12 +17,12 @@ $white: #fff;
 // Base Colors
 
 $selection-text: $white;
-$selection-bg: $purple;
+$selection-bg: $teal;
 
 $body-text: $black;
 $body-bg: $white;
 
-$headline-color: $purple;
+$headline-color: $dk-teal;
 $subheadline-color: $lt-gray;
 
 $link-color: $teal;
@@ -51,23 +51,24 @@ $form-button-hover: darken($teal, 5%);
 
 // Header Colors
 
-$header-bg: $purple;
-$header-border: darken($purple,15%);
+$header-bg: lighten($black,5%);
+$header-border: darken($black,10%);
 $header-shadow: transparentize($black, .5);
 
-$header-button-text: $white;
-$header-button-bg: $teal;
-$header-button-hover-bg: darken($teal,5%);
-$header-button-border: darken($purple,5%);
+$header-button-text: $black;
+$header-button-bg: $x-lt-gray;
+$header-button-hover-bg: darken($x-lt-gray,5%);
+$header-button-border: $black;
+$header-social-icon-color: $white;
+$header-social-icon-hover: lighten($black, 50%);
 
 $nav-bg: $black;
 $nav-link-text: $white;
-$nav-link-hover-bg: darken($purple,5%);
+$nav-link-hover-bg: lighten($black,10%);
 
 $narrow-nav-text: $white;
-$narrow-nav-bg: darken($purple,10%);
-$narrow-nav-hover: darken($purple,15%);
-$narrow-nav-border: darken($purple,15%);
+$narrow-nav-bg: lighten($black,10%);
+$narrow-nav-border: $black;
 
 $nav-toggle-bg: $lt-gray;
 $nav-toggle-border: darken($purple,15%);
@@ -75,15 +76,25 @@ $nav-toggle-text: $white;
 
 $search-bg: $black;
 $search-input-bg: $white;
-$search-button-bg: $lt-gray;
+$search-button-bg: $teal;
 $search-button-text: $white;
+
+// Footer Colors
+
+$footer-text: $white;
+$footer-bg: $black;
+$footer-link: $white;
+$footer-hover: $lt-gray;
+$footer-icon: $white;
+$footer-border: $teal;
 
 // Card Colors
 
 $card-bg-color: $white;
+$card-bg-hover: $teal;
 $card-image-bg: $teal;
-$card-link-color: $purple;
-$card-link-hover: $teal;
+$card-link-color: $teal;
+$card-link-hover: $dk-teal;
 
 // Module Colors
 
@@ -91,8 +102,8 @@ $module-bg: $white;
 $module-footer-bg: $x-lt-gray;
 $module-header-bg: $black;
 $module-header-text: $white;
-$module-footer-link: $purple;
-$module-footer-hover: darken($purple, 10%);
+$module-footer-link: teal;
+$module-footer-hover: $dk-teal;
 $module-aside-bg: $black;
 $module-aside-text: $white;
 $module-aside-button: $teal;
@@ -101,7 +112,7 @@ $module-aside-blocklink-bg: $white;
 $module-aside-blocklink-hover: $teal;
 $module-aside-blocklink-bg-hover: lighten($teal, 60%);
 
-$discussion-module-bg: $purple;
+$discussion-module-bg: $dk-teal;
 $discussion-module-headline: $white;
 $discussion-module-text: $white;
 
@@ -111,13 +122,14 @@ $media-cover-bg: $lt-gray;
 $media-details-bg: $x-lt-gray;
 $media-subsection-headline: $white;
 $media-link-block-bg: $white;
-$media-link-block-text: $purple;
+$media-link-block-text: $dk-teal;
 $media-link-block-hover: $teal;
 $media-link-block-hover-bg: lighten($teal, 60%);
 $related-qanda-bg: $lt-gray;
 $related-articles-bg: $x-lt-gray;
 $related-links-bg: $teal;
-$submit-question-bg: $purple;
+$submit-question-bg: $dk-teal;
+$submit-question-text: $white;
 
 // Thoughts Article
 
@@ -133,11 +145,13 @@ $filters-bar-link-text: $white;
 $filters-bar-link-bg: $teal;
 $filters-bar-link-hover: $dk-teal;
 
-// Footer Colors
+// Home Page Colors
 
-$footer-text: $white;
-$footer-bg: $black;
-$footer-link: $white;
-$footer-hover: $lt-gray;
-$footer-icon: $white;
-$footer-border: $teal;
+$popular-posts-border: $teal;
+
+$popular-figure-bg: $lt-gray;
+$popular-summary-text: $white;
+$popular-summary-bg: $black;
+$popular-summary-bg-hover: $teal;
+
+$recent-posts-bg: $white;

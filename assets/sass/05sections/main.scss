@@ -33,7 +33,7 @@
         h5 {color:$card-link-hover}
         p {color:$card-link-hover}
         figure img {@include opacity(.75)}
-        .summary {background-color: lighten($teal, 57.5%)}
+        .summary {background-color: lighten($card-bg-hover, 57.5%)}
       }
     }
     figure {

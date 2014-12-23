@@ -36,7 +36,8 @@
       padding: .5em 0;
       border-top: 1px solid $border-color;
       font-family: $by-line-font;
-      span{margin:0 .375em;color:$lt-gray}
+      span{margin:0 .375em;color:$border-color}
+      a {@include inline-block(baseline)}
     }
   }
   aside {

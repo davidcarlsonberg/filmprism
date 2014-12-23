@@ -179,9 +179,9 @@
       width: 2.7em;
       margin: 0 1.5em 0 0;
       a {
-        color: $white;
+        color: $header-social-icon-color;
         &:hover,&:focus {
-          color: lighten($purple,50%);
+          color: $header-social-icon-hover;
         }
       }
     }
@@ -189,7 +189,7 @@
 }
 
 /**************************************************
- HEADER MAILING LIST STYLES
+ HEADER SEARCH BAR STYLES
 **************************************************/
 
 .search-bar {
@@ -215,8 +215,7 @@
     height: 2.5em;
     width: 75%;
     margin: 0;
-    padding: .75em 1em;
-    border-color: darken($black, 5%);
+    padding: .75em 0 .75em 1em;
     border: none;
     @include break-up($large){width:80%}
   }

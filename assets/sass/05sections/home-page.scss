@@ -5,7 +5,6 @@
 .popular {
   background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
   padding-bottom: 4em;
-  border-bottom: 1.5em solid $purple;
   @include break-up($large){
     padding-top: $fixed-top-padding;
   }
@@ -22,7 +21,7 @@
       position: relative;
       overflow: hidden;
       height: 270px;
-      background-color: $teal;
+      background-color: $popular-figure-bg;
       img {
         position: absolute;
         left: 50%;
@@ -43,16 +42,16 @@
       right: 0;
       bottom: 0;
       padding: 1em 2em;
-      background-color: $black;
-      background-color: transparentize($black, .25);
-      color: $white;
+      background-color: $popular-summary-bg;
+      background-color: transparentize($popular-summary-bg, .25);
+      color: $popular-summary-text;
       @include break-up($small){
         padding: 1.5em 3em;
       }
       h3 {
         margin-top: 0;
         margin-bottom: .5em;
-        color: $white;
+        color: $popular-summary-text;
       }
       p {
         @include font-size(14);
@@ -68,8 +67,8 @@
       &:hover,
       &:focus {
         .summary {
-          background-color: $teal;
-          background-color: transparentize($teal, .25);
+          background-color: $popular-summary-bg-hover;
+          background-color: transparentize($popular-summary-bg-hover, .25);
         }
       }
     }
@@ -118,7 +117,7 @@
 **************************************************/
 
 .recent {
-  background-color: $white;
+  background-color: $recent-posts-bg;
   .article-list {
     list-style: none;
     margin: 0;

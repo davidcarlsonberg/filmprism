@@ -197,7 +197,7 @@
         display: block;
         padding: 1.5em;
         background-color: $media-link-block-bg;
-        border: 1px solid darken($teal, 5%);
+        border: 1px solid darken($media-link-block-bg, 5%);
         &:hover,
         &:focus {
           background-color: $media-link-block-hover-bg;
@@ -209,7 +209,7 @@
   .submit-question {
     background-color: $submit-question-bg;
     @include break-up($medium){padding-bottom:6em}
-    p {color:$white}
+    p {color:$submit-question-text}
     form {
       @include border-radius(0);
       @include box-shadow(none);

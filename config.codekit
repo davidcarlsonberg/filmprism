@@ -29,15 +29,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_partials\/easter-egg-card.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_partials\/easter-egg-card.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_partials\/features-card.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -184,13 +175,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/covers\/hobbit-movie-poster.jpg": {
+	"\/assets\/img\/covers\/hobbit-movie-poster-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 67659,
-		"inputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster.jpg",
-		"outputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster.jpg",
+		"initialSize": 68033,
+		"inputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/covers\/hobbit-movie-poster-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63515,
+		"inputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster-02.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/covers\/hobbit-movie-poster-02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -202,6 +204,28 @@
 		"initialSize": 7052,
 		"inputAbbreviatedPath": "\/assets\/img\/graphics\/placeholder-cover-01.png",
 		"outputAbbreviatedPath": "\/assets\/img\/graphics\/placeholder-cover-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/logo\/screenprism-header-icon-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1987,
+		"inputAbbreviatedPath": "\/assets\/img\/logo\/screenprism-header-icon-2x.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logo\/screenprism-header-icon-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/logo\/screenprism-header-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1592,
+		"inputAbbreviatedPath": "\/assets\/img\/logo\/screenprism-header-icon.png",
+		"outputAbbreviatedPath": "\/assets\/img\/logo\/screenprism-header-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -246,6 +270,28 @@
 		"initialSize": 59789,
 		"inputAbbreviatedPath": "\/assets\/img\/photos\/inherent-vice-photo.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/photos\/inherent-vice-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/photos\/interstellar-photo-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69195,
+		"inputAbbreviatedPath": "\/assets\/img\/photos\/interstellar-photo-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/photos\/interstellar-photo-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/photos\/the-hobbit-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117661,
+		"inputAbbreviatedPath": "\/assets\/img\/photos\/the-hobbit-banner.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/photos\/the-hobbit-banner.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -761,22 +807,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/05sections\/user-pages.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/05sections\/user-pages.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/user-pages.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/assets\/sass\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -820,20 +850,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/index-old.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index-old.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/insights.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/insights.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -865,24 +895,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sign-up.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sign-up.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/trending.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/trending.php",
-		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
