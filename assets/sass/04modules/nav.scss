@@ -13,88 +13,63 @@ nav {
 
 .site-header {
   nav {
-    display: none;
-    @include break-up($small){
-      display: block !important;
-      overflow: hidden;
-      padding: 1em $side-padding;
-      background-color: $narrow-nav-bg;
-      border-top: 1px solid $narrow-nav-border;
-      border-bottom: 1px solid $narrow-nav-border;
-      text-align: center;
-    }
+    clear: both;
+    text-align: center;
     @include break-up($medium){
       overflow: visible;
+      margin-top: 0;
       padding: 0;
       background-color: transparent;
       border: none;
     }
-    @include break-up($x-large){
-      margin-left: 22.5em;
-    }
   }
   .site-nav {
-    border-bottom: 1px solid $narrow-nav-border;
-    @include break-up($small){
-      float: left;
-      padding-top: .75em;
-      border-bottom: none;
-    }
+    @include inline-block;
     @include break-up($medium){
-      padding-top: 0;
+      display: block;
+      float: left;
     }
     li {
-      @include font-size(16);
-      border-top: 1px solid $narrow-nav-border;
+      @include inline-block;
+      @include font-size(14);
+      margin: .25em .125em;
       font-family: $nav-font;
       font-weight: 300;
       text-transform: uppercase;
-      @include break-up($small){
+      @include break-up($medium){
+        @include font-size(16);
+        display: block;
         float: left;
-        margin-left: 2em;
-        border-top: none;
-        &:first-child {margin-left:0}
+        margin: .625em 0 0 2.5em;
+        &.insights {margin-left:0}
       }
-      @include break-up($medium){margin-left:0}
-      @include break-up($large){@include font-size(18)}
+      @include break-up($large){
+        @include font-size(18);
+        margin-top: .5em;
+      }
+      &.subscribe {
+        @include break-up($medium){display:none}
+      }
     }
     a {
+      @include border-radius(1.5em);
       display: block;
-      padding: .75em $side-padding;
+      padding: .5em .75em;
       background-color: $narrow-nav-bg;
       color: $narrow-nav-text;
       text-align: center;
       white-space: nowrap;
-      @include break-up($small){
+      @include break-up($medium){
+        @include border-radius(0);
         padding: 0;
         background-color: transparent;
+      }
+      &:hover,&:focus {
         color: $nav-link-text;
-      }
-      @include break-up($medium){
-        padding: 1.5em 1em;
-      }
-      &:hover, &:focus {
-        color: nav-link-text;
         @include break-up($medium){
-          background-color: $nav-link-hover-bg;
+          color: $nav-link-hover;
         }
       }
     }
   }
-}
-
-.nav-toggle {
-  @include font-size(16);
-  display: block;
-  padding: .75em $side-padding;
-  background-color: $nav-toggle-bg;
-  border-top: 1px solid $nav-toggle-border;
-  border-bottom: 1px solid $nav-toggle-border;
-  color: $nav-toggle-text;
-  font-family: $nav-font;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  @include break-up($small){display:none}
-  &:hover,&:focus{color:$nav-toggle-text}
 }

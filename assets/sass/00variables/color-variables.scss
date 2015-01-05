@@ -64,15 +64,10 @@ $header-social-icon-hover: lighten($black, 50%);
 
 $nav-bg: $black;
 $nav-link-text: $white;
-$nav-link-hover-bg: lighten($black,10%);
+$nav-link-hover: $teal;
 
 $narrow-nav-text: $white;
 $narrow-nav-bg: lighten($black,10%);
-$narrow-nav-border: $black;
-
-$nav-toggle-bg: $lt-gray;
-$nav-toggle-border: darken($purple,15%);
-$nav-toggle-text: $white;
 
 $search-bg: $black;
 $search-input-bg: $white;

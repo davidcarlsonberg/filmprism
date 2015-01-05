@@ -23,7 +23,7 @@
       include '_partials/article-card.php';
       include '_partials/qanda-card.php';
     ?>
-    <a href="topics.php" class="button load">Load More</a>
+    <a href="#" class="button load">Load More</a>
   </div>
 </section>
 

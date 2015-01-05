@@ -3,188 +3,117 @@
 **************************************************/
 
 .site-header {
+  @extend %clearfix;
   position: relative;
   z-index: 10;
   background-color: $header-bg;
   @include break-up($large){
     position: absolute;
-    top:0px;left:0;right:0;
+    top:0;
+    left:0;
+    right:0;
     &.smallheader {position:fixed;top:-150px}
     &.fixedheader {top:0;}
   }
   .header-top {
     @extend %clearfix;
+    @include box-sizing(content-box);
+    padding: 1.5em $side-padding;
     @include break-up($medium){
-      padding: 0 $side-padding;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+  .logo-group {
+    overflow: hidden;
+    text-align: center;
+    @include break-up($medium){
+      float: left;
+      margin-left: -2em;
+      text-align: left;
+    }
+    @include break-up($x-large){
+      margin-left: -4.5em;
     }
   }
   h1 {
     @include font-size(10);
-    position: relative;
-    height: 10em;
     margin: 0;
-    text-align: center;
+    @include break-up($small){
+      @include inline-block;
+    }
     @include break-up($medium){
       float: left;
-      height: 6.4em;
-      margin-left: -3em;
     }
-    @include break-up($large){height:7.2em}
     a {
       display: block;
       overflow: hidden;
-      position: absolute;
-      top: 50%;
-      left: 50%;
       height: 0;
       width: 21.5em;
+      margin: 0 auto;
       padding-top: 5em;
-      margin-top: -2.5em;
-      margin-left: -12.5em;
       background-position: 50% 50%;
       background-repeat: no-repeat;
       @include hires("../img/logo/screenprism-header-logo.png", "../img/logo/screenprism-header-logo-2x.png");
-      @include break-up($medium){
-        position: static;
-        width: 24em;
-        margin: 0;
-        padding-top: 6.4em;
-        &:hover,&:focus {background-color:$nav-link-hover-bg}
-      }
-      @include break-up($large){padding-top:7.2em}
+    }
+  }
+  .tagline {
+    @include font-size(18);
+    margin: 0;
+    color: lighten($header-bg,50%);
+    font-style: italic;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    @include break-up($small){
+      @include inline-block;
+      margin-top: .125em;
+      margin-left: .75em;
+    }
+    @include break-up($medium){display:none}
+    @include break-up($large){
+      display: block;
+      float: left;
+      margin-top: .5em;
     }
   }
   &.smallheader {
     @include break-up($large){
       @include box-shadow(0 0 10px $header-shadow);
       overflow: hidden;
-      padding: 0 $side-padding;
+      padding: .5em $side-padding;
       border-bottom: 1px solid $header-border;
-      .header-top {padding:0}
-      .header-top:before,
-      .header-top:after {content:none}
-      .mailing-list,
-      .social-links {display:none}
+      .tagline,
+      .header-links {display:none}
       nav {float:left;margin:0}
       h1 a {
-        width: 6em;
+        width: 4.5em;
         @include hires("../img/logo/screenprism-header-icon.png", "../img/logo/screenprism-header-icon-2x.png");
       }
       .search-bar {
         clear: none;
         float: right;
         width: 48.75%;
-        padding: 1.5em 0 0;
-        background-color: transparent;
-        @include break-up(1200){
-          position: absolute;
-          width: 60em;
-          right: 50%;
-          margin-right: -54em;
-        }
+        margin-top: .5em;
       }
     }
   }
 }
 
-/**************************************************
- HEADER MAILING LIST STYLES
-**************************************************/
-
-.mailing-list {
-  .site-header & {
-    @include break-up($small){
-      float: right;
-      width: 25%;
-    }
-    @include break-up($medium){
-      position: relative;
-      width: auto;
-      margin-top: 1.5em;
-    }
-    @include break-up($large){
-      margin-top: 1.5em;
-    }
-    a {
-      @include font-size(16);
-      display: block;
-      padding: .75em 1em;
-      background-color: $header-button-bg;
-      color: $header-button-text;
-      font-family: $button-font;
-      font-weight: 300;
-      text-align: center;
-      text-transform: uppercase;
-      @include break-up($small){
-        @include border-radius;
-        display: block;
-        padding: .5em .75em;
-        text-transform: none;
-        &:hover, &:focus {
-          background-color: $header-button-hover-bg;
-          color: $header-button-text;
-        }
-      }
-      @include break-up($medium){
-        border: 1px solid $header-button-border;
-      }
-      @include break-up($large){
-        padding: .75em 1em;
-      }
-    }
-    .form-wrapper {
-      @extend %transition;
-      @include opacity(0);
-      @include border-radius;
-      @include box-shadow;
-      overflow: hidden;
-      position: absolute;
-      top: 1em;
-      right: -1.5em;
-      max-height: 0;
-      width: 25em;
-      &.open {
-        @include opacity(1);
-        top: 3em;
-        max-height: 50em;
-        @include break-up($large){top:4em}
-      }
-      form {
-        @include border-radius(0);
-        @include box-shadow(none);
-      }
-      input[type="submit"]{
-        @include font-size(16);
-        margin-top: 0;
-      }
-    }
+.header-bottom{
+  @extend %clearfix;
+  padding: 1em $side-padding;
+  background-color: darken($header-bg, 5%);
+  @include break-up($medium){
+    padding-top: .5em;
+    padding-bottom: .5em;
   }
 }
 
-/**************************************************
- HEADER SOCIAL LINKS
-**************************************************/
-
-.social-links {
-  .site-header & {
-    list-style: none;
-    display: none;
+.header-links {
+  display: none;
+  @include break-up($medium){
+    display: block;
     float: right;
-    margin: 2.25em .5em 0 0;
-    text-align: right;
-    @include break-up($large){display:block}
-    li {
-      @include inline-block;
-      @include font-size(10);
-      width: 2.7em;
-      margin: 0 1.5em 0 0;
-      a {
-        color: $header-social-icon-color;
-        &:hover,&:focus {
-          color: $header-social-icon-hover;
-        }
-      }
-    }
   }
 }
 
@@ -194,20 +123,18 @@
 
 .search-bar {
   @include border-radius(0);
-  @include box-shadow(none);
-  clear: both;
   overflow: hidden;
-  padding: .75em;
-  background-color: $search-bg;
-  @include break-up($small){
-    padding: 1em $side-padding;
+  margin-bottom: 1.5em;
+  padding: 0;
+  background-color: transparent;
+  @include break-up($medium){
+    float: right;
+    width: 60%;
+    margin-bottom: 0;
+    margin-top: .5em;
   }
-  form {
-    @extend %site-column;
-    @include border-radius(0);
-    padding: 0;
-    background-color: transparent;
-  }
+  @include break-up($large){width:48.75%}
+  @include break-up($x-large){width:60%}
   input[type="text"]{
     @include border-right-radius(0);
     @include font-size(16);
@@ -241,6 +168,94 @@
     }
     span {display:none;
       .ltie9 & {display:inline}
+    }
+  }
+}
+
+/**************************************************
+ HEADER MAILING LIST STYLES
+**************************************************/
+
+.mailing-list {
+  .site-header & {
+    position: relative;
+    display: none;
+    float: right;
+    width: auto;
+    @include break-up($medium){display:block}
+    a {
+      @include border-radius(.5em);
+      @include font-size(14);
+      display: block;
+      padding: .75em 1em;
+      background-color: $header-button-bg;
+      border: 1px solid $header-button-border;
+      color: $header-button-text;
+      font-family: $button-font;
+      font-weight: 400;
+      text-align: center;
+      &:hover,&:focus {
+        background-color: $header-button-hover-bg;
+        color: $header-button-text;
+      }
+    }
+    .form-wrapper {
+      @extend %transition;
+      @include opacity(0);
+      @include border-radius(.5em);
+      @include box-shadow;
+      overflow: hidden;
+      position: absolute;
+      top: 1em;
+      right: -1.5em;
+      max-height: 0;
+      width: 25em;
+      &.open {
+        @include opacity(1);
+        top: 3em;
+        max-height: 50em;
+        @include break-up($x-large){top:3.5em}
+      }
+      h6 {
+        @include font-size(16);
+        margin: .5em 0 1.25em;
+        font-weight: 400;
+      }
+      form {
+        @include border-radius(0);
+        @include box-shadow(none);
+      }
+      input[type="submit"]{
+        @include font-size(16);
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+/**************************************************
+ HEADER SOCIAL LINKS
+**************************************************/
+
+.social-links {
+  .site-header & {
+    list-style: none;
+    display: none;
+    float: right;
+    margin: .5em 0 0 0;
+    text-align: right;
+    @include break-up($medium){display:block}
+    li {
+      @include inline-block;
+      @include font-size(10);
+      width: 2.7em;
+      margin: 0 1.5em 0 0;
+      a {
+        color: $header-social-icon-color;
+        &:hover,&:focus {
+          color: $header-social-icon-hover;
+        }
+      }
     }
   }
 }

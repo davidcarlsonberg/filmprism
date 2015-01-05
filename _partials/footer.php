@@ -12,10 +12,10 @@
       </ol>
     </div>
     <aside id="mailing-list" class="mailing-list">
-      <h5>Sign-up for our Mailing List</h5>
+      <h5>Join our Mailing List</h5>
       <form>
-        <input type="text" placeholder="E-Mail Address">
-        <input type="submit" value="Sign-Up">
+        <input type="text" placeholder="Email Address">
+        <input type="submit" value="Subscribe">
       </form>
     </aside>
     <small class="copyright">&copy; <?php echo date('Y'); ?> Screen Prism, LLC</small>

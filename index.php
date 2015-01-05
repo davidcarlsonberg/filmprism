@@ -50,6 +50,7 @@
         include '_partials/article-listing.php';
       ?>
     </ol>
+    <a href="#" class="button load">Load More</a>
   </div>
 </section>
 

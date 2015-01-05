@@ -29,18 +29,16 @@ var Site = window.Site || {};
     
     // MAILING LIST TOGGLE
     
-    if ($(window).width() >= 720){
-      $('header .mailing-list a').click(function(){
-        $('header .mailing-list .form-wrapper').toggleClass('open');
-        return false;
-      });
-      $('body').click(function(){
-        $('header .mailing-list .form-wrapper').removeClass('open');
-      });
-      $('header .mailing-list .form-wrapper').click(function(event){
-        event.stopPropagation();
-      });
-    }
+    $('header .mailing-list a').click(function(){
+      $('header .mailing-list .form-wrapper').toggleClass('open');
+      return false;
+    });
+    $('body').click(function(){
+      $('header .mailing-list .form-wrapper').removeClass('open');
+    });
+    $('header .mailing-list .form-wrapper').click(function(event){
+      event.stopPropagation();
+    });
     
     // SUMMARY TOGGLE
     

@@ -119,6 +119,7 @@
 .recent {
   background-color: $recent-posts-bg;
   .article-list {
+    @extend %clearfix;
     list-style: none;
     margin: 0;
     @include break-up($medium){width: 102.5%;margin-left:-2.5%}
@@ -174,5 +175,8 @@
         }
       }
     }
+  }
+  .button.load {
+    margin-top: 1em;
   }
 }
