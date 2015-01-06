@@ -33,10 +33,12 @@
       </footer>
     </article>
     <aside>
-      <?php
-        include '_partials/share-links.php';
-        include '_partials/related-articles.php';
-      ?>
+      <div class="aside-content">
+        <?php
+          include '_partials/share-links.php';
+          include '_partials/related-articles.php';
+        ?>
+      </div>
     </aside>
     <?php include '_partials/discussion.php'; ?>
   </div>

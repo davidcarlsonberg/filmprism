@@ -64,7 +64,7 @@ $header-social-icon-hover: lighten($black, 50%);
 
 $nav-bg: $black;
 $nav-link-text: $white;
-$nav-link-hover: $teal;
+$nav-link-hover: lighten($teal, 30%);
 
 $narrow-nav-text: $white;
 $narrow-nav-bg: lighten($black,10%);

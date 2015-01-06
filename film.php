@@ -7,17 +7,14 @@
 
 <section class="filters">
   <div class="inner">
-    <p>Sort by <a href="film.php">Release Date</a> <a href="film.php">Title</a></p>
-    <div class="select-box">
-      <span>Filter by Genre</span>
-      <select>
-        <option>- Filter by Genre -</option>
-        <option>Comedy</option>
-        <option>Drama</option>
-        <option>Horror</option>
-        <option>Romance</option>
-      </select>
-    </div>
+    <p class="sort-toggles">Sort by <a href="tv.php">Release Date</a> <a href="tv.php">Title</a></p>
+    <select data-placeholder="Filter by Genre" class="chosen-select">
+      <option></option>
+      <option>Comedy</option>
+      <option>Drama</option>
+      <option>Horror</option>
+      <option>Romance</option>
+    </select>
   </div>
 </section>
 

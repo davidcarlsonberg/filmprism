@@ -9,7 +9,7 @@
   <div class="inner">
     <h5 class="section-heading">Popular Articles</h5>
     <article class="featured">
-      <a href="q-and-a.php">
+      <a href="qanda.php">
         <figure>
           <img src="assets/img/photos/under-the-skin-poster.jpg" />
         </figure>

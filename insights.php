@@ -1,5 +1,5 @@
 <?php
-  $pageTitle = 'Trending | Film Prism';
+  $pageTitle = 'Insights | Film Prism';
   $bodyId = 'thoughts';
   include '_partials/head.php';
   include '_partials/header.php';
@@ -7,7 +7,14 @@
 
 <section class="filters">
   <div class="inner">
-    <p>Filter by Category <a href="trending.php">Q &amp; A</a> <a href="trending.php">Articles</a></p>
+    <p class="sort-toggles">Filter by Type <a href="insights.php">Q &amp; A</a> <a href="insights.php">Articles</a></p>
+    <select data-placeholder="Filter by Category" class="chosen-select">
+      <option></option>
+      <option>Comedy</option>
+      <option>Drama</option>
+      <option>Horror</option>
+      <option>Romance</option>
+    </select>
   </div>
 </section>
 

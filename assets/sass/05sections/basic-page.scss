@@ -41,14 +41,20 @@
     }
   }
   aside {
+    position: relative;
     padding: 3em 1.5em;
     color: $module-aside-text;
     @include break-up($small){padding:3em}
-    @include break-up($medium){
-      @include float(right);
-      width: 40%;
+    @include break-up($medium){float:right;width:40%}
+    @include break-up($large){
+      width: 30%;
     }
-    @include break-up($large){width:30%}
+    .aside-content {
+      @include break-up($large){
+        &.sticky {position:fixed;top:9em}
+        &.sticky.bottom {position:absolute;top:auto;bottom:-1.5em}
+      }
+    }
     h4 {
       margin: 0 0 1em;
       color: $module-aside-text;

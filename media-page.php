@@ -9,6 +9,7 @@
   <div class="content media-article">
     <header>
       <h1>The Hobbit: The Battle of the Five Armies</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
     </header>
     <aside class="details">
       <figure>
@@ -22,7 +23,7 @@
       </ul>
     </aside>
     <div class="article-body">
-      <article>
+      <article id="summary">
         <h4 class="section-heading">Summary</h4>
           <div class="summary">
             <p><em>The Hobbit: The Battle of the Five Armies</em> brings to an epic conclusion the adventures of Bilbo Baggins, Thorin Oakenshield and the Company of Dwarves. Having reclaimed their homeland from the Dragon Smaug, the Company has unwittingly unleashed a deadly force into the world. Enraged, Smaug rains his fiery wrath down upon the defenseless men, women and children of Lake-town.</p>
@@ -31,7 +32,7 @@
         </div>
         <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
       </article>
-      <div class="related-questions">
+      <div id="qanda" class="related-questions">
         <h2>Q &amp; A</h2>
         <ul>
           <?php
@@ -40,7 +41,7 @@
           ?>
         </ul>
       </div>
-      <div class="related-articles">
+      <div id="articles" class="related-articles">
         <h2>Articles</h2>
         <ul>
           <?php
@@ -51,36 +52,40 @@
           ?>
         </ul>
       </div>
-      <div class="related-links">
+      <div id="related-links" class="related-links">
         <h2>Around the Web</h2>
         <ul>
           <li>
             <a href="http://www.rogerebert.com/reviews/the-hobbit-the-battle-of-the-five-armies-2014">
               <h5>Sheila O'Malley's Review for Ebert Digital</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
               <p><strong>Source:</strong> rogerebert.com</p>
             </a>
           </li>
           <li>
             <a href="http://thedissolve.com/reviews/1275-the-hobbit-the-battle-of-the-five-armies/">
               <h5>Tasha Robinson's Review for The Dissolve</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
               <p><strong>Source:</strong> thedissolve.com</p>
             </a>
           </li>
           <li>
             <a href="http://www.rogerebert.com/reviews/the-hobbit-the-battle-of-the-five-armies-2014">
               <h5>Sheila O'Malley's Review for Ebert Digital</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
               <p><strong>Source:</strong> rogerebert.com</p>
             </a>
           </li>
           <li>
             <a href="http://thedissolve.com/reviews/1275-the-hobbit-the-battle-of-the-five-armies/">
               <h5>Tasha Robinson's Review for The Dissolve</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa.</p>
               <p><strong>Source:</strong> thedissolve.com</p>
             </a>
           </li>
         </ul>
       </div>
-      <div class="submit-question">
+      <div id="submit-question" class="submit-question">
         <h2>Submit a Question</h2>
         <p>Have a question about this film or want to start a discussion? Use the form below to submit a question and get the converstion started.</p>
         <form>

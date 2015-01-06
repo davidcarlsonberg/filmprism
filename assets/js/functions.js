@@ -1,3 +1,8 @@
+var resizeSmoothScroll = function() {
+  if ($(window).width() >= 900){ $('.inner-nav a, .by-line a').smoothScroll({offset: -60}); }
+  else { $('.faq-list a').smoothScroll(); }
+};
+
 var Site = window.Site || {};
 (function($) {
   $(function() {
@@ -10,6 +15,7 @@ var Site = window.Site || {};
     });
     
     // STICKY HEADER
+    
 		$(function() {
 		  function fixedHeader() {
   		  var siteHeader = $('.site-header');
@@ -47,6 +53,46 @@ var Site = window.Site || {};
       $(articleText).toggleClass('open');
       $(this).toggleText('Show Full Summary', 'Hide Summary');
     });
+    
+    // CHOSEN
+    
+    $(".chosen-select").chosen();
+    
+    // SMOOTH-SCROLL
 
+    resizeSmoothScroll();
+    
+    // STICKY SIDEBAR
+    
+		$(function() {
+  		
+  	  var stickyAside = $('.single aside .aside-content');
+  	  var stickyWidth = $(stickyAside).width();
+  	  var stickyHeight = $(stickyAside).height();
+  	  var stickyTop = $(stickyAside).offset().top;
+  	  var imageHeight = $('.article-image').height();
+  	  var asideBottom = $('.discussion').offset().top;
+  	  var asideHeight = asideBottom - imageHeight - 240;
+  	  var stickyBottom = asideBottom - stickyHeight - 120;
+  	  
+		  function stickySidebar() {
+  		  
+  	    if ($(window).scrollTop() >= stickyTop - 90) {$(stickyAside).addClass('sticky');}
+  		  else {$(stickyAside).removeClass('sticky');}
+  		  
+  	    if ($(window).scrollTop() >= stickyBottom) {$(stickyAside).addClass('bottom');}
+  		  else {$(stickyAside).removeClass('bottom');}
+  		  
+		  }
+		  
+      $(window).scroll(stickySidebar);
+      
+  	  if ($(window).width() >= 900){
+  		  $(stickyAside).width(stickyWidth);
+  		  $('.single aside').height(asideHeight);
+  		}
+  		
+		});
+    
   });
 })(jQuery);

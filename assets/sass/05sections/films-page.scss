@@ -13,12 +13,20 @@
     @include break-up($medium){
       @include float(right);
       width: 70%;
-      padding: 3em;
+      padding: 3em 3em 1.5em;
       border-bottom: 1px solid $border-color;
     }
     @include break-up($large){width:75%}
     h1 {
       margin: 0;
+    }
+    .inner-nav {
+      @include font-size(14);
+      margin-top: 1em;
+      font-family: $lato;
+      line-height: 1.4;
+      a {white-space:nowrap}
+      span {margin: 0 .5em}
     }
   }
   aside {
@@ -151,13 +159,12 @@
       }
       p {
         @include font-size(12);
-        margin: 0;
         color: $body-text;
       }
       a {
         @include border-radius;
         display: block;
-        padding: 1.5em;
+        padding: 1.5em 1.5em .5em;
         background-color: $media-link-block-bg;
         border: 1px solid $border-color;
         &:hover,
@@ -189,13 +196,12 @@
       }
       p {
         @include font-size(12);
-        margin: 0;
         color: $body-text;
       }
       a {
         @include border-radius;
         display: block;
-        padding: 1.5em;
+        padding: 1.5em 1.5em .5em;
         background-color: $media-link-block-bg;
         border: 1px solid darken($media-link-block-bg, 5%);
         &:hover,
