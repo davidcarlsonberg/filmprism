@@ -1,0 +1,20 @@
+/**************************************************
+ EXTENDABLE STYLES
+**************************************************/
+
+%transition {
+  @include transition;
+}
+
+%clearfix {
+  zoom: 1;
+  &:before,
+  &:after {
+    display:table;
+    visibility:hidden;
+    content:"";
+  }
+  &:after {
+    clear:both;
+  }
+}

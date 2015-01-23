@@ -1,0 +1,100 @@
+/**************************************************
+ FOOTER STYLES
+**************************************************/
+
+%footer-bg {
+  background-color: $footer-bg;
+}
+
+.site-footer {
+  @extend %clearfix;
+  padding: 6em $side-padding;
+  color: $footer-text;
+  text-align: center;
+  @include break-up($medium){text-align:left}
+  svg{height:3em;width:3em}
+  a {
+    color: $footer-link;
+    &:hover,&:focus{color:$footer-hover}
+  }
+  h1{
+    @include font-size(30);
+    margin: 0;
+    text-transform: uppercase;
+  }
+  ol {
+    list-style: none;
+    margin: 3em 0;
+  }
+  li {
+    @include inline-block;
+    margin: 0;
+  }
+  .legal-links {
+    li {
+      @include font-size(16);
+      font-family: $nav-font;
+      font-weight: 300;
+      &:before {
+        content: '\007C';
+        margin: 0 .5em;
+        color: $footer-border;
+      }
+      &:first-child:before {
+        display: none;
+      }
+    }
+  }
+  .social-links {
+    li {
+      @include font-size(10);
+      margin:0 .5em;
+    }
+    a {
+      display: block;
+    }
+  }
+  .footer-links {
+    @include break-up($medium){
+      @include float;
+      width: 60%;
+      padding-top: 1.5em;
+    }
+  }
+  .mailing-list {
+    margin-bottom: 4.5em;
+    padding-top: 3em;
+    border-top: 1px solid $footer-border;
+    @include break-up($medium){
+      @include float(right);
+      width: 30%;
+      margin-bottom: 3em;
+      padding-top: 0;
+      border-top: none;
+      text-align: center;
+    }
+    h5 {
+      margin: 0 0 1.5em;
+      color: $footer-text;
+    }
+    form {
+      display: block;
+      max-width: 270px;
+      margin: 0 auto;
+      @include break-up($medium){max-width:none}
+    }
+    input {
+      @include font-size(14);
+      margin: 0 0 .5em;
+    }
+  }
+  small {
+    display: block;
+    clear: right;
+    @include break-up($medium){
+      @include float(right);
+      width: 30%;
+      text-align: center;
+    }
+  }
+}

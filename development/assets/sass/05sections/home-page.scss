@@ -1,0 +1,182 @@
+/**************************************************
+ "POPULAR" SECTION STYLES
+**************************************************/
+
+.popular {
+  background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  padding-bottom: 4em;
+  @include break-up($large){
+    padding-top: $fixed-top-padding;
+  }
+  .featured {
+    @include box-shadow;
+    @include border-radius;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1.5em;
+    @include break-up($large){float:left;width:48.75%}
+    @include break-up($x-large){width:65.75%}
+    figure {
+      @include border-radius;
+      position: relative;
+      overflow: hidden;
+      height: 270px;
+      background-color: $popular-figure-bg;
+      img {
+        position: absolute;
+        left: 50%;
+        margin-left: -270px;
+        width: 540px;
+        max-width: none;
+      }
+      @include break-up($small){
+        height: 405px;
+        img {width:800px;margin-left:-400px}
+      }
+    }
+    .summary {
+      @extend %transition;
+      @include stretch(auto, 0, 0, 0);
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 1em 2em;
+      background-color: $popular-summary-bg;
+      background-color: transparentize($popular-summary-bg, .25);
+      color: $popular-summary-text;
+      @include break-up($small){
+        padding: 1.5em 3em;
+      }
+      h3 {
+        margin-top: 0;
+        margin-bottom: .5em;
+        color: $popular-summary-text;
+      }
+      p {
+        @include font-size(14);
+        margin: .5em 0;
+        &.meta {
+          @include font-size(12);
+          margin: 1.5em 0 0;
+        }
+      }
+    }
+    a {
+      display: block;
+      &:hover,
+      &:focus {
+        .summary {
+          background-color: $popular-summary-bg-hover;
+          background-color: transparentize($popular-summary-bg-hover, .25);
+        }
+      }
+    }
+  }
+  .article-list {
+    @extend %card-styles;
+    margin: 0;
+    @include break-up($medium){width:102.5%;margin-left:-2.5%}
+    @include break-up($large){float:right;width:48.75%}
+    @include break-up($x-large){width:31.75%}
+    li {
+      margin: 0 0 1.5em;
+      @include break-up($medium){
+        float: left;
+        width: 47.5%;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+      }
+      @include break-up($large){
+        float: none;
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 1.5em;
+      }
+      figure {
+        float: left;
+        width: 9em;
+      }
+      .summary {
+        height: 9em;
+        margin-left: 9em;
+        padding: 2em 2em 0;
+        border-left: none;
+        .meta {
+          @include font-size(12);
+          list-style: none;
+          margin: .5em 0 0;
+        }
+      }
+    }
+  }
+}
+
+/**************************************************
+ "RECENT" SECTION STYLES
+**************************************************/
+
+.recent {
+  background-color: $recent-posts-bg;
+  .article-list {
+    @extend %clearfix;
+    list-style: none;
+    margin: 0;
+    @include break-up($medium){width: 102.5%;margin-left:-2.5%}
+    @include break-up($medium){width: 102.33%;margin-left:-2.33%}
+    li {
+      @include font-size(10);
+      margin: 0 0 1.5em;
+      @include break-up($medium){
+        float: left;
+        width: 47.5%;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+        &:nth-child(2n+1){clear:left}
+      }
+      @include break-up($large){
+        width: 31%;
+        margin-left: 2.33%;
+        margin-bottom: 2.33%;
+        &:nth-child(2n+1){clear:none}
+        &:nth-child(3n+1){clear:left}
+      }
+    }
+    a {
+      @include border-radius;
+      @include box-shadow;
+      display: block;
+      overflow: hidden;
+      background-color: $card-bg-color;
+      &:hover, &:focus {
+        h3, p, .meta {color:$card-link-hover}
+        figure img {@include opacity(.75)}
+        .summary {background-color: lighten($teal, 57.5%)}
+      }
+    }
+    figure {
+      background-color: $card-image-bg;
+      img {@extend %transition}
+    }
+    .summary {
+      padding: 2em 2em 1.5em;
+      color: $body-text;
+      h3 {margin: 0 0 .5em}
+      p {@include font-size(14)}
+      .meta {
+        @include font-size(12);
+        margin: 1.5em 0 0;
+        color: $card-link-color;
+        svg {
+          @include inline-block(middle);
+          height: 1em;
+          width: 1em;
+          margin-right: .25em;
+        }
+      }
+    }
+  }
+  .button.load {
+    margin-top: 1em;
+  }
+}

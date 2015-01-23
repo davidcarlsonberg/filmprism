@@ -1,0 +1,75 @@
+/**************************************************
+ NAVIGATION STYLES
+**************************************************/
+
+nav {
+  ol {list-style:none;margin:0}
+  li {margin:0;line-height:1}
+}
+
+/**************************************************
+ HEADER NAVIGATION STYLES
+**************************************************/
+
+.site-header {
+  nav {
+    clear: both;
+    text-align: center;
+    @include break-up($medium){
+      overflow: visible;
+      margin-top: 0;
+      padding: 0;
+      background-color: transparent;
+      border: none;
+    }
+  }
+  .site-nav {
+    @include inline-block;
+    @include break-up($medium){
+      display: block;
+      float: left;
+    }
+    li {
+      @include inline-block;
+      @include font-size(14);
+      margin: .25em .125em;
+      font-family: $nav-font;
+      font-weight: 300;
+      text-transform: uppercase;
+      @include break-up($medium){
+        @include font-size(16);
+        display: block;
+        float: left;
+        margin: .625em 0 0 2.5em;
+        &.insights {margin-left:0}
+      }
+      @include break-up($large){
+        @include font-size(18);
+        margin-top: .5em;
+      }
+      &.subscribe {
+        @include break-up($medium){display:none}
+      }
+    }
+    a {
+      @include border-radius(1.5em);
+      display: block;
+      padding: .5em .75em;
+      background-color: $narrow-nav-bg;
+      color: $narrow-nav-text;
+      text-align: center;
+      white-space: nowrap;
+      @include break-up($medium){
+        @include border-radius(0);
+        padding: 0;
+        background-color: transparent;
+      }
+      &:hover,&:focus {
+        color: $nav-link-text;
+        @include break-up($medium){
+          color: $nav-link-hover;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+/**************************************************
+ FEATURES PAGE STYLES
+**************************************************/
+
+.submit-form {
+  @include border-radius;
+  @include box-shadow;
+  overflow: hidden;
+  max-width: 72em;
+  margin: 0 auto;
+  background-color: $module-aside-bg;
+  background-color: $module-bg;
+  .form-top,form {
+    padding: 1.5em;
+    @include break-up($medium){
+      padding: 3em;
+    }
+  }
+  header {
+    h1 {margin: .5em 0}
+  }
+  form {
+    @include border-radius(0);
+    @include box-shadow(none);
+    background-color: $submit-question-bg;
+  }
+  input[type="submit"]{
+    margin-top: 0;
+    @include break-up($medium){width:50%}
+  }
+}

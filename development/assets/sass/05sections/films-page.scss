@@ -1,0 +1,274 @@
+/**************************************************
+ FILM PAGE STYLES
+**************************************************/
+
+.media-article {
+  @include border-radius;
+  @include box-shadow;
+  overflow: hidden;
+  background-color: $module-aside-bg;
+  header {
+    padding: 1.5em;
+    background-color: $module-bg;
+    @include break-up($medium){
+      @include float(right);
+      width: 70%;
+      padding: 3em 3em 1.5em;
+      border-bottom: 1px solid $border-color;
+    }
+    @include break-up($large){width:75%}
+    h1 {
+      margin: 0;
+    }
+    .inner-nav {
+      @include font-size(14);
+      margin-top: 1em;
+      font-family: $lato;
+      line-height: 1.4;
+      a {white-space:nowrap}
+      span {margin: 0 .5em}
+    }
+  }
+  aside {
+    @include break-up($medium){
+      @include float;
+      width: 30%;
+    }
+    @include break-up($large){width:25%}
+    &.details {
+      overflow: hidden;
+      background-color: $media-details-bg;
+      figure {
+        background-color: $media-cover-bg;
+        @include break-up($small){
+          @include float;
+          width: 25%;
+        }
+        @include break-up($medium){
+          @include reset-float;
+          width: auto;
+        }
+        img {
+          display: block;
+          width: auto;
+          margin: 0 auto;
+        }
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        @include break-up($small){margin-left:25%}
+        @include break-up($medium){margin-left:0}
+      }
+      li {
+        @include font-size(12);
+        margin: 0;
+        padding: 1em;
+        border-top: 1px solid $border-color;
+        &:first-child{border-top:none}
+        @include break-up($small){@include font-size(14)}
+        @include break-up($medium){@include font-size(12)}
+        span {white-space:nowrap}
+      }
+    }
+  }
+  .article-body {
+    background-color: $module-bg;
+    @include break-up($medium){
+      @include float(right);
+      width: 70%;
+    }
+    @include break-up($large){width:75%}
+  }
+  article {
+    padding: 1.5em;
+    @include break-up($medium){padding:3em}
+    .section-heading {margin-bottom:1em}
+    .summary {overflow:hidden;max-height:20em;padding-bottom:3em}
+    .summary.open {max-height:none}
+    .summary-toggle {
+      margin: 0;
+      padding-top: .5em;
+      border-top: 1px solid $border-color;
+    }
+  }
+  .related-questions,
+  .related-articles,
+  .related-links,
+  .submit-question {
+    overflow: hidden;
+    padding: 3em 1.5em;
+    @include break-up($small){padding:3em}
+    h2 {margin:0 0 1em}
+  }
+  .related-questions,
+  .related-articles,
+  .related-links {
+    ul{list-style:none;margin:0}
+  }
+  .related-questions,
+  .related-links,
+  .submit-question {
+    h2 {color:$media-subsection-headline}
+  }
+  .related-questions {
+    background-color: $related-qanda-bg;
+    li {
+      @include font-size(10);
+      margin: 1em 0 0;
+      h3 {
+        margin:0 0 .25em;
+        line-height: 1.2;
+      }
+      p {
+        @include font-size(14);
+        margin: 0;
+      }
+      h3,p{color:$media-link-block-text}
+      a {
+        @include border-radius;
+        display: block;
+        padding: 1.5em;
+        background-color: $media-link-block-bg;
+        &:hover,
+        &:focus {
+          background-color: $media-link-block-hover-bg;
+          h3, p {color:$media-link-block-hover}
+        }
+      }
+    }
+  }
+  .related-articles {
+    background-color: $related-articles-bg;
+    ul {
+      @include break-up($small){width:102%;margin-left:-2%}
+    }
+    li {
+      @include font-size(10);
+      margin: 1em 0 0;
+      @include break-up($small){
+        float: left;
+        width: 48%;
+        margin: 0 0 2% 2%;
+        &:nth-child(odd){clear:left}
+      }
+      h5 {
+        margin: .25em 0 .75em;
+        color: $media-link-block-text;
+      }
+      p {
+        @include font-size(12);
+        color: $body-text;
+      }
+      a {
+        @include border-radius;
+        display: block;
+        padding: 1.5em 1.5em .5em;
+        background-color: $media-link-block-bg;
+        border: 1px solid $border-color;
+        &:hover,
+        &:focus {
+          background-color: $media-link-block-hover-bg;
+          border-color: $media-link-block-hover;
+          h5, p {color:$media-link-block-hover}
+        }
+      }
+    }
+  }
+  .related-links {
+    background-color: $related-links-bg;
+    ul {
+      @include break-up($small){width:102%;margin-left:-2%}
+    }
+    li {
+      @include font-size(10);
+      margin: 1em 0 0;
+      @include break-up($small){
+        float: left;
+        width: 48%;
+        margin: 0 0 2% 2%;
+        &:nth-child(odd){clear:left}
+      }
+      h5 {
+        margin: .25em 0 .75em;
+        color: $media-link-block-text;
+      }
+      p {
+        @include font-size(12);
+        color: $body-text;
+      }
+      a {
+        @include border-radius;
+        display: block;
+        padding: 1.5em 1.5em .5em;
+        background-color: $media-link-block-bg;
+        border: 1px solid darken($media-link-block-bg, 5%);
+        &:hover,
+        &:focus {
+          background-color: $media-link-block-hover-bg;
+          h5, p {color:$media-link-block-hover}
+        }
+      }
+    }
+  }
+  .submit-question {
+    background-color: $submit-question-bg;
+    @include break-up($medium){padding-bottom:6em}
+    p {color:$submit-question-text}
+    form {
+      @include border-radius(0);
+      @include box-shadow(none);
+      padding: 1em 0;
+      background-color: transparent;
+    }
+    textarea {
+      border: none;
+    }
+    input[type="submit"]{
+      margin-top: 0;
+      @include break-up($medium){
+        width: 50%;
+      }
+    }
+  }
+  .related-films {
+    padding: 3em 1.5em;
+    @include break-up($small){
+      padding: 3em;
+    }
+    h4 {
+      margin: 0 0 1em;
+      color: $module-aside-text;
+      text-transform: uppercase;
+    }
+    ul {
+      @extend %card-styles;
+      width: 105%;
+      margin: 0 0 0 -5%;
+      @include break-up($medium){
+        width: auto;
+        margin-left: 0;
+      }
+      li {
+        @include float;
+        width: 45%;
+        margin: 0 0 5% 5%;
+        @include break-up($medium){
+          float: none;
+          width: auto;
+          margin: 0 0 1.5em 0;
+        }
+        .summary {
+          padding: 1em 1.5em;
+          @include break-up($large){
+            padding: .5em 1em;
+            h4 {
+              @include font-size(14);
+            }
+          }
+        }
+      }
+    }
+  }
+}

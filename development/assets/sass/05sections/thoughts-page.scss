@@ -1,0 +1,112 @@
+/**************************************************
+ FEATURES PAGE STYLES
+**************************************************/
+
+.single.thoughts {
+  .article-image {
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+    background-color: $artice-image-bg;
+    img {
+      position: absolute;
+      left: 50%;
+      width: 720px;
+      margin-left: -360px;
+      max-width: none;
+    }
+    @include break-up($medium){
+      height: 300px;
+      img {width:900px;margin-left:-450px}
+    }
+    @include break-up($medium){
+      height: 360px;
+      img {width: 1080px;margin-left:-540px}
+    }
+  }
+  footer {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid $border-color;
+    @include break-up($small){
+      margin-top: 6em;
+      padding-top: 3em;
+    }
+  }
+  .tags {
+    list-style: none;
+    margin: 0;
+    li{display:inline;margin-right:.25em}
+    li:after{content:$comma}
+    li:last-child:after{content:none}
+  }
+  .related {
+    padding-top: 3em;
+    border-top: 1px solid $module-aside-border;
+    ul {
+      list-style: none;
+      margin: 1em 0 0;
+    }
+    li {
+      @include font-size(10);
+      margin-bottom: 1.5em;
+    }
+    a {
+      @include border-radius;
+      display: block;
+      padding: 1.5em;
+      background-color: $module-aside-blocklink-bg;
+      h5 {
+        margin: 0 0 .5em;
+        padding: 0;
+        border-top: none;
+      }
+      p {
+        @include font-size(12);
+        margin: 0 0 .5em;
+        color: $body-text;
+      }
+      .meta{
+        margin: 1em 0 0;
+      }
+      &:hover, 
+      &:focus {
+        background-color: $module-aside-blocklink-bg-hover;
+        h5, p{color:$module-aside-blocklink-hover}
+      }
+    }
+  }
+}
+
+.share-links {
+  margin-bottom: 2em;
+  ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 1em 0 0;
+  }
+  li {
+    @include inline-block;
+    @include font-size(10);
+    margin: 0 .5em 0 0;
+  }
+  a {
+    display: block;
+    height: 3em;
+    width: 3em;
+    color: $share-icons-fill;
+    &:hover,&:focus{color:$share-icons-hover}
+  }
+}
+
+.discussion {
+  clear: both;
+  padding: 3em 1.5em;
+  background-color: $discussion-module-bg;
+  color: $discussion-module-text;
+  @include break-up($small){padding:3em}
+  h1 {
+    margin: 0 0 1em;
+    color: $discussion-module-headline;
+  }
+}
