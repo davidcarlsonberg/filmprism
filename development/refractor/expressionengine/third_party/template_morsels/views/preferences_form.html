@@ -1,0 +1,121 @@
+<form  action="<?=$caller->output($base_uri.'&method=update_preferences')?>" method="post">
+	<input type="hidden" name="<?=$csrf_hidden_name?>"	value="<?=$CSRF_TOKEN?>" />
+
+	<table class="mainTable padTable solTable" border="0" cellspacing="0" cellpadding="0">
+		<caption><?=lang('morsel_preferences')?></caption>
+		<tbody>
+
+			<tr>
+				<td style="width:350px;" valign="top">
+					<label for="caching_type">
+						<?=lang('caching_type')?>
+					</label>
+				</td>
+				<td valign="top" style=" vertical-align:middle;">
+					<select name="caching_type" id="caching_type">
+						<?php
+							$types = array(
+								'db'    => lang('database'),
+								'redis' => lang('redis')
+							);
+						?>
+
+						<?php foreach($types AS $key => $value) : ?>
+							<?php $select = ($pref_caching_type == $key) ? 'selected="selected="' : ''; ?>
+							<option value="<?=$key?>" <?=$select?>><?=$value?></option>
+						<?php endforeach; ?>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td valign="top">
+					<label for="save_as_files">
+						<?=lang('save_morsels_as_files')?>
+					</label>
+					<div class="subtext">
+						<?=lang('save_morsels_as_files_subtext')?>
+					</div>
+				</td>
+				<td valign="top" style=" vertical-align:middle;">
+					<label 	for="save_as_files_yes"><?=lang('yes')?></label>
+					<input 	type="radio" name="save_as_files"
+							value="y" id="save_as_files_yes"
+							<?php if ($pref_save_as_files == 'y') echo 'checked="checked"'; ?> style="width:20px;" /> &nbsp;
+
+					<label 	for="save_as_files_no"><?=lang('no')?></label>
+					<input 	type="radio" name="save_as_files"
+							value="n" id="save_as_files_no"
+							<?php if ($pref_save_as_files == 'n') echo 'checked="checked"'; ?> style="width:20px;" />
+				</td>
+			</tr>
+
+			<tr class="even">
+				<td valign="top">
+					<label for="key_expiration"><?=lang('save_morsels_as_files_path')?></label>
+					<div class="subtext"><?=lang('save_morsels_as_files_path_subtext')?></div>
+				</td>
+				<td valign="top">
+					<input type="text" dir="ltr" style="width:90%"
+						   name="save_as_files_path" value="<?=$pref_save_as_files_path?>"
+						   size="35" class="input">
+				</td>
+			</tr>
+
+			<tr>
+				<td valign="top">
+					<label for="save_as_files">
+						<?=lang('template_manager_menu_item')?>
+					</label>
+					<div class="subtext">
+						<?=lang('template_manager_menu_item_subtext')?>
+					</div>
+				</td>
+				<td valign="top" style=" vertical-align:middle;">
+					<label 	for="template_manager_menu_item_yes"><?=lang('yes')?></label>
+					<input 	type="radio" name="template_manager_menu_item"
+							value="y" id="template_manager_menu_item_yes"
+							<?php if ($pref_template_manager_menu_item == 'y') echo 'checked="checked"'; ?> style="width:20px;" /> &nbsp;
+
+					<label 	for="template_manager_menu_item_no"><?=lang('no')?></label>
+					<input 	type="radio" name="template_manager_menu_item"
+							value="n" id="template_manager_menu_item_no"
+							<?php if ($pref_template_manager_menu_item == 'n') echo 'checked="checked"'; ?> style="width:20px;" />
+				</td>
+			</tr>
+
+			<tr style="display:none;" class="caching_type_field redis">
+				<td valign="top">
+					<label for="redis_servers">
+						<?=lang('redis_servers')?>
+					</label>
+					<div class="subtext">
+						<?=lang('redis_servers_subtext')?>
+					</div>
+				</td>
+				<td valign="top" style=" vertical-align:middle;">
+					<textarea name="redis_servers" id="redis_servers" rows="6"><?=$pref_redis_servers?></textarea>
+				</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+
+	<input type="submit" name="submit" value="<?=lang('update')?>" class="submit"  />
+
+
+</form>
+
+
+<script type="text/javascript">
+	jQuery(function($)
+	{
+		$('#caching_type').change(function(e)
+		{
+			$('tr.caching_type_field').hide();
+			theVal = $(this).val();
+			$('tr.'+theVal).show();
+		}).change();
+	});
+</script>

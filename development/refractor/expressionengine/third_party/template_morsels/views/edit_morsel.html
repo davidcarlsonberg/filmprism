@@ -1,0 +1,264 @@
+<style type="text/css">
+	.solTable select[multiple]
+	{
+		width: 50%;
+	}
+</style>
+
+<?php if ( ! empty($next_refresh)) : ?>
+		<div style="float:right; margin: -15px 8px 5px 0;"><strong><?=$next_refresh;?></strong></div>
+	<?php endif;?>
+
+<form action="<?php echo $this->output($base_uri.'&method=edit_morsel');?>" method="post" id="edit_morsel_form">
+
+	<input type="hidden" name="<?=$csrf_hidden_name?>"	value="<?=$CSRF_TOKEN?>" />
+	<input type="hidden" name="cache_id" value="<?=$cache_id; ?>" />
+	<input type="hidden" name="row" value="<?=$row; ?>" />
+
+	<table class="mainTable padTable solTable"  style="width:100%;"  cellspacing="0"  cellpadding="0"  border="0">
+		<thead>
+			<tr>
+				<th style="width:350px;"><?=lang('preference')?></th>
+				<th style=""><?=lang('setting')?></th>
+			</tr>
+		</thead>
+
+		<tr class="odd">
+			<td><strong><?=lang('morsel_name'); ?></strong>
+				<div class="subtext"><?=lang('morsel_name_subtext'); ?></div>
+			</td>
+			<td>
+				<input
+					dir="ltr"
+					style="width:50%"
+					type="text"
+					name="morsel_name"
+					id="morsel_name"
+					value="<?=$morsel_name; ?>"
+					maxlength="150"
+					class="input" />
+			</td>
+		</tr>
+
+		<tr class="even">
+			<td><strong><?=lang('morsel_preparsed_snippet'); ?></strong>
+				<div class="subtext"><?=lang('morsel_preparsed_snippet_subtext'); ?></div>
+			</td>
+			<td>
+				<select class="select" name="preparsed_snippet" id="preparsed_snippet">
+					<?php foreach(array('n' => lang('no'), 'y' => lang('yes')) as $value => $text) : ?>
+						<?php if ($value == $preparsed_snippet) : ?>
+							<option value="<?=$this->output($value)?>" selected="selected"><?=$this->output($text)?></option>
+						<?php else : ?>
+							<option value="<?=$this->output($value)?>"><?=$this->output($text)?></option>
+						<?php endif;?>
+					<?php endforeach; ?>
+				</select>
+			</td>
+		</tr>
+
+		<tr class="odd">
+			<td><strong><?=lang('morsel_refresh'); ?></strong>
+				<div class="subtext"><?=lang('morsel_refresh_explanation'); ?></div>
+			</td>
+			<td>
+				<input dir="ltr" style="width:5%" type="text" name="refresh" id="refresh" value="<?=$refresh; ?>" size="35" maxlength="6" class="input" /> <?=lang('in_minutes'); ?>
+			</td>
+		</tr>
+
+		<!--- TEMPLATE REFRESH PULLDOWN -->
+
+		<tr class="even" style="vertical-align:top;">
+			<td><strong><?=lang('morsel_template_refresh'); ?></strong>
+				<div class="subtext"><?=lang('morsel_template_refresh_explanation'); ?></div>
+			</td>
+			<td>
+				<p>
+					<label>
+					<input type="hidden" name="template_dynamic_only" value="n" />
+					<input
+						type="checkbox"
+						name="template_dynamic_only"
+						value="y"
+						<?=(($template_dynamic_only != 'y')?'':'checked="checked"')?> />
+						<?=lang('dynamic_caches_only')?>
+					</label>
+				</p>
+				<select
+					class="select"
+					name="template_id[]"
+					id="template_id"
+					multiple="multiple"
+					size="10">
+					<?php foreach($this->data->get_template_groups() as $group_id => $group_name) : ?>
+						<optgroup label="<?=$this->output($group_name);?>">
+							<?php foreach($this->data->get_templates_by_group_id($group_id) as $value => $text) : ?>
+								<?php if ($edit_mode == 'edit' && in_array( $value, $this->data->get_selected_templates_by_cache_id($cache_id))) : ?>
+									<option value="<?=$this->output($value)?>" selected="selected"><?=$this->output($text)?></option>
+								<?php else : ?>
+									<option value="<?=$this->output($value)?>"><?=$this->output($text)?></option>
+								<?php endif;?>
+							<?php endforeach; ?>
+						</optgroup>
+					<?php endforeach; ?>
+				</select>
+			</td>
+		</tr>
+
+		<!--- CHANNEL REFRESH PULLDOWN -->
+
+		<tr class="odd" style="vertical-align:top;">
+			<td><strong><?=lang('morsel_channel_refresh'); ?></strong>
+				<div class="subtext"><?=lang('morsel_channel_refresh_explanation'); ?></div>
+			</td>
+			<td>
+				<p>
+					<label>
+					<input type="hidden" name="channel_dynamic_only" value="n" />
+					<input
+						type="checkbox"
+						name="channel_dynamic_only"
+						value="y"
+						<?=(($channel_dynamic_only != 'y')?'':'checked="checked"')?> />
+						<?=lang('dynamic_caches_only')?>
+					</label>
+				</p>
+				<p>
+					<label>
+					<input
+						type="radio"
+						name="channel_only"
+						value="add"
+						<?=(($channel_only == 'add')?'checked="checked"':'')?> />
+						<?=lang('on_add_entry_only')?>
+					</label>
+					&nbsp;&nbsp;
+					<label>
+					<input
+						type="radio"
+						name="channel_only"
+						value="edit"
+						<?=(($channel_only == 'edit')?'checked="checked"' : '')?> />
+						<?=lang('on_edit_entry_only')?>
+					</label>
+					&nbsp;&nbsp;
+					<label>
+					<input
+						type="radio"
+						name="channel_only"
+						value="both"
+						<?=(($channel_only != 'add' && $channel_only != 'edit')?'checked="checked"':'')?> />
+						<?=lang('both_default')?>
+					</label>
+				</p>
+
+					<select class="select" name="channel_id[]" id="channel_id" multiple="multiple" size="5" style="width: 50%;">
+						<?php foreach($this->data->get_channels() as $value => $text) : ?>
+							<?php if ($edit_mode == 'edit' && in_array( $value, $this->data->get_selected_channels_by_cache_id($cache_id))) : ?>
+								<option value="<?=$this->output($value)?>" selected="selected"><?=$this->output($text)?></option>
+							<?php else : ?>
+								<option value="<?=$this->output($value)?>"><?=$this->output($text)?></option>
+							<?php endif;?>
+						<?php endforeach; ?>
+					</select>
+
+					<div style="margin-top: 8px;">
+						<strong>Statuses</strong><br />
+						<select class="select" name="channel_statuses[]" id="channel_statuses" multiple="multiple" size="5" style="width: 50%;">
+							<?php if ($edit_mode == 'edit') : ?>
+								<?php if (in_array( 'all', $this->data->get_selected_statuses_by_cache_id($cache_id))) : ?>
+									<option value="all" selected="selected"><?=lang('all_statuses')?></option>
+								<?php else: ?>
+									<option value="all"><?=lang('all_statuses')?></option>
+								<?php endif;?>
+							<?php else : ?>
+									<option value="all" selected="selected"><?=lang('all_statuses')?></option>
+							<?php endif;?>
+
+							<?php foreach($this->data->get_statuses() as $value) : ?>
+								<?php if ($edit_mode == 'edit' && in_array( $value, $this->data->get_selected_statuses_by_cache_id($cache_id))) : ?>
+									<option value="<?=$this->output($value)?>" selected="selected"><?=$this->output($value)?></option>
+								<?php else : ?>
+									<option value="<?=$this->output($value)?>"><?=$this->output($value)?></option>
+								<?php endif;?>
+							<?php endforeach; ?>
+						</select>
+					</div>
+			</td>
+		</tr>
+
+		<!--- CATEGORY REFRESH PULLDOWN -->
+
+		<tr class="even" style="vertical-align:top;">
+			<td><strong><?=lang('morsel_category_refresh'); ?></strong>
+				<div class="subtext"><?=lang('morsel_category_refresh_explanation'); ?></div>
+			</td>
+			<td>
+				<select class="select" name="category_group_id[]" id="category_group_id" multiple="multiple" size="5">
+					<?php foreach($this->data->get_category_groups() as $value => $text) : ?>
+						<?php if ($edit_mode == 'edit' && in_array( $value, $this->data->get_selected_category_groups_by_cache_id($cache_id))) : ?>
+							<option value="<?=$this->output($value)?>" selected="selected"><?=$this->output($text)?></option>
+						<?php else : ?>
+							<option value="<?=$this->output($value)?>"><?=$this->output($text)?></option>
+						<?php endif;?>
+					<?php endforeach; ?>
+				</select>
+			</td>
+		</tr>
+
+		<tr class="odd" style="vertical-align:top;">
+			<td>
+				<div style="float:right">
+					<input type="text" name="rows" value="<?=$rows ?>" style="width:50px" length="3" maxlength="3" />
+					<?=lang('rows')?>
+				</div>
+				<strong><?=lang('code'); ?></strong>
+			</td>
+			<td>
+				<textarea
+					dir="ltr"
+					style="width:100%;"
+					name="code"
+					id="code"
+					cols="90"
+					rows="<?=$rows?>"
+					class="textarea"><?=$this->output($code)?></textarea>
+			</td>
+		</tr>
+
+		<tr class="even" style="vertical-align:top;">
+			<td><strong><?=lang('usage_notes'); ?></strong>
+			</td>
+			<td>
+				<textarea dir="ltr" style="width:100%;" name="notes" id="notes" cols="90" rows="3" class="textarea"><?=$this->output($notes); ?></textarea>
+			</td>
+		</tr>
+
+		<?php if ($morsel_name != '') : ?>
+			<tr class="odd">
+				<td><strong><?=lang('cached_morsel'); ?></strong>
+				</td>
+				<td>
+					<a href="<?php echo $this->output($base_uri.'&method=cached_morsel&cache_id='.$cache_id);?>"><?php echo lang('click_to_view_cached_morsel');?></a>
+				</td>
+			</tr>
+		<?php endif;?>
+
+
+	</table>
+	<input type="submit" class="submit" value="<?=lang(($edit_mode == 'edit' ? 'update' : 'add'))?>" />
+</form>
+
+
+<script type="text/javascript">
+	jQuery(function($)
+	{
+		$("input[name=rows]").keyup(function()
+		{
+			if ($(this).val().search(/^[0-9]+$/) == 0)
+			{
+				$("textarea[name=code]").attr('rows', $(this).val());
+			}
+		});
+	});
+</script>

@@ -1,0 +1,13 @@
+<?php echo $this->view('header.html');?>
+
+<div class="clear_left"></div>
+
+	<form action='<?php echo $form_url;?>' method='post'>
+			<input type="hidden" name="run_update" value="y" />
+			<input type="hidden" name="<?=$csrf_hidden_name?>"	value="<?=$CSRF_TOKEN?>" />
+
+			<p><strong><?php echo lang('template_morsels_update_message'); ?></strong></p>
+			<p><input  type='submit' class='submit' value='<?php echo lang('update');?>'  /></p>
+	</form>
+
+<?php echo $this->view('footer.html'); ?>

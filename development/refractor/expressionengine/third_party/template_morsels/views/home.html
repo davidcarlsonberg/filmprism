@@ -1,0 +1,73 @@
+
+<form id="process_cached_items_form" method="post" name="process_cached_items_form" action="<?php echo $this->output($base_uri.'&method=delete_morsel_confirm');?>">
+	<input type="hidden" name="<?=$csrf_hidden_name?>"	value="<?=$CSRF_TOKEN?>" />
+
+	<table class="mainTable padTable magic_checkbox_table"  style="width:100%;"  cellspacing="0"  cellpadding="0"  border="0">
+		<thead>
+				<tr>
+				<th style="width:20px;">
+					<input
+						id="top_delete"
+						class="checkbox"
+						type="checkbox"
+						name="toggle_all_checkboxes"
+						style="margin-left: 4px;"/>
+				</th>
+					<th style="width:15%;"><?=lang('morsel_name'); ?></th>
+					<th style=""><?=lang('morsel_site'); ?></th>
+					<th style=""><?=lang('morsel_next_refresh'); ?></th>
+					<th style=""><?=lang('morsel_refresh_now'); ?></th>
+					<th style=""><?=lang('morsel_cron_refreshing'); ?></th>
+								<th style=""><?=lang('morsel_preparsed_snippet'); ?></th>
+					<th style=""><?=lang('cached_morsel'); ?></th>
+				</tr>
+			</thead>
+			<tbody>
+<?php if (empty($items)):?>
+				<tr class="odd">
+					<td colspan="9">
+						<span class="notice">
+						<?php echo lang('no_morsels'); ?> &nbsp; <a href="<?=$this->output($base_uri.'&method=edit_morsel_form');?>"><?=lang('add_morsel');?></a>
+						</span>
+					</td>
+				</tr>
+<?php else:?>
+	<?php foreach($this->output( $items ) as $key => $row) : ?>
+				<tr class="<?=$this->cycle('odd', 'even');?>">
+					<td><input type="checkbox" name="toggle[]" value="<?=$row['cache_id'];?>" style="margin-left: 2px;"/></td>
+					<td><a href="<?=$this->output( $base_uri.'&method=edit_morsel_form&row='.$row_count.'&cache_id='.$row['cache_id'] ); ?>"><?=$row['morsel_name']; ?></a></td>
+					<td><?=$row['site_name']; ?></a></td>
+					<td><?=$row['date']; ?> <?php if ($row['date'] != '--'): ?>(<?=lang('every')?> <?=$row['refresh']?> <?=lang('mins')?>)<?php endif; ?></td>
+					<td><a href="<?=$this->output( $base_uri.'&method=refresh&row='.$row_count.'&cache_id='.$row['cache_id'] ); ?>"><?=lang('morsel_refresh_now'); ?></a></td>
+					<td><a href="<?=$this->output( $cron_url.'&cache_id='.$row['cache_id'] ); ?>"><?=lang('morsel_cron_url'); ?></a></td>
+								<td><?=($row['preparsed_snippet'] === FALSE ? '<em>'.lang('morsel_preparsed_unavailable').'</em>' : $row['preparsed_snippet'])?></td>
+					<td><a href="<?php echo $this->output($base_uri.'&method=cached_morsel&cache_id='.$row['cache_id']);?>"><?php echo lang('cached_morsel');?></a></td>
+				</tr>
+	<?php endforeach;?>
+<?php endif;?>
+
+		</tbody>
+	</table>
+
+	<p>
+		<label style="margin-left:9px;">
+		<input
+			id="bottom_delete"
+			class="checkbox free-delete"
+			type="checkbox"
+			name="toggle_all_checkboxes"
+			style="margin-left: 4px;"/>
+			&nbsp;
+			<?=lang('select_all')?>
+		</label>
+	</p>
+
+
+	<?php if (! empty($paginate)) : ?>
+		<p>
+			<?=$paginate?>
+		</p>
+	<?php endif;?>
+
+	<input type="submit" class="submit" name="delete_morsel_confirm" value="<?=lang('delete')?>" />
+</form>
