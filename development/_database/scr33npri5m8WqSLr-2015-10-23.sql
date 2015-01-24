@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: Jan 24, 2015 at 08:57 AM
+-- Generation Time: Jan 24, 2015 at 11:00 AM
 -- Server version: 5.5.38
 -- PHP Version: 5.6.2
 
@@ -53,7 +53,7 @@ CREATE TABLE `exp_actions` (
   `class` varchar(50) NOT NULL,
   `method` varchar(50) NOT NULL,
   `csrf_exempt` tinyint(1) unsigned NOT NULL DEFAULT '0'
-) ENGINE=MyISAM AUTO_INCREMENT=53 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=58 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `exp_actions`
@@ -111,7 +111,12 @@ INSERT INTO `exp_actions` (`action_id`, `class`, `method`, `csrf_exempt`) VALUES
 (49, 'Zoo_flexible_admin', 'ajax_remove_tree', 0),
 (50, 'Zoo_flexible_admin', 'ajax_copy_tree', 0),
 (51, 'Template_morsels', 'parse_queue', 0),
-(52, 'Template_morsels', 'cron_refresh_morsel', 0);
+(52, 'Template_morsels', 'cron_refresh_morsel', 0),
+(53, 'Tag', 'insert_tags', 0),
+(54, 'Tag', 'ajax', 1),
+(55, 'Tag', 'tag_js', 0),
+(56, 'Tag', 'subscribe', 0),
+(57, 'Tag', 'unsubscribe', 0);
 
 -- --------------------------------------------------------
 
@@ -156,7 +161,15 @@ CREATE TABLE `exp_assets_files` (
   `height` int(2) DEFAULT NULL,
   `size` int(3) DEFAULT NULL,
   `search_keywords` text
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_assets_files`
+--
+
+INSERT INTO `exp_assets_files` (`file_id`, `folder_id`, `source_type`, `source_id`, `filedir_id`, `file_name`, `title`, `date`, `alt_text`, `caption`, `author`, `desc`, `location`, `keywords`, `date_modified`, `kind`, `width`, `height`, `size`, `search_keywords`) VALUES
+(1, 1, 'ee', NULL, 1, 'hobbit-movie-poster-01.jpg', NULL, 1418946137, NULL, NULL, NULL, NULL, NULL, NULL, 1418946137, 'image', 350, 525, 68033, 'hobbit-movie-poster-01.jpg'),
+(2, 1, 'ee', NULL, 1, 'hobbit-movie-poster-02.jpg', NULL, 1418946137, NULL, NULL, NULL, NULL, NULL, NULL, 1418946137, 'image', 350, 519, 63515, 'hobbit-movie-poster-02.jpg');
 
 -- --------------------------------------------------------
 
@@ -172,7 +185,14 @@ CREATE TABLE `exp_assets_folders` (
   `parent_id` int(10) unsigned DEFAULT NULL,
   `source_id` int(10) unsigned DEFAULT NULL,
   `filedir_id` int(4) unsigned DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_assets_folders`
+--
+
+INSERT INTO `exp_assets_folders` (`folder_id`, `source_type`, `folder_name`, `full_path`, `parent_id`, `source_id`, `filedir_id`) VALUES
+(1, 'ee', 'Covers', '', NULL, NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -265,7 +285,19 @@ CREATE TABLE `exp_categories` (
   `cat_description` text,
   `cat_image` varchar(120) DEFAULT NULL,
   `cat_order` int(4) unsigned NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_categories`
+--
+
+INSERT INTO `exp_categories` (`cat_id`, `site_id`, `group_id`, `parent_id`, `cat_name`, `cat_url_title`, `cat_description`, `cat_image`, `cat_order`) VALUES
+(1, 1, 1, 0, 'Comedy', 'comedy', '', '', 1),
+(2, 1, 1, 0, 'Drama', 'drama', '', '', 2),
+(3, 1, 1, 0, 'Horror', 'horror', '', '', 3),
+(4, 1, 1, 0, 'Romantic', 'romantic', '', '', 4),
+(5, 1, 2, 0, 'Q & A', 'q-and-a', '', '', 2),
+(6, 1, 2, 0, 'Article', 'article', '', '', 1);
 
 -- --------------------------------------------------------
 
@@ -302,6 +334,18 @@ CREATE TABLE `exp_category_field_data` (
   `group_id` int(4) unsigned NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+--
+-- Dumping data for table `exp_category_field_data`
+--
+
+INSERT INTO `exp_category_field_data` (`cat_id`, `site_id`, `group_id`) VALUES
+(1, 1, 1),
+(2, 1, 1),
+(3, 1, 1),
+(4, 1, 1),
+(5, 1, 2),
+(6, 1, 2);
+
 -- --------------------------------------------------------
 
 --
@@ -317,7 +361,15 @@ CREATE TABLE `exp_category_groups` (
   `field_html_formatting` char(4) NOT NULL DEFAULT 'all',
   `can_edit_categories` text,
   `can_delete_categories` text
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_category_groups`
+--
+
+INSERT INTO `exp_category_groups` (`group_id`, `site_id`, `group_name`, `sort_order`, `exclude_group`, `field_html_formatting`, `can_edit_categories`, `can_delete_categories`) VALUES
+(1, 1, 'Genre', 'a', 2, 'all', '', ''),
+(2, 1, 'Article Type', 'a', 2, 'all', '', '');
 
 -- --------------------------------------------------------
 
@@ -386,7 +438,17 @@ CREATE TABLE `exp_channels` (
   `default_entry_title` varchar(100) DEFAULT NULL,
   `url_title_prefix` varchar(80) DEFAULT NULL,
   `live_look_template` int(10) unsigned NOT NULL DEFAULT '0'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_channels`
+--
+
+INSERT INTO `exp_channels` (`channel_id`, `site_id`, `channel_name`, `channel_title`, `channel_url`, `channel_description`, `channel_lang`, `total_entries`, `total_comments`, `last_entry_date`, `last_comment_date`, `cat_group`, `status_group`, `deft_status`, `field_group`, `search_excerpt`, `deft_category`, `deft_comments`, `channel_require_membership`, `channel_max_chars`, `channel_html_formatting`, `channel_allow_img_urls`, `channel_auto_link_urls`, `channel_notify`, `channel_notify_emails`, `comment_url`, `comment_system_enabled`, `comment_require_membership`, `comment_use_captcha`, `comment_moderate`, `comment_max_chars`, `comment_timelock`, `comment_require_email`, `comment_text_formatting`, `comment_html_formatting`, `comment_allow_img_urls`, `comment_auto_link_urls`, `comment_notify`, `comment_notify_authors`, `comment_notify_emails`, `comment_expiration`, `search_results_url`, `show_button_cluster`, `rss_url`, `enable_versioning`, `max_revisions`, `default_entry_title`, `url_title_prefix`, `live_look_template`) VALUES
+(1, 1, 'film', 'Film', 'http://screenprism.dev/index.php', NULL, 'en', 0, 0, 0, 0, '1', 1, 'open', 1, NULL, NULL, 'y', 'y', NULL, 'all', 'y', 'n', 'n', NULL, NULL, 'y', 'n', 'n', 'n', 5000, 0, 'y', 'xhtml', 'safe', 'n', 'y', 'n', 'n', NULL, 0, NULL, 'y', NULL, 'n', 10, '', '', 0),
+(2, 1, 'television', 'Television', 'http://screenprism.dev/index.php', NULL, 'en', 0, 0, 0, 0, '1', 1, 'open', 1, NULL, NULL, 'y', 'y', NULL, 'all', 'y', 'n', 'n', NULL, NULL, 'y', 'n', 'n', 'n', 5000, 0, 'y', 'xhtml', 'safe', 'n', 'y', 'n', 'n', NULL, 0, NULL, 'y', NULL, 'n', 10, '', '', 0),
+(3, 1, 'articles', 'Articles', 'http://screenprism.dev/index.php', '', 'en', 0, 0, 0, 0, '2', 1, 'open', 2, 6, '', 'y', 'y', NULL, 'all', 'y', 'n', 'n', '', '', 'y', 'n', 'n', 'n', 5000, 0, 'y', 'xhtml', 'safe', 'n', 'y', 'n', 'n', NULL, 0, '', 'y', '', 'n', 10, '', '', 0),
+(4, 1, 'pages', 'Pages', 'http://screenprism.dev/index.php', NULL, 'en', 4, 0, 1422114780, 0, '', 1, 'open', 3, NULL, NULL, 'y', 'y', NULL, 'all', 'y', 'n', 'n', NULL, NULL, 'y', 'n', 'n', 'n', 5000, 0, 'y', 'xhtml', 'safe', 'n', 'y', 'n', 'n', NULL, 0, NULL, 'y', NULL, 'n', 10, '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -397,8 +459,44 @@ CREATE TABLE `exp_channels` (
 CREATE TABLE `exp_channel_data` (
   `entry_id` int(10) unsigned NOT NULL,
   `site_id` int(4) unsigned NOT NULL DEFAULT '1',
-  `channel_id` int(4) unsigned NOT NULL
+  `channel_id` int(4) unsigned NOT NULL,
+  `field_id_1` text,
+  `field_ft_1` tinytext,
+  `field_id_2` text,
+  `field_ft_2` tinytext,
+  `field_id_3` text,
+  `field_ft_3` tinytext,
+  `field_id_4` text,
+  `field_ft_4` tinytext,
+  `field_id_5` text,
+  `field_ft_5` tinytext,
+  `field_id_6` text,
+  `field_ft_6` tinytext,
+  `field_id_7` text,
+  `field_ft_7` tinytext,
+  `field_id_8` text,
+  `field_ft_8` tinytext,
+  `field_id_9` text,
+  `field_ft_9` tinytext,
+  `field_id_10` text,
+  `field_ft_10` tinytext,
+  `field_id_11` text,
+  `field_ft_11` tinytext,
+  `field_id_12` text,
+  `field_ft_12` tinytext,
+  `field_id_13` text,
+  `field_ft_13` tinytext
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_channel_data`
+--
+
+INSERT INTO `exp_channel_data` (`entry_id`, `site_id`, `channel_id`, `field_id_1`, `field_ft_1`, `field_id_2`, `field_ft_2`, `field_id_3`, `field_ft_3`, `field_id_4`, `field_ft_4`, `field_id_5`, `field_ft_5`, `field_id_6`, `field_ft_6`, `field_id_7`, `field_ft_7`, `field_id_8`, `field_ft_8`, `field_id_9`, `field_ft_9`, `field_id_10`, `field_ft_10`, `field_id_11`, `field_ft_11`, `field_id_12`, `field_ft_12`, `field_id_13`, `field_ft_13`) VALUES
+(1, 1, 4, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '<p>Have a question about this film or want to start a discussion? Use the form below to submit a question and get the converstion started.</p>', 'none'),
+(2, 1, 4, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci. Phasellus at facilisis nisi, id tincidunt enim. Aliquam vel felis feugiat, mollis orci tristique, hendrerit justo. Morbi mi dui, fringilla a ante eget, sollicitudin cursus nibh. Sed ut felis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer volutpat tempus porttitor. Nulla ut ligula condimentum, fermentum neque vel, accumsan sapien. Nulla facilisi. Morbi bibendum id elit id vulputate. Nulla a commodo ante, et porttitor arcu. Vivamus suscipit nibh lectus, et commodo dui vehicula ac.</p>\n\n<p>Etiam dapibus ultrices lacus nec posuere. Praesent blandit velit dolor, eu viverra nibh pulvinar ut. Nulla convallis nibh at varius sollicitudin. Phasellus porttitor mollis risus et porta. Phasellus mauris sem, porttitor quis risus quis, fringilla gravida justo. Praesent magna quam, elementum eu rhoncus ac, vestibulum ut nulla. Duis sit amet mattis felis. Maecenas laoreet dictum sapien commodo imperdiet. Donec mattis mi nisi, euismod vulputate magna vulputate quis. Integer semper interdum feugiat. Fusce quis aliquam turpis. Nullam luctus tortor non turpis tincidunt, eu faucibus orci laoreet. Donec rutrum mi leo, quis condimentum lacus sodales et.</p>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci. Phasellus at facilisis nisi, id tincidunt enim. Aliquam vel felis feugiat, mollis orci tristique, hendrerit justo. Morbi mi dui, fringilla a ante eget, sollicitudin cursus nibh. Sed ut felis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer volutpat tempus porttitor. Nulla ut ligula condimentum, fermentum neque vel, accumsan sapien. Nulla facilisi. Morbi bibendum id elit id vulputate. Nulla a commodo ante, et porttitor arcu. Vivamus suscipit nibh lectus, et commodo dui vehicula ac.</p>', 'none'),
+(3, 1, 4, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', 'none'),
+(4, 1, 4, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', NULL, '', 'none');
 
 -- --------------------------------------------------------
 
@@ -465,7 +563,26 @@ CREATE TABLE `exp_channel_fields` (
   `field_order` int(3) unsigned NOT NULL,
   `field_content_type` varchar(20) NOT NULL DEFAULT 'any',
   `field_settings` text
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_channel_fields`
+--
+
+INSERT INTO `exp_channel_fields` (`field_id`, `site_id`, `group_id`, `field_name`, `field_label`, `field_instructions`, `field_type`, `field_list_items`, `field_pre_populate`, `field_pre_channel_id`, `field_pre_field_id`, `field_ta_rows`, `field_maxl`, `field_required`, `field_text_direction`, `field_search`, `field_is_hidden`, `field_fmt`, `field_show_fmt`, `field_order`, `field_content_type`, `field_settings`) VALUES
+(1, 1, 1, 'media_cover', 'Cover Image', '', 'assets', '', '0', 0, 0, 6, 128, 'n', 'ltr', 'n', 'n', 'none', 'n', 1, 'any', 'YToxMjp7czo4OiJmaWxlZGlycyI7YToxOntpOjA7czo0OiJlZToxIjt9czo0OiJ2aWV3IjtzOjY6InRodW1icyI7czoxMDoidGh1bWJfc2l6ZSI7czo1OiJzbWFsbCI7czoxNDoic2hvd19maWxlbmFtZXMiO3M6MToieSI7czo5OiJzaG93X2NvbHMiO2E6MTp7aTowO3M6NDoibmFtZSI7fXM6NToibXVsdGkiO3M6MToibiI7czoxODoiZmllbGRfc2hvd19zbWlsZXlzIjtzOjE6Im4iO3M6MTk6ImZpZWxkX3Nob3dfZ2xvc3NhcnkiO3M6MToibiI7czoyMToiZmllbGRfc2hvd19zcGVsbGNoZWNrIjtzOjE6Im4iO3M6MjY6ImZpZWxkX3Nob3dfZm9ybWF0dGluZ19idG5zIjtzOjE6Im4iO3M6MjQ6ImZpZWxkX3Nob3dfZmlsZV9zZWxlY3RvciI7czoxOiJuIjtzOjIwOiJmaWVsZF9zaG93X3dyaXRlbW9kZSI7czoxOiJuIjt9'),
+(2, 1, 1, 'media_director', 'Directed By', '', 'text', '', '0', 0, 0, 2, 0, 'n', 'ltr', 'y', 'n', 'none', 'n', 2, 'any', 'YTo3OntzOjE4OiJmaWVsZF9jb250ZW50X3R5cGUiO3M6MzoiYWxsIjtzOjE4OiJmaWVsZF9zaG93X3NtaWxleXMiO3M6MToibiI7czoxOToiZmllbGRfc2hvd19nbG9zc2FyeSI7czoxOiJuIjtzOjIxOiJmaWVsZF9zaG93X3NwZWxsY2hlY2siO3M6MToibiI7czoyNjoiZmllbGRfc2hvd19mb3JtYXR0aW5nX2J0bnMiO3M6MToibiI7czoyNDoiZmllbGRfc2hvd19maWxlX3NlbGVjdG9yIjtzOjE6Im4iO3M6MjA6ImZpZWxkX3Nob3dfd3JpdGVtb2RlIjtzOjE6Im4iO30='),
+(3, 1, 1, 'media_external', 'Around the Web', '', 'matrix', '', '0', 0, 0, 2, 128, 'n', 'ltr', 'y', 'n', 'none', 'n', 6, 'any', 'YTozOntzOjg6Im1pbl9yb3dzIjtzOjE6IjAiO3M6ODoibWF4X3Jvd3MiO3M6MDoiIjtzOjc6ImNvbF9pZHMiO2E6NDp7aTowO3M6MToiMSI7aToxO3M6MToiNCI7aToyO3M6MToiMiI7aTozO3M6MToiMyI7fX0='),
+(4, 1, 1, 'media_starring', 'Starring', '', 'fieldpack_list', '', '0', 0, 0, 6, 128, 'n', 'ltr', 'y', 'n', 'xhtml', 'n', 4, 'any', 'YTo2OntzOjE4OiJmaWVsZF9zaG93X3NtaWxleXMiO3M6MToibiI7czoxOToiZmllbGRfc2hvd19nbG9zc2FyeSI7czoxOiJuIjtzOjIxOiJmaWVsZF9zaG93X3NwZWxsY2hlY2siO3M6MToibiI7czoyNjoiZmllbGRfc2hvd19mb3JtYXR0aW5nX2J0bnMiO3M6MToibiI7czoyNDoiZmllbGRfc2hvd19maWxlX3NlbGVjdG9yIjtzOjE6Im4iO3M6MjA6ImZpZWxkX3Nob3dfd3JpdGVtb2RlIjtzOjE6Im4iO30='),
+(5, 1, 1, 'media_summary', 'Summary', '', 'wygwam', '', '0', 0, 0, 6, 128, 'n', 'ltr', 'n', 'n', 'none', 'n', 5, 'any', 'YTo4OntzOjY6ImNvbmZpZyI7czoxOiIzIjtzOjU6ImRlZmVyIjtzOjE6Im4iO3M6MTg6ImZpZWxkX3Nob3dfc21pbGV5cyI7czoxOiJuIjtzOjE5OiJmaWVsZF9zaG93X2dsb3NzYXJ5IjtzOjE6Im4iO3M6MjE6ImZpZWxkX3Nob3dfc3BlbGxjaGVjayI7czoxOiJuIjtzOjI2OiJmaWVsZF9zaG93X2Zvcm1hdHRpbmdfYnRucyI7czoxOiJuIjtzOjI0OiJmaWVsZF9zaG93X2ZpbGVfc2VsZWN0b3IiO3M6MToibiI7czoyMDoiZmllbGRfc2hvd193cml0ZW1vZGUiO3M6MToibiI7fQ=='),
+(6, 1, 2, 'article_body', 'Body', '', 'wygwam', '', '0', 0, 0, 6, 128, 'y', 'ltr', 'y', 'n', 'none', 'n', 2, 'any', 'YTo4OntzOjY6ImNvbmZpZyI7czoxOiIxIjtzOjU6ImRlZmVyIjtzOjE6Im4iO3M6MTg6ImZpZWxkX3Nob3dfc21pbGV5cyI7czoxOiJuIjtzOjE5OiJmaWVsZF9zaG93X2dsb3NzYXJ5IjtzOjE6Im4iO3M6MjE6ImZpZWxkX3Nob3dfc3BlbGxjaGVjayI7czoxOiJuIjtzOjI2OiJmaWVsZF9zaG93X2Zvcm1hdHRpbmdfYnRucyI7czoxOiJuIjtzOjI0OiJmaWVsZF9zaG93X2ZpbGVfc2VsZWN0b3IiO3M6MToibiI7czoyMDoiZmllbGRfc2hvd193cml0ZW1vZGUiO3M6MToibiI7fQ=='),
+(7, 1, 2, 'article_summary', 'Summary', 'Optional. If no summary is provided, an excerpt will be taken from the article body.', 'textarea', '', '0', 0, 0, 3, 128, 'n', 'ltr', 'n', 'n', 'none', 'n', 3, 'any', 'YTo2OntzOjE4OiJmaWVsZF9zaG93X3NtaWxleXMiO3M6MToibiI7czoxOToiZmllbGRfc2hvd19nbG9zc2FyeSI7czoxOiJuIjtzOjIxOiJmaWVsZF9zaG93X3NwZWxsY2hlY2siO3M6MToibiI7czoyNjoiZmllbGRfc2hvd19mb3JtYXR0aW5nX2J0bnMiO3M6MToibiI7czoyNDoiZmllbGRfc2hvd19maWxlX3NlbGVjdG9yIjtzOjE6Im4iO3M6MjA6ImZpZWxkX3Nob3dfd3JpdGVtb2RlIjtzOjE6Im4iO30='),
+(8, 1, 2, 'article_tags', 'Tags', '', 'tag', '', '0', 0, 0, 6, 128, 'n', 'ltr', 'n', 'n', 'xhtml', 'n', 4, 'any', 'YToxMDp7czo4OiJhbGxfb3BlbiI7czoyOiJubyI7czoxMjoic3VnZ2VzdF9mcm9tIjtzOjU6Imdyb3VwIjtzOjk6InRhZ19ncm91cCI7czoxOiIyIjtzOjEzOiJ0b3BfdGFnX2xpbWl0IjtzOjE6IjUiO3M6MTg6ImZpZWxkX3Nob3dfc21pbGV5cyI7czoxOiJuIjtzOjE5OiJmaWVsZF9zaG93X2dsb3NzYXJ5IjtzOjE6Im4iO3M6MjE6ImZpZWxkX3Nob3dfc3BlbGxjaGVjayI7czoxOiJuIjtzOjI2OiJmaWVsZF9zaG93X2Zvcm1hdHRpbmdfYnRucyI7czoxOiJuIjtzOjI0OiJmaWVsZF9zaG93X2ZpbGVfc2VsZWN0b3IiO3M6MToibiI7czoyMDoiZmllbGRfc2hvd193cml0ZW1vZGUiO3M6MToibiI7fQ=='),
+(9, 1, 2, 'article_image', 'Featured Image', '', 'assets', '', '0', 0, 0, 6, 128, 'n', 'ltr', 'n', 'n', 'none', 'n', 5, 'any', 'YToxMjp7czo4OiJmaWxlZGlycyI7YToxOntpOjA7czo0OiJlZTozIjt9czo0OiJ2aWV3IjtzOjY6InRodW1icyI7czoxMDoidGh1bWJfc2l6ZSI7czo1OiJzbWFsbCI7czoxNDoic2hvd19maWxlbmFtZXMiO3M6MToieSI7czo5OiJzaG93X2NvbHMiO2E6MTp7aTowO3M6NDoibmFtZSI7fXM6NToibXVsdGkiO3M6MToibiI7czoxODoiZmllbGRfc2hvd19zbWlsZXlzIjtzOjE6Im4iO3M6MTk6ImZpZWxkX3Nob3dfZ2xvc3NhcnkiO3M6MToibiI7czoyMToiZmllbGRfc2hvd19zcGVsbGNoZWNrIjtzOjE6Im4iO3M6MjY6ImZpZWxkX3Nob3dfZm9ybWF0dGluZ19idG5zIjtzOjE6Im4iO3M6MjQ6ImZpZWxkX3Nob3dfZmlsZV9zZWxlY3RvciI7czoxOiJuIjtzOjIwOiJmaWVsZF9zaG93X3dyaXRlbW9kZSI7czoxOiJuIjt9'),
+(10, 1, 2, 'article_related_media', 'Related Media', '', 'playa', '', '0', 0, 0, 6, 128, 'n', 'ltr', 'n', 'n', 'none', 'n', 6, 'any', 'YToxMzp7czo1OiJtdWx0aSI7czoxOiJuIjtzOjc6ImV4cGlyZWQiO3M6MToibiI7czo2OiJmdXR1cmUiO3M6MToieSI7czo4OiJlZGl0YWJsZSI7czoxOiJuIjtzOjg6ImNoYW5uZWxzIjthOjI6e2k6MDtzOjE6IjEiO2k6MTtzOjE6IjIiO31zOjc6Im9yZGVyYnkiO3M6NToidGl0bGUiO3M6NDoic29ydCI7czozOiJBU0MiO3M6MTg6ImZpZWxkX3Nob3dfc21pbGV5cyI7czoxOiJuIjtzOjE5OiJmaWVsZF9zaG93X2dsb3NzYXJ5IjtzOjE6Im4iO3M6MjE6ImZpZWxkX3Nob3dfc3BlbGxjaGVjayI7czoxOiJuIjtzOjI2OiJmaWVsZF9zaG93X2Zvcm1hdHRpbmdfYnRucyI7czoxOiJuIjtzOjI0OiJmaWVsZF9zaG93X2ZpbGVfc2VsZWN0b3IiO3M6MToibiI7czoyMDoiZmllbGRfc2hvd193cml0ZW1vZGUiO3M6MToibiI7fQ=='),
+(11, 1, 2, 'article_author', 'Author', '', 'text', '', '0', 0, 0, 6, 0, 'n', 'ltr', 'n', 'n', 'none', 'n', 1, 'any', 'YTo3OntzOjE4OiJmaWVsZF9jb250ZW50X3R5cGUiO3M6MzoiYWxsIjtzOjE4OiJmaWVsZF9zaG93X3NtaWxleXMiO3M6MToibiI7czoxOToiZmllbGRfc2hvd19nbG9zc2FyeSI7czoxOiJuIjtzOjIxOiJmaWVsZF9zaG93X3NwZWxsY2hlY2siO3M6MToibiI7czoyNjoiZmllbGRfc2hvd19mb3JtYXR0aW5nX2J0bnMiO3M6MToibiI7czoyNDoiZmllbGRfc2hvd19maWxlX3NlbGVjdG9yIjtzOjE6Im4iO3M6MjA6ImZpZWxkX3Nob3dfd3JpdGVtb2RlIjtzOjE6Im4iO30='),
+(12, 1, 1, 'media_writer', 'Written By', '', 'text', '', '0', 0, 0, 6, 0, 'y', 'ltr', 'y', 'n', 'none', 'n', 3, 'any', 'YTo3OntzOjE4OiJmaWVsZF9jb250ZW50X3R5cGUiO3M6MzoiYWxsIjtzOjE4OiJmaWVsZF9zaG93X3NtaWxleXMiO3M6MToibiI7czoxOToiZmllbGRfc2hvd19nbG9zc2FyeSI7czoxOiJuIjtzOjIxOiJmaWVsZF9zaG93X3NwZWxsY2hlY2siO3M6MToibiI7czoyNjoiZmllbGRfc2hvd19mb3JtYXR0aW5nX2J0bnMiO3M6MToibiI7czoyNDoiZmllbGRfc2hvd19maWxlX3NlbGVjdG9yIjtzOjE6Im4iO3M6MjA6ImZpZWxkX3Nob3dfd3JpdGVtb2RlIjtzOjE6Im4iO30='),
+(13, 1, 3, 'page_body', 'Body', '', 'wygwam', '', '0', 0, 0, 6, 128, 'n', 'ltr', 'n', 'n', 'none', 'n', 1, 'any', 'YTo4OntzOjY6ImNvbmZpZyI7czoxOiIxIjtzOjU6ImRlZmVyIjtzOjE6Im4iO3M6MTg6ImZpZWxkX3Nob3dfc21pbGV5cyI7czoxOiJuIjtzOjE5OiJmaWVsZF9zaG93X2dsb3NzYXJ5IjtzOjE6Im4iO3M6MjE6ImZpZWxkX3Nob3dfc3BlbGxjaGVjayI7czoxOiJuIjtzOjI2OiJmaWVsZF9zaG93X2Zvcm1hdHRpbmdfYnRucyI7czoxOiJuIjtzOjI0OiJmaWVsZF9zaG93X2ZpbGVfc2VsZWN0b3IiO3M6MToibiI7czoyMDoiZmllbGRfc2hvd193cml0ZW1vZGUiO3M6MToibiI7fQ==');
 
 -- --------------------------------------------------------
 
@@ -493,6 +610,15 @@ CREATE TABLE `exp_channel_member_groups` (
   `group_id` smallint(4) unsigned NOT NULL,
   `channel_id` int(6) unsigned NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_channel_member_groups`
+--
+
+INSERT INTO `exp_channel_member_groups` (`group_id`, `channel_id`) VALUES
+(5, 1),
+(5, 2),
+(5, 3);
 
 -- --------------------------------------------------------
 
@@ -526,7 +652,17 @@ CREATE TABLE `exp_channel_titles` (
   `edit_date` bigint(14) DEFAULT NULL,
   `recent_comment_date` int(10) DEFAULT NULL,
   `comment_total` int(4) unsigned NOT NULL DEFAULT '0'
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_channel_titles`
+--
+
+INSERT INTO `exp_channel_titles` (`entry_id`, `site_id`, `channel_id`, `author_id`, `forum_topic_id`, `ip_address`, `title`, `url_title`, `status`, `versioning_enabled`, `view_count_one`, `view_count_two`, `view_count_three`, `view_count_four`, `allow_comments`, `sticky`, `entry_date`, `year`, `month`, `day`, `expiration_date`, `comment_expiration_date`, `edit_date`, `recent_comment_date`, `comment_total`) VALUES
+(1, 1, 4, 1, NULL, '::1', 'Submit a Question', 'submit-a-question', 'open', 'y', 0, 0, 0, 0, 'n', 'n', 1422114600, '2015', '01', '24', 0, 0, 20150124155056, 0, 0),
+(2, 1, 4, 1, NULL, '::1', 'About Us', 'about-us', 'open', 'y', 0, 0, 0, 0, 'n', 'n', 1422114660, '2015', '01', '24', 0, 0, 20150124155138, 0, 0),
+(3, 1, 4, 1, NULL, '::1', 'Terms & Conditions', 'terms-conditions', 'open', 'y', 0, 0, 0, 0, 'n', 'n', 1422114780, '2015', '01', '24', 0, 0, 20150124155315, 0, 0),
+(4, 1, 4, 1, NULL, '::1', 'Privacy Policy', 'privacy-policy', 'open', 'y', 0, 0, 0, 0, 'n', 'n', 1422114780, '2015', '01', '24', 0, 0, 20150124155324, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -561,7 +697,7 @@ CREATE TABLE `exp_cp_log` (
   `ip_address` varchar(45) NOT NULL DEFAULT '0',
   `act_date` int(10) NOT NULL,
   `action` varchar(200) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `exp_cp_log`
@@ -570,7 +706,17 @@ CREATE TABLE `exp_cp_log` (
 INSERT INTO `exp_cp_log` (`id`, `site_id`, `member_id`, `username`, `ip_address`, `act_date`, `action`) VALUES
 (1, 1, 1, 'kentonquatman@gmail.com', '::1', 1422059991, 'Logged in'),
 (2, 1, 1, 'kentonquatman@gmail.com', '::1', 1422060014, 'Logged out'),
-(3, 1, 1, 'kentonquatman@gmail.com', '::1', 1422105603, 'Logged in');
+(3, 1, 1, 'kentonquatman@gmail.com', '::1', 1422105603, 'Logged in'),
+(4, 1, 1, 'kentonquatman@gmail.com', '::1', 1422108103, 'Field Group Created:&nbsp;Media'),
+(5, 1, 1, 'kentonquatman@gmail.com', '::1', 1422111020, 'Category Group Created:&nbsp;&nbsp;Genre'),
+(6, 1, 1, 'kentonquatman@gmail.com', '::1', 1422111159, 'Channel Created:&nbsp;&nbsp;Film'),
+(7, 1, 1, 'kentonquatman@gmail.com', '::1', 1422111185, 'Channel Created:&nbsp;&nbsp;Television'),
+(8, 1, 1, 'kentonquatman@gmail.com', '::1', 1422111252, 'Field Group Created:&nbsp;Article'),
+(9, 1, 1, 'kentonquatman@gmail.com', '::1', 1422112737, 'Channel Created:&nbsp;&nbsp;Article'),
+(10, 1, 1, 'kentonquatman@gmail.com', '::1', 1422113106, 'Category Group Created:&nbsp;&nbsp;Article Type'),
+(11, 1, 1, 'kentonquatman@gmail.com', '::1', 1422113925, 'Member Group Updated:&nbsp;&nbsp;Authors'),
+(12, 1, 1, 'kentonquatman@gmail.com', '::1', 1422114464, 'Field Group Created:&nbsp;Pages'),
+(13, 1, 1, 'kentonquatman@gmail.com', '::1', 1422114527, 'Channel Created:&nbsp;&nbsp;Pages');
 
 -- --------------------------------------------------------
 
@@ -730,7 +876,7 @@ CREATE TABLE `exp_extensions` (
   `priority` int(2) NOT NULL DEFAULT '10',
   `version` varchar(10) NOT NULL DEFAULT '',
   `enabled` char(1) NOT NULL DEFAULT 'y'
-) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `exp_extensions`
@@ -755,7 +901,11 @@ INSERT INTO `exp_extensions` (`extension_id`, `class`, `method`, `hook`, `settin
 (16, 'Template_morsels_ext', 'refresh_morsels_from_category', 'sessions_end', 'a:0:{}', 10, '1.7.3', 'y'),
 (17, 'Template_morsels_ext', 'template_fetch_template', 'template_fetch_template', 'a:0:{}', 10, '1.7.3', 'y'),
 (18, 'Template_morsels_ext', 'cp_js_end', 'cp_js_end', 'a:0:{}', 10, '1.7.3', 'y'),
-(19, 'Matrix_ext', 'channel_entries_tagdata', 'channel_entries_tagdata', '', 10, '2.6.1', 'y');
+(19, 'Matrix_ext', 'channel_entries_tagdata', 'channel_entries_tagdata', '', 10, '2.6.1', 'y'),
+(20, 'Tag_ext', 'delete_entries_start', 'delete_entries_start', 'a:0:{}', 4, '4.2.8', 'y'),
+(21, 'Tag_ext', 'sessions_end', 'sessions_end', 'a:0:{}', 4, '4.2.8', 'y'),
+(22, 'Tag_ext', 'entry_submission_end', 'entry_submission_end', 'a:0:{}', 4, '4.2.8', 'y'),
+(23, 'Tag_ext', 'cp_js_end', 'cp_js_end', 'a:0:{}', 4, '4.2.8', 'y');
 
 -- --------------------------------------------------------
 
@@ -769,7 +919,7 @@ CREATE TABLE `exp_fieldtypes` (
   `version` varchar(12) NOT NULL,
   `settings` text,
   `has_global_settings` char(1) DEFAULT 'n'
-) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `exp_fieldtypes`
@@ -798,7 +948,8 @@ INSERT INTO `exp_fieldtypes` (`fieldtype_id`, `name`, `version`, `settings`, `ha
 (20, 'fieldpack_multiselect', '2.2', 'YTowOnt9', 'n'),
 (21, 'fieldpack_pill', '2.2', 'YTowOnt9', 'n'),
 (22, 'fieldpack_radio_buttons', '2.2', 'YTowOnt9', 'n'),
-(23, 'fieldpack_switch', '2.2', 'YTowOnt9', 'n');
+(23, 'fieldpack_switch', '2.2', 'YTowOnt9', 'n'),
+(24, 'tag', '4.2.8', 'YTowOnt9', 'n');
 
 -- --------------------------------------------------------
 
@@ -810,7 +961,65 @@ CREATE TABLE `exp_field_formatting` (
 `formatting_id` int(10) unsigned NOT NULL,
   `field_id` int(10) unsigned NOT NULL,
   `field_fmt` varchar(40) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=53 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_field_formatting`
+--
+
+INSERT INTO `exp_field_formatting` (`formatting_id`, `field_id`, `field_fmt`) VALUES
+(1, 1, 'none'),
+(2, 1, 'br'),
+(3, 1, 'markdown'),
+(4, 1, 'xhtml'),
+(5, 2, 'none'),
+(6, 2, 'br'),
+(7, 2, 'markdown'),
+(8, 2, 'xhtml'),
+(9, 3, 'none'),
+(10, 3, 'br'),
+(11, 3, 'markdown'),
+(12, 3, 'xhtml'),
+(13, 4, 'none'),
+(14, 4, 'br'),
+(15, 4, 'markdown'),
+(16, 4, 'xhtml'),
+(17, 5, 'none'),
+(18, 5, 'br'),
+(19, 5, 'markdown'),
+(20, 5, 'xhtml'),
+(21, 6, 'none'),
+(22, 6, 'br'),
+(23, 6, 'markdown'),
+(24, 6, 'xhtml'),
+(25, 7, 'none'),
+(26, 7, 'br'),
+(27, 7, 'markdown'),
+(28, 7, 'xhtml'),
+(29, 8, 'none'),
+(30, 8, 'br'),
+(31, 8, 'markdown'),
+(32, 8, 'xhtml'),
+(33, 9, 'none'),
+(34, 9, 'br'),
+(35, 9, 'markdown'),
+(36, 9, 'xhtml'),
+(37, 10, 'none'),
+(38, 10, 'br'),
+(39, 10, 'markdown'),
+(40, 10, 'xhtml'),
+(41, 11, 'none'),
+(42, 11, 'br'),
+(43, 11, 'markdown'),
+(44, 11, 'xhtml'),
+(45, 12, 'none'),
+(46, 12, 'br'),
+(47, 12, 'markdown'),
+(48, 12, 'xhtml'),
+(49, 13, 'none'),
+(50, 13, 'br'),
+(51, 13, 'markdown'),
+(52, 13, 'xhtml');
 
 -- --------------------------------------------------------
 
@@ -822,7 +1031,16 @@ CREATE TABLE `exp_field_groups` (
 `group_id` int(4) unsigned NOT NULL,
   `site_id` int(4) unsigned NOT NULL DEFAULT '1',
   `group_name` varchar(50) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_field_groups`
+--
+
+INSERT INTO `exp_field_groups` (`group_id`, `site_id`, `group_name`) VALUES
+(1, 1, 'Media'),
+(2, 1, 'Article'),
+(3, 1, 'Page');
 
 -- --------------------------------------------------------
 
@@ -847,7 +1065,15 @@ CREATE TABLE `exp_files` (
   `modified_by_member_id` int(10) unsigned DEFAULT '0',
   `modified_date` int(10) DEFAULT NULL,
   `file_hw_original` varchar(20) NOT NULL DEFAULT ''
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_files`
+--
+
+INSERT INTO `exp_files` (`file_id`, `site_id`, `title`, `upload_location_id`, `rel_path`, `mime_type`, `file_name`, `file_size`, `description`, `credit`, `location`, `uploaded_by_member_id`, `upload_date`, `modified_by_member_id`, `modified_date`, `file_hw_original`) VALUES
+(1, 1, 'hobbit-movie-poster-01.jpg', 1, '/Users/kentonquatman/Sites/filmprism.dev/development/html/assets/img/covers/hobbit-movie-poster-01.jpg', 'image/jpeg', 'hobbit-movie-poster-01.jpg', 68033, NULL, NULL, NULL, 1, 1418946137, 1, 1418946137, '525 350'),
+(2, 1, 'hobbit-movie-poster-02.jpg', 1, '/Users/kentonquatman/Sites/filmprism.dev/development/html/assets/img/covers/hobbit-movie-poster-02.jpg', 'image/jpeg', 'hobbit-movie-poster-02.jpg', 63515, NULL, NULL, NULL, 1, 1418946137, 1, 1418946137, '519 350');
 
 -- --------------------------------------------------------
 
@@ -878,7 +1104,21 @@ CREATE TABLE `exp_file_dimensions` (
   `width` int(10) DEFAULT '0',
   `height` int(10) DEFAULT '0',
   `watermark_id` int(4) unsigned DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_file_dimensions`
+--
+
+INSERT INTO `exp_file_dimensions` (`id`, `site_id`, `upload_location_id`, `title`, `short_name`, `resize_type`, `width`, `height`, `watermark_id`) VALUES
+(1, 1, 1, '270x400', '270x400', 'crop', 270, 400, 0),
+(2, 1, 1, '350x520', '350x520', 'crop', 350, 520, 0),
+(3, 1, 2, '720x360', '720x360', 'crop', 720, 360, 0),
+(4, 1, 2, '1080x360', '1080x360', 'crop', 1080, 360, 0),
+(5, 1, 2, '720x270', '720x270', 'crop', 720, 270, 0),
+(6, 1, 3, '800x450', '800x450', 'crop', 800, 450, 0),
+(7, 1, 3, '120x120', '120x120', 'crop', 120, 120, 0),
+(8, 1, 4, '600', '600', 'constrain', 600, 600, 0);
 
 -- --------------------------------------------------------
 
@@ -1267,7 +1507,21 @@ CREATE TABLE `exp_layout_publish` (
   `member_group` int(4) unsigned NOT NULL DEFAULT '0',
   `channel_id` int(4) unsigned NOT NULL DEFAULT '0',
   `field_layout` text
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_layout_publish`
+--
+
+INSERT INTO `exp_layout_publish` (`layout_id`, `site_id`, `member_group`, `channel_id`, `field_layout`) VALUES
+(6, 1, 1, 3, 'a:4:{s:7:"publish";a:11:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:11;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:6;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:7;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:8;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:9;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:10;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:6:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}'),
+(7, 1, 5, 3, 'a:4:{s:7:"publish";a:11:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:11;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:6;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:7;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:8;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:9;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:10;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:6:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}'),
+(19, 1, 1, 1, 'a:4:{s:7:"publish";a:11:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:1;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:2;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:12;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:4;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:5;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:3;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:6:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}'),
+(20, 1, 5, 1, 'a:4:{s:7:"publish";a:11:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:1;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:2;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:12;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:4;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:5;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:3;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:6:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}'),
+(21, 1, 1, 2, 'a:4:{s:7:"publish";a:11:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:1;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:2;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:12;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:4;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:5;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:3;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:6:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}'),
+(22, 1, 5, 2, 'a:4:{s:7:"publish";a:11:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:1;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:2;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:12;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:4;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:5;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:3;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:6:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}'),
+(23, 1, 1, 4, 'a:4:{s:7:"publish";a:5:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:13;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:7:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}'),
+(24, 1, 5, 4, 'a:4:{s:7:"publish";a:5:{s:10:"_tab_label";s:7:"publish";s:5:"title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}i:13;a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:15:"expiration_date";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:8:"category";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:8:"seo_lite";a:4:{s:10:"_tab_label";s:8:"SEO Lite";s:24:"seo_lite__seo_lite_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:27:"seo_lite__seo_lite_keywords";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:30:"seo_lite__seo_lite_description";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:7:"options";a:7:{s:10:"_tab_label";s:7:"options";s:9:"url_title";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:10:"entry_date";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"status";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:11:"new_channel";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:6:"author";a:4:{s:7:"visible";b:1;s:8:"collapse";b:1;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:7:"options";a:4:{s:7:"visible";b:0;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}s:5:"pages";a:3:{s:10:"_tab_label";s:5:"Pages";s:16:"pages__pages_uri";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}s:24:"pages__pages_template_id";a:4:{s:7:"visible";b:1;s:8:"collapse";b:0;s:11:"htmlbuttons";b:1;s:5:"width";s:4:"100%";}}}');
 
 -- --------------------------------------------------------
 
@@ -1323,7 +1577,17 @@ CREATE TABLE `exp_matrix_cols` (
   `col_order` int(3) unsigned DEFAULT NULL,
   `col_width` varchar(4) DEFAULT NULL,
   `col_settings` text
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_matrix_cols`
+--
+
+INSERT INTO `exp_matrix_cols` (`col_id`, `site_id`, `field_id`, `var_id`, `col_name`, `col_label`, `col_instructions`, `col_type`, `col_required`, `col_search`, `col_order`, `col_width`, `col_settings`) VALUES
+(1, 1, 3, NULL, 'media_link_title', 'Title', '', 'text', 'y', 'n', 0, '20%', 'YTozOntzOjQ6Im1heGwiO3M6MDoiIjtzOjM6ImZtdCI7czo0OiJub25lIjtzOjM6ImRpciI7czozOiJsdHIiO30='),
+(2, 1, 3, NULL, 'media_link_source', 'Source', '', 'text', 'y', 'n', 2, '20%', 'YTozOntzOjQ6Im1heGwiO3M6MDoiIjtzOjM6ImZtdCI7czo0OiJub25lIjtzOjM6ImRpciI7czozOiJsdHIiO30='),
+(3, 1, 3, NULL, 'media_link_url', 'Link URL', '', 'text', 'y', 'n', 3, '20%', 'YTozOntzOjQ6Im1heGwiO3M6MDoiIjtzOjM6ImZtdCI7czo0OiJub25lIjtzOjM6ImRpciI7czozOiJsdHIiO30='),
+(4, 1, 3, NULL, 'media_link_summary', 'Summary', '', 'text', 'y', 'n', 1, '40%', 'YTozOntzOjQ6Im1heGwiO3M6MDoiIjtzOjM6ImZtdCI7czo0OiJub25lIjtzOjM6ImRpciI7czozOiJsdHIiO30=');
 
 -- --------------------------------------------------------
 
@@ -1338,7 +1602,11 @@ CREATE TABLE `exp_matrix_data` (
   `field_id` int(6) unsigned DEFAULT NULL,
   `var_id` int(6) unsigned DEFAULT NULL,
   `is_draft` tinyint(1) unsigned DEFAULT '0',
-  `row_order` int(4) unsigned DEFAULT NULL
+  `row_order` int(4) unsigned DEFAULT NULL,
+  `col_id_1` text,
+  `col_id_2` text,
+  `col_id_3` text,
+  `col_id_4` text
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -1431,7 +1699,7 @@ CREATE TABLE `exp_members` (
 --
 
 INSERT INTO `exp_members` (`member_id`, `group_id`, `username`, `screen_name`, `password`, `salt`, `unique_id`, `crypt_key`, `authcode`, `email`, `url`, `location`, `occupation`, `interests`, `bday_d`, `bday_m`, `bday_y`, `aol_im`, `yahoo_im`, `msn_im`, `icq`, `bio`, `signature`, `avatar_filename`, `avatar_width`, `avatar_height`, `photo_filename`, `photo_width`, `photo_height`, `sig_img_filename`, `sig_img_width`, `sig_img_height`, `ignore_list`, `private_messages`, `accept_messages`, `last_view_bulletins`, `last_bulletin_date`, `ip_address`, `join_date`, `last_visit`, `last_activity`, `total_entries`, `total_comments`, `total_forum_topics`, `total_forum_posts`, `last_entry_date`, `last_comment_date`, `last_forum_post_date`, `last_email_date`, `in_authorlist`, `accept_admin_email`, `accept_user_email`, `notify_by_default`, `notify_of_pm`, `display_avatars`, `display_signatures`, `parse_smileys`, `smart_notifications`, `language`, `timezone`, `time_format`, `date_format`, `include_seconds`, `cp_theme`, `profile_theme`, `forum_theme`, `tracker`, `template_size`, `notepad`, `notepad_size`, `quick_links`, `quick_tabs`, `show_sidebar`, `pmember_id`, `rte_enabled`, `rte_toolset_id`) VALUES
-(1, 1, 'kentonquatman@gmail.com', 'Kenton Quatman', '0371a309f01a48fb8e273f4aec6c37ce00ce76e45e8e36bd6f73c5bb7fb2a502a2d6c2247ea69ec694b5b4568a0737232a19193f3f55b4340123309261b421af', 'AU9$a!"N/0Cl+-`d?NoWa|taOo8?Ags<}].WkaeN3sRTH}{G,nxb*WCdq3X`Seq?iKt<%UM"6kq14:J<MaLGgH|"G&R-L6<(I~fVEqWqs7C;}w8GXQ}nnlgh#r]a?[2B', '66bc3fcde266a6b8fc0e630b9801f24d15ea26c1', '578a986efcd2746fef1a4797dd52708697ca3f7c', NULL, 'kentonquatman@gmail.com', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'y', 0, 0, '::1', 1422059926, 1422059991, 1422107766, 0, 0, 0, 0, 0, 0, 0, 0, 'n', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'english', 'America/New_York', '12', '%n/%j/%y', 'n', NULL, NULL, NULL, NULL, '28', NULL, '18', '', NULL, 'n', 0, 'y', 0);
+(1, 1, 'kentonquatman@gmail.com', 'Kenton Quatman', '0371a309f01a48fb8e273f4aec6c37ce00ce76e45e8e36bd6f73c5bb7fb2a502a2d6c2247ea69ec694b5b4568a0737232a19193f3f55b4340123309261b421af', 'AU9$a!"N/0Cl+-`d?NoWa|taOo8?Ags<}].WkaeN3sRTH}{G,nxb*WCdq3X`Seq?iKt<%UM"6kq14:J<MaLGgH|"G&R-L6<(I~fVEqWqs7C;}w8GXQ}nnlgh#r]a?[2B', '66bc3fcde266a6b8fc0e630b9801f24d15ea26c1', '578a986efcd2746fef1a4797dd52708697ca3f7c', NULL, 'kentonquatman@gmail.com', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'y', 0, 0, '::1', 1422059926, 1422059991, 1422114591, 4, 0, 0, 0, 1422114804, 0, 0, 0, 'n', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'english', 'America/New_York', '12', '%n/%j/%y', 'n', NULL, NULL, NULL, NULL, '28', NULL, '18', '', NULL, 'n', 0, 'y', 0);
 
 -- --------------------------------------------------------
 
@@ -1581,7 +1849,7 @@ INSERT INTO `exp_member_groups` (`group_id`, `site_id`, `group_title`, `group_de
 (2, 1, 'Banned', '', 'y', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', '', 'n', 'n', 'n', 60, 'n', 20, 60, 'n', 'n', 'n', 'n', 'n'),
 (3, 1, 'Guests', '', 'y', 'n', 'y', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'y', 'n', 'n', 'n', 'n', '', 'y', 'n', 'y', 15, 'n', 20, 60, 'n', 'n', 'n', 'n', 'n'),
 (4, 1, 'Pending', '', 'y', 'n', 'y', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'y', 'n', 'n', 'n', 'n', '', 'y', 'n', 'y', 15, 'n', 20, 60, 'n', 'n', 'n', 'n', 'n'),
-(5, 1, 'Members', '', 'y', 'n', 'y', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'y', 'y', 'y', 'n', '', 'y', 'n', 'y', 10, 'y', 20, 60, 'y', 'n', 'n', 'y', 'y');
+(5, 1, 'Authors', '', 'n', 'n', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'n', 'y', 'y', 'y', 'y', 'y', 'y', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'y', 'y', 'y', 'y', 'y', 'y', 'y', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'y', 'y', 'y', 'n', '', 'n', 'n', 'y', 10, 'n', 20, 60, 'y', 'n', 'y', 'y', 'y');
 
 -- --------------------------------------------------------
 
@@ -1742,7 +2010,7 @@ CREATE TABLE `exp_modules` (
   `module_version` varchar(12) NOT NULL,
   `has_cp_backend` char(1) NOT NULL DEFAULT 'n',
   `has_publish_fields` char(1) NOT NULL DEFAULT 'n'
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `exp_modules`
@@ -1769,7 +2037,8 @@ INSERT INTO `exp_modules` (`module_id`, `module_name`, `module_version`, `has_cp
 (18, 'Template_morsels', '1.7.3', 'y', 'n'),
 (19, 'Seo_lite', '1.4.9.3', 'y', 'y'),
 (20, 'Reelocate', '1.3', 'y', 'n'),
-(21, 'Mountee', '2.3', 'n', 'n');
+(21, 'Mountee', '2.3', 'n', 'n'),
+(22, 'Tag', '4.2.8', 'y', 'y');
 
 -- --------------------------------------------------------
 
@@ -1781,6 +2050,19 @@ CREATE TABLE `exp_module_member_groups` (
   `group_id` smallint(4) unsigned NOT NULL,
   `module_id` mediumint(5) unsigned NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_module_member_groups`
+--
+
+INSERT INTO `exp_module_member_groups` (`group_id`, `module_id`) VALUES
+(5, 4),
+(5, 11),
+(5, 13),
+(5, 14),
+(5, 17),
+(5, 19),
+(5, 22);
 
 -- --------------------------------------------------------
 
@@ -2020,7 +2302,7 @@ CREATE TABLE `exp_security_hashes` (
 --
 
 INSERT INTO `exp_security_hashes` (`hash_id`, `date`, `session_id`, `hash`) VALUES
-(2, 1422105604, 'cb8ddf5e3dce8ecf68f3f2d363ba12568d545e80', '0f3c82031f3142e0f8805b412bc7e5fd8bd2953d');
+(2, 1422105604, '05696510b45662cd098c8d303129ae77bc2fdafc', '0f3c82031f3142e0f8805b412bc7e5fd8bd2953d');
 
 -- --------------------------------------------------------
 
@@ -2058,7 +2340,17 @@ CREATE TABLE `exp_seolite_content` (
   `title` varchar(1024) DEFAULT NULL,
   `keywords` varchar(1024) NOT NULL,
   `description` text
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_seolite_content`
+--
+
+INSERT INTO `exp_seolite_content` (`seolite_content_id`, `site_id`, `entry_id`, `title`, `keywords`, `description`) VALUES
+(1, 1, 1, '', '', ''),
+(2, 1, 2, '', '', ''),
+(3, 1, 3, '', '', ''),
+(4, 1, 4, '', '', '');
 
 -- --------------------------------------------------------
 
@@ -2082,7 +2374,7 @@ CREATE TABLE `exp_sessions` (
 --
 
 INSERT INTO `exp_sessions` (`session_id`, `member_id`, `admin_sess`, `ip_address`, `user_agent`, `fingerprint`, `sess_start`, `last_activity`) VALUES
-('cb8ddf5e3dce8ecf68f3f2d363ba12568d545e80', 1, 1, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36', 'af9e81b03b0febd8c96e57b541eb5bc7', 1422105603, 1422107780);
+('05696510b45662cd098c8d303129ae77bc2fdafc', 1, 1, '::1', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36', 'af9e81b03b0febd8c96e57b541eb5bc7', 1422112936, 1422114811);
 
 -- --------------------------------------------------------
 
@@ -2190,7 +2482,7 @@ CREATE TABLE `exp_stats` (
 --
 
 INSERT INTO `exp_stats` (`stat_id`, `site_id`, `total_members`, `recent_member_id`, `recent_member`, `total_entries`, `total_forum_topics`, `total_forum_posts`, `total_comments`, `last_entry_date`, `last_forum_post_date`, `last_comment_date`, `last_visitor_date`, `most_visitors`, `most_visitor_date`, `last_cache_clear`) VALUES
-(1, 1, 1, 1, 'Kenton Quatman', 1, 0, 0, 0, 1422059926, 0, 0, 1422105782, 1, 1422105782, 1422710582);
+(1, 1, 1, 1, 'Kenton Quatman', 4, 0, 0, 0, 1422114780, 0, 0, 1422105782, 1, 1422105782, 1422710582);
 
 -- --------------------------------------------------------
 
@@ -2244,6 +2536,116 @@ CREATE TABLE `exp_status_no_access` (
   `status_id` int(6) unsigned NOT NULL,
   `member_group` smallint(4) unsigned NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `exp_tag_bad_tags`
+--
+
+CREATE TABLE `exp_tag_bad_tags` (
+`tag_id` int(10) unsigned NOT NULL,
+  `tag_name` varchar(150) NOT NULL,
+  `site_id` smallint(3) unsigned NOT NULL DEFAULT '1',
+  `author_id` int(10) unsigned NOT NULL,
+  `edit_date` int(10) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `exp_tag_entries`
+--
+
+CREATE TABLE `exp_tag_entries` (
+  `entry_id` int(10) unsigned NOT NULL,
+  `tag_id` int(10) unsigned NOT NULL,
+  `channel_id` smallint(3) unsigned NOT NULL,
+  `site_id` smallint(3) unsigned NOT NULL DEFAULT '1',
+  `author_id` int(10) unsigned NOT NULL,
+  `ip_address` varchar(16) NOT NULL DEFAULT '0',
+  `type` varchar(16) NOT NULL DEFAULT 'channel',
+  `tag_group_id` int(10) unsigned NOT NULL DEFAULT '1',
+  `remote` char(1) NOT NULL DEFAULT 'n'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `exp_tag_groups`
+--
+
+CREATE TABLE `exp_tag_groups` (
+`tag_group_id` int(10) unsigned NOT NULL,
+  `tag_group_name` varchar(150) NOT NULL,
+  `tag_group_short_name` varchar(150) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_tag_groups`
+--
+
+INSERT INTO `exp_tag_groups` (`tag_group_id`, `tag_group_name`, `tag_group_short_name`) VALUES
+(1, 'default', 'default'),
+(2, 'Article', 'Article');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `exp_tag_preferences`
+--
+
+CREATE TABLE `exp_tag_preferences` (
+`tag_preference_id` int(10) unsigned NOT NULL,
+  `tag_preference_name` varchar(100) NOT NULL,
+  `tag_preference_value` varchar(100) NOT NULL,
+  `site_id` int(5) unsigned NOT NULL DEFAULT '1'
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_tag_preferences`
+--
+
+INSERT INTO `exp_tag_preferences` (`tag_preference_id`, `tag_preference_name`, `tag_preference_value`, `site_id`) VALUES
+(1, 'parse', 'linebreak', 1),
+(2, 'convert_case', 'y', 1),
+(3, 'enable_tag_form', 'y', 1),
+(4, 'publish_entry_tag_limit', '0', 1),
+(5, 'allow_tag_creation_publish', 'y', 1),
+(6, 'separator', 'comma', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `exp_tag_subscriptions`
+--
+
+CREATE TABLE `exp_tag_subscriptions` (
+  `tag_id` int(10) unsigned NOT NULL,
+  `member_id` int(10) unsigned NOT NULL,
+  `site_id` int(10) unsigned NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `exp_tag_tags`
+--
+
+CREATE TABLE `exp_tag_tags` (
+`tag_id` int(10) unsigned NOT NULL,
+  `tag_alpha` char(3) NOT NULL,
+  `tag_name` varchar(200) NOT NULL,
+  `site_id` smallint(3) unsigned NOT NULL DEFAULT '1',
+  `author_id` int(10) unsigned NOT NULL,
+  `entry_date` int(10) NOT NULL,
+  `edit_date` int(10) NOT NULL DEFAULT '0',
+  `clicks` int(10) NOT NULL DEFAULT '0',
+  `total_entries` int(10) NOT NULL DEFAULT '0',
+  `total_entries_1` int(10) NOT NULL DEFAULT '0',
+  `channel_entries` int(10) NOT NULL DEFAULT '0',
+  `total_entries_2` int(10) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -2459,7 +2861,17 @@ CREATE TABLE `exp_upload_prefs` (
   `file_post_format` varchar(120) DEFAULT NULL,
   `cat_group` varchar(255) DEFAULT NULL,
   `batch_location` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `exp_upload_prefs`
+--
+
+INSERT INTO `exp_upload_prefs` (`id`, `site_id`, `name`, `server_path`, `url`, `allowed_types`, `max_size`, `max_height`, `max_width`, `properties`, `pre_format`, `post_format`, `file_properties`, `file_pre_format`, `file_post_format`, `cat_group`, `batch_location`) VALUES
+(1, 1, 'Covers', '/Users/kentonquatman/Sites/filmprism.dev/development/html/assets/img/covers/', 'http://screenprism.dev/assets/img/covers/', 'img', '', '', '', '', '', '', '', '', '', '', NULL),
+(2, 1, 'Article Image', '/Users/kentonquatman/Sites/filmprism.dev/development/html/assets/img/article/', 'http://screenprism.dev/assets/img/article/', 'img', '', '', '', '', '', '', '', '', '', '', NULL),
+(3, 1, 'Featured Image', '/Users/kentonquatman/Sites/filmprism.dev/development/html/assets/img/featured/', 'http://screenprism.dev/assets/img/featured/', 'img', '', '', '', '', '', '', '', '', '', '', NULL),
+(4, 1, 'Uploads', '/Users/kentonquatman/Sites/filmprism.dev/development/html/assets/img/uploads/', 'http://screenprism.dev/assets/img/uploads/', 'img', '', '', '', '', '', '', '', '', '', '', NULL);
 
 -- --------------------------------------------------------
 
@@ -3091,6 +3503,42 @@ ALTER TABLE `exp_status_no_access`
  ADD PRIMARY KEY (`status_id`,`member_group`);
 
 --
+-- Indexes for table `exp_tag_bad_tags`
+--
+ALTER TABLE `exp_tag_bad_tags`
+ ADD PRIMARY KEY (`tag_id`), ADD KEY `tag_name` (`tag_name`), ADD KEY `site_id` (`site_id`), ADD KEY `author_id` (`author_id`);
+
+--
+-- Indexes for table `exp_tag_entries`
+--
+ALTER TABLE `exp_tag_entries`
+ ADD KEY `entry_id` (`entry_id`), ADD KEY `tag_id` (`tag_id`), ADD KEY `channel_id` (`channel_id`), ADD KEY `site_id` (`site_id`), ADD KEY `author_id` (`author_id`);
+
+--
+-- Indexes for table `exp_tag_groups`
+--
+ALTER TABLE `exp_tag_groups`
+ ADD PRIMARY KEY (`tag_group_id`);
+
+--
+-- Indexes for table `exp_tag_preferences`
+--
+ALTER TABLE `exp_tag_preferences`
+ ADD PRIMARY KEY (`tag_preference_id`), ADD KEY `site_id` (`site_id`);
+
+--
+-- Indexes for table `exp_tag_subscriptions`
+--
+ALTER TABLE `exp_tag_subscriptions`
+ ADD PRIMARY KEY (`tag_id`,`member_id`,`site_id`), ADD KEY `site_id` (`site_id`), ADD KEY `member_id` (`member_id`), ADD KEY `tag_id` (`tag_id`);
+
+--
+-- Indexes for table `exp_tag_tags`
+--
+ALTER TABLE `exp_tag_tags`
+ ADD PRIMARY KEY (`tag_id`), ADD KEY `tag_name` (`tag_name`), ADD KEY `tag_alpha` (`tag_alpha`), ADD KEY `author_id` (`author_id`), ADD KEY `site_id` (`site_id`);
+
+--
 -- Indexes for table `exp_templates`
 --
 ALTER TABLE `exp_templates`
@@ -3193,7 +3641,7 @@ MODIFY `accessory_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 -- AUTO_INCREMENT for table `exp_actions`
 --
 ALTER TABLE `exp_actions`
-MODIFY `action_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=53;
+MODIFY `action_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=58;
 --
 -- AUTO_INCREMENT for table `exp_ajw_datagrab`
 --
@@ -3203,12 +3651,12 @@ MODIFY `id` int(6) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_assets_files`
 --
 ALTER TABLE `exp_assets_files`
-MODIFY `file_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `file_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `exp_assets_folders`
 --
 ALTER TABLE `exp_assets_folders`
-MODIFY `folder_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `folder_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `exp_assets_sources`
 --
@@ -3223,7 +3671,7 @@ MODIFY `captcha_id` bigint(13) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_categories`
 --
 ALTER TABLE `exp_categories`
-MODIFY `cat_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `cat_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `exp_category_fields`
 --
@@ -3233,12 +3681,12 @@ MODIFY `field_id` int(6) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_category_groups`
 --
 ALTER TABLE `exp_category_groups`
-MODIFY `group_id` int(6) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `group_id` int(6) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `exp_channels`
 --
 ALTER TABLE `exp_channels`
-MODIFY `channel_id` int(6) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `channel_id` int(6) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `exp_channel_entries_autosave`
 --
@@ -3248,7 +3696,7 @@ MODIFY `entry_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_channel_fields`
 --
 ALTER TABLE `exp_channel_fields`
-MODIFY `field_id` int(6) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `field_id` int(6) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `exp_channel_form_settings`
 --
@@ -3258,7 +3706,7 @@ MODIFY `channel_form_settings_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_channel_titles`
 --
 ALTER TABLE `exp_channel_titles`
-MODIFY `entry_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `entry_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `exp_content_types`
 --
@@ -3268,7 +3716,7 @@ MODIFY `content_type_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT
 -- AUTO_INCREMENT for table `exp_cp_log`
 --
 ALTER TABLE `exp_cp_log`
-MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `exp_cp_search_index`
 --
@@ -3303,32 +3751,32 @@ MODIFY `version_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_extensions`
 --
 ALTER TABLE `exp_extensions`
-MODIFY `extension_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=20;
+MODIFY `extension_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
 --
 -- AUTO_INCREMENT for table `exp_fieldtypes`
 --
 ALTER TABLE `exp_fieldtypes`
-MODIFY `fieldtype_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
+MODIFY `fieldtype_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=25;
 --
 -- AUTO_INCREMENT for table `exp_field_formatting`
 --
 ALTER TABLE `exp_field_formatting`
-MODIFY `formatting_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `formatting_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=53;
 --
 -- AUTO_INCREMENT for table `exp_field_groups`
 --
 ALTER TABLE `exp_field_groups`
-MODIFY `group_id` int(4) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `group_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `exp_files`
 --
 ALTER TABLE `exp_files`
-MODIFY `file_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `file_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `exp_file_dimensions`
 --
 ALTER TABLE `exp_file_dimensions`
-MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `exp_file_watermarks`
 --
@@ -3418,7 +3866,7 @@ MODIFY `id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
 -- AUTO_INCREMENT for table `exp_layout_publish`
 --
 ALTER TABLE `exp_layout_publish`
-MODIFY `layout_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `layout_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=25;
 --
 -- AUTO_INCREMENT for table `exp_low_variable_groups`
 --
@@ -3428,7 +3876,7 @@ MODIFY `group_id` int(6) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_matrix_cols`
 --
 ALTER TABLE `exp_matrix_cols`
-MODIFY `col_id` int(6) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `col_id` int(6) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `exp_matrix_data`
 --
@@ -3473,7 +3921,7 @@ MODIFY `listed_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_modules`
 --
 ALTER TABLE `exp_modules`
-MODIFY `module_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=22;
+MODIFY `module_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=23;
 --
 -- AUTO_INCREMENT for table `exp_online_users`
 --
@@ -3538,7 +3986,7 @@ MODIFY `seolite_config_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREME
 -- AUTO_INCREMENT for table `exp_seolite_content`
 --
 ALTER TABLE `exp_seolite_content`
-MODIFY `seolite_content_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `seolite_content_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `exp_sites`
 --
@@ -3569,6 +4017,26 @@ MODIFY `status_id` int(6) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 ALTER TABLE `exp_status_groups`
 MODIFY `group_id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `exp_tag_bad_tags`
+--
+ALTER TABLE `exp_tag_bad_tags`
+MODIFY `tag_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `exp_tag_groups`
+--
+ALTER TABLE `exp_tag_groups`
+MODIFY `tag_group_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `exp_tag_preferences`
+--
+ALTER TABLE `exp_tag_preferences`
+MODIFY `tag_preference_id` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `exp_tag_tags`
+--
+ALTER TABLE `exp_tag_tags`
+MODIFY `tag_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `exp_templates`
 --
@@ -3618,7 +4086,7 @@ MODIFY `throttle_id` int(10) unsigned NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `exp_upload_prefs`
 --
 ALTER TABLE `exp_upload_prefs`
-MODIFY `id` int(4) unsigned NOT NULL AUTO_INCREMENT;
+MODIFY `id` int(4) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `exp_wygwam_configs`
 --
