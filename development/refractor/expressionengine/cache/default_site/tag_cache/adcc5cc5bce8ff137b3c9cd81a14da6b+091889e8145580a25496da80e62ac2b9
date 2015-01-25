@@ -1,0 +1,18 @@
+a:3:{s:4:"time";i:1422174726;s:3:"ttl";i:0;s:4:"data";s:888:"
+    <article class="feature">
+      <h6>Q & A</h6>
+      
+      <figure>
+        <a href="http://screenprism.dev/insights/testing-article-2"><img src="http://screenprism.dev/assets/img/article/_720x270/inherent-vice-01.jpg" alt=""></a>
+      </figure>
+      
+      <div class="summary">
+        <h2><a href="http://screenprism.dev/insights/testing-article-2">Testing Article 2</a></h2>
+        <p>Nunc facilisis et dui ac suscipit. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante elit, interdum nec consequat et, tincidunt at enim.</p>
+      </div>
+      <footer>
+        <p><a href="http://screenprism.dev/insights/testing-article-2"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> 36 <span>|</span> Read More</a></p>
+      </footer>
+    </article>
+    
+    {!-- ra:0000000056d77d12000000012ef0feab --}";}
