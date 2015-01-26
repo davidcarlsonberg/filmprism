@@ -67,7 +67,7 @@
       margin-left: .75em;
     }
     @include break-up($medium){display:none}
-    @include break-up($large){
+    @include break-up($x-large){
       display: block;
       float: left;
       margin-top: .625em;
@@ -145,11 +145,12 @@
   background-color: transparent;
   @include break-up($medium){
     float: right;
-    width: 60%;
+    width: 66.66%;
     margin-bottom: 0;
     margin-top: .5em;
   }
-  @include break-up($large){width:48.75%}
+  @include break-up($large){width: 72%}
+  @include break-up($x-large){width:48.75%}
   input[type="text"]{
     @include border-right-radius(0);
     @include font-size(16);

@@ -1,0 +1,28 @@
+a:3:{s:4:"time";i:1422295398;s:3:"ttl";i:0;s:4:"data";s:3029:"
+      
+      <figure class="article-image">
+        <img src="http://screenprism.dev/assets/img/article/_1080x360/birdman-image.jpg" alt="Hero image">
+      </figure>
+      
+      <article>
+        <header>
+          <h1>Q: Testing Article 5?</h1>
+          {exp:playa:children entry_id="10" field_id="10"  var_prefix="playagsA0yHqx"}
+          <h5><a href="{playagsA0yHqx:url_title_path='media'}">{playagsA0yHqx:title}</a></h5>
+          {/exp:playa:children}
+          <p class="by-line">Author Name <span class="spacer">|</span> <time datetime="2015-01-25T0117">January 25, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/testing-article-5">0</span></a></p>
+        </header>
+        <p>Nam a vestibulum sapien, ut dignissim felis. Nullam nunc quam, rutrum venenatis luctus sit amet, elementum vitae velit. Sed neque elit, aliquet at metus sed, mollis egestas neque. Morbi eu congue tortor. Praesent pellentesque mi a odio varius gravida. Ut porttitor sed nibh nec condimentum. Suspendisse non ornare felis, quis aliquet mauris. In ac feugiat ex. Proin sollicitudin, erat tempus porta accumsan, orci diam tempor eros, et luctus diam ligula in ligula. Etiam a odio condimentum, condimentum odio ut, mollis ipsum.</p>
+
+<p>Nunc facilisis et dui ac suscipit. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante elit, interdum nec consequat et, tincidunt at enim. Fusce turpis ligula, ornare imperdiet lectus at, rutrum tincidunt leo. Nunc in diam viverra, tempor risus aliquam, hendrerit ex. Mauris pretium ac quam non cursus. Cras vitae risus tincidunt, sollicitudin lectus sit amet, commodo massa. Cras tristique gravida erat, et pellentesque ipsum eleifend et. Cras ut vulputate libero. Proin eu venenatis arcu. Ut fringilla sed libero in fringilla.</p>
+
+<p>Pellentesque tristique vel velit a tristique. Phasellus eu mauris tellus. Donec blandit imperdiet ornare. Vivamus placerat, quam ac ultricies fermentum, erat orci varius dolor, non ornare enim est sit amet metus. Proin turpis elit, semper eget sagittis vitae, luctus id nisl. Proin pellentesque lobortis nibh, vel ornare ex rutrum et. Phasellus sagittis consequat orci, eu mollis turpis malesuada eu. Ut tempus aliquam turpis vel faucibus. Morbi euismod sit amet mi imperdiet condimentum. Maecenas a lectus mauris. In hac habitasse platea dictumst. Fusce pellentesque dignissim arcu, eu bibendum turpis euismod vitae. Nunc placerat eros in urna facilisis suscipit. Nulla pharetra justo nec ornare consequat. Aenean sed ex gravida, fermentum arcu nec, tempus augue.</p>
+        <footer>
+          <ul class="tags">
+          {exp:tag:tags case="title" websafe_separator="-"}
+            <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+          {/exp:tag:tags}
+          </ul>
+        </footer>
+      </article>
+    ";}

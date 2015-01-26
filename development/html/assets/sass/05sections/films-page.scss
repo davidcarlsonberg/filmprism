@@ -141,6 +141,7 @@
   }
   .related-articles {
     background-color: $related-articles-bg;
+    @include break-up($medium){border-left: 1px solid darken($related-articles-bg, 10%)}
     ul {
       @include break-up($small){width:102%;margin-left:-2%}
     }

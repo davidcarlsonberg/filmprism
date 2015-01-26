@@ -1,0 +1,26 @@
+a:3:{s:4:"time";i:1422295383;s:3:"ttl";i:0;s:4:"data";s:2454:"
+      
+      <figure class="article-image">
+        <img src="http://screenprism.dev/assets/img/article/_1080x360/boyhood-image-01.jpg" alt="Hero image">
+      </figure>
+      
+      <article>
+        <header>
+          <h1>Q: Testing Article 9?</h1>
+          {exp:playa:children entry_id="14" field_id="10"  var_prefix="playaHeDHYfEL"}
+          <h5><a href="{playaHeDHYfEL:url_title_path='media'}">{playaHeDHYfEL:title}</a></h5>
+          {/exp:playa:children}
+          <p class="by-line">Someone <span class="spacer">|</span> <time datetime="2015-01-25T0251">January 25, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/testing-article-9">0</span></a></p>
+        </header>
+        <p>Aenean et nulla pellentesque, posuere diam ut, semper ex. In ultricies elit vitae efficitur consequat. Nulla facilisi. Sed nec pellentesque leo. Maecenas tristique metus ligula. Phasellus id felis malesuada, pulvinar nulla eget, euismod sem. Nunc faucibus elit id est mollis blandit. Etiam vehicula rutrum nulla condimentum bibendum. Donec scelerisque in leo vel hendrerit. Sed eu odio justo. Etiam vitae mattis urna.</p>
+
+<p>Sed vel cursus diam. Quisque dapibus magna nec sem efficitur, nec ultricies ligula consequat. Nam et enim sit amet sem convallis facilisis vitae quis mauris. Mauris sit amet ligula mattis nibh malesuada hendrerit a et risus. Phasellus vel lectus at arcu fermentum porttitor et et libero. Quisque vitae augue est. Pellentesque quam enim, tincidunt ac gravida a, faucibus ut sapien. Praesent a posuere purus. Mauris posuere, mauris at posuere ullamcorper, ligula elit fringilla diam, id pulvinar dui nunc sit amet elit. Praesent sem dolor, tincidunt at bibendum eu, fermentum a sem. Ut cursus, felis et varius scelerisque, nisi nulla molestie sapien, id fermentum libero mauris ac urna. Nullam bibendum vitae felis vel congue. Morbi quis tellus vel urna sagittis aliquam vitae faucibus mi. Nam consequat eu felis eu bibendum. Sed pulvinar pharetra arcu eget hendrerit.</p>
+        <footer>
+          <ul class="tags">
+          {exp:tag:tags case="title" websafe_separator="-"}
+            <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+          {/exp:tag:tags}
+          </ul>
+        </footer>
+      </article>
+    ";}

@@ -850,7 +850,7 @@ button, input[type='submit'] {
     @media screen and (min-width: 45em) {
       .site-header .tagline {
         display: none; } }
-    @media screen and (min-width: 56.25em) {
+    @media screen and (min-width: 67.5em) {
       .site-header .tagline {
         display: block;
         float: left;
@@ -932,10 +932,13 @@ button, input[type='submit'] {
   @media screen and (min-width: 45em) {
     .search-bar {
       float: right;
-      width: 60%;
+      width: 66.66%;
       margin-bottom: 0;
       margin-top: .5em; } }
   @media screen and (min-width: 56.25em) {
+    .search-bar {
+      width: 72%; } }
+  @media screen and (min-width: 67.5em) {
     .search-bar {
       width: 48.75%; } }
   .search-bar input[type="text"] {
@@ -1773,9 +1776,9 @@ body {
     font-size: 1.4rem;
     margin: 0;
     color: #d9d9d1; }
-  .home-feed footer span,
-  .thoughts-feed footer span,
-  .easter-eggs-feed footer span {
+  .home-feed footer .spacer,
+  .thoughts-feed footer .spacer,
+  .easter-eggs-feed footer .spacer {
     margin: .5em; }
   .home-feed footer a,
   .thoughts-feed footer a,
@@ -2120,6 +2123,9 @@ body {
             color: #2d9099; }
   .media-article .related-articles {
     background-color: #f0f0ed; }
+    @media screen and (min-width: 45em) {
+      .media-article .related-articles {
+        border-left: 1px solid #d9d9d1; } }
     @media screen and (min-width: 33.75em) {
       .media-article .related-articles ul {
         width: 102%;

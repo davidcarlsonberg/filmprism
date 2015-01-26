@@ -19,16 +19,12 @@ var Site = window.Site || {};
 		$(function() {
 		  function fixedHeader() {
   		  var siteHeader = $('.site-header');
-  		  
   	    if ($(window).scrollTop() >= 140) {$(siteHeader).addClass('smallheader');}
   		  else {$(siteHeader).removeClass('smallheader');}
-  		  
   	    if ($(window).scrollTop() >= 145) {$(siteHeader).addClass('transition');}
   		  else {$(siteHeader).removeClass('transition');}
-  		  
   	    if ($(window).scrollTop() >= 180) {$(siteHeader).addClass('fixedheader');}
   		  else {$(siteHeader).removeClass('fixedheader');}
-  		  
 		  }
 		  $(window).scroll(fixedHeader);
 		});
@@ -70,7 +66,6 @@ var Site = window.Site || {};
     // STICKY SIDEBAR
     
 		$(function() {
-  		
   	  var stickyAside = $('.single aside .aside-content');
   	  var stickyWidth = $(stickyAside).width();
   	  var stickyHeight = $(stickyAside).height();
@@ -79,24 +74,17 @@ var Site = window.Site || {};
   	  var asideBottom = $('.discussion').offset().top;
   	  var asideHeight = asideBottom - imageHeight - 240;
   	  var stickyBottom = asideBottom - stickyHeight - 120;
-  	  
 		  function stickySidebar() {
-  		  
   	    if ($(window).scrollTop() >= stickyTop - 90) {$(stickyAside).addClass('sticky');}
   		  else {$(stickyAside).removeClass('sticky');}
-  		  
   	    if ($(window).scrollTop() >= stickyBottom) {$(stickyAside).addClass('bottom');}
   		  else {$(stickyAside).removeClass('bottom');}
-  		  
 		  }
-		  
       $(window).scroll(stickySidebar);
-      
   	  if ($(window).width() >= 900){
   		  $(stickyAside).width(stickyWidth);
   		  $('.single aside').height(asideHeight);
   		}
-  		
 		});
     
   });

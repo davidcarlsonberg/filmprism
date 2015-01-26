@@ -1,0 +1,84 @@
+a:3:{s:4:"time";i:1422295771;s:3:"ttl";i:0;s:4:"data";s:5673:"<header>
+      <h1>Seinfeld</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://screenprism.dev/assets/img/covers/_350x520/seinfeld-box-01.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="1989-07-05">July 5, 1989</time></li>
+        <li><strong>Directed By:</strong> Art Wolff, Tom Cherones, Andy Ackerman, David Steinberg</li>
+        <li><strong>Written By:</strong> Larry David, Jerry Seinfeld</li>
+        <li><strong>Starring:</strong> <span>Jerry Seinfeld</span>, <span>Julia Louis-Dreyfus</span>, <span>Michael Richards</span>, <span>Jason Alexander</span></li>
+      </ul>
+    </aside>
+    <div class="article-body">
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Etiam dapibus ultrices lacus nec posuere. Praesent blandit velit dolor, eu viverra nibh pulvinar ut. Nulla convallis nibh at varius sollicitudin. Phasellus porttitor mollis risus et porta. Phasellus mauris sem, porttitor quis risus quis, fringilla gravida justo. Praesent magna quam, elementum eu rhoncus ac, vestibulum ut nulla. Duis sit amet mattis felis. Maecenas laoreet dictum sapien commodo imperdiet. Donec mattis mi nisi, euismod vulputate magna vulputate quis. Integer semper interdum feugiat. Fusce quis aliquam turpis. Nullam luctus tortor non turpis tincidunt, eu faucibus orci laoreet. Donec rutrum mi leo, quis condimentum lacus sodales et.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci. Phasellus at facilisis nisi, id tincidunt enim. Aliquam vel felis feugiat, mollis orci tristique, hendrerit justo. Morbi mi dui, fringilla a ante eget, sollicitudin cursus nibh. Sed ut felis turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer volutpat tempus porttitor. Nulla ut ligula condimentum, fermentum neque vel, accumsan sapien. Nulla facilisi. Morbi bibendum id elit id vulputate. Nulla a commodo ante, et porttitor arcu. Vivamus suscipit nibh lectus, et commodo dui vehicula ac.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        {exp:playa:parents entry_id="18" 
+          channel="articles"
+          category="5"
+          disable="category_fields|member_data|pagination"
+          var_prefix="rel"
+        }
+        {!-- ra:0000000047851ceb0000000160efccfc --}{if {rel:total_results} >= 1}
+          {!-- ra:0000000047851cad0000000160efccfc --}{if {rel:count} == 1}<ul>{/if}
+            <li>
+              <a href="{rel:url_title_path='insights/article'}">
+                <h3>Q: {rel:title}?</h3>
+                <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/seinfeld">0</span></p>
+              </a>
+            </li>
+          {!-- ra:0000000047851c940000000160efccfc --}{if {rel:count} == {rel:total_results}}</ul>{/if}
+        {/if}
+        {!-- ra:0000000047851d790000000160efccfc --}{if no_parents}<p>There are no Q &amp; A's at this time. If you have a question, please send it to us using the form at the bottom of this page.</p>{/if}
+        {/exp:playa:parents}
+      </div>
+      <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        {exp:playa:parents entry_id="18" 
+          channel="articles"
+          category="6"
+          disable="category_fields|member_data|pagination"
+          var_prefix="rel"
+        }
+        {!-- ra:0000000047851d6e0000000160efccfc --}{if {rel:total_results} >= 1}
+          {!-- ra:0000000047851d5b0000000160efccfc --}{if {rel:count} == 1}<ul>{/if}
+            <li>
+              <a href="{rel:url_title_path='insights/article'}">
+                <h5>{rel:title}</h5>
+                <p>{rel:article_summary}</p>
+                <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/seinfeld">0</span></p>
+              </a>
+            </li>
+          {!-- ra:0000000047851d4f0000000160efccfc --}{if {rel:count} == {rel:total_results}}</ul>{/if}
+        {/if}
+        {!-- ra:0000000047851c0f0000000160efccfc --}{if no_parents}<p>There are no articles at this time. Please check back again soon.</p>{/if}
+        {/exp:playa:parents}
+      </div>
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        
+          <p>There are no links available at this time. Please check back soon.</p>
+        
+      </div>
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>Have a question about this film or want to start a discussion? Use the form below to submit a question and get the converstion started.</p>
+        <form>
+          <textarea></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>";}

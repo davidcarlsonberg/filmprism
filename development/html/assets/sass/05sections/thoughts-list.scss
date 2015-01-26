@@ -41,7 +41,7 @@
       margin: 0;
       color: darken($module-footer-bg, 10%);
     }
-    span{margin:.5em}
+    .spacer{margin:.5em}
     a {
       @include inline-block;
       color: $module-footer-link;
