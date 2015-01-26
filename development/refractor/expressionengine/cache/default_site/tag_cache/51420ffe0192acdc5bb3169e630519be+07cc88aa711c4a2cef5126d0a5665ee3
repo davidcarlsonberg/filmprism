@@ -1,0 +1,112 @@
+a:3:{s:4:"time";i:1422264363;s:3:"ttl";i:0;s:4:"data";s:7174:"<section class="main">
+  <div class="content media-article">
+    <header>
+      <h1>Birdman</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://screenprism.dev/assets/img/covers/_350x520/birdman-poster-01.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-10-17">October 17, 2014</time></li>
+        <li><strong>Directed By:</strong> Alejandro González Iñárritu</li>
+        <li><strong>Written By:</strong> Alexander Dinelaris, Alejandro González Iñárritu, Armando Bo, Nicolás Giacobone</li>
+        <li><strong>Starring:</strong> <span>Michael Keaton</span>, <span>Emma Stone</span>, <span>Zach Galifianakis</span>, <span>Edward Norton</span>, <span>Naomi Watts</span>, <span>Amy Ryan</span></li>
+      </ul>
+    </aside>
+    <div class="article-body">
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Actor Riggan Thomson is most famous for his movie role from over twenty years ago of the comic book superhero Birdman in the blockbuster movie of the same name and its two equally popular sequels. His association with the role took over his life, where Birdman is more renowned than "Riggan Thomson" the actor. Now past middle age, Riggan is trying to establish himself as a true artist by writing, directing, starring in and co-producing with his best friend Jake what is his Broadway debut, an adaptation of Raymond Carver&#39;s story, What We Talk About When We Talk About Love. He is staking his name, what little artistic reputation that comes with that name and his life savings on the project, and as such will do anything needed to make the play a success. As he and Jake go through the process of the previews toward opening night, Riggan runs into several issues: needing to find a replacement for the integral supporting male role the night before the first preview; hiring the talented Broadway name, Mike Shiner, for that role, Mike who ends up being difficult to work with and who may end up overshadowing Riggan in the play; having to deal potentially with a lawsuit based on one of his actions to ensure success; needing to be there for his daughter, Sam, who he has hired to be his production assistant and who has just come out of drug rehab; and pleasing the New York Times critic, Tabitha Dickinson, who wants to use any excuse to give the play a scathing review which in turn would close the show after the opening night performance. But Riggan&#39;s biggest problem may be his own insecurities, which are manifested by him constantly hearing what he believes to be the truth from the voice of his Birdman character, who he often battles both internally and externally.</p>
+
+<p>-Written by Huggo</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        {exp:playa:parents entry_id="6" 
+          channel="articles"
+          category="5"
+          disable="category_fields|member_data|pagination"
+          var_prefix="rel"
+        }
+        {!-- ra:000000000eb9a8b0000000014f70245f --}{if {rel:total_results} >= 1}
+          {!-- ra:000000000eb9a844000000014f70245f --}{if {rel:count} == 1}<ul>{/if}
+            <li>
+              <a href="http://screenprism.dev/insights/article/birdman">
+                <h3>Q: {rel:title}?</h3>
+                <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/birdman">0</span></p>
+              </a>
+            </li>
+          {!-- ra:000000000eb9a86e000000014f70245f --}{if {rel:count} == {rel:total_results}}</ul>{/if}
+        {/if}
+        {!-- ra:000000000eb9a87a000000014f70245f --}{if no_parents}<p>There are no Q &amp; A's at this time. If you have a question, please send it to us using the form at the bottom of this page.</p>{/if}
+        {/exp:playa:parents}
+      </div>
+      <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        {exp:playa:parents entry_id="6" 
+          channel="articles"
+          category="6"
+          disable="category_fields|member_data|pagination"
+          var_prefix="rel"
+        }
+        {!-- ra:000000000eb9a80a000000014f70245f --}{if {rel:total_results} >= 1}
+          {!-- ra:000000000eb9a81e000000014f70245f --}{if {rel:count} == 1}<ul>{/if}
+            <li>
+              <a href="http://screenprism.dev/insights/article/birdman">
+                <h5>{rel:title} - {rel:count}/{rel:total_results}</h5>
+                <p>{rel:article_summary}</p>
+                <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/birdman">0</span></p>
+              </a>
+            </li>
+          {!-- ra:000000000eb9a822000000014f70245f --}{if {rel:count} == {rel:total_results}}</ul>{/if}
+        {/if}
+        {!-- ra:000000000eb9a9ce000000014f70245f --}{if no_parents}<p>There are no articles at this time. Please check back again soon.</p>{/if}
+        {/exp:playa:parents}
+      </div>
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        
+        <ul>
+          <li>
+            <a href="http://thedissolve.com/features/exposition/792-the-irreducible-element-of-michael-keaton/" target="_blank">
+              <h5>The irreducible element of Michael Keaton</h5>
+              <p>In an entertaining installment of Grantland’s “B.S. Report” podcast last year, Bill Simmons and Wesley Morris examined Jodie Foster’s filmography in an attempt to determine if she was, in the site’s parlance, “Overrated, Underrated, or Properly Rated.”</p>
+              <p><strong>Source:</strong> thedissolve.com</p>
+            </a>
+          </li>
+        </ul>
+        
+      </div>
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>Have a question about this film or want to start a discussion? Use the form below to submit a question and get the converstion started.</p>
+        <form>
+          <textarea></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <aside class="related-films">
+      <h4>Related Films</h4>
+      <ul>
+        <li>
+          <a href="media-page.php">
+            <figure>
+              <img src="{site_url}assets/img/covers/hobbit-movie-poster-01.jpg" />
+            </figure>
+            <div class="details">
+              <h5>The Hobbit: The Desolation of Smaug</h5>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+</section>";}

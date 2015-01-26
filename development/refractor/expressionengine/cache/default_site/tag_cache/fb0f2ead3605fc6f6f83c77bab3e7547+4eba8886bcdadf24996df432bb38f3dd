@@ -1,0 +1,120 @@
+a:3:{s:4:"time";i:1422264415;s:3:"ttl";i:0;s:4:"data";s:7403:"<section class="main">
+  <div class="content media-article">
+    <header>
+      <h1>The Hobbit: The Battle of the Five Armies</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://screenprism.dev/assets/img/covers/_350x520/hobbit-movie-poster-02.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-12-17">December 17, 2014</time></li>
+        <li><strong>Directed By:</strong> Peter Jackson</li>
+        <li><strong>Written By:</strong> J.R.R. Tolkien, Peter Jackson, Fran Walsh</li>
+        <li><strong>Starring:</strong> <span>Martin Freeman</span>, <span>Ian McKellen</span>, <span>Richard Armitage</span>, <span>Aidan Turner</span>, <span>Orlando Bloom</span>, <span>Evangeline Lilly</span>, <span>John Bell</span>, <span>Dean O'Gorman</span>, <span>Lee Pace</span>, <span>Benedict Cumberbatch</span>, <span>Luke Evans</span>, <span>Cate Blanchett</span>, <span>Hugo Weaving</span>, <span>Christopher Lee</span>, <span>Billy Connolly</span>, <span>Ian Holm</span>, <span>James Nesbitt</span></li>
+      </ul>
+    </aside>
+    <div class="article-body">
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>The Hobbit: The Battle of the Five Armies&nbsp;brings to an epic conclusion the adventures of Bilbo Baggins, Thorin Oakenshield and the Company of Dwarves. Having reclaimed their homeland from the Dragon Smaug, the Company has unwittingly unleashed a deadly force into the world. Enraged, Smaug rains his fiery wrath down upon the defenseless men, women and children of Lake-town.</p>
+
+<p>Obsessed above all else with his reclaimed treasure, Thorin sacrifices friendship and honor to hoard it as Bilbo&#39;s frantic attempts to make him see reason drive the Hobbit towards a desperate and dangerous choice. But there are even greater dangers ahead. Unseen by any but the Wizard Gandalf, the great enemy Sauron has sent forth legions of Orcs in a stealth attack upon the Lonely Mountain.</p>
+
+<p>As darkness converges on their escalating conflict, the races of Dwarves, Elves and Men must decide unite or be destroyed. Bilbo finds himself fighting for his life and the lives of his friends in the epic Battle of the Five Armies, as the future of Middle-earth hangs in the balance.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        {exp:playa:parents entry_id="15" 
+          channel="articles"
+          category="5"
+          disable="category_fields|member_data|pagination"
+          var_prefix="rel"
+        }
+        {!-- ra:0000000046d067be000000014a81ba7a --}{if {rel:total_results} >= 1}
+          {!-- ra:0000000046d06742000000014a81ba7a --}{if {rel:count} == 1}<ul>{/if}
+            <li>
+              <a href="http://screenprism.dev/insights/article/the-hobbit-the-battle-of-the-five-armies">
+                <h3>Q: {rel:title}?</h3>
+                <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/the-hobbit-the-battle-of-the-five-armies">0</span></p>
+              </a>
+            </li>
+          {!-- ra:0000000046d06758000000014a81ba7a --}{if {rel:count} == {rel:total_results}}</ul>{/if}
+        {/if}
+        {!-- ra:0000000046d06774000000014a81ba7a --}{if no_parents}<p>There are no Q &amp; A's at this time. If you have a question, please send it to us using the form at the bottom of this page.</p>{/if}
+        {/exp:playa:parents}
+      </div>
+      <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        {exp:playa:parents entry_id="15" 
+          channel="articles"
+          category="6"
+          disable="category_fields|member_data|pagination"
+          var_prefix="rel"
+        }
+        {!-- ra:0000000046d06704000000014a81ba7a --}{if {rel:total_results} >= 1}
+          {!-- ra:0000000046d06708000000014a81ba7a --}{if {rel:count} == 1}<ul>{/if}
+            <li>
+              <a href="http://screenprism.dev/insights/article/the-hobbit-the-battle-of-the-five-armies">
+                <h5>{rel:title}</h5>
+                <p>{rel:article_summary}</p>
+                <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/the-hobbit-the-battle-of-the-five-armies">0</span></p>
+              </a>
+            </li>
+          {!-- ra:0000000046d06720000000014a81ba7a --}{if {rel:count} == {rel:total_results}}</ul>{/if}
+        {/if}
+        {!-- ra:0000000046d0673c000000014a81ba7a --}{if no_parents}<p>There are no articles at this time. Please check back again soon.</p>{/if}
+        {/exp:playa:parents}
+      </div>
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        
+        <ul>
+          <li>
+            <a href="http://www.rogerebert.com/reviews/the-hobbit-the-battle-of-the-five-armies-2014" target="_blank">
+              <h5>Sheila O'Malley's Review for Ebert Digital</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci.</p>
+              <p><strong>Source:</strong> rogerebert.com</p>
+            </a>
+          </li><li>
+            <a href="http://thedissolve.com/reviews/1275-the-hobbit-the-battle-of-the-five-armies/" target="_blank">
+              <h5>Tasha Robinson's Review for The Dissolve</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae purus ut magna semper dictum tincidunt sit amet lectus. Vestibulum ac odio nunc. Vivamus ut arcu nec dolor porttitor tincidunt eu nec massa. Vestibulum erat nulla, sagittis non auctor in, dictum nec orci.</p>
+              <p><strong>Source:</strong> thedissolve.com</p>
+            </a>
+          </li>
+        </ul>
+        
+      </div>
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>Have a question about this film or want to start a discussion? Use the form below to submit a question and get the converstion started.</p>
+        <form>
+          <textarea></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <aside class="related-films">
+      <h4>Related Films</h4>
+      <ul>
+        <li>
+          <a href="media-page.php">
+            <figure>
+              <img src="{site_url}assets/img/covers/hobbit-movie-poster-01.jpg" />
+            </figure>
+            <div class="details">
+              <h5>The Hobbit: The Desolation of Smaug</h5>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+</section>";}

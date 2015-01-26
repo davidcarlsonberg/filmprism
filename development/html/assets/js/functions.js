@@ -57,6 +57,11 @@ var Site = window.Site || {};
     // CHOSEN
     
     $(".chosen-select").chosen();
+    $(".chosen-select").chosen().change(function(){
+			var tagLink = $(this).find(":selected").attr("value");
+			window.location.assign(tagLink);
+			return false;
+		});
     
     // SMOOTH-SCROLL
 

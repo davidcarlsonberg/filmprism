@@ -282,7 +282,7 @@ class EE_Route {
 
 					if (preg_match("/^[a-zA-Z0-9_\-]*$/ix", $variable))
 					{
-						$hash = md5($variable);
+						$hash = 'e' . base_convert(sha1($variable), 16, 36);
 						$this->subpatterns[$hash] = $variable;
 						$segment['variable'] = $hash;
 					}

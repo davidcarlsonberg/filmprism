@@ -1,0 +1,26 @@
+a:3:{s:4:"time";i:1422264541;s:3:"ttl";i:0;s:4:"data";s:2180:"
+      
+      <figure class="article-image">
+        <img src="http://screenprism.dev/assets/img/article/_1080x360/selma-image-01.jpg" alt="Hero image">
+      </figure>
+      
+      <article>
+        <header>
+          <h1>Testing Article 7</h1>
+          {exp:playa:children entry_id="12" field_id="10"  var_prefix="playaavOT8pGf"}
+          <h5><a href="{playaavOT8pGf:url_title_path='media'}">{playaavOT8pGf:title}</a></h5>
+          {/exp:playa:children}
+          <p class="by-line">Someone <span class="spacer">|</span> <time datetime="2015-01-25T0228">January 25, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/testing-article-7">0</span></a></p>
+        </header>
+        <p>Vivamus lectus lacus, auctor eget lorem sed, efficitur molestie ex. Praesent feugiat nibh sit amet tincidunt dapibus. Praesent interdum orci ac tempor vulputate. In egestas erat enim, quis tincidunt tortor tincidunt vel. Nunc sed egestas nunc. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed consectetur dapibus lorem, ac convallis erat euismod non. Pellentesque ornare augue eget lacinia molestie. Aliquam tincidunt gravida urna ac ullamcorper. Nam nec nulla sit amet nisi blandit ultricies. Nulla a dictum augue.</p>
+
+<p>Aenean et nulla pellentesque, posuere diam ut, semper ex. In ultricies elit vitae efficitur consequat. Nulla facilisi. Sed nec pellentesque leo. Maecenas tristique metus ligula. Phasellus id felis malesuada, pulvinar nulla eget, euismod sem. Nunc faucibus elit id est mollis blandit. Etiam vehicula rutrum nulla condimentum bibendum. Donec scelerisque in leo vel hendrerit. Sed eu odio justo. Etiam vitae mattis urna.</p>
+        <footer>
+          <ul class="tags">
+          {exp:tag:tags case="title" websafe_separator="-"}
+            <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+          {/exp:tag:tags}
+          </ul>
+        </footer>
+      </article>
+    ";}
