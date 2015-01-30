@@ -1,0 +1,56 @@
+/**************************************************
+ SEARCH PAGE STYLES
+**************************************************/
+
+.search-results {
+  @extend %article-list;
+  .search-heading {
+    margin: 0 0 1em;
+    span {
+      color: $teal;
+    }
+  }
+  .summary {
+    @include break-up($small){
+      padding: 1em 3em;
+    }
+    h3 {
+      margin: .5em 0 .75em;
+    }
+    p {
+      @include font-size(14);
+    }
+  }
+}
+
+.no-results, 
+.message {
+  @include border-radius;
+  @include box-shadow;
+  overflow: hidden;
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 1.5em;
+  background-color: $module-aside-bg;
+  background-color: $module-bg;
+  @include break-up($small){
+    padding: 3em;
+  }
+  h2 {
+    margin: .5em 0;
+    padding-bottom: .5em;
+    border-bottom:  1px solid $border-color;
+    span {
+      color: $teal;
+    }
+  }
+  form {
+    @include border-radius(0);
+    @include box-shadow(none);
+    background-color: $submit-question-bg;
+  }
+  input[type="submit"]{
+    margin-top: 0;
+    @include break-up($medium){width:50%}
+  }
+}

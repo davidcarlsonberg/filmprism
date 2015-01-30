@@ -79,5 +79,10 @@
         &:hover,&:focus{background-color:darken($module-aside-button, 5%)}
       }
     }
+    .captcha-box {
+      @include border-radius;
+      background-color: lighten($module-aside-bg, 10%);
+      p {@include font-size(12)}
+    }
   }
 }

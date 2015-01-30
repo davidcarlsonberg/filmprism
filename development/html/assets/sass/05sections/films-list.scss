@@ -22,15 +22,20 @@
     @include float;
     width: 45%;
     margin: 0 0 5% 5%;
+    &:nth-child(2n+1){clear:left}
     @include break-up($small){
       width: 30%;
       margin-left: 3.33%;
       margin-bottom: 3.33%;
+      &:nth-child(2n+1){clear:none}
+      &:nth-child(3n+1){clear:left}
     }
     @include break-up($medium){
       width: 22.5%;
       margin-left: 2.5%;
       margin-bottom: 2.5%;
+      &:nth-child(3n+1){clear:none}
+      &:nth-child(4n+1){clear:left}
     }
   }
 }

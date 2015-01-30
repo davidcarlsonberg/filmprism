@@ -28,4 +28,19 @@
     margin-top: 0;
     @include break-up($medium){width:50%}
   }
+  label {
+    color: $white;
+  }
+  @include break-up($medium){
+    .half {
+      width: 47.5%;
+      &.first {float: left}
+      &.last {float: right}
+    }
+  }
+  .captcha-box {
+    @include border-radius;
+    margin-bottom: 1.5em;
+    background-color: lighten($submit-question-bg, 10%);
+  }
 }

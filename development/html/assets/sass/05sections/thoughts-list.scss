@@ -7,7 +7,18 @@
 .home-feed,
 .thoughts-feed,
 .easter-eggs-feed {
-  .inner{max-width:720px}
+  @extend %article-list;
+  .qanda {
+    h2 {
+      @include break-up($small){
+        @include font-size(36);
+      }
+    }
+  }
+}
+
+%article-list {
+  .inner {max-width: 72em}
   article {
     @include border-radius;
     @include box-shadow;
@@ -50,13 +61,6 @@
       &:focus {
         color: $module-footer-hover;
         svg {fill:$module-footer-hover}
-      }
-    }
-  }
-  .qanda {
-    h2 {
-      @include break-up($small){
-        @include font-size(36);
       }
     }
   }

@@ -223,6 +223,7 @@
       padding: 1em 0;
       background-color: transparent;
     }
+    label {color: $white}
     textarea {
       border: none;
     }
@@ -230,6 +231,18 @@
       margin-top: 0;
       @include break-up($medium){
         width: 50%;
+      }
+    }
+    .captcha-box {
+      @include border-radius;
+      margin-bottom: 1.5em;
+      background-color: lighten($submit-question-bg, 10%);
+    }
+    @include break-up($medium){
+      .half {
+        width: 47.5%;
+        &.first {float: left}
+        &.last {float: right}
       }
     }
   }

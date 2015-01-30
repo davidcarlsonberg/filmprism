@@ -95,6 +95,19 @@ input[type='submit']{
   }
 }
 
+.captcha-box {
+  padding: 1.5em;
+  .captcha-field {
+    input[type='text'], img {
+      @include inline-block;
+      margin: 0 .5em .5em 0;
+    }
+    input[type='text']{
+      width: 10em;
+    }
+  }
+}
+
 /**************************************************
  CHOSEN SELECT STYLES
 **************************************************/
