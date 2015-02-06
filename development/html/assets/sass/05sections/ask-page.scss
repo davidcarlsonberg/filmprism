@@ -17,7 +17,9 @@
     }
   }
   header {
-    h1 {margin: .5em 0}
+    h1 {
+      margin: .5em 0;
+    }
   }
   form {
     @include border-radius(0);
@@ -26,7 +28,9 @@
   }
   input[type="submit"]{
     margin-top: 0;
-    @include break-up($medium){width:50%}
+    @include break-up($medium){
+      width: 50%;
+    }
   }
   label {
     color: $white;
@@ -34,8 +38,12 @@
   @include break-up($medium){
     .half {
       width: 47.5%;
-      &.first {float: left}
-      &.last {float: right}
+      &.first {
+        float: left;
+      }
+      &.last {
+        float: right;
+      }
     }
   }
   .captcha-box {

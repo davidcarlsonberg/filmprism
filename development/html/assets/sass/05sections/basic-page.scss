@@ -14,21 +14,27 @@
       padding: 3em 3em 6em;
     }
     @include break-up($medium){
-      @include float;
+      float: left;
       width: 60%;
       padding-right: 4.5em;
     }
     @include break-up($large){
       width: 70%;
     }
-    p{max-width:36em}
+    p {
+      max-width: 36em;
+    }
   }
   header {
     margin-bottom: 3em;
     padding: 1.5em 0 3em;
     border-bottom: 1px solid $border-color;
-    h1{margin:0}
-    h5{margin:.75em 0 0}
+    h1 {
+      margin: 0;
+    }
+    h5 {
+      margin: .75em 0 0;
+    }
     .by-line{
       @include font-size(12);
       max-width: none;
@@ -60,7 +66,9 @@
       color: $module-aside-text;
       text-transform: uppercase;
     }
-    p{@include font-size(14)}
+    p {
+      @include font-size(14);
+    }
     form {
       @include border-radius(0);
       @include box-shadow(none);
@@ -73,16 +81,24 @@
         color: $module-aside-text;
         text-transform: uppercase;
       }
-      input,textarea{border:none}
+      input,
+      textarea {
+        border: none;
+      }
       input[type="submit"]{
         background-color: $module-aside-button;
-        &:hover,&:focus{background-color:darken($module-aside-button, 5%)}
+        &:hover,
+        &:focus {
+          background-color: darken($module-aside-button,5%);
+        }
       }
     }
     .captcha-box {
       @include border-radius;
-      background-color: lighten($module-aside-bg, 10%);
-      p {@include font-size(12)}
+      background-color: lighten($module-aside-bg,10%);
+      p {
+        @include font-size(12);
+      }
     }
   }
 }
