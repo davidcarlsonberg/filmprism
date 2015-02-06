@@ -328,6 +328,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x360\/673927401147773986.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88823,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/673927401147773986.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/673927401147773986.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/6a00d8341bf7f753ef01bb07b10d55970d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36520,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x360\/89u3166-timothy-spall-as-jmw-turner-turner-paints-in-his-studio__140516013417.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -412,6 +434,17 @@
 		"initialSize": 76386,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/a_most_violent_year_2014_movie-1440x900.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/a_most_violent_year_2014_movie-1440x900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36632,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -691,6 +724,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x360\/emily_blunt_in_into_the_woods_2014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101662,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x360\/film-twodays-570.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -698,6 +742,39 @@
 		"initialSize": 54291,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/film-twodays-570.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/film-twodays-570.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/foxcatcher-channing-tatum-steve-carell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71390,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/FoxcatcherFINAL2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63017,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/FoxcatcherFINAL2.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/FoxcatcherFINAL2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/gallery25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68189,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/gallery25.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/gallery25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -764,6 +841,50 @@
 		"initialSize": 74121,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/GBH-still3.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/GBH-still3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/gone-girl-df-01826cc_rgb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110126,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/gone-girl-df-01826cc_rgb.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/gone-girl-df-01826cc_rgb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/gone-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44193,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/gone-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/gone-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/gone_girl_review_1.0.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59915,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/gone_girl_review_1.0.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/gone_girl_review_1.0.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/GoodbyetoLanguage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63447,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/GoodbyetoLanguage.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/GoodbyetoLanguage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -865,6 +986,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x360\/inherentvice-movie-review.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104032,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/inherentvice-movie-review.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/inherentvice-movie-review.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x360\/interstellar-image-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -872,6 +1004,39 @@
 		"initialSize": 72665,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/interstellar-image-01.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/interstellar-image-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/interstellar_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76877,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/interstellar_a.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/interstellar_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/Into-the-Woods-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108615,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/Into-the-Woods-3.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/Into-the-Woods-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97713,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -894,6 +1059,17 @@
 		"initialSize": 100831,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/maxresdefault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68996,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/maxresdefault.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/maxresdefault.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -997,6 +1173,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x360\/o-INTERSTELLAR-TRAILER-facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17817,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/only-lovers-left-alive-2013-L-mZnGID.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49842,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/onlylovers1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69576,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/onlylovers1.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/onlylovers1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x360\/pierrot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1059,6 +1268,17 @@
 		"initialSize": 73067,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/selma.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/selma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/SteveCarellFoxCatcher.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43747,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/SteveCarellFoxCatcher.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/SteveCarellFoxCatcher.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1213,6 +1433,17 @@
 		"initialSize": 72812,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/unbrokenbanner.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/unbrokenbanner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x360\/Under-the-Skin-feat-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32728,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x360\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x360\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1459,6 +1690,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_120x120\/673927401147773986.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/673927401147773986.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/673927401147773986.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_120x120\/6a00d8341bf7f753ef01bb07b10d55970d.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1554,6 +1796,17 @@
 		"initialSize": 6427,
 		"inputAbbreviatedPath": "\/img\/article\/_120x120\/a_most_violent_year_2014_movie-1440x900.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_120x120\/a_most_violent_year_2014_movie-1440x900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1833,6 +2086,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_120x120\/emily_blunt_in_into_the_woods_2014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_120x120\/film-twodays-570.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1840,6 +2104,39 @@
 		"initialSize": 4928,
 		"inputAbbreviatedPath": "\/img\/article\/_120x120\/film-twodays-570.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_120x120\/film-twodays-570.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/foxcatcher-channing-tatum-steve-carell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6090,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/FoxcatcherFINAL2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6294,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/FoxcatcherFINAL2.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/FoxcatcherFINAL2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/gallery25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5848,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/gallery25.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/gallery25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1906,6 +2203,50 @@
 		"initialSize": 6500,
 		"inputAbbreviatedPath": "\/img\/article\/_120x120\/GBH-still3.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_120x120\/GBH-still3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/gone-girl-df-01826cc_rgb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6952,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/gone-girl-df-01826cc_rgb.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/gone-girl-df-01826cc_rgb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/gone-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/gone-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/gone-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/gone_girl_review_1.0.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4103,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/gone_girl_review_1.0.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/gone_girl_review_1.0.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/GoodbyetoLanguage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3898,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/GoodbyetoLanguage.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/GoodbyetoLanguage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2007,6 +2348,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_120x120\/inherentvice-movie-review.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7165,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/inherentvice-movie-review.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/inherentvice-movie-review.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_120x120\/interstellar-image-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2014,6 +2366,39 @@
 		"initialSize": 4701,
 		"inputAbbreviatedPath": "\/img\/article\/_120x120\/interstellar-image-01.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_120x120\/interstellar-image-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/interstellar_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7884,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/interstellar_a.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/interstellar_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/Into-the-Woods-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/Into-the-Woods-3.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/Into-the-Woods-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2036,6 +2421,17 @@
 		"initialSize": 7010,
 		"inputAbbreviatedPath": "\/img\/article\/_120x120\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_120x120\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/maxresdefault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/maxresdefault.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/maxresdefault.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2139,6 +2535,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_120x120\/o-INTERSTELLAR-TRAILER-facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1338,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/only-lovers-left-alive-2013-L-mZnGID.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3544,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/onlylovers1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5601,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/onlylovers1.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/onlylovers1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_120x120\/pierrot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2201,6 +2630,17 @@
 		"initialSize": 5989,
 		"inputAbbreviatedPath": "\/img\/article\/_120x120\/selma.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_120x120\/selma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/SteveCarellFoxCatcher.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4764,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/SteveCarellFoxCatcher.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/SteveCarellFoxCatcher.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2355,6 +2795,17 @@
 		"initialSize": 6915,
 		"inputAbbreviatedPath": "\/img\/article\/_120x120\/unbrokenbanner.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_120x120\/unbrokenbanner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_120x120\/Under-the-Skin-feat-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3388,
+		"inputAbbreviatedPath": "\/img\/article\/_120x120\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_120x120\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2601,6 +3052,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/673927401147773986.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53392,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/673927401147773986.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/673927401147773986.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/6a00d8341bf7f753ef01bb07b10d55970d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21735,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/89u3166-timothy-spall-as-jmw-turner-turner-paints-in-his-studio__140516013417.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2685,6 +3158,17 @@
 		"initialSize": 48485,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/a_most_violent_year_2014_movie-1440x900.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/a_most_violent_year_2014_movie-1440x900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21249,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2964,6 +3448,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/emily_blunt_in_into_the_woods_2014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54282,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/film-twodays-570.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2971,6 +3466,39 @@
 		"initialSize": 31754,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/film-twodays-570.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/film-twodays-570.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/foxcatcher-channing-tatum-steve-carell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38592,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/FoxcatcherFINAL2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37530,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/FoxcatcherFINAL2.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/FoxcatcherFINAL2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/gallery25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38897,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/gallery25.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/gallery25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3037,6 +3565,50 @@
 		"initialSize": 44300,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/GBH-still3.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/GBH-still3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/gone-girl-df-01826cc_rgb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55496,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/gone-girl-df-01826cc_rgb.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/gone-girl-df-01826cc_rgb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/gone-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26795,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/gone-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/gone-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/gone_girl_review_1.0.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28194,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/gone_girl_review_1.0.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/gone_girl_review_1.0.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/GoodbyetoLanguage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37742,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/GoodbyetoLanguage.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/GoodbyetoLanguage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3138,6 +3710,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/inherentvice-movie-review.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63766,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/inherentvice-movie-review.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/inherentvice-movie-review.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/interstellar-image-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3145,6 +3728,39 @@
 		"initialSize": 40824,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/interstellar-image-01.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/interstellar-image-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/interstellar_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48871,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/interstellar_a.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/interstellar_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/Into-the-Woods-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59728,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Into-the-Woods-3.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Into-the-Woods-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52967,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3167,6 +3783,17 @@
 		"initialSize": 57093,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/maxresdefault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42113,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/maxresdefault.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/maxresdefault.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3270,6 +3897,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/o-INTERSTELLAR-TRAILER-facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10308,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/only-lovers-left-alive-2013-L-mZnGID.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28201,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/onlylovers1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41838,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/onlylovers1.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/onlylovers1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/pierrot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3332,6 +3992,17 @@
 		"initialSize": 42501,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/selma.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/selma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/SteveCarellFoxCatcher.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26307,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/SteveCarellFoxCatcher.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/SteveCarellFoxCatcher.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3486,6 +4157,17 @@
 		"initialSize": 43880,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/unbrokenbanner.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/unbrokenbanner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/Under-the-Skin-feat-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19870,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3732,6 +4414,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x360\/673927401147773986.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67946,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/673927401147773986.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/673927401147773986.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/6a00d8341bf7f753ef01bb07b10d55970d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26938,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x360\/89u3166-timothy-spall-as-jmw-turner-turner-paints-in-his-studio__140516013417.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3816,6 +4520,17 @@
 		"initialSize": 66062,
 		"inputAbbreviatedPath": "\/img\/article\/_720x360\/a_most_violent_year_2014_movie-1440x900.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x360\/a_most_violent_year_2014_movie-1440x900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24757,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4095,6 +4810,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x360\/emily_blunt_in_into_the_woods_2014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72380,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x360\/film-twodays-570.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4102,6 +4828,39 @@
 		"initialSize": 42057,
 		"inputAbbreviatedPath": "\/img\/article\/_720x360\/film-twodays-570.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x360\/film-twodays-570.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/foxcatcher-channing-tatum-steve-carell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48613,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/FoxcatcherFINAL2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51460,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/FoxcatcherFINAL2.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/FoxcatcherFINAL2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/gallery25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48255,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/gallery25.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/gallery25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4168,6 +4927,50 @@
 		"initialSize": 56706,
 		"inputAbbreviatedPath": "\/img\/article\/_720x360\/GBH-still3.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x360\/GBH-still3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/gone-girl-df-01826cc_rgb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72035,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/gone-girl-df-01826cc_rgb.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/gone-girl-df-01826cc_rgb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/gone-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34805,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/gone-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/gone-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/gone_girl_review_1.0.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37477,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/gone_girl_review_1.0.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/gone_girl_review_1.0.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/GoodbyetoLanguage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48605,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/GoodbyetoLanguage.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/GoodbyetoLanguage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4269,6 +5072,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x360\/inherentvice-movie-review.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73226,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/inherentvice-movie-review.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/inherentvice-movie-review.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x360\/interstellar-image-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4276,6 +5090,39 @@
 		"initialSize": 55448,
 		"inputAbbreviatedPath": "\/img\/article\/_720x360\/interstellar-image-01.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x360\/interstellar-image-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/interstellar_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60161,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/interstellar_a.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/interstellar_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/Into-the-Woods-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77095,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/Into-the-Woods-3.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/Into-the-Woods-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68813,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4298,6 +5145,17 @@
 		"initialSize": 77696,
 		"inputAbbreviatedPath": "\/img\/article\/_720x360\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x360\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/maxresdefault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52719,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/maxresdefault.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/maxresdefault.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4401,6 +5259,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x360\/o-INTERSTELLAR-TRAILER-facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12269,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/only-lovers-left-alive-2013-L-mZnGID.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32002,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/onlylovers1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53003,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/onlylovers1.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/onlylovers1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x360\/pierrot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4463,6 +5354,17 @@
 		"initialSize": 56412,
 		"inputAbbreviatedPath": "\/img\/article\/_720x360\/selma.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x360\/selma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/SteveCarellFoxCatcher.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34023,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/SteveCarellFoxCatcher.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/SteveCarellFoxCatcher.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4617,6 +5519,17 @@
 		"initialSize": 59006,
 		"inputAbbreviatedPath": "\/img\/article\/_720x360\/unbrokenbanner.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x360\/unbrokenbanner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x360\/Under-the-Skin-feat-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25354,
+		"inputAbbreviatedPath": "\/img\/article\/_720x360\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x360\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4863,6 +5776,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/673927401147773986.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88705,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/673927401147773986.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/673927401147773986.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/6a00d8341bf7f753ef01bb07b10d55970d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33812,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/89u3166-timothy-spall-as-jmw-turner-turner-paints-in-his-studio__140516013417.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4947,6 +5882,17 @@
 		"initialSize": 85054,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/a_most_violent_year_2014_movie-1440x900.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/a_most_violent_year_2014_movie-1440x900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30615,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5226,6 +6172,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/emily_blunt_in_into_the_woods_2014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100483,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/film-twodays-570.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5233,6 +6190,39 @@
 		"initialSize": 99079,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/film-twodays-570.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/film-twodays-570.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/foxcatcher-channing-tatum-steve-carell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65507,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/FoxcatcherFINAL2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66206,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/FoxcatcherFINAL2.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/FoxcatcherFINAL2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/gallery25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63330,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/gallery25.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/gallery25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5299,6 +6289,50 @@
 		"initialSize": 74050,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/GBH-still3.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/GBH-still3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/gone-girl-df-01826cc_rgb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98015,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/gone-girl-df-01826cc_rgb.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/gone-girl-df-01826cc_rgb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/gone-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44639,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/gone-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/gone-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/gone_girl_review_1.0.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52282,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/gone_girl_review_1.0.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/gone_girl_review_1.0.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/GoodbyetoLanguage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66006,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/GoodbyetoLanguage.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/GoodbyetoLanguage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5400,6 +6434,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/inherentvice-movie-review.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93115,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/inherentvice-movie-review.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/inherentvice-movie-review.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/interstellar-image-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5407,6 +6452,39 @@
 		"initialSize": 75904,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/interstellar-image-01.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/interstellar-image-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/interstellar_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75201,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/interstellar_a.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/interstellar_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/Into-the-Woods-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101991,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Into-the-Woods-3.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Into-the-Woods-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92186,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5429,6 +6507,17 @@
 		"initialSize": 103437,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/maxresdefault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65689,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/maxresdefault.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/maxresdefault.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5532,6 +6621,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/o-INTERSTELLAR-TRAILER-facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15434,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/only-lovers-left-alive-2013-L-mZnGID.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40350,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/onlylovers1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68662,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/onlylovers1.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/onlylovers1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/pierrot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5594,6 +6716,17 @@
 		"initialSize": 75134,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/selma.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/selma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/SteveCarellFoxCatcher.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44526,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/SteveCarellFoxCatcher.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/SteveCarellFoxCatcher.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5748,6 +6881,17 @@
 		"initialSize": 80005,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/unbrokenbanner.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/unbrokenbanner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/Under-the-Skin-feat-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32077,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5994,6 +7138,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/673927401147773986.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3209,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/673927401147773986.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/673927401147773986.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/6a00d8341bf7f753ef01bb07b10d55970d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1760,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/6a00d8341bf7f753ef01bb07b10d55970d.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/89u3166-timothy-spall-as-jmw-turner-turner-paints-in-his-studio__140516013417.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6078,6 +7244,17 @@
 		"initialSize": 3146,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/a_most_violent_year_2014_movie-1440x900.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/a_most_violent_year_2014_movie-1440x900.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1521,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Adam-Pearson-interview-Under-the-Skin-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6357,6 +7534,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/emily_blunt_in_into_the_woods_2014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2469,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/emily_blunt_in_into_the_woods_2014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/film-twodays-570.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6364,6 +7552,39 @@
 		"initialSize": 2309,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/film-twodays-570.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/film-twodays-570.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/foxcatcher-channing-tatum-steve-carell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2772,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/foxcatcher-channing-tatum-steve-carell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/FoxcatcherFINAL2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2965,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/FoxcatcherFINAL2.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/FoxcatcherFINAL2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/gallery25.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2861,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/gallery25.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/gallery25.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6430,6 +7651,50 @@
 		"initialSize": 3037,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/GBH-still3.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/GBH-still3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/gone-girl-df-01826cc_rgb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3130,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/gone-girl-df-01826cc_rgb.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/gone-girl-df-01826cc_rgb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/gone-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2197,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/gone-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/gone-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/gone_girl_review_1.0.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2078,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/gone_girl_review_1.0.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/gone_girl_review_1.0.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/GoodbyetoLanguage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1966,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/GoodbyetoLanguage.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/GoodbyetoLanguage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6531,6 +7796,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/inherentvice-movie-review.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3033,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/inherentvice-movie-review.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/inherentvice-movie-review.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/interstellar-image-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6538,6 +7814,39 @@
 		"initialSize": 2200,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/interstellar-image-01.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/interstellar-image-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/interstellar_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3320,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/interstellar_a.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/interstellar_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/Into-the-Woods-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2755,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Into-the-Woods-3.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Into-the-Woods-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2347,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Into-the-Woods-Makes-Excellent-Transition-from-Stage-to-Film-Video.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6560,6 +7869,17 @@
 		"initialSize": 3051,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/la-et-mn-violent-year-best-picture-national-board-of-review-20141201.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/maxresdefault.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2603,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/maxresdefault.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/maxresdefault.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6663,6 +7983,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/o-INTERSTELLAR-TRAILER-facebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1058,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/o-INTERSTELLAR-TRAILER-facebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/only-lovers-left-alive-2013-L-mZnGID.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1769,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/only-lovers-left-alive-2013-L-mZnGID.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/onlylovers1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2427,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/onlylovers1.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/onlylovers1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/pierrot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6725,6 +8078,17 @@
 		"initialSize": 2702,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/selma.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/selma.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/SteveCarellFoxCatcher.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2407,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/SteveCarellFoxCatcher.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/SteveCarellFoxCatcher.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6879,6 +8243,17 @@
 		"initialSize": 2991,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/unbrokenbanner.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/unbrokenbanner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/Under-the-Skin-feat-Scarlett-Johansson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1954,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Under-the-Skin-feat-Scarlett-Johansson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8225,6 +9600,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/159386941_bbdd65.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37006,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/159386941_bbdd65.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/159386941_bbdd65.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/5454e16ae86e9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8346,6 +9732,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/foxcatcher_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19891,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/foxcatcher_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/foxcatcher_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/GBH-mainposter.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8364,6 +9761,17 @@
 		"initialSize": 50332,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/GBH-poster1.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/GBH-poster1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/goodbye_to_language_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23661,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/goodbye_to_language_1.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/goodbye_to_language_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8390,6 +9798,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/Ida_plakat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23790,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/Ida_plakat.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/Ida_plakat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8399,6 +9818,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/covers\/_270x400\/interstellar3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42489,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/interstellar3.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/interstellar3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8406,6 +9836,28 @@
 		"initialSize": 28539,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17692,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19991,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8509,6 +9961,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/under_the_skin_us_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26815,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/under_the_skin_us_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/under_the_skin_us_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/wild_xlg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8527,6 +9990,17 @@
 		"initialSize": 23900,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/11181015_800.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/11181015_800.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/159386941_bbdd65.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55407,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/159386941_bbdd65.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/159386941_bbdd65.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8652,6 +10126,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/foxcatcher_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31432,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/foxcatcher_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/foxcatcher_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/GBH-mainposter.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8670,6 +10155,17 @@
 		"initialSize": 77500,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/GBH-poster1.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/GBH-poster1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/goodbye_to_language_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38471,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/goodbye_to_language_1.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/goodbye_to_language_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8696,6 +10192,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/Ida_plakat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37039,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/Ida_plakat.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/Ida_plakat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8705,6 +10212,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/covers\/_350x520\/interstellar3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67280,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/interstellar3.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/interstellar3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8712,6 +10230,28 @@
 		"initialSize": 42694,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26967,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19991,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8815,6 +10355,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/under_the_skin_us_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45227,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/under_the_skin_us_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/under_the_skin_us_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/wild_xlg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8833,6 +10384,17 @@
 		"initialSize": 1984,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/11181015_800.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/11181015_800.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/159386941_bbdd65.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3092,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/159386941_bbdd65.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/159386941_bbdd65.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8958,6 +10520,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/foxcatcher_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2019,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/foxcatcher_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/foxcatcher_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/GBH-mainposter.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8976,6 +10549,17 @@
 		"initialSize": 3612,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/GBH-poster1.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/GBH-poster1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/goodbye_to_language_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2096,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/goodbye_to_language_1.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/goodbye_to_language_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9002,6 +10586,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/Ida_plakat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2262,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/Ida_plakat.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/Ida_plakat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9011,6 +10606,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/covers\/_thumbs\/interstellar3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2702,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/interstellar3.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/interstellar3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9018,6 +10624,28 @@
 		"initialSize": 2889,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/large_1mYAejpMskvskGr0J0SaBvdjmrH.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2026,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2577,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9117,6 +10745,17 @@
 		"initialSize": 1476,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/under-the-skin.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/under-the-skin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/under_the_skin_us_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1862,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/under_the_skin_us_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/under_the_skin_us_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9594,6 +11233,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/uploads\/_600\/Goodbye_to_Language_-_Girl_at_Water_Spout.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70854,
+		"inputAbbreviatedPath": "\/img\/uploads\/_600\/Goodbye_to_Language_-_Girl_at_Water_Spout.jpg",
+		"outputAbbreviatedPath": "\/img\/uploads\/_600\/Goodbye_to_Language_-_Girl_at_Water_Spout.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/uploads\/_600\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9610,6 +11260,17 @@
 		"initialSize": 3078,
 		"inputAbbreviatedPath": "\/img\/uploads\/_thumbs\/birdman-poster-00.jpg",
 		"outputAbbreviatedPath": "\/img\/uploads\/_thumbs\/birdman-poster-00.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/uploads\/_thumbs\/Goodbye_to_Language_-_Girl_at_Water_Spout.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3154,
+		"inputAbbreviatedPath": "\/img\/uploads\/_thumbs\/Goodbye_to_Language_-_Girl_at_Water_Spout.jpg",
+		"outputAbbreviatedPath": "\/img\/uploads\/_thumbs\/Goodbye_to_Language_-_Girl_at_Water_Spout.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10065,38 +11726,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/05sections\/films-list.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/05sections\/films-list.scss",
-		"outputAbbreviatedPath": "\/css\/films-list.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/05sections\/films-page.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/05sections\/films-page.scss",
-		"outputAbbreviatedPath": "\/css\/films-page.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/05sections\/home-page.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -10106,6 +11735,38 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/05sections\/home-page.scss",
 		"outputAbbreviatedPath": "\/css\/home-page.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/05sections\/insights-list.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/05sections\/insights-list.scss",
+		"outputAbbreviatedPath": "\/css\/insights-list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/05sections\/insights-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/05sections\/insights-page.scss",
+		"outputAbbreviatedPath": "\/css\/insights-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -10129,6 +11790,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/05sections\/media-list.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/05sections\/media-list.scss",
+		"outputAbbreviatedPath": "\/css\/media-list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/05sections\/media-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/05sections\/media-page.scss",
+		"outputAbbreviatedPath": "\/css\/media-page.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/05sections\/search-page.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -10138,38 +11831,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/05sections\/search-page.scss",
 		"outputAbbreviatedPath": "\/css\/search-page.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/05sections\/thoughts-list.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/05sections\/thoughts-list.scss",
-		"outputAbbreviatedPath": "\/css\/thoughts-list.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/05sections\/thoughts-page.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/05sections\/thoughts-page.scss",
-		"outputAbbreviatedPath": "\/css\/thoughts-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,

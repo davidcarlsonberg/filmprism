@@ -87,7 +87,7 @@
     padding: 1.5em;
     @include break-up($medium){padding:3em}
     .section-heading {margin-bottom:1em}
-    .summary {overflow:hidden;max-height:20em;padding-bottom:3em}
+    .summary {overflow:hidden;max-height:12em;padding-bottom:3em}
     .summary.open {max-height:none}
     .summary-toggle {
       margin: 0;
