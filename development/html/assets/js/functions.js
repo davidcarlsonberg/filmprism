@@ -59,10 +59,6 @@ var Site = window.Site || {};
 			return false;
 		});
     
-    // SMOOTH-SCROLL
-
-    resizeSmoothScroll();
-    
     // STICKY SIDEBAR
     
 		$(function() {
@@ -86,6 +82,14 @@ var Site = window.Site || {};
   		  $('.single aside').height(asideHeight);
   		}
 		});
+		
+    // SMOOTH-SCROLL
+
+    resizeSmoothScroll();
+    
+    // FITVIDS
+    
+    $(".media-player").fitVids();
     
   });
 })(jQuery);

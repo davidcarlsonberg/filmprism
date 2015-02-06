@@ -37,15 +37,14 @@
     @include break-up($large){width:25%}
     &.details {
       overflow: hidden;
-      background-color: $media-details-bg;
+      background-color: $media-cover-bg;
       figure {
-        background-color: $media-cover-bg;
         @include break-up($small){
-          @include float;
-          width: 25%;
+          float: left;
+          width: 30%;
         }
         @include break-up($medium){
-          @include reset-float;
+          float: none;
           width: auto;
         }
         img {
@@ -57,19 +56,22 @@
       ul {
         list-style: none;
         margin: 0;
-        padding: 0;
-        @include break-up($small){margin-left:25%}
-        @include break-up($medium){margin-left:0}
+        padding: .0;
+        @include break-up($small){
+          margin-left: 30%;
+        }
+        @include break-up($medium){
+          margin-left: 0;
+        }
       }
       li {
         @include font-size(12);
         margin: 0;
-        padding: 1em;
+        padding: .75em 1em;
+        background-color: $media-details-bg;
         border-top: 1px solid $border-color;
         &:first-child{border-top:none}
-        @include break-up($small){@include font-size(14)}
-        @include break-up($medium){@include font-size(12)}
-        span {white-space:nowrap}
+        @include break-up($medium){@include font-size(11)}
       }
     }
   }
@@ -118,18 +120,20 @@
       @include font-size(10);
       margin: 1em 0 0;
       h3 {
-        margin:0 0 .25em;
+        @include font-size(21);
+        margin:0 0 .5em;
         line-height: 1.2;
+        span {color:$media-link-block-hover}
       }
       p {
         @include font-size(14);
-        margin: 0;
+        margin: .125em 0;
       }
       h3,p{color:$media-link-block-text}
       a {
         @include border-radius;
         display: block;
-        padding: 1.5em;
+        padding: 2em 2em 1em;
         background-color: $media-link-block-bg;
         &:hover,
         &:focus {

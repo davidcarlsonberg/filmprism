@@ -1,0 +1,32 @@
+a:3:{s:4:"time";i:1423215436;s:3:"ttl";i:0;s:4:"data";s:3455:"<figure class="article-image">
+      <img src="http://screenprism.dev/assets/img/article/_1080x360/birdman-image.jpg" alt="Hero image">
+    </figure>
+    
+    <article>
+      <header>
+        <h1>Q: What does &#8220;Birdman&#8221; have to do with Michael Keaton’s past role as Batman?</h1>
+        {exp:playa:children entry_id="21" field_id="10"  var_prefix="playaV7vB6wjf"}
+        <h5><a href="{playaV7vB6wjf:url_title_path='media'}">{playaV7vB6wjf:title}</a></h5>
+        {/exp:playa:children}
+        <p class="by-line">Screen Prism <span class="spacer">|</span> <time datetime="2015-01-26T2200">January 26, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/what-does-birdman-have-to-do-with-michael-keatons-past-role-as-batman">0</span></a></p>
+      </header>
+      <p>Michael Keaton plays the central character in <em>Birdman</em>, an actor who became a household name playing a superhero named Birdman. This mirrors Michael Keaton&rsquo;s own career, when Batman made him one of the most visible stars in Hollywood. While Keaton was already a respected actor and went on to other notable performances, the Batman films by far remain the most popular works of his career based on film grosses and ticket sales alone. Because of this, Keaton&rsquo;s casting in <em>Birdman</em> was considered&nbsp;a coup, and it&rsquo;s all the more impressive since the film was never written with Keaton in mind.</p>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u=http://screenprism.dev/insights/article/what-does-birdman-have-to-do-with-michael-keatons-past-role-as-batman"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status=http://screenprism.dev/insights/article/what-does-birdman-have-to-do-with-michael-keatons-past-role-as-batman"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url=http://screenprism.dev/insights/article/what-does-birdman-have-to-do-with-michael-keatons-past-role-as-batman&media=http://screenprism.dev/assets/img/article/birdman-image.jpg&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body=http://screenprism.dev/insights/article/what-does-birdman-have-to-do-with-michael-keatons-past-role-as-batman"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>";}

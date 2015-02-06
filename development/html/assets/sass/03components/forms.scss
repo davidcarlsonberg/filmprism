@@ -108,6 +108,21 @@ input[type='submit']{
   }
 }
 
+.errors {
+  @include border-radius;
+  margin-bottom: 1.5em;
+  padding: 1.5em 1.5em 1em;
+  background-color: $form-error-bg;
+  border: 1px solid $form-error-border;
+  h4 {
+    margin: 0;
+    color: $form-error-text;
+  }
+  li {
+    color: $form-error-text;
+  }
+}
+
 /**************************************************
  CHOSEN SELECT STYLES
 **************************************************/

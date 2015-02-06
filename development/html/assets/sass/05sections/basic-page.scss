@@ -100,5 +100,14 @@
         @include font-size(12);
       }
     }
+    .errors {
+      h4 {
+        @include font-size(16);
+        color: $form-error-text;
+      }
+      li {
+        @include font-size(12);
+      }
+    }
   }
 }

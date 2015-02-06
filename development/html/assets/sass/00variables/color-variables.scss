@@ -10,6 +10,8 @@ $lt-gray: #918a98;
 $x-lt-gray: #f0f0ed;
 $white: #fff;
 
+$red: #e66045;
+
 /**************************************************
  COLORS IN USE
 **************************************************/
@@ -48,6 +50,10 @@ $form-field-border: $border-color;
 $form-field-focus: $white;
 $form-button-color: $teal;
 $form-button-hover: darken($teal, 5%);
+
+$form-error-bg: lighten($red, 35%);
+$form-error-text: $red;
+$form-error-border: $red;
 
 // Header Colors
 

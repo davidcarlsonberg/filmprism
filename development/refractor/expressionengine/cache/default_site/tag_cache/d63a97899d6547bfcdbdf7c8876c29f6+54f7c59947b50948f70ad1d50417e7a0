@@ -1,0 +1,167 @@
+a:3:{s:4:"time";i:1423215141;s:3:"ttl";i:0;s:4:"data";s:9366:"<header>
+      <h1>A Most Violent Year</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://screenprism.dev/assets/img/covers/_350x520/A_Most_Violent_Year_Movie_Poster.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-12-31">December 31, 2014</time></li>
+        <li><strong>Directed By:</strong> J. C. Chandor</li>
+        <li><strong>Written By:</strong> J. C. Chandor</li>
+        <li><strong>Starring:</strong> <span>Oscar Isaac</span>, <span>Jessica Chastain</span>, <span>David Oyelowo</span>, <span>Alessandro Nivola</span>, <span>Albert Brooks</span>, <span>Catalina Sandino Moreno</span></li>
+        <li><strong>Produced By:</strong> J. C. Chandor, Neal Dodson, Anna Gerb</li>
+        <li><strong>Distributed By:</strong> A24 Films</li>
+        <li><strong>Awards &amp; Nominations:</strong> <span>Golden Globe Nomination for Best Supporting Actress - Jessica Chastain (2014)</span></li>
+        <li><strong>Rotten Tomatoes Score:</strong> 90%</li>
+        <li><strong>Metacritic Score:</strong> 81</li>
+        <li><strong>Budget:</strong> $20 million</li>
+        
+        <li><strong>Official Website:</strong> <a href="http://amostviolentyear.com" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/kQ_45pjd_tM" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Set in New York City during the winter of 1981, statistically one of the most violent years in the city&#39;s history, an immigrant and his family try to expand their business and capitalize on opportunities as the rampant violence, decay, and corruption of the day drag them in and threaten to destroy all they have built.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="37" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000008ae759f000000017c68c397 --}{if {rel:total_results} >= 1}
+        {!-- ra:0000000008ae75ab000000017c68c397 --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/a-most-violent-year">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000008ae75b3000000017c68c397 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="37" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000008ae755b000000017c68c397 --}{if {rel:total_results} >= 1}
+        {!-- ra:0000000008ae7557000000017c68c397 --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/a-most-violent-year">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000008ae757f000000017c68c397 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.newyorker.com/magazine/2015/01/12/dirty-oil" target="_blank">
+              <h5>Dirty Oil: "A Most Violent Year"</h5>
+              <p>Abel Morales (Oscar Isaac), the hero of J. C. Chandor’s “A Most Violent Year,” was born in Colombia, but when we meet him, in 1981, he’s living in Westchester, a wealthy businessman in his late thirties, swathed in double-breasted suits and a camel-hair coat. Emerging from his Mercedes coupe, he speaks decisively but quietly, as if raising his voice would signal a loss of authority. </p>
+              <p><strong>Source:</strong> The New Yorker</p>
+            </a>
+          </li><li>
+            <a href="http://variety.com/2014/film/reviews/film-review-a-most-violent-year-1201348496/" target="_blank">
+              <h5>Film Review: "A Most Violent Year"</h5>
+              <p>J.C. Chandor channels Sidney Lumet to tell a timeless tale of New York City in the grip of a violent crime wave and mass institutional corruption.</p>
+              <p><strong>Source:</strong> Variety</p>
+            </a>
+          </li><li>
+            <a href="http://www.ew.com/article/2015/02/03/nominated-nothing-most-violent-year" target="_blank">
+              <h5>Nominated for Nothing: A Most Violent Year</h5>
+              <p>Just about every year, brilliant movies are utterly ignored by the Oscars. The Searchers, Groundhog Day, Breathless, King Kong, Casino Royale, Touch of Evil, Caddyshack, Mean Streets, The Big Lebowski, Blackfish — the Academy has a long history of overlooking comedies, action movies, horror flicks, hard-boiled genre pics, artsy foreign films, and documentaries that aren’t about World War II. Before the ceremony, we’ll be taking a closer look at films that were too small, too weird, or perhaps simply too awesome for the Academy Awards. These are the Non-Nominees.</p>
+              <p><strong>Source:</strong> Entertainment Weekly</p>
+            </a>
+          </li><li>
+            <a href="http://www.nytimes.com/2014/12/31/movies/a-most-violent-year-with-oscar-isaac-and-jessica-chastain.html?_r=0" target="_blank">
+              <h5>Heating Oil Mixed with Trouble - "A Most Violent Year" with Oscar Isaac and Jessica Chastain</h5>
+              <p>More brooding than brutal, “A Most Violent Year” finds Abel Morales (Oscar Isaac), the upwardly mobile owner of a heating-oil business, in a time of difficulty. Some of the trouble is atmospheric. It’s 1981, and New York City is in a state of decay that looks, in the burnished tints of movie hindsight, almost picturesque. Subway cars blossom with graffiti; the radio news wearily tallies each day’s shootings and stabbings; crime and corruption hang in the winter air like smog.</p>
+              <p><strong>Source:</strong> NY Times</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="A Most Violent Year">
+          {!-- ra:0000000008ae76d9000000017c68c397 --}{if freeform:general_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {freeform:general_errors}
+              <li>{freeform:error_message}</li>
+              {/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:0000000008ae76e3000000017c68c397 --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}
