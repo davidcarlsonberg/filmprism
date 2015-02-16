@@ -83,6 +83,10 @@
     }
     @include break-up($large){width:75%}
   }
+  .media-player {
+    padding: 1.5em;
+    @include break-up($medium){padding:3em 3em 1.5em}
+  }
   article {
     padding: 1.5em;
     @include break-up($medium){padding:3em}

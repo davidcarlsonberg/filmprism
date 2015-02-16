@@ -6,21 +6,19 @@
   .article-image {
     position: relative;
     overflow: hidden;
-    height: 240px;
     background-color: $artice-image-bg;
-    img {
-      position: absolute;
-      left: 50%;
-      width: 720px;
-      margin-left: -360px;
-      max-width: none;
-    }
     @include break-up($medium){
-      height: 300px;
-      img {width:900px;margin-left:-450px}
+      height: 330px;
+      img {
+        position: absolute;
+        left: 50%;
+        width: 900px;
+        margin-left: -450px;
+        max-width: none;
+      }
     }
-    @include break-up($medium){
-      height: 360px;
+    @include break-up($large){
+      height: 400px;
       img {width: 1080px;margin-left:-540px}
     }
   }

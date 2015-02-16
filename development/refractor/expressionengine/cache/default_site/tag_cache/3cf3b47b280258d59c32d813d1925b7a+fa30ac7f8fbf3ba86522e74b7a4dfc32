@@ -1,0 +1,198 @@
+a:3:{s:4:"time";i:1424079426;s:3:"ttl";i:0;s:4:"data";s:13952:"<header>
+      <h1>Boyhood</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://screenprism.dev/assets/img/covers/_350x520/Boyhood_-_poster.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-07-11">July 11, 2014</time></li>
+        <li><strong>Directed By:</strong> Richard Linklater</li>
+        <li><strong>Written By:</strong> Richard Linklater</li>
+        <li><strong>Starring:</strong> <span>Ellar Coltrane</span>, <span>Patricia Arquette</span>, <span>Ethan Hawke</span>, <span>Lorelei Linklater</span>, <span>Bonnie Cross</span>, <span>Elijah Smith</span>, <span>Libby Villari</span>, <span>Steven Chester Prince</span>, <span>Ellar Salmon</span>, <span>Marco Perella</span></li>
+        <li><strong>Produced By:</strong> Richard Linklater, Cathleen Sutherland, Jonathan Sehring, John Sloss</li>
+        <li><strong>Distributed By:</strong> IFC Films</li>
+        <li><strong>Awards &amp; Nominations:</strong> <span>Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture (2014)</span>, <span>Golden Globe for Best Motion Picture - Drama (2014)</span>, <span>Golden Globe for Best Director - Motion Picture (Richard Linklater) (2014)</span>, <span>Golden Globe for Best Performance by an Actress in a Supporting Role (Patricia Arquette) (2014)</span>, <span>Golden Globe Nomination for Best Performance by an Actor in a Supporting Role (Ethan Hawke) (2014)</span>, <span>Golden Globe Nomination for Best Screenplay (Richard Linklater) (2014) </span>, <span>Nominated BAFTA for Best Film (2014)</span>, <span>Nominated BAFTA for Best Supporting Actor (Ethan Hawke) (2014)</span>, <span>Nominated BAFTA for Best Supporting Actress (Patricia Arquette) (2014)</span>, <span>Nominated BAFTA David Lean Award for Direction (Richard Linklater) (2014)</span>, <span>2014 New York Film Critics Circle Awards Winner for Best Picture</span>, <span>2014 New York Film Critics Circle Awards Winner for Best Director (Richard Linklater)</span>, <span>2014 New York Film Critics Circle Awards Winner for Best Supporting Actress (Patricia Arquette)</span>, <span>Oscar Nominated Best Motion Picture of the Year (2014)</span>, <span>Oscar Nominated Best Performance by an Actor in a Supporting Role - Ethan Hawke (2014)</span>, <span>Oscar Nominated Best Performance by an Actress in a Supporting Role - Patricia Arquette (2014)</span>, <span>Oscar Nominated Best Achievement in Directing - Richard Linklater (2014)</span>, <span>Oscar Nominated Best Writing, Screenplay Written Directly for the Screen - Richard Linklater (2014)</span>, <span>Oscar Nominated Best Achievement in Film Editing (2014)</span>, <span>AFI Award for Movie of the Year (2014)</span></li>
+        <li><strong>Rotten Tomatoes Score:</strong> 98%</li>
+        <li><strong>Metacritic Score:</strong> 96%</li>
+        <li><strong>Budget:</strong> $2.4 million</li>
+        <li><strong>Box Office Score:</strong> $43.3 (worldwide)</li>
+        <li><strong>Official Website:</strong> <a href="http://boyhoodmovie.tumblr.com" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/Y0oX0xiwOv8" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Filmed over 12 years with the same cast, Richard Linklater&#39;s <em>Boyhood</em> is a groundbreaking story of growing up as seen through the eyes of a child named Mason (Ellar Coltrane), who literally grows up on screen before our eyes. Starring Ethan Hawke and Patricia Arquette as Mason&#39;s parents and newcomer Lorelei Linklater as his sister Samantha, <em>Boyhood</em>&nbsp;charts the rocky terrain of childhood like no other film has before and is both a nostalgic time capsule of the recent past and an ode to growing up and parenting.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="20" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000029876538000000014ab11140 --}{if {rel:total_results} >= 1}
+        {!-- ra:000000002987650c000000014ab11140 --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/boyhood">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000029876514000000014ab11140 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="20" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:00000000298765fc000000014ab11140 --}{if {rel:total_results} >= 1}
+        {!-- ra:00000000298765f0000000014ab11140 --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/boyhood">0</span></p>
+            </a>
+          </li>
+        {!-- ra:00000000298765d8000000014ab11140 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.salon.com/2014/01/21/sundance_richard_linklaters_dazzling_12_year_family_epic/" target="_blank">
+              <h5>Richard Linklater’s 12-year family epic</h5>
+              <p>What we have here, on first viewing, is something awfully close to a masterpiece of American moviemaking, as well as a film that uses time to tell its story in an unprecedented fashion.</p>
+              <p><strong>Source:</strong> Andrew O’Hehir, Salon.com</p>
+            </a>
+          </li><li>
+            <a href="http://www.theguardian.com/film/2014/jan/21/sundance-boyhood-review-richard-linklater" target="_blank">
+              <h5>Sundance 2014 – first look review</h5>
+              <p>What an astonishing achievement; what a beautiful movie. Linklater shot "Boyhood" in sequence, at regular intervals, over a 12-year period, painstakingly toiling away in solitude to produce a kind of cinematic Book of Kells.</p>
+              <p><strong>Source:</strong> Xan Brooks, The Guardian</p>
+            </a>
+          </li><li>
+            <a href="http://filmmakermagazine.com/86652-kodak-moments/" target="_blank">
+              <h5>Filmmaker: Richard Linklater on "Boyhood"</h5>
+              <p>“Early on I knew I didn’t want to hit all those notes I’d seen in so many movies...I was looking instead at all the in-between moments. I thought the whole thing would be like a memory. Like how you look back and remember things — it’s the little things, not the big moments, which catch your attention."</p>
+              <p><strong>Source:</strong> filmmakermagazine.com</p>
+            </a>
+          </li><li>
+            <a href="http://blogs.indiewire.com/theplaylist/richard-linklater-discusses-his-12-year-project-boyhood-chronology-memory-and-a-movie-that-occurs-offscreen-20140218" target="_blank">
+              <h5>The Playlist: Richard Linklater on "Boyhood"</h5>
+              <p>"Every year I had a year to think up the next part, based on everything that had gone before...I was stuck with this kind of architecture but yet within that the décor, the details were always being reworked, being found."</p>
+              <p><strong>Source:</strong> indiewire.com</p>
+            </a>
+          </li><li>
+            <a href="http://filmcomment.com/entry/interview-sandra-adair-boyhood" target="_blank">
+              <h5>Interview: Editor Sandra Adair</h5>
+              <p>"Those transitions were very purposefully designed by Rick. Not to take away from what I brought to the movie, but he and I had several conversations about that and we didn’t want to have a clear delineation between one year and the next year."</p>
+              <p><strong>Source:</strong> Film Comment</p>
+            </a>
+          </li><li>
+            <a href="http://www.theguardian.com/film/2014/jul/06/richard-linklater-ellar-coltrane-boyhood-interview-dear-process" target="_blank">
+              <h5>Richard Linklater and Ellar Coltrane: "Making 'Boyhood' was a dear process"</h5>
+              <p>"Twelve years in the making, Richard Linklater's Boyhood tells in real time the story of a boy called Mason – played, since he was six, by Ellar Coltrane. And seeing these two discuss the process is, well, like stepping into a conversation in a Linklater film…"</p>
+              <p><strong>Source:</strong> Kate Kellaway, The Guardian</p>
+            </a>
+          </li><li>
+            <a href="http://www.newyorker.com/magazine/2014/06/30/moment-to-moment" target="_blank">
+              <h5>Moment to Moment - Why Richard Linklater makes movies</h5>
+              <p>"Although few of Linklater’s films have much plot in the traditional sense, they lack the dead points and the aimlessness that many plotless movies have: they’re funny and buoyant, bouncing forward with an unself-conscious, joshing wit. Going against the fashions of contemporary filmmaking, Linklater’s notion of cinematic refinement has less to do with virtuosic camerawork than with creating a moment that’s worth capturing."</p>
+              <p><strong>Source:</strong> Nathan Heller, The New Yorker</p>
+            </a>
+          </li><li>
+            <a href="http://www.filmcomment.com/article/richard-linklater-boyhood" target="_blank">
+              <h5>It's about time</h5>
+              <p>Linklater’s latest temporal gambit shouldn’t come as too much of a surprise. Anyone familiar with the director’s increasingly sophisticated body of work knows that time is a recurring theme.</p>
+              <p><strong>Source:</strong> Holly Willis, Film Comment</p>
+            </a>
+          </li><li>
+            <a href="http://cinema-scope.com/features/boyhood/" target="_blank">
+              <h5>What is "Boyhood"?</h5>
+              <p>Here are 12 aspects of "Boyhood" - one for each year that the film covers - that attempt to explain what Linklater and his collaborators might be up to.</p>
+              <p><strong>Source:</strong> Gabe Klinger, cinema scope</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="Boyhood">
+          {!-- ra:000000002987667e000000014ab11140 --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:0000000029876672000000014ab11140 --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:0000000029876646000000014ab11140 --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:000000002987665a000000014ab11140 --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:000000002987663c000000014ab11140 --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}
