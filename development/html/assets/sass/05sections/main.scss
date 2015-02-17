@@ -80,7 +80,7 @@
   }
   .sort-toggles {
     @extend %site-column;
-    @include font-size(14);
+    @include font-size(12);
     margin: 0 auto;
     color: $filters-bar-text;
     font-family: $filters-font;
@@ -88,15 +88,17 @@
     @include break-up($medium){
       float: left;
       width: 65%;
+      margin-top: .25em;
     }
     a {
       @include inline-block(baseline);
-      @include border-radius;
-      margin-left: .25em;
-      padding: .5em .75em;
+      @include border-radius(.25em);
+      margin-left: .375em;
+      padding: .25em .75em;
       background-color: $filters-bar-link-bg;
       color: $filters-bar-link-text;
       &:hover,&:focus{background-color:$filters-bar-link-hover}
+      &.active {background-color: $filter-bar-link-active}
     }
   }
   .select-box {
