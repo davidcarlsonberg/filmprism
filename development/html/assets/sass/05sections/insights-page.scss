@@ -52,25 +52,36 @@
     a {
       @include border-radius;
       display: block;
+      overflow: hidden;
       padding: 1.5em;
       background-color: $module-aside-blocklink-bg;
       h5 {
-        margin: 0 0 .5em;
+        margin: 0 0 .75em;
         padding: 0;
         border-top: none;
       }
-      p {
-        @include font-size(12);
-        margin: 0 0 .5em;
-        color: $body-text;
+      h6 {
+        @include font-size(11);
+        overflow: hidden;
+        float: right;
+        width: 40%;
+        margin: .25em 0 0;
+        text-align: right;
+        text-transform: uppercase;
+        text-overflow: ellipsis;
+        white-space: nowrap;
       }
-      .meta{
-        margin: 1em 0 0;
+      .meta {
+        @include font-size(11);
+        float: left;
+        width: 60%;
+        margin: 0;
+        color: $body-text;
       }
       &:hover, 
       &:focus {
         background-color: $module-aside-blocklink-bg-hover;
-        h5, p{color:$module-aside-blocklink-hover}
+        h5,h6,.meta{color:$module-aside-blocklink-hover}
       }
     }
   }

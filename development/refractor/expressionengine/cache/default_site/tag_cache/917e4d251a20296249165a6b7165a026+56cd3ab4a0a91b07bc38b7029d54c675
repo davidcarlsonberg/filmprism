@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
+a:3:{s:4:"time";i:1424213189;s:3:"ttl";i:0;s:4:"data";s:9878:"<header>
       <h1>A Most Violent Year</h1>
       <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
     </header>
@@ -15,7 +15,16 @@ a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
         <li><strong>Starring:</strong> <span>Oscar Isaac</span>, <span>Jessica Chastain</span>, <span>David Oyelowo</span>, <span>Alessandro Nivola</span>, <span>Albert Brooks</span>, <span>Catalina Sandino Moreno</span></li>
         <li><strong>Produced By:</strong> J. C. Chandor, Neal Dodson, Anna Gerb</li>
         <li><strong>Distributed By:</strong> A24 Films</li>
-        <li><strong>Awards &amp; Nominations:</strong> <span>Golden Globe Nomination for Best Supporting Actress - Jessica Chastain (2014)</span></li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations:</strong>
+          <ul class="details__awards-list">
+          
+            <li>Golden Globe Nomination for Best Supporting Actress - Jessica Chastain (2014)</li>
+          
+          </ul>
+        </li>
+        
         <li><strong>Rotten Tomatoes Score:</strong> 90%</li>
         <li><strong>Metacritic Score:</strong> 81</li>
         <li><strong>Budget:</strong> $20 million</li>
@@ -40,8 +49,8 @@ a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
         disable="category_fields|member_data|pagination"
         var_prefix="rel"
       }
-      {!-- ra:000000006cbe88df000000012f5d05a2 --}{if {rel:total_results} >= 1}
-        {!-- ra:000000006cbe88d3000000012f5d05a2 --}{if {rel:count} == 1}
+      {!-- ra:000000001b054ab500000001220316cc --}{if {rel:total_results} >= 1}
+        {!-- ra:000000001b054aa100000001220316cc --}{if {rel:count} == 1}
         <div id="qanda" class="related-questions">
         <h2>Q &amp; A</h2>
         <ul>
@@ -53,7 +62,7 @@ a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
               <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/a-most-violent-year">0</span></p>
             </a>
           </li>
-        {!-- ra:000000006cbe88fb000000012f5d05a2 --}{if {rel:count} == {rel:total_results}}
+        {!-- ra:000000001b054a8900000001220316cc --}{if {rel:count} == {rel:total_results}}
         </ul>
         </div>
         {/if}
@@ -66,8 +75,8 @@ a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
         disable="category_fields|member_data|pagination"
         var_prefix="rel"
       }
-      {!-- ra:000000006cbe8803000000012f5d05a2 --}{if {rel:total_results} >= 1}
-        {!-- ra:000000006cbe8817000000012f5d05a2 --}{if {rel:count} == 1}
+      {!-- ra:000000001b054a7100000001220316cc --}{if {rel:total_results} >= 1}
+        {!-- ra:000000001b054a6d00000001220316cc --}{if {rel:count} == 1}
         <div id="articles" class="related-articles">
         <h2>Articles</h2>
         <ul>
@@ -79,7 +88,7 @@ a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
               <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/a-most-violent-year">0</span></p>
             </a>
           </li>
-        {!-- ra:000000006cbe883f000000012f5d05a2 --}{if {rel:count} == {rel:total_results}}
+        {!-- ra:000000001b054a5500000001220316cc --}{if {rel:count} == {rel:total_results}}
         </ul>
         </div>
         {/if}
@@ -132,13 +141,13 @@ a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
           return="question-received"
         }
           <input type="hidden" name="related_media" id="related_media" value="A Most Violent Year">
-          {!-- ra:000000006cbe8b85000000012f5d05a2 --}{if freeform:general_errors || freeform:field_errors}
+          {!-- ra:000000001b0549f300000001220316cc --}{if freeform:general_errors || freeform:field_errors}
           <div class="errors">
             <h4>The form contains the following errors:</h4>
             <ul>
-              {!-- ra:000000006cbe8b99000000012f5d05a2 --}{if freeform:error:name}<li>Name is required.</li>{/if}
-              {!-- ra:000000006cbe8bad000000012f5d05a2 --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
-              {!-- ra:000000006cbe8ba1000000012f5d05a2 --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {!-- ra:000000001b0549ef00000001220316cc --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:000000001b0549db00000001220316cc --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:000000001b0549d700000001220316cc --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
               {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
             </ul>
           </div>
@@ -153,7 +162,7 @@ a:3:{s:4:"time";i:1424200199;s:3:"ttl";i:0;s:4:"data";s:9726:"<header>
           </div>
           <h5><label for="user_question">{freeform:label:user_question}</label></h5>
           {freeform:field:user_question}
-          {!-- ra:000000006cbe8bc3000000012f5d05a2 --}{if freeform:captcha}
+          {!-- ra:000000001b0549b100000001220316cc --}{if freeform:captcha}
           <div class="captcha-box">
             <p><label for="captcha">Please enter the word you see in the image below</label></p>
             <div class="captcha-field">

@@ -50,6 +50,10 @@ var Site = window.Site || {};
       $(this).toggleText('Show Full Summary', 'Hide Summary');
     });
     
+    $('.details__awards strong').click(function(){
+      $('.details__awards ul').slideToggle();
+    });
+    
     // CHOSEN
     
     $(".chosen-select").chosen();

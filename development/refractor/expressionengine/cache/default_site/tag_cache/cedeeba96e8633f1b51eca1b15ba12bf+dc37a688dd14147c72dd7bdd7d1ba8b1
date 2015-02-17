@@ -1,0 +1,32 @@
+a:3:{s:4:"time";i:1424212170;s:3:"ttl";i:0;s:4:"data";s:3923:"<figure class="article-image">
+      <img src="http://screenprism.dev/assets/img/article/_1080x400/grand-budapest-image.jpg" alt="Hero Image">
+    </figure>
+    
+    <article>
+      <header>
+        <h1>Q: Why were there different aspect ratios in &#8220;The Grand Budapest Hotel&#8221;?</h1>
+        {exp:playa:children entry_id="34" field_id="10"  var_prefix="playayRceovLu"}
+        <h5>Related: <a href="{playayRceovLu:path='{playayRceovLu:channel_short_name}/{playayRceovLu:url_title}'}">{playayRceovLu:title}</a></h5>
+        {/exp:playa:children}
+        <p class="by-line">Screen Prism <span class="spacer">|</span> <time datetime="2015-02-11T1403">February 11, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/why-were-there-different-aspect-ratios">0</span></a></p>
+      </header>
+      <p>According to cinematographer Robert Yeoman, the film was heavily inspired by Hollywood films of the 1930&rsquo;s, particularly those directed by Ernst Lubitsch. As such, they initially considered shooting the entire film in Academy ratio (1.37:1), which was the standard aspect ratio for films of that era. &ldquo;Then there was the sort of traditional thing of, &lsquo;Well are we going to do some of it black and white? What&rsquo;s our way going to be in approaching the separation of these time periods?&rsquo; And I thought the best would be if I could use these&hellip;technoscope anamorphic lenses that are really old and strange. If you look at a freeze frame of some these types of shots, the edges are so blurry. I think they did spaghetti westerns with these lenses. So I thought we&rsquo;d use them, to make these different parts like different movies. But then I also thought that we&rsquo;re used to seeing things letterboxed at this point, and that it would work anyway. And I&rsquo;ve just always loved this Academy [square format] shape. It reminds me of old movies. Our movie is in color, with Ralph Fiennes, but [the look] is similar to how I see Humphrey Bogart.&rdquo;</p>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u=http://screenprism.dev/insights/article/why-were-there-different-aspect-ratios"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status=http://screenprism.dev/insights/article/why-were-there-different-aspect-ratios"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url=http://screenprism.dev/insights/article/why-were-there-different-aspect-ratios&media=http://screenprism.dev/assets/img/article/grand-budapest-image.jpg&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body=http://screenprism.dev/insights/article/why-were-there-different-aspect-ratios"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>";}

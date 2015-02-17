@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
+a:3:{s:4:"time";i:1424209708;s:3:"ttl";i:0;s:4:"data";s:13388:"
     <article class="feature">
       <h6>Q & A</h6>
       
@@ -11,6 +11,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>Albeit fictional, "Boyhood" aspires towards documentary form by consciously opening up to reality, particularly by showing the real life effect of time on the actors, whether through aging or the experiences in their own personal lives.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="28" field_id="10"  var_prefix="playaQYFJmqR0"}
+        <h6>{playaQYFJmqR0:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/how-did-linklater-work-with-the-passing-of-time"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/how-did-linklater-work-with-the-passing-of-time">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -28,6 +31,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>Zweig was an exile, like Zero Moustafa. Of his writings, the film seems particular reminiscent of “The World of Yesterday,” which was written when Zweig was fleeing from the new Nazi regime.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="32" field_id="10"  var_prefix="playaN349WiOC"}
+        <h6>{playaN349WiOC:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/what-exact-influence-did-stefan-zweig-have-on-the-film"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/what-exact-influence-did-stefan-zweig-have-on-the-film">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -46,6 +52,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
 </p>
       </div>
       <footer>
+        {exp:playa:children entry_id="46" field_id="10"  var_prefix="playavbhBwq8q"}
+        <h6>{playavbhBwq8q:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/does-the-film-make-any-sort-of-contemporary-commentary-on-political-or-soci"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/does-the-film-make-any-sort-of-contemporary-commentary-on-political-or-soci">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -63,6 +72,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>The film was heavily inspired by Hollywood films of the 1930’s, particularly those directed by Ernst Lubitsch.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="34" field_id="10"  var_prefix="playaXuZl4ivW"}
+        <h6>{playaXuZl4ivW:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/why-were-there-different-aspect-ratios"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/why-were-there-different-aspect-ratios">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -80,6 +92,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>Unbroken takes often bring a film closer to live theater...</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="23" field_id="10"  var_prefix="playafLcBXkE2"}
+        <h6>{playafLcBXkE2:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/was-it-necessary-for-birdman-to-be-filmed-to-look-like-one-continuous-take"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/was-it-necessary-for-birdman-to-be-filmed-to-look-like-one-continuous-take">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -97,6 +112,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>Bradley Cooper’s interest in developing the project was to do a character study on Chris Kyle.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="64" field_id="10"  var_prefix="playaXNqbU78h"}
+        <h6>{playaXNqbU78h:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/does-american-sniper-have-a-political-agenda"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/does-american-sniper-have-a-political-agenda">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -114,6 +132,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>Agata Trzebuchowska was discovered in a cafe, reading a book.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="141" field_id="10"  var_prefix="playaBarigUXg"}
+        <h6>{playaBarigUXg:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/why-did-they-cast-a-non-professional-actress-for-the-lead-role-in-ida"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/why-did-they-cast-a-non-professional-actress-for-the-lead-role-in-ida">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -131,6 +152,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>Godard's experimental feature has elicited a wide range of awe and confusion.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="137" field_id="10"  var_prefix="playaddJJdXZ6"}
+        <h6>{playaddJJdXZ6:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/what-is-goodbye-to-language-actually-about"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/what-is-goodbye-to-language-actually-about">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -148,6 +172,9 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>By stripping the film of any clear background, we focus more on the details we do see: a female protagonist, her exclusively male targets, and her uncomfortable behavior around other women.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="118" field_id="10"  var_prefix="playapwEDAQYI"}
+        <h6>{playapwEDAQYI:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/why-is-the-film-so-vague-about-the-lead-characters-origins"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/why-is-the-film-so-vague-about-the-lead-characters-origins">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
@@ -165,8 +192,11 @@ a:3:{s:4:"time";i:1424199895;s:3:"ttl";i:0;s:4:"data";s:11845:"
         <p>The Dardennes are known for extensive rehearsals, and this film was no exception.</p>
       </div>
       <footer>
+        {exp:playa:children entry_id="85" field_id="10"  var_prefix="playadEVXAsBC"}
+        <h6>{playadEVXAsBC:title}</h6>
+        {/exp:playa:children}
         <p><a href="http://screenprism.dev/insights/article/how-did-cotillard-prepare-for-the-film"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/how-did-cotillard-prepare-for-the-film">0</span> <span class="spacer">|</span> Read More</a></p>
       </footer>
     </article>
     
-    {!-- ra:00000000010ffdc10000000161b37dcf --}<a href="http://screenprism.dev/insights/category/q-and-a/P10" class="button load">Load More</a>";}
+    {!-- ra:0000000030e9f15a000000011317303f --}<a href="http://screenprism.dev/insights/category/q-and-a/P10" class="button load">Load More</a>";}

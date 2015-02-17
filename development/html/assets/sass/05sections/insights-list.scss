@@ -40,12 +40,27 @@
     h2{margin:0 0 .5em}
   }
   footer {
+    overflow: hidden;
     padding: 1em 2em;
     background-color: $module-footer-bg;
     text-align: right;
     @include break-up($small){
       padding-left: 3em;
       padding-right: 3em;
+    }
+    h6 {
+      @include font-size(12);
+      overflow: hidden;
+      float: left;
+      width: 40%;
+      margin: .375em 0 0;
+      padding: 0;
+      background-color: transparent;
+      color: $lt-gray;
+      text-align: left;
+      text-transform: uppercase;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
     p {
       @include font-size(14);
