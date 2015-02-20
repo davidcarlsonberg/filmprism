@@ -134,6 +134,9 @@
           -webkit-align-items: center;
           align-items: center;
         }
+        html[data-useragent*='MSIE 10.0'] & {
+          display: block;
+        }
       }
       figure {
         float: left;
@@ -142,6 +145,10 @@
           flex: 9em 0;
           float: none;
           width: auto;
+        }
+        html[data-useragent*='MSIE 10.0'] & {
+          float: left;
+          width: 9em;
         }
       }
       .summary {
@@ -155,6 +162,10 @@
           width: auto;
           margin-left: 0;
           padding: 0 1.5em;
+        }
+        html[data-useragent*='MSIE 10.0'] & {
+          margin-left: 9em;
+          padding: 1em 1.5em;
         }
         h5 {
           @include font-size(14);

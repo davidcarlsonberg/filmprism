@@ -16,7 +16,7 @@ nav {
     clear: both;
     text-align: center;
     @include break-up($medium){
-      overflow: visible;
+      float: left;
       margin-top: 0;
       padding: 0;
       background-color: transparent;
@@ -24,11 +24,6 @@ nav {
     }
   }
   .site-nav {
-    @include inline-block;
-    @include break-up($medium){
-      display: block;
-      float: left;
-    }
     li {
       @include inline-block;
       @include font-size(14);
