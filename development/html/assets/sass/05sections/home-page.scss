@@ -2,12 +2,32 @@
  "POPULAR" SECTION STYLES
 **************************************************/
 
+.call-out {
+  padding: 2em $side-padding;
+  background-color: $teal;
+  text-align: center;
+  p {
+    @include font-size(16);
+    margin: 0;
+    color: $white;
+    font-style: italic;
+  }
+  @include break-up($large){
+    padding-top: 14em;
+    padding-bottom: 2em;
+    p {
+      @include font-size(18);
+    }
+  }
+}
+
+/**************************************************
+ "POPULAR" SECTION STYLES
+**************************************************/
+
 .popular {
   background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
   padding-bottom: 4em;
-  @include break-up($large){
-    padding-top: $fixed-top-padding;
-  }
   .featured {
     @include box-shadow;
     @include border-radius;
@@ -80,6 +100,7 @@
         }
       }
     }
+    &.q-and-a h3 {@extend %qanda-title}
   }
   .article-list {
     @extend %card-styles;
@@ -161,6 +182,7 @@
           margin: 0;
         }
       }
+      &.q-and-a h5 {@extend %qanda-title}
     }
   }
 }
@@ -245,6 +267,7 @@
         white-space: nowrap;
       }
     }
+    li.q-and-a h3 {@extend %qanda-title}
   }
   .button.load {
     margin-top: 1em;

@@ -110,4 +110,20 @@
       }
     }
   }
+  .q-and-a {
+    header h1 {
+      @extend %qanda-title;
+    }
+    .article-body {
+      &:before {
+        @include font-size(36);
+        content: "\0041\003A";
+        display: block;
+        float: left;
+        margin: 0 .25em .25em 0;
+        color: $headline-color;
+        font-family: $headline-font;
+      }
+    }
+  }
 }

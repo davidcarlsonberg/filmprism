@@ -16,6 +16,9 @@
     }
     h3 {
       margin: .5em 0 .75em;
+      &.q-and-a {
+        a {@extend %qanda-title}
+      }
     }
     p {
       @include font-size(14);

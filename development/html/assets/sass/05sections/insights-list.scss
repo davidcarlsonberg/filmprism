@@ -2,19 +2,9 @@
  THOUGHTS PAGE STYLES
 **************************************************/
 
-.thoughts-feed {@extend %filters-main}
-
-.home-feed,
-.thoughts-feed,
-.easter-eggs-feed {
+.thoughts-feed {
+  @extend %filters-main;
   @extend %article-list;
-  .qanda {
-    h2 {
-      @include break-up($small){
-        @include font-size(36);
-      }
-    }
-  }
 }
 
 %article-list {
@@ -79,4 +69,5 @@
       }
     }
   }
+  .q-and-a .summary h2 a {@extend %qanda-title}
 }

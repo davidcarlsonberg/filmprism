@@ -84,6 +84,11 @@
         h5,h6,.meta{color:$module-aside-blocklink-hover}
       }
     }
+    .q-and-a {
+      h5 {
+        @extend %qanda-title;
+      }
+    }
   }
 }
 
