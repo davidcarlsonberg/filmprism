@@ -24,8 +24,10 @@ $config['cookie_httponly'] = 'y';
 
 $config['index_page'] = '';
 $config['base_url'] = 'http://screenprism.dev/';
+$config['tz_country'] = 'us';
 
 // END EE config items
+
 
 
 

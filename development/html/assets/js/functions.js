@@ -65,7 +65,7 @@ var Site = window.Site || {};
     
     // STICKY SIDEBAR
     
-		$(function() {
+		$(window).bind("load", function() {
   	  var stickyAside = $('.single aside .aside-content');
   	  var stickyWidth = $(stickyAside).width();
   	  var stickyHeight = $(stickyAside).height();
