@@ -129,26 +129,32 @@
           .summary {background-color:transparent}
         }
         .flexbox &   {
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
           display: -webkit-flex;
           display: flex;
+          -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+          -webkit-box-align: center;
+          -moz-box-align: center;
           -webkit-align-items: center;
+          -ms-flex-align: center;
           align-items: center;
-        }
-        html[data-useragent*='MSIE 10.0'] & {
-          display: block;
         }
       }
       figure {
         float: left;
         width: 9em;
         .flexbox & {
-          flex: 9em 0;
           float: none;
-          width: auto;
-        }
-        html[data-useragent*='MSIE 10.0'] & {
-          float: left;
-          width: 9em;
+          /* Flexbox Styles */
+          -webkit-box-flex: 0;
+          -moz-box-flex: 0;
+          -webkit-flex: 0 0 auto;
+          -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
         }
       }
       .summary {
@@ -158,14 +164,15 @@
         background-color: transparent;
         border-left: none;
         .flexbox & {
-          flex: 1;
           width: auto;
           margin-left: 0;
           padding: 0 1.5em;
-        }
-        html[data-useragent*='MSIE 10.0'] & {
-          margin-left: 9em;
-          padding: 1em 1.5em;
+          /* Flexbox Styles */
+          -webkit-box-flex: 1;
+          -moz-box-flex: 1;
+          -webkit-flex: 1 1 auto;
+          -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
         }
         h5 {
           @include font-size(14);
@@ -235,9 +242,9 @@
       overflow: hidden;
       background-color: $card-bg-color;
       &:hover, &:focus {
+        background-color: lighten($teal, 55%);
         h3,p,.meta,h6 {color:$card-link-hover}
         figure img {@include opacity(.75)}
-        .summary {background-color: lighten($teal, 55%)}
       }
     }
     figure {
@@ -279,6 +286,50 @@
       }
     }
     li.q-and-a h3 {@extend %qanda-title}
+    .flexbox & {
+      &:before,
+      &:after {
+        content: none;
+      }
+      /* Flexbox Styles */
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: stretch;
+      -moz-box-align: stretch;
+      -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      li {
+        float: none;
+        width: 100%;
+        /* Flexbox Styles */
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-flex: 0;
+        -moz-box-flex: 0;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        @include break-up($medium){width:47.5%}
+        @include break-up($large){width:31%}
+      }
+      a {
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+      }
+    }
   }
   .button.load {
     margin-top: 1em;
