@@ -493,6 +493,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x400\/2001-A-Space-Odyssey-07.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18655,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/2001-A-Space-Odyssey-07.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/2001-A-Space-Odyssey-07.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x400\/2001.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 697616,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/2001.png",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/2001.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x400\/20150124_inq_svrpix24z-a.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -742,6 +764,17 @@
 		"initialSize": 99822,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x400\/biden_parks_and_recreation-copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113172,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/biden_parks_and_recreation-copy.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/biden_parks_and_recreation-copy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1087,6 +1120,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x400\/dr_strangelove.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76191,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/dr_strangelove.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/dr_strangelove.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x400\/eddie-redmayne-1024.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1263,6 +1307,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x400\/girls14_68.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109135,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/girls14_68.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/girls14_68.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x400\/gone-girl-df-01826cc_rgb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1325,6 +1380,17 @@
 		"initialSize": 98153,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/Grand_Budapest_Hotel_Screenshot_1.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/Grand_Budapest_Hotel_Screenshot_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x400\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154413,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1591,6 +1657,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x400\/jsGAD.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399718,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/jsGAD.png",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/jsGAD.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x400\/k14lysr4msp2q5887mjy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1642,6 +1719,28 @@
 		"initialSize": 66135,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x400\/lck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69194,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/lck.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/lck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x400\/louie_bumkill_3183-e1348964636617.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62784,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/louie_bumkill_3183-e1348964636617.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/louie_bumkill_3183-e1348964636617.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1778,6 +1877,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_1080x400\/nup_151090_0004.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83235,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/nup_151090_0004.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/nup_151090_0004.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_1080x400\/o-INHERENT-VICE-facebook.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1873,6 +1983,17 @@
 		"initialSize": 68616,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/r0_185_4274_2589_w1200_h678_fmax.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/r0_185_4274_2589_w1200_h678_fmax.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x400\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 404986,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2027,6 +2148,17 @@
 		"initialSize": 84785,
 		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/Still5.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/Still5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_1080x400\/Susan_Kelechi_Watson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 543213,
+		"inputAbbreviatedPath": "\/img\/article\/_1080x400\/Susan_Kelechi_Watson.png",
+		"outputAbbreviatedPath": "\/img\/article\/_1080x400\/Susan_Kelechi_Watson.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4625,6 +4757,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/2001-A-Space-Odyssey-07.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9962,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/2001-A-Space-Odyssey-07.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/2001-A-Space-Odyssey-07.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/2001.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 332860,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/2001.png",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/2001.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/20150124_inq_svrpix24z-a.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4874,6 +5028,17 @@
 		"initialSize": 52691,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/biden_parks_and_recreation-copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58156,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/biden_parks_and_recreation-copy.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/biden_parks_and_recreation-copy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5219,6 +5384,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/dr_strangelove.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40808,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/dr_strangelove.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/dr_strangelove.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/eddie-redmayne-1024.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5395,6 +5571,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/girls14_68.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57418,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/girls14_68.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/girls14_68.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/gone-girl-df-01826cc_rgb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5457,6 +5644,17 @@
 		"initialSize": 51145,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Grand_Budapest_Hotel_Screenshot_1.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Grand_Budapest_Hotel_Screenshot_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80674,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5723,6 +5921,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/jsGAD.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203352,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/jsGAD.png",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/jsGAD.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/k14lysr4msp2q5887mjy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5774,6 +5983,28 @@
 		"initialSize": 34798,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/lck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39395,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/lck.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/lck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/louie_bumkill_3183-e1348964636617.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32058,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/louie_bumkill_3183-e1348964636617.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/louie_bumkill_3183-e1348964636617.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5910,6 +6141,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_720x270\/nup_151090_0004.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44410,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/nup_151090_0004.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/nup_151090_0004.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_720x270\/o-INHERENT-VICE-facebook.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6005,6 +6247,17 @@
 		"initialSize": 39367,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/r0_185_4274_2589_w1200_h678_fmax.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/r0_185_4274_2589_w1200_h678_fmax.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204889,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6159,6 +6412,17 @@
 		"initialSize": 40699,
 		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Still5.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Still5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_720x270\/Susan_Kelechi_Watson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 273364,
+		"inputAbbreviatedPath": "\/img\/article\/_720x270\/Susan_Kelechi_Watson.png",
+		"outputAbbreviatedPath": "\/img\/article\/_720x270\/Susan_Kelechi_Watson.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6625,6 +6889,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/2001-A-Space-Odyssey-07.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18980,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/2001-A-Space-Odyssey-07.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/2001-A-Space-Odyssey-07.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/2001.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 486802,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/2001.png",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/2001.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/20150124_inq_svrpix24z-a.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6874,6 +7160,17 @@
 		"initialSize": 92493,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/biden_parks_and_recreation-copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94035,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/biden_parks_and_recreation-copy.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/biden_parks_and_recreation-copy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7219,6 +7516,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/dr_strangelove.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65582,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/dr_strangelove.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/dr_strangelove.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/eddie-redmayne-1024.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7395,6 +7703,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/girls14_68.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93559,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/girls14_68.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/girls14_68.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/gone-girl-df-01826cc_rgb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7457,6 +7776,17 @@
 		"initialSize": 86171,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Grand_Budapest_Hotel_Screenshot_1.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Grand_Budapest_Hotel_Screenshot_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127468,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7723,6 +8053,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/jsGAD.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 347210,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/jsGAD.png",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/jsGAD.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/k14lysr4msp2q5887mjy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -7774,6 +8115,28 @@
 		"initialSize": 59066,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/lck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55098,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/lck.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/lck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/louie_bumkill_3183-e1348964636617.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54690,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/louie_bumkill_3183-e1348964636617.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/louie_bumkill_3183-e1348964636617.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7910,6 +8273,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_800x450\/nup_151090_0004.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76574,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/nup_151090_0004.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/nup_151090_0004.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_800x450\/o-INHERENT-VICE-facebook.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8005,6 +8379,17 @@
 		"initialSize": 65431,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/r0_185_4274_2589_w1200_h678_fmax.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/r0_185_4274_2589_w1200_h678_fmax.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 338594,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8159,6 +8544,17 @@
 		"initialSize": 75263,
 		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Still5.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Still5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_800x450\/Susan_Kelechi_Watson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 415940,
+		"inputAbbreviatedPath": "\/img\/article\/_800x450\/Susan_Kelechi_Watson.png",
+		"outputAbbreviatedPath": "\/img\/article\/_800x450\/Susan_Kelechi_Watson.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -8625,6 +9021,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/2001-A-Space-Odyssey-07.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1535,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/2001-A-Space-Odyssey-07.jpeg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/2001-A-Space-Odyssey-07.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/2001.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6911,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/2001.png",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/2001.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/20150124_inq_svrpix24z-a.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8874,6 +9292,17 @@
 		"initialSize": 2993,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/beaf9acf-41d6-431f-a557-525f54b2774c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/biden_parks_and_recreation-copy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2845,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/biden_parks_and_recreation-copy.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/biden_parks_and_recreation-copy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9219,6 +9648,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/dr_strangelove.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2132,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/dr_strangelove.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/dr_strangelove.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/eddie-redmayne-1024.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9395,6 +9835,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/girls14_68.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3077,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/girls14_68.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/girls14_68.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/gone-girl-df-01826cc_rgb.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9457,6 +9908,17 @@
 		"initialSize": 2736,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Grand_Budapest_Hotel_Screenshot_1.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Grand_Budapest_Hotel_Screenshot_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3345,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/hbo-s-girls-is-the-best-new-tv-show-of-2012.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9723,6 +10185,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/jsGAD.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8262,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/jsGAD.png",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/jsGAD.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/k14lysr4msp2q5887mjy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -9774,6 +10247,28 @@
 		"initialSize": 2664,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/la-me-ln-clint-eastwood-choking-man-20140207-001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/lck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2726,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/lck.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/lck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/louie_bumkill_3183-e1348964636617.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2232,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/louie_bumkill_3183-e1348964636617.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/louie_bumkill_3183-e1348964636617.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9910,6 +10405,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/article\/_thumbs\/nup_151090_0004.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3026,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/nup_151090_0004.jpg",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/nup_151090_0004.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/article\/_thumbs\/o-INHERENT-VICE-facebook.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10005,6 +10511,17 @@
 		"initialSize": 3086,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/r0_185_4274_2589_w1200_h678_fmax.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/r0_185_4274_2589_w1200_h678_fmax.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8413,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Screen-Shot-2014-06-05-at-09.38.23-e1401954545248.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10159,6 +10676,17 @@
 		"initialSize": 2228,
 		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Still5.jpg",
 		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Still5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/article\/_thumbs\/Susan_Kelechi_Watson.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6784,
+		"inputAbbreviatedPath": "\/img\/article\/_thumbs\/Susan_Kelechi_Watson.png",
+		"outputAbbreviatedPath": "\/img\/article\/_thumbs\/Susan_Kelechi_Watson.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12308,6 +12836,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/2001_-_Poster_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 988763,
+		"inputAbbreviatedPath": "\/img\/covers\/2001_-_Poster_1.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/2001_-_Poster_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/5454e16ae86e9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12315,6 +12854,17 @@
 		"initialSize": 77110,
 		"inputAbbreviatedPath": "\/img\/covers\/5454e16ae86e9.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/5454e16ae86e9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_1332254765.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110045,
+		"inputAbbreviatedPath": "\/img\/covers\/_1332254765.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_1332254765.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12341,6 +12891,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/2001_-_Poster_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41681,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/2001_-_Poster_1.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/2001_-_Poster_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/5454e16ae86e9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12352,6 +12913,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/_1332254765.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33679,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/_1332254765.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/_1332254765.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/a46564yykr4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37418,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/a46564yykr4.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/a46564yykr4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/A_Most_Violent_Year_Movie_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12359,6 +12942,17 @@
 		"initialSize": 22449,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/A_Most_Violent_Year_Movie_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/A_Most_Violent_Year_Movie_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/amanecer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39875,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/amanecer.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/amanecer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12381,6 +12975,17 @@
 		"initialSize": 22680,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/American-Sniper-Movie-Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/American-Sniper-Movie-Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/b70-2079.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36356,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/b70-2079.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/b70-2079.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12451,6 +13056,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/breathless_french_poster1960.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39639,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/breathless_french_poster1960.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/breathless_french_poster1960.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/citizen-kane-old-poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44951,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/citizen-kane-old-poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/citizen-kane-old-poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/citizenfour-poster.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12513,6 +13140,17 @@
 		"initialSize": 50332,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/GBH-poster1.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/GBH-poster1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/Girls_HBO_Poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40628,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/Girls_HBO_Poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/Girls_HBO_Poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12614,6 +13252,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/louie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43698,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/louie.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/louie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/mad_men_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26788,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/mad_men_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/mad_men_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/modern_family_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39737,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/modern_family_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/modern_family_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/MPW-32748.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41027,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/MPW-32748.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/MPW-32748.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12643,6 +13325,50 @@
 		"initialSize": 37154,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/oitnb-box-01.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/oitnb-box-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43888,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/raging_bull.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34536,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/raging_bull.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/raging_bull.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/rules-of-the-game-movie-poster-1939-1020421065.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48447,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/searchers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38214,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/searchers.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/searchers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12680,6 +13406,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/Snowpiercer_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41104,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/Snowpiercer_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/Snowpiercer_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/STILL-ALICE-onesheet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12687,6 +13424,17 @@
 		"initialSize": 30912,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/STILL-ALICE-onesheet.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/STILL-ALICE-onesheet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/taxidriverposter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33793,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/taxidriverposter.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/taxidriverposter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12702,6 +13450,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/the_tree_of_life_movie_poster_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23842,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/the_tree_of_life_movie_poster_01.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/the_tree_of_life_movie_poster_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/Theory_of_Everything_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12709,6 +13468,28 @@
 		"initialSize": 59459,
 		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/Theory_of_Everything_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/Theory_of_Everything_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/there_will_be_blood_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29525,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/there_will_be_blood_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/there_will_be_blood_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_270x400\/Tokyo_Story_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39290,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/Tokyo_Story_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/Tokyo_Story_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12779,6 +13560,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_270x400\/Vertigomovie_restoration.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44610,
+		"inputAbbreviatedPath": "\/img\/covers\/_270x400\/Vertigomovie_restoration.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_270x400\/Vertigomovie_restoration.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_270x400\/wild_xlg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12812,6 +13604,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/2001_-_Poster_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64655,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/2001_-_Poster_1.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/2001_-_Poster_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/5454e16ae86e9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12823,6 +13626,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/_1332254765.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49612,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/_1332254765.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/_1332254765.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/a46564yykr4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57943,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/a46564yykr4.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/a46564yykr4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/A_Most_Violent_Year_Movie_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12830,6 +13655,17 @@
 		"initialSize": 33994,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/A_Most_Violent_Year_Movie_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/A_Most_Violent_Year_Movie_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/amanecer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62917,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/amanecer.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/amanecer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12852,6 +13688,17 @@
 		"initialSize": 33741,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/American-Sniper-Movie-Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/American-Sniper-Movie-Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/b70-2079.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52065,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/b70-2079.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/b70-2079.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12922,6 +13769,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/breathless_french_poster1960.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59780,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/breathless_french_poster1960.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/breathless_french_poster1960.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/citizen-kane-old-poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69448,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/citizen-kane-old-poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/citizen-kane-old-poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/citizenfour-poster.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12984,6 +13853,17 @@
 		"initialSize": 77500,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/GBH-poster1.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/GBH-poster1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/Girls_HBO_Poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61950,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/Girls_HBO_Poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/Girls_HBO_Poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13085,6 +13965,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/louie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66576,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/louie.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/louie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/mad_men_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37967,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/mad_men_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/mad_men_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/modern_family_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59989,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/modern_family_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/modern_family_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/MPW-32748.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62773,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/MPW-32748.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/MPW-32748.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13114,6 +14038,50 @@
 		"initialSize": 63578,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/oitnb-box-01.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/oitnb-box-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66129,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/raging_bull.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52316,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/raging_bull.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/raging_bull.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/rules-of-the-game-movie-poster-1939-1020421065.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75238,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/searchers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58516,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/searchers.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/searchers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13151,6 +14119,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/Snowpiercer_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41104,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/Snowpiercer_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/Snowpiercer_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/STILL-ALICE-onesheet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13158,6 +14137,17 @@
 		"initialSize": 48864,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/STILL-ALICE-onesheet.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/STILL-ALICE-onesheet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/taxidriverposter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52705,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/taxidriverposter.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/taxidriverposter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13173,6 +14163,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/the_tree_of_life_movie_poster_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36497,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/the_tree_of_life_movie_poster_01.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/the_tree_of_life_movie_poster_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/Theory_of_Everything_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13180,6 +14181,28 @@
 		"initialSize": 90020,
 		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/Theory_of_Everything_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/Theory_of_Everything_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/there_will_be_blood_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50155,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/there_will_be_blood_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/there_will_be_blood_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_350x520\/Tokyo_Story_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35215,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/Tokyo_Story_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/Tokyo_Story_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13250,6 +14273,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_350x520\/Vertigomovie_restoration.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70206,
+		"inputAbbreviatedPath": "\/img\/covers\/_350x520\/Vertigomovie_restoration.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_350x520\/Vertigomovie_restoration.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_350x520\/wild_xlg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13283,6 +14317,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/2001_-_Poster_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3182,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/2001_-_Poster_1.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/2001_-_Poster_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/5454e16ae86e9.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13294,6 +14339,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/_1332254765.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3038,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/_1332254765.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/_1332254765.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/a46564yykr4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3146,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/a46564yykr4.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/a46564yykr4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/A_Most_Violent_Year_Movie_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13301,6 +14368,17 @@
 		"initialSize": 2334,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/A_Most_Violent_Year_Movie_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/A_Most_Violent_Year_Movie_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/amanecer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2994,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/amanecer.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/amanecer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13323,6 +14401,17 @@
 		"initialSize": 2418,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/American-Sniper-Movie-Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/American-Sniper-Movie-Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/b70-2079.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3288,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/b70-2079.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/b70-2079.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13393,6 +14482,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/breathless_french_poster1960.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3356,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/breathless_french_poster1960.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/breathless_french_poster1960.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/citizen-kane-old-poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3644,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/citizen-kane-old-poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/citizen-kane-old-poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/citizenfour-poster.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13455,6 +14566,17 @@
 		"initialSize": 3612,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/GBH-poster1.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/GBH-poster1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/Girls_HBO_Poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3178,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/Girls_HBO_Poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/Girls_HBO_Poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13556,6 +14678,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/louie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3207,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/louie.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/louie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/mad_men_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2908,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/mad_men_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/mad_men_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/modern_family_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3371,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/modern_family_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/modern_family_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/MPW-32748.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3228,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/MPW-32748.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/MPW-32748.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13585,6 +14751,50 @@
 		"initialSize": 3456,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/oitnb-box-01.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/oitnb-box-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3086,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/raging_bull.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2937,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/raging_bull.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/raging_bull.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/rules-of-the-game-movie-poster-1939-1020421065.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3760,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/searchers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3261,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/searchers.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/searchers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13622,6 +14832,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/Snowpiercer_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2860,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/Snowpiercer_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/Snowpiercer_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/STILL-ALICE-onesheet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13629,6 +14850,17 @@
 		"initialSize": 2471,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/STILL-ALICE-onesheet.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/STILL-ALICE-onesheet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/taxidriverposter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2764,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/taxidriverposter.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/taxidriverposter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13644,6 +14876,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/the_tree_of_life_movie_poster_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2072,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/the_tree_of_life_movie_poster_01.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/the_tree_of_life_movie_poster_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/Theory_of_Everything_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13651,6 +14894,28 @@
 		"initialSize": 3047,
 		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/Theory_of_Everything_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/Theory_of_Everything_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/there_will_be_blood_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1754,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/there_will_be_blood_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/there_will_be_blood_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/_thumbs\/Tokyo_Story_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2940,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/Tokyo_Story_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/Tokyo_Story_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13721,6 +14986,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/_thumbs\/Vertigomovie_restoration.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3275,
+		"inputAbbreviatedPath": "\/img\/covers\/_thumbs\/Vertigomovie_restoration.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/_thumbs\/Vertigomovie_restoration.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/_thumbs\/wild_xlg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13732,6 +15008,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/a46564yykr4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208566,
+		"inputAbbreviatedPath": "\/img\/covers\/a46564yykr4.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/a46564yykr4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/A_Most_Violent_Year_Movie_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13739,6 +15026,17 @@
 		"initialSize": 48951,
 		"inputAbbreviatedPath": "\/img\/covers\/A_Most_Violent_Year_Movie_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/A_Most_Violent_Year_Movie_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/amanecer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.24234e+06,
+		"inputAbbreviatedPath": "\/img\/covers\/amanecer.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/amanecer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13761,6 +15059,17 @@
 		"initialSize": 89801,
 		"inputAbbreviatedPath": "\/img\/covers\/American-Sniper-Movie-Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/American-Sniper-Movie-Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/b70-2079.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43837,
+		"inputAbbreviatedPath": "\/img\/covers\/b70-2079.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/b70-2079.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13831,6 +15140,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/breathless_french_poster1960.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302117,
+		"inputAbbreviatedPath": "\/img\/covers\/breathless_french_poster1960.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/breathless_french_poster1960.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/citizen-kane-old-poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 358546,
+		"inputAbbreviatedPath": "\/img\/covers\/citizen-kane-old-poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/citizen-kane-old-poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/citizenfour-poster.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13893,6 +15224,17 @@
 		"initialSize": 277009,
 		"inputAbbreviatedPath": "\/img\/covers\/GBH-poster1.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/GBH-poster1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/Girls_HBO_Poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101579,
+		"inputAbbreviatedPath": "\/img\/covers\/Girls_HBO_Poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/Girls_HBO_Poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13985,6 +15327,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/louie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114995,
+		"inputAbbreviatedPath": "\/img\/covers\/louie.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/louie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/mad_men_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154980,
+		"inputAbbreviatedPath": "\/img\/covers\/mad_men_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/mad_men_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/modern_family_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254025,
+		"inputAbbreviatedPath": "\/img\/covers\/modern_family_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/modern_family_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/MPW-32748.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55472,
+		"inputAbbreviatedPath": "\/img\/covers\/MPW-32748.jpeg",
+		"outputAbbreviatedPath": "\/img\/covers\/MPW-32748.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14014,6 +15400,50 @@
 		"initialSize": 87710,
 		"inputAbbreviatedPath": "\/img\/covers\/oitnb-box-01.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/oitnb-box-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69537,
+		"inputAbbreviatedPath": "\/img\/covers\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/parks-and-recreation-tv-movie-poster-2009-1020482255.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/raging_bull.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69986,
+		"inputAbbreviatedPath": "\/img\/covers\/raging_bull.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/raging_bull.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/rules-of-the-game-movie-poster-1939-1020421065.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278258,
+		"inputAbbreviatedPath": "\/img\/covers\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/rules-of-the-game-movie-poster-1939-1020421065.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/searchers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88534,
+		"inputAbbreviatedPath": "\/img\/covers\/searchers.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/searchers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14051,6 +15481,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/Snowpiercer_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41104,
+		"inputAbbreviatedPath": "\/img\/covers\/Snowpiercer_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/Snowpiercer_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/STILL-ALICE-onesheet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14058,6 +15499,17 @@
 		"initialSize": 421112,
 		"inputAbbreviatedPath": "\/img\/covers\/STILL-ALICE-onesheet.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/STILL-ALICE-onesheet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/taxidriverposter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262624,
+		"inputAbbreviatedPath": "\/img\/covers\/taxidriverposter.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/taxidriverposter.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14073,6 +15525,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/covers\/the_tree_of_life_movie_poster_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119551,
+		"inputAbbreviatedPath": "\/img\/covers\/the_tree_of_life_movie_poster_01.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/the_tree_of_life_movie_poster_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/covers\/Theory_of_Everything_Poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -14080,6 +15543,28 @@
 		"initialSize": 162981,
 		"inputAbbreviatedPath": "\/img\/covers\/Theory_of_Everything_Poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/Theory_of_Everything_Poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/there_will_be_blood_xlg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363826,
+		"inputAbbreviatedPath": "\/img\/covers\/there_will_be_blood_xlg.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/there_will_be_blood_xlg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/Tokyo_Story_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35215,
+		"inputAbbreviatedPath": "\/img\/covers\/Tokyo_Story_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/Tokyo_Story_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14146,6 +15631,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/covers\/under_the_skin_us_poster.jpg",
 		"outputAbbreviatedPath": "\/img\/covers\/under_the_skin_us_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/covers\/Vertigomovie_restoration.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.47593e+06,
+		"inputAbbreviatedPath": "\/img\/covers\/Vertigomovie_restoration.jpg",
+		"outputAbbreviatedPath": "\/img\/covers\/Vertigomovie_restoration.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -14409,6 +15905,138 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/js\/custom-plugins.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/custom-plugins.js",
+		"outputAbbreviatedPath": "\/js\/min\/custom-plugins-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/functions.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/functions.js",
+		"outputAbbreviatedPath": "\/js\/min\/functions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/ie8.scripts.deploy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/ie8.scripts.deploy.js",
+		"outputAbbreviatedPath": "\/js\/min\/ie8.scripts.deploy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/ie8.scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/ie8.scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/ie8.scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/imgsizer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/imgsizer.js",
+		"outputAbbreviatedPath": "\/js\/min\/imgsizer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/ios-orientationchange-fix.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/ios-orientationchange-fix.js",
+		"outputAbbreviatedPath": "\/js\/min\/ios-orientationchange-fix-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/respond.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/respond.js",
+		"outputAbbreviatedPath": "\/js\/min\/respond-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/scripts.foot.deploy.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/scripts.foot.deploy.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts.foot.deploy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/scripts.foot.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/scripts.foot.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts.foot-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/selectivizr.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/selectivizr.js",
+		"outputAbbreviatedPath": "\/js\/min\/selectivizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/sass\/00variables\/color-variables.scss": {
 		"createSourceMap": 0,
@@ -14691,6 +16319,38 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/05sections\/basic-page.scss",
 		"outputAbbreviatedPath": "\/css\/basic-page.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/05sections\/contributors-list.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/05sections\/contributors-list.scss",
+		"outputAbbreviatedPath": "\/css\/contributors-list.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/05sections\/contributors-page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/05sections\/contributors-page.scss",
+		"outputAbbreviatedPath": "\/css\/contributors-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,

@@ -221,7 +221,7 @@
       @include break-up($small){
         float: left;
         width: 48%;
-        margin: 0 0 2% 2%;
+        margin: 0 0 1.5em 2%;
         &:nth-child(odd){clear:left}
       }
       h5 {

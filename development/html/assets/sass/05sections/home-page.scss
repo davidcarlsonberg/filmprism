@@ -224,13 +224,13 @@
         float: left;
         width: 47.5%;
         margin-left: 2.5%;
-        margin-bottom: 2.5%;
+        margin-bottom: 2em;
         &:nth-child(2n+1){clear:left}
       }
       @include break-up($large){
         width: 31%;
         margin-left: 2.33%;
-        margin-bottom: 2.33%;
+        margin-bottom: 2.5em;
         &:nth-child(2n+1){clear:none}
         &:nth-child(3n+1){clear:left}
       }
