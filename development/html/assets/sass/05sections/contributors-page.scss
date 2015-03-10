@@ -44,6 +44,7 @@
     }
   }
   article {
+    @extend %clearfix;
     background-color: $module-bg;
     padding: 1.5em;
     @include break-up($medium){padding:3em}
