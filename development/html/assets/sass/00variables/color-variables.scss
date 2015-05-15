@@ -71,7 +71,6 @@ $chosen-select-noresults-text: $dk-gray;
 // Header Colors
 
 $header-bg: $dk-gray;
-$header-border: $md-blue;
 $header-shadow: transparentize($black,0.5);
 
 $header-button-text: $white;
@@ -168,10 +167,12 @@ $filter-bar-link-active: $md-blue;
 // Home Page Colors
 
 $call-out-bg: $md-blue;
+$call-out-text: $white;
 
+$popular-posts-bg: $dk-blue;
 $popular-figure-bg: $lt-gray;
 $popular-summary-text: $white;
-$popular-summary-bg: $dk-blue;
+$popular-summary-bg: $dk-gray;
 $popular-summary-bg-hover: $md-blue;
 
 $recent-posts-bg: $white;

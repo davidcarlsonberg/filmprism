@@ -1,0 +1,36 @@
+a:3:{s:4:"time";i:1431663507;s:3:"ttl";i:0;s:4:"data";s:3137:"<article class="q-and-a">
+      <header>
+        <h1>Is hallucinating common for creative artists like in &#8220;Birdman&#8221;</h1>
+        {exp:playa:children entry_id="201" field_id="10"  var_prefix="playa8nVgMLT0"}
+        <h5>Related: <a href="{playa8nVgMLT0:path='{playa8nVgMLT0:channel_short_name}/page/{playa8nVgMLT0:url_title}'}">{playa8nVgMLT0:title}</a></h5>
+        {/exp:playa:children}
+        <p class="by-line">{exp:playa:children entry_id="201" field_id="11"  var_prefix="playaC62W5HZp"}{/exp:playa:children} <span class="spacer">|</span> <time datetime="2015-03-04T1303">March 4, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/is-hallucinating-common-for-creative-artists-like-in-birdman">0</span></a></p>
+      </header>
+      <div class="article-body">
+        <p>Faith Salie and Dr. Heather Berlin, hosts of&nbsp;<em>Science Goes to the Movies</em>, discuss how common it is to hallucinate, as per author-neuorologist Oliver Sacks, particularly in creative individuals or artists.</p>
+
+<div>
+<div><iframe allowfullscreen="" frameborder="0" height="362" src="https://www.youtube.com/embed/771qUreqSyA" width="640"></iframe></div>
+
+<p>&nbsp;</p>
+</div>
+      </div>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u=http://screenprism.dev/insights/article/is-hallucinating-common-for-creative-artists-like-in-birdman"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status=http://screenprism.dev/insights/article/is-hallucinating-common-for-creative-artists-like-in-birdman"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url=http://screenprism.dev/insights/article/is-hallucinating-common-for-creative-artists-like-in-birdman&media=&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body=http://screenprism.dev/insights/article/is-hallucinating-common-for-creative-artists-like-in-birdman"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>";}

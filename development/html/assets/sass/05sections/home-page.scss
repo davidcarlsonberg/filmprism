@@ -3,21 +3,24 @@
 **************************************************/
 
 .call-out {
-  padding: 2em $side-padding;
+  padding: 1.5em $side-padding;
   background-color: $call-out-bg;
   text-align: center;
   p {
     @include font-size(16);
     margin: 0;
-    color: $white;
-    font-style: italic;
+    color: $call-out-text;
+    font-family: $lato;
+    font-weight: 300;
+    text-transform: uppercase;
   }
   @include break-up($large){
     padding-top: 14em;
-    padding-bottom: 2em;
-    p {
-      @include font-size(18);
-    }
+    letter-spacing: .125em;
+    p { @include font-size(18) }
+  }
+  @include break-up($x-large){
+    p { @include font-size(18) }
   }
 }
 
@@ -26,7 +29,7 @@
 **************************************************/
 
 .popular {
-  background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  background: $popular-posts-bg;
   padding-bottom: 4em;
   .featured {
     @include box-shadow;
@@ -210,7 +213,7 @@
 **************************************************/
 
 .recent {
-  background-color: $recent-posts-bg;
+  background-color: $body-bg;
   .article-list {
     @extend %clearfix;
     list-style: none;

@@ -40,7 +40,7 @@ nav {
       }
       @include break-up($large){
         @include font-size(18);
-        margin-top: .5em;
+        margin-top: .375em;
       }
       &.subscribe {
         @include break-up($medium){display:none}

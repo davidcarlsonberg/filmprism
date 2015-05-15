@@ -3,9 +3,9 @@
 **************************************************/
 
 %button {
-  @include transition;
-  @include border-radius;
-  @include box-shadow;
+  @include transition();
+  @include border-radius();
+  @include box-shadow();
   @include font-size(24);
   display: block;
   width: 100%;
