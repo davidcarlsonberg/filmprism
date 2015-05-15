@@ -84,7 +84,7 @@
     background: $card-bg-color;
     &:hover,
     &:focus {
-      background-color: lighten($teal,55%);
+      background-color: lighten($md-blue,55%);
       figure img {@include opacity(.75)}
       h3,p{color:$card-link-hover}
     }

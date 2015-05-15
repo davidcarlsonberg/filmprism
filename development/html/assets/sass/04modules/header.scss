@@ -79,7 +79,7 @@
 .header-bottom{
   @extend %clearfix;
   padding: 1em $side-padding;
-  background-color: darken($header-bg, 2.5%);
+  background-color: darken($header-bg,1%);
   @include break-up($medium){
     padding-top: .5em;
     padding-bottom: .5em;
@@ -200,19 +200,20 @@
     width: auto;
     @include break-up($medium){display:block}
     a {
-      @include border-radius(.5em);
+      @include border-radius(0.5em);
       @include font-size(14);
       display: block;
-      padding: .75em 1em;
+      padding: .5em .75em;
       background-color: $header-button-bg;
-      border: 1px solid $header-button-border;
+      border: 2px solid $header-button-border;
       color: $header-button-text;
       font-family: $button-font;
       font-weight: 400;
       text-align: center;
-      &:hover,&:focus {
+      &:hover {
         background-color: $header-button-hover-bg;
-        color: $header-button-text;
+        border-color: $header-button-hover-border;
+        color: $header-button-hover-text;
       }
     }
     .form-wrapper {

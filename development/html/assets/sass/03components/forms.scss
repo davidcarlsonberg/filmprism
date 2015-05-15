@@ -83,7 +83,7 @@ input[type='submit']{
       content: $down-triangle;
       float: right;
       margin-top: .25em;
-      color: $teal;
+      color: $dk-gray;
     }
   }
   select {
@@ -139,7 +139,7 @@ $chosen-sprite-retina: url("../img/icons/chosen-sprite@2x.png");
   .chosen-drop {
     @extend %transition;
     @include opacity(0);
-    @include box-shadow(0 .5em .5em transparentize($black,.75));
+    @include box-shadow(0 0.5em 0.5em transparentize($black,0.75));
     overflow: hidden;
     position: absolute;
     top: 100%;
@@ -147,9 +147,9 @@ $chosen-sprite-retina: url("../img/icons/chosen-sprite@2x.png");
     max-height: 0;
     z-index: 1010;
     width: 100%;
-    border: 1px solid $black;
+    border: 1px solid $chosen-select-border;
     border-top: 0;
-    background: $white;
+    background: $chosen-select-bg;
   }
   &.chosen-with-drop .chosen-drop {
     @include opacity(1);
@@ -163,7 +163,7 @@ $chosen-sprite-retina: url("../img/icons/chosen-sprite@2x.png");
       white-space: nowrap;
       text-overflow: ellipsis;
       font-weight: normal;
-      color: $body-text;
+      color: $chosen-select-text;
       &:after {
         content: ":";
         padding-left: .125em;
@@ -180,9 +180,9 @@ $chosen-sprite-retina: url("../img/icons/chosen-sprite@2x.png");
     overflow: hidden;
     position: relative;
     padding: .625em 2em .625em 1em;
-    background-color: $white;
-    border: 1px solid $border-color;
-    color: $body-text;
+    background-color: $chosen-select-bg;
+    border: 1px solid $chosen-select-border;
+    color: $chosen-select-text;
     text-decoration: none;
     white-space: nowrap;
     span {
@@ -258,7 +258,7 @@ $chosen-sprite-retina: url("../img/icons/chosen-sprite@2x.png");
   }
   &.chosen-with-drop .chosen-single {
     @include border-bottom-radius(0);
-    border-color: $black;
+    border-color: $chosen-select-border;
     div b {background-position: 50% -44px}
   }
 }
@@ -288,17 +288,18 @@ $chosen-sprite-retina: url("../img/icons/chosen-sprite@2x.png");
     }
     &.disabled-result {
       display: list-item;
-      color: $lt-gray;
+      color: $chosen-select-disabled;
       cursor: default;
     }
     &.highlighted {
-      background-color: $teal;
-      color: $white;
+      background-color: $chosen-select-selection-bg;
+      color: $chosen-select-selection-text;
     }
     &.no-results {
+      @include box-shadow(none);
       display: list-item;
-      background: $x-lt-gray;
-      color: $lt-gray;
+      background: $chosen-select-noresults-bg;
+      color: $chosen-select-noresults-text;
     }
     em {
       font-style: normal;

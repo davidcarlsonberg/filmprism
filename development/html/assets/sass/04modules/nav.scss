@@ -27,7 +27,7 @@ nav {
     li {
       @include inline-block;
       @include font-size(14);
-      margin: .25em .125em;
+      margin: .125em .025em;
       font-family: $nav-font;
       font-weight: 300;
       text-transform: uppercase;
@@ -35,7 +35,7 @@ nav {
         @include font-size(16);
         display: block;
         float: left;
-        margin: .625em 0 0 2.5em;
+        margin: .5em 0 0 1.5em;
         &.insights {margin-left:0}
       }
       @include break-up($large){
@@ -47,7 +47,7 @@ nav {
       }
     }
     a {
-      @include border-radius(1.5em);
+      @include border-radius(.5em);
       display: block;
       padding: .5em .75em;
       background-color: $narrow-nav-bg;
@@ -58,9 +58,10 @@ nav {
         @include border-radius(0);
         padding: 0;
         background-color: transparent;
+        color: $nav-link-text;
       }
       &:hover,&:focus {
-        color: $nav-link-text;
+        color: $narrow-nav-text;
         @include break-up($medium){
           color: $nav-link-hover;
         }

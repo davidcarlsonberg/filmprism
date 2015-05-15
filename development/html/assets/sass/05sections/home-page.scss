@@ -4,7 +4,7 @@
 
 .call-out {
   padding: 2em $side-padding;
-  background-color: $teal;
+  background-color: $call-out-bg;
   text-align: center;
   p {
     @include font-size(16);
@@ -242,7 +242,7 @@
       overflow: hidden;
       background-color: $card-bg-color;
       &:hover, &:focus {
-        background-color: lighten($teal, 55%);
+        background-color: $card-bg-hover;
         h3,p,.meta,h6 {color:$card-link-hover}
         figure img {@include opacity(.75)}
       }

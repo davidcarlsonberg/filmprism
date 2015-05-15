@@ -5,7 +5,7 @@
 .main {
   position: relative;
   z-index: 2;
-  background: $body-bg url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  background: $body-bg;
   padding: 3em $side-padding 9em;
   @include break-up($large){
     padding-top: $fixed-top-padding;
