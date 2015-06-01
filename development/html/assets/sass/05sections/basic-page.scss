@@ -29,16 +29,12 @@
     margin-bottom: 3em;
     padding: 1.5em 0 3em;
     border-bottom: 1px solid $border-color;
-    h1 {
-      margin: 0;
-    }
-    h5 {
-      margin: .75em 0 0;
-    }
+    h1 { margin: 0 }
+    h5 { margin: 1em 0 0 }
     .by-line{
       @include font-size(12);
       max-width: none;
-      margin: 1.5em 0 -2.25em;
+      margin: 2em 0 -2.25em;
       padding: .5em 0;
       border-top: 1px solid $border-color;
       font-family: $by-line-font;
@@ -62,6 +58,7 @@
       }
     }
     h4 {
+      @include font-size(18);
       margin: 0 0 1em;
       color: $module-aside-text;
       text-transform: uppercase;

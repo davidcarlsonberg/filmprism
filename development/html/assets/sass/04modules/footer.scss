@@ -12,23 +12,44 @@
   color: $footer-text;
   text-align: center;
   @include break-up($medium){text-align:left}
-  svg{height:3em;width:3em}
   a {
     color: $footer-link;
     &:hover,&:focus{color:$footer-hover}
   }
-  h1{
-    @include font-size(30);
-    margin: 0;
-    text-transform: uppercase;
+  h1 {
+    @include font-size(10);
+    margin: 0 auto 1em;
+    @include break-up($medium){
+      margin: 0 0 .75em -1em;
+    }
+    a {
+      display: block;
+      overflow: hidden;
+      height: 0;
+      width: 16em;
+      padding-top: 4.4em;
+      margin: 0 auto;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      @include hires("../img/logo/screenprism-footer-logo.png", "../img/logo/screenprism-footer-logo-2x.png");
+      @include break-up($medium){
+        margin: 0;
+      }
+    }
   }
   ol {
     list-style: none;
-    margin: 3em 0;
+    margin: 2em 0;
   }
   li {
     @include inline-block;
     margin: 0;
+  }
+  .footer-links {
+    @include break-up($medium){
+      float: left;
+      width: 60%;
+    }
   }
   .legal-links {
     li {
@@ -48,17 +69,25 @@
   .social-links {
     li {
       @include font-size(10);
-      margin:0 .5em;
+      margin: 0 .5em;
+      @include break-up($medium){
+        margin: 0 1em 0 0;
+      }
     }
     a {
       display: block;
+      color: $footer-icon;
+      &:hover,
+      &:focus {
+        color: $footer-hover;
+      }
+      svg{
+        height: 2em;
+        width: 2em;
+      }
     }
-  }
-  .footer-links {
-    @include break-up($medium){
-      @include float;
-      width: 60%;
-      padding-top: 1.5em;
+    &.youtube {
+      a svg { width: 2.2em }
     }
   }
   .mailing-list {
@@ -74,7 +103,7 @@
       text-align: center;
     }
     h5 {
-      margin: 0 0 1.5em;
+      margin: 0 0 1em;
       color: $footer-text;
     }
     form {

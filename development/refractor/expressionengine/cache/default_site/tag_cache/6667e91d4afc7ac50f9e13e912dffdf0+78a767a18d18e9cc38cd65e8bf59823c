@@ -1,0 +1,31 @@
+a:3:{s:4:"time";i:1433132838;s:3:"ttl";i:0;s:4:"data";s:1724:"<article>
+      <header>
+        <figure>
+          
+          <img src="{path='assets/img/graphics/placeholder-image-600.png'}" alt="No Photo Available">
+          
+        </figure>
+        <h1>Debra Minoff</h1>
+        <p>Co-founder</p>
+      </header>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum ac nisi ac vehicula. Curabitur porta bibendum eros nec pretium. Ut id dui in turpis hendrerit volutpat. Aliquam scelerisque turpis enim, quis condimentum eros finibus eu. Pellentesque quis vehicula ante. Duis in elit quis dolor ultricies cursus eget et ligula. Donec fringilla sit amet purus vel consectetur.</p>
+    </article>
+    <div class="contributors__articles">
+      <h2>Articles</h2>
+      <ul>
+        {exp:playa:parents entry_id="206" 
+          channel="articles"
+          disable="category_fields|member_data|pagination"
+         var_prefix="playabSFA20Sn"}
+        <li class="{playabSFA20Sn:categories limit='1'}{playabSFA20Sn:category_url_title}{/playabSFA20Sn:categories}">
+          <a href="{playabSFA20Sn:url_title_path='insights/article'}">
+            <h5>{playabSFA20Sn:title}</h5>
+            <p class="meta">{playabSFA20Sn:categories}{playabSFA20Sn:category_name}{/playabSFA20Sn:categories} <span class="divider">|</span> <svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{playabSFA20Sn:url_title_path='insights/article'}">0</span></p>
+            {playabSFA20Sn:article_related_media}
+              <h6>{playabSFA20Sn:title}</h6>
+            {/playabSFA20Sn:article_related_media}
+          </a>
+        </li>
+        {/exp:playa:parents}
+      </ul>
+    </div>";}

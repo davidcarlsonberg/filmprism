@@ -30,16 +30,14 @@
       background-color: $card-bg-color;
       &:hover, 
       &:focus {
+        figure img {@include opacity(.5)}
         h5,h6,p {color:$card-link-hover}
-        figure img {@include opacity(.75)}
-        .summary {background-color: lighten($card-bg-hover, 57.5%)}
+        .summary {background-color: lighten($card-bg-hover,0%)}
       }
     }
     figure {
       background-color: $card-image-bg;
-      img {
-        @extend %transition;
-      }
+      img { @extend %transition }
     }
     .details {
       padding: 1em 1.5em;
@@ -74,8 +72,7 @@
   background-color: $filters-bar-bg;
   border-bottom: 1px solid darken($filters-bar-bg,10%);
   @include break-up($large){
-    padding-top: 13.5em;
-    padding-bottom: 1.75em;
+    padding-top: 14.5em;
   }
   .sort-toggles {
     @extend %site-column;
@@ -87,7 +84,7 @@
     @include break-up($medium){
       float: left;
       width: 65%;
-      margin-top: .25em;
+      margin-top: .375em;
     }
     a {
       @include inline-block(baseline);

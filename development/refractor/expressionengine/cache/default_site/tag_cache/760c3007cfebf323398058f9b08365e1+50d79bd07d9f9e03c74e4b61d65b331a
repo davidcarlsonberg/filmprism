@@ -1,0 +1,44 @@
+a:3:{s:4:"time";i:1433130940;s:3:"ttl";i:0;s:4:"data";s:7475:"<figure class="article-image">
+      <img src="http://screenprism.dev/assets/img/article/_1080x400/Iw2eman.jpg" alt="Hero Image">
+    </figure>
+    
+    <article class="q-and-a">
+      <header>
+        <h1>Who is Stefan Zweig and how was he an inspiration on &#8220;The Grand Budapest Hotel&#8221;</h1>
+        {exp:playa:children entry_id="32" field_id="10"  var_prefix="playaLe88v4BB"}
+        <h5>Related: <a href="{playaLe88v4BB:path='{playaLe88v4BB:channel_short_name}/page/{playaLe88v4BB:url_title}'}">{playaLe88v4BB:title}</a></h5>
+        {/exp:playa:children}
+        <p class="by-line">{exp:playa:children entry_id="32" field_id="11"  var_prefix="playatjLk8Byr"}{/exp:playa:children} <span class="spacer">|</span> <time datetime="2015-02-12T1303">February 12, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://screenprism.dev/insights/article/what-exact-influence-did-stefan-zweig-have-on-the-film">0</span></a></p>
+      </header>
+      <div class="article-body">
+        <p>At the end of&nbsp;Wes Anderson&#39;s&nbsp;<em>The Grand Budapest Hotel</em>&nbsp;there&#39;s a credit that reads&nbsp;"Inspired by the Writings of&nbsp;Stefan Zweig."</p>
+
+<p>A globally popular writer in his day,&nbsp;Zweig was an exile,&nbsp;fleeing&nbsp;his homeland, Austria,&nbsp;after Hitler took power.&nbsp;He lived for his remaining years&nbsp;in&nbsp;England, America and finally Brazil, where he commited suicide&nbsp;in 1942.</p>
+
+<p>Wes Anderson was introduced to Zweig&#39;s work only six or seven years before&nbsp;<em>The Grand Budapest Hotel</em>, when he stumbled upon his&nbsp;novel,&nbsp;<u>Beware of Pity</u>. Soon after, Anderson pored through all of his books, as well as others that dealt with war-torn years of 20th century Europe, and it wasn&#39;t long before Anderson&nbsp;was channeling&nbsp;his work into a script.</p>
+
+<p>Structurally,&nbsp;<em>The Grand Budapest Hotel</em>&nbsp;is similar to&nbsp;Zweig&rsquo;s stories, <a href="http://www.telegraph.co.uk/culture/film/10684250/I-stole-from-Stefan-Zweig-Wes-Anderson-on-the-author-who-inspired-his-latest-movie.html">"nesting stories within stories and confessional revelations of deep secrets within secrets."</a>&nbsp;We see this at the very beginning, when we&#39;re first introduced to a&nbsp;deceased writer by a young admirer visiting his grave. Suddenly, we&#39;re thrust into the past, with the author (played by Tom Wikinson) alive and well and directly addressing the audience. We then jump even further into the past as the author recounts his trip to the Grand Budapest Hotel - there, he meets a&nbsp;mysterious man who launches into his own story, and once more we&#39;re driven further into history, guided by a new storyteller.&nbsp;As Anderson described&nbsp;it to the Telegraph,&nbsp;"[it&#39;s]&nbsp;such an effective way to set the stage, to set a mood. It creates this kind of a &#39;gather around&#39;&nbsp;feeling."</p>
+
+<p>Anderson has also identified&nbsp;<u>Beware of Pity</u> and&nbsp;<u>The Post Office Girl</u>&nbsp;as direct sources for some of the film&#39;s material, but the film is&nbsp;particularly reminiscent of Zweig&#39;s autobiography&nbsp;<u>The World of Yesterday</u>,&nbsp;which was written as&nbsp;the&nbsp;Nazis rose to power.&nbsp;<a href="http://www.npr.org/2014/04/02/298340082/the-rise-and-fall-of-stefan-zweig-who-inspired-grand-budapest-hotel">In an interview with NPR</a>, biographer&nbsp;George Prochnik aruged that it was critical "to realize how deeply [Zweig]&nbsp;identified himself with Europe. Zweig&#39;s overwhelming objective was the creation, preservation and proclamation of the Europe that was already inside him. When Zweig began to feel that the Europe that he had known was gone for good, he lost a lot of his motivation to keep going ...This Europe that was so invested in aesthetics, in beauty, in civilized tolerance was very much gone by the time of his suicide. But he knew that, in letting that dream go, he was going to be also relinquishing his hold on the will to live." This&nbsp;melancholy sense of&nbsp;nostalgia, in&nbsp;what was lost in Vienna after the end of World War I, is what&nbsp;<em>The Grand Budapest Hotel</em>&nbsp;seems all about.</p>
+
+<p>Zweig himself&nbsp;would inform several characters in the film, including&nbsp;Zero Moustafa (played&nbsp;by Tony Revolori and&nbsp;F. Murray Abraham) who is&nbsp;also an&nbsp;exile, forced out of his country under similar circumstances. But&nbsp;Anderson more or less&nbsp;translates&nbsp;his&nbsp;impressions of Zweig the writer&nbsp;and Zweig&nbsp;in real life into two separate figures:&nbsp;the "author" (played by Tom Wilkinson and Jude Law) and M. Gustave (played by Ralph Fiennes). <a href="http://www.telegraph.co.uk/culture/film/10684250/I-stole-from-Stefan-Zweig-Wes-Anderson-on-the-author-who-inspired-his-latest-movie.html">As he told Prochnik</a>, "One thing that struck me, after I had read a few of Zweig&rsquo;s books, is that what I began to learn about him personally was quite different from what I felt I understood about him from his voice as a writer. So much of his work is written from the point of view of someone who&rsquo;s quite innocent and is entering into kind of darker territories, and I always felt that Zweig himself was a more reserved person who was exploring things in his work that he was drawn to but that weren&rsquo;t his own experiences. In fact, the truth seems to be completely the opposite. He seems to be somebody who more or less tried everything along the way."</p>
+      </div>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u=http://screenprism.dev/insights/article/what-exact-influence-did-stefan-zweig-have-on-the-film"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status=http://screenprism.dev/insights/article/what-exact-influence-did-stefan-zweig-have-on-the-film"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url=http://screenprism.dev/insights/article/what-exact-influence-did-stefan-zweig-have-on-the-film&media=http://screenprism.dev/assets/img/article/Iw2eman.jpg&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body=http://screenprism.dev/insights/article/what-exact-influence-did-stefan-zweig-have-on-the-film"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>";}

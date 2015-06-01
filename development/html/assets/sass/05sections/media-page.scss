@@ -14,7 +14,7 @@
       @include float(right);
       width: 70%;
       padding: 3em 3em 1.5em;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid $x-lt-gray;
     }
     @include break-up($large){width:75%}
     h1 {
@@ -26,7 +26,10 @@
       font-family: $lato;
       line-height: 1.4;
       a {white-space:nowrap}
-      span {margin: 0 .5em}
+      span {
+        margin: 0 .5em;
+        color: $lt-gray;
+      }
     }
   }
   aside {
@@ -69,7 +72,7 @@
         margin: 0;
         padding: .75em 1em;
         background-color: $media-details-bg;
-        border-top: 1px solid $border-color;
+        border-top: 1px solid $media-details-border;
         &:first-child{border-top:none}
         @include break-up($medium){@include font-size(11)}
       }
@@ -237,11 +240,10 @@
         display: block;
         padding: 1.5em 1.5em .5em;
         background-color: $media-link-block-bg;
-        border: 1px solid darken($media-link-block-bg, 5%);
+        border: 1px solid darken($related-links-bg,10%);
         &:hover,
         &:focus {
-          background-color: $media-link-block-hover-bg;
-          h5, p {color:$media-link-block-hover}
+          h5, p {color:$md-blue}
         }
       }
     }

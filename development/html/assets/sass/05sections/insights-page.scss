@@ -76,7 +76,6 @@
         float: left;
         width: 60%;
         margin: 0;
-        color: $body-text;
       }
       &:hover, 
       &:focus {
@@ -106,10 +105,12 @@
   }
   a {
     display: block;
-    height: 3em;
-    width: 3em;
     color: $share-icons-fill;
     &:hover,&:focus{color:$share-icons-hover}
+    svg {
+      height: 2em;
+      width: 2em;
+    }
   }
 }
 

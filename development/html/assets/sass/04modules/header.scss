@@ -19,10 +19,6 @@
     @extend %clearfix;
     @include box-sizing(content-box);
     padding: 1.5em $side-padding;
-    @include break-up($medium){
-      padding-top: 1.75em;
-      padding-bottom: 1.75em;
-    }
   }
   .logo-group {
     overflow: hidden;
@@ -43,15 +39,19 @@
       float: left;
     }
     a {
+      @include transition(none);
       display: block;
       overflow: hidden;
       height: 0;
-      width: 21.5em;
+      width: 22em;
       margin: 0 auto;
-      padding-top: 5em;
-      background-position: 50% 50%;
+      padding-top: 6em;
+      background-position: 0 0;
       background-repeat: no-repeat;
       @include hires("../img/logo/screenprism-header-logo.png", "../img/logo/screenprism-header-logo-2x.png");
+      @include break-up($small){width:36em}
+      @include break-up($medium){width:22em}
+      @include break-up($large){width:36em}
     }
   }
   .tagline {
@@ -82,35 +82,35 @@
 **************************************************/
 
 .smallheader {
+  background-color: darken($header-bg,2.5%);
   &.site-header {
     @include break-up($large){
       @include box-shadow(0 0 10px $header-shadow);
       overflow: hidden;
       padding: .5em $side-padding;
-      .header-top {padding: 0}
+      .header-top { padding: 0 }
       .tagline,
-      .header-links {display:none}
-      .header-bottom {padding:0;background-color:transparent}
-      .search-bar {width:48.75%}
+      .header-links { display: none }
+      .header-bottom { padding: 0; background-color: transparent }
+      .search-bar {
+        width: 48.75%;
+        margin-top: 1.25em;
+      }
       nav {
-        margin-top: -4.25em;
+        margin-top: -4.375em;
         margin-left: 4em;
         @include break-up($x-large){
-          margin-top: -4.375em;
           margin-left: 5em;
         }
       }
       .site-nav li {
         @include font-size(16);
-        margin-left: 2em;
         @include break-up($x-large){
           @include font-size(18);
+          margin-left: 1.75em;
         }
       }
-      h1 a {
-        width: 4.5em;
-        @include hires("../img/logo/screenprism-header-icon.png", "../img/logo/screenprism-header-icon-2x.png");
-      }
+      h1 a { width: 4.2em }
     }
   }
 }
@@ -129,10 +129,9 @@
     float: right;
     width: 66.66%;
     margin-bottom: 0;
-    margin-top: .75em;
+    margin-top: 1em;
   }
-  @include break-up($large){width: 72%}
-  @include break-up($x-large){width:48.75%}
+  @include break-up($large){width: 48.75%}
   input[type="text"]{
     @include border-right-radius(0);
     @include font-size(16);
@@ -185,7 +184,7 @@
       @include border-radius(0.375em);
       @include font-size(14);
       display: block;
-      padding: .5em .75em;
+      padding: .45em .625em;
       background-color: $header-button-bg;
       border: 2px solid $header-button-border;
       color: $header-button-text;
@@ -195,7 +194,6 @@
       &:hover {
         background-color: $header-button-hover-bg;
         border-color: $header-button-hover-border;
-        color: $header-button-hover-text;
       }
     }
     .form-wrapper {
@@ -211,7 +209,7 @@
         content: "";
         position: absolute;
         top: -1em;
-        right: 6em;
+        right: 5em;
         border-bottom: 1em solid $form-bg;
         border-left: 1em solid transparent;
         border-right: 1em solid transparent;
@@ -219,7 +217,7 @@
       &.open {
         @include opacity(1);
         overflow: visible;
-        top: 3.5em;
+        top: 3.25em;
         max-height: 50em;
         @include break-up($x-large){top:3.5em}
       }
@@ -252,19 +250,26 @@
     list-style: none;
     display: none;
     float: right;
-    margin: .25em 0 0 0;
+    margin: .5em .5em 0 0;
     text-align: right;
     @include break-up($medium){display:block}
     li {
       @include inline-block;
       @include font-size(10);
-      height: 2.7em;
-      width: 2.7em;
-      margin: 0 1em 0 0;
+      margin: 0 .75em 0 0;
       a {
         color: $header-social-icon-color;
         &:hover,&:focus {
           color: $header-social-icon-hover;
+        }
+      }
+      svg {
+        height: 2em;
+        width: 2em;
+      }
+      &.youtube {
+        svg {
+          width: 2.2em;
         }
       }
     }

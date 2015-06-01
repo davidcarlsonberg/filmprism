@@ -28,8 +28,8 @@ $selection-bg: $md-blue;
 $body-text: $black;
 $body-bg: #faf9f7;
 
-$headline-color: #3f6273;
-$subheadline-color: $lt-gray;
+$headline-color: $dk-blue;
+$subheadline-color: $md-gray;
 
 $link-color: $md-blue;
 $link-hover: darken($link-color,10%);
@@ -43,7 +43,7 @@ $button-bg: $md-blue;
 $button-hover: darken($button-bg,10%);
 
 $load-button-bg: $dk-gray;
-$load-button-hover: lighten($load-button-bg,10%);
+$load-button-hover: $dk-blue;
 
 // Form Colors
 
@@ -63,8 +63,8 @@ $chosen-select-bg: $white;
 $chosen-select-border: $lt-gray;
 $chosen-select-text: $black;
 $chosen-select-disabled: $lt-gray;
-$chosen-select-selection-bg: $md-blue;
-$chosen-select-selection-text: $white;
+$chosen-select-selection-bg: $x-lt-blue;
+$chosen-select-selection-text: $dk-blue;
 $chosen-select-noresults-bg: $x-lt-gray;
 $chosen-select-noresults-text: $dk-gray;
 
@@ -75,20 +75,18 @@ $header-shadow: transparentize($black,0.5);
 
 $header-button-text: $white;
 $header-button-bg: transparent;
-$header-button-border: $lt-gray;
-$header-button-hover-text: $dk-blue;
-$header-button-hover-bg: $x-lt-blue;
-$header-button-hover-border: $x-lt-blue;
+$header-button-border: $md-gray;
+$header-button-hover-bg: $lt-blue;
+$header-button-hover-border: $lt-blue;
 
-$header-social-icon-color: $lt-gray;
-$header-social-icon-hover: $x-lt-blue;
+$header-social-icon-color: $md-gray;
+$header-social-icon-hover: $lt-blue;
 
-$nav-bg: $md-blue;
 $nav-link-text: $white;
 $nav-link-hover: $lt-blue;
 
-$narrow-nav-text: $dk-blue;
-$narrow-nav-bg: $x-lt-blue;
+$narrow-nav-text: $white;
+$narrow-nav-bg: $dk-gray;
 
 $search-input-bg: $white;
 $search-button-bg: $md-blue;
@@ -98,15 +96,15 @@ $search-button-text: $white;
 
 $footer-text: $white;
 $footer-bg: $dk-gray;
-$footer-link: $x-lt-blue;
+$footer-link: $white;
 $footer-hover: $lt-blue;
 $footer-icon: $lt-gray;
-$footer-border: $lt-gray;
+$footer-border: $md-gray;
 
 // Card Colors
 
 $card-bg-color: $white;
-$card-bg-hover: $md-blue;
+$card-bg-hover: $x-lt-blue;
 $card-image-bg: $md-blue;
 $card-link-color: $md-blue;
 $card-link-hover: $dk-blue;
@@ -114,17 +112,18 @@ $card-link-hover: $dk-blue;
 // Module Colors
 
 $module-bg: $white;
-$module-footer-bg: $x-lt-gray;
-$module-header-bg: $dk-gray;
+$module-header-bg: $md-blue;
 $module-header-text: $white;
+$module-footer-bg: $x-lt-gray;
 $module-footer-link: $md-blue;
 $module-footer-hover: $dk-blue;
+
 $module-aside-bg: $dk-gray;
 $module-aside-text: $white;
 $module-aside-button: $md-blue;
-$module-aside-border: $lt-blue;
+$module-aside-border: lighten($dk-gray,10%);
 $module-aside-blocklink-bg: $white;
-$module-aside-blocklink-hover: $md-blue;
+$module-aside-blocklink-hover: $dk-blue;
 $module-aside-blocklink-bg-hover: $x-lt-blue;
 
 $discussion-module-bg: $dk-blue;
@@ -134,17 +133,17 @@ $discussion-module-text: $white;
 // Media Article
 
 $media-cover-bg: $dk-blue;
-$media-details-bg: $x-lt-blue;
+$media-details-bg: $x-lt-gray;
 $media-details-border: darken($media-details-bg,10%);
 $media-subsection-headline: $white;
 $media-link-block-bg: $white;
 $media-link-block-text: $dk-gray;
-$media-link-block-hover: $md-blue;
+$media-link-block-hover: $dk-blue;
 $media-link-block-hover-bg: $x-lt-blue;
 
-$related-qanda-bg: $md-gray;
+$related-qanda-bg: $md-blue;
 $related-articles-bg: $lt-blue;
-$related-links-bg: $md-blue;
+$related-links-bg: $x-lt-blue;
 
 $submit-question-bg: $dk-blue;
 $submit-question-text: $white;
@@ -152,27 +151,20 @@ $submit-question-text: $white;
 // Thoughts Article
 
 $artice-image-bg: $dk-blue;
-$share-icons-fill: $lt-gray;
-$share-icons-hover: $x-lt-blue;
+$share-icons-fill: $lt-blue;
+$share-icons-hover: $md-blue;
 
 // Filters Bar
 
 $filters-bar-bg: $x-lt-gray;
 $filters-bar-text: $dk-gray;
 $filters-bar-link-text: $white;
-$filters-bar-link-bg: $md-gray;
+$filters-bar-link-bg: $dk-blue;
 $filters-bar-link-hover: $dk-blue;
 $filter-bar-link-active: $md-blue;
 
 // Home Page Colors
 
-$call-out-bg: $md-blue;
-$call-out-text: $white;
-
+$call-out-bg: darken($dk-blue,10%);
+$call-out-text: $md-blue;
 $popular-posts-bg: $dk-blue;
-$popular-figure-bg: $lt-gray;
-$popular-summary-text: $white;
-$popular-summary-bg: $dk-gray;
-$popular-summary-bg-hover: $md-blue;
-
-$recent-posts-bg: $white;

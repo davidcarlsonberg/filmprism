@@ -8,7 +8,7 @@
   overflow: hidden;
   max-width: 90em;
   margin: 0 auto;
-  background-color: $md-blue;
+  background-color: $dk-blue;
   header {
     margin-bottom: 2em;
     padding-bottom: 1.5em;
@@ -94,14 +94,12 @@
         float: left;
         width: 60%;
         margin: 0;
-        color: $body-text;
       }
       a {
         @include border-radius;
         display: block;
         padding: 1.5em 1.5em 1.25em;
         background-color: $media-link-block-bg;
-        border: 1px solid darken($media-link-block-bg, 5%);
         &:hover,
         &:focus {
           background-color: $media-link-block-hover-bg;
