@@ -92,10 +92,7 @@
       .tagline,
       .header-links { display: none }
       .header-bottom { padding: 0; background-color: transparent }
-      .search-bar {
-        width: 48.75%;
-        margin-top: 1.25em;
-      }
+      .search-bar { width: 48.75% }
       nav {
         margin-top: -4.375em;
         margin-left: 4em;
@@ -129,7 +126,7 @@
     float: right;
     width: 66.66%;
     margin-bottom: 0;
-    margin-top: 1em;
+    margin-top: 1.25em;
   }
   @include break-up($large){width: 48.75%}
   input[type="text"]{

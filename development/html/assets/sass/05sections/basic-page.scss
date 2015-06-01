@@ -54,7 +54,7 @@
     .aside-content {
       @include break-up($large){
         &.sticky {position:fixed;top:9em}
-        &.sticky.bottom {position:absolute;top:auto;bottom:-1.5em}
+        &.sticky.bottom {position:absolute;top:auto;bottom:1.5em}
       }
     }
     h4 {
