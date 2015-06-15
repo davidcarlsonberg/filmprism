@@ -30,7 +30,12 @@
     padding: 1.5em 0 3em;
     border-bottom: 1px solid $border-color;
     h1 { margin: 0 }
-    h5 { margin: 1em 0 0 }
+    h5 {
+      margin: 1em 0 0;
+      a {
+        white-space: nowrap;
+      }
+    }
     .by-line{
       @include font-size(12);
       max-width: none;

@@ -93,7 +93,7 @@ var Site = window.Site || {};
     
     // FITVIDS
     
-    $(".media-player").fitVids();
+    $(".media-player, .article-body").fitVids();
     
   });
 })(jQuery);

@@ -2,26 +2,44 @@
  SEARCH PAGE STYLES
 **************************************************/
 
-.search-results {
-  @extend %article-list;
-  .search-heading {
+.search {
+  &-results {
+    @extend %article-list;
+    .summary {
+      @include break-up($small){
+        padding: 3em 3em 1.5em;
+      }
+      h3 {
+        margin: 0 0 .75em;
+        &.q-and-a {
+          a {@extend %qanda-title}
+        }
+      }
+      p {
+        @include font-size(14);
+      }
+    }
+  }
+  &-heading {
     margin: 0 0 1em;
     span {
       color: $md-blue;
     }
   }
-  .summary {
-    @include break-up($small){
-      padding: 1em 3em;
-    }
-    h3 {
-      margin: .5em 0 .75em;
-      &.q-and-a {
-        a {@extend %qanda-title}
-      }
-    }
-    p {
-      @include font-size(14);
+  &-link,
+  &-label {
+    @include font-size(14);
+  }
+  &-label {
+    float: left;
+    font-family: $lato;
+  }
+  &-link {
+    svg {
+      @include inline-block();
+      height: 1em;
+      width: 1em;
+      margin-right: .25em;
     }
   }
 }
