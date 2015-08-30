@@ -1,0 +1,52 @@
+<section class="filters">
+  <div class="inner">
+    <p class="sort-toggles">Filter by Type {exp:channel:categories channel="articles" category_group="2" style="linear" backspace="1"}<a href="{path='insights'}">{category_name}</a> {/exp:channel:categories}</p>
+    <select data-placeholder="Filter by Topic" class="chosen-select">
+      <option></option>
+      {exp:tag:cloud
+        tag_group_id="2"
+        orderby="count"
+        limit="20"
+        websafe_separator="-"
+      }
+      <option value="{path='insights/tag'}/{websafe_tag}"{if segment_3 == websafe_tag} selected{/if}>{tag}</option>
+      {/exp:tag:cloud}
+    </select>
+  </div>
+</section>
+<section class="main thoughts-feed">
+  <div class="inner">
+    {exp:tag:entries
+      channel="articles"
+      limit="10"
+      inclusive="yes"
+      websafe_separator="-"
+      paginate="bottom"
+      cache="yes"
+      refresh="1440"
+      disable="category_fields|member_data"
+    }
+    <article class="feature {categories limit="1"}{category_url_title}{/categories}">
+      <h6>{categories}{category_name}{/categories}</h6>
+      {article_image}
+      <figure>
+        <a href="{url_title_path='insights/article'}"><img src="{url:720x270}" alt="{alt_text}"></a>
+      </figure>
+      {/article_image}
+      <div class="summary">
+        <h2><a href="{url_title_path='insights/article'}">{title}</a></h2>
+        <p>{article_summary}</p>
+      </div>
+      <footer>
+        {article_related_media}
+        <h6>{title}</h6>
+        {/article_related_media}
+        <p><a href="{url_title_path='insights/article'}"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span> <span class="spacer">|</span> Read More</a></p>
+      </footer>
+    </article>
+    {tag_paginate}
+    {if next_page}<a href="{tag_auto_path}" class="button load">Load More</a>{/if}
+    {/tag_paginate}
+    {/exp:tag:entries}
+  </div>
+</section>

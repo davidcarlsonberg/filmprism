@@ -1,0 +1,188 @@
+<section class="main">
+  <div class="content media-article">
+    
+    {exp:channel:entries
+      channel="tv"
+      limit="1"
+      show_future_entries="yes"
+      cache="yes"
+      refresh="1440"
+      disable="categories|category_fields|member_data|pagination"
+    }
+    <header>
+      <h1>{title}</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      {if tv_cover != ""}
+        <img src="{tv_cover:url:350x520}" alt="Show Cover">
+      {if:else}
+        <img src="{site_url}assets/img/graphics/placeholder-cover-01.png" alt="Image not available">
+      {/if}
+      </figure>
+      <ul>
+        <li><strong>Orig. Air Date:</strong> <time datetime="{entry_date format='%Y-%m-%d'}">{entry_date format="%F %j, %Y"}</time></li>
+        {if tv_creator != ""}<li><strong>Created By:</strong> {tv_creator}</li>{/if}
+        {if tv_cast != ""}<li><strong>Principal Cast:</strong> {tv_cast backspace="2"}<span>{item}</span>, {/tv_cast}</li>{/if}
+        {if tv_producers != ""}<li><strong>Produced By:</strong> {tv_producers}</li>{/if}
+        {if tv_channel != ""}<li><strong>Orig. Channel:</strong> {tv_channel}</li>{/if}
+        {if tv_rottentomatoes != ""}<li><strong>Rotten Tomatoes Score:</strong> {tv_rottentomatoes}</li>{/if}
+        {if tv_metacritic != ""}<li><strong>Metacritic Score:</strong> {tv_metacritic}</li>{/if}
+        {if tv_website != ""}<li><strong>Official Website:</strong> <a href="{tv_website}" target="_blank">Click Here</a></li>{/if}
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      {if tv_video != ""}<div class="media-player">{tv_video}</div>{/if}
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          {tv_summary}
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {if {rel:total_results} >= 1}
+        {if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></p>
+            </a>
+          </li>
+        {if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {if {rel:total_results} >= 1}
+        {if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></p>
+            </a>
+          </li>
+        {if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {if tv_external != ""}      
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        {tv_external}
+        {if row_count == 1}<ul>{/if}
+          <li>
+            <a href="{tv_external_link}" target="_blank">
+              <h5>{tv_external_title}</h5>
+              <p>{tv_external_summary}</p>
+              <p><strong>Source:</strong> {tv_external_source}</p>
+            </a>
+          </li>
+        {if row_count == total_rows}</ul>{/if}
+        {/tv_external}
+      </div>
+      {/if}
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="{title}">
+          {if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {if freeform:error:name}<li>Name is required.</li>{/if}
+              {if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>
+    {/exp:channel:entries}
+    </div>
+    
+    <aside class="related-films">
+      <h4>Related</h4>
+      <ul>
+      {exp:tag:related_entries channel="tv" limit="2"}
+        <li>
+          <a href="{url_title_path='tv/page'}">
+            <figure>
+            {if tv_cover != ""}
+              <img src="{tv_cover:url:350x520}" alt="Show Cover">
+            {if:else}
+              <img src="{site_url}assets/img/graphics/placeholder-cover-01.png" alt="Image not available">
+            {/if}
+            </figure>
+            <div class="details">
+              <h5>{title}</h5>
+            </div>
+          </a>
+        </li>
+      {/exp:tag:related_entries}
+      </ul>
+    </aside>
+    
+  </div>
+</section>

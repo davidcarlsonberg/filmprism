@@ -1,0 +1,50 @@
+{exp:template_morsels:fetch
+  name="head_landing"
+  meta_title="Search Results | {site_name}"
+  meta_description="{exp:low_variables:single var='low_home_seodescription'}"
+  meta_url="{site_url}"
+  body_id="search"
+ }
+{exp:template_morsels:fetch name="header"}
+
+<section class="main search-results">
+  <div class="inner">
+    <h3 class="search-heading">Search Results for : <span>{exp:search:keywords}</span></h3>
+    
+    {exp:search:search_results}
+    
+      <article>
+        <h6>
+          {if channel_short_name == "articles"}
+            {categories}{category_name}{/categories}
+          {if:else}
+            {channel}
+          {/if}
+        </h6>
+        <div class="summary">
+          {if channel_short_name == "articles"}
+              <h3 class="{categories limit='1'}{category_url_title}{/categories}"><a href="{url_title_path='insights/article'}">{title}</a></h3>
+          {if:else}
+            <h3><a href="{path='{channel_short_name}/page/{url_title}'}">{title}</a></h3>
+          {/if}
+          <p>{excerpt}</p>
+        </div>
+        <footer>
+          {if channel_short_name == "articles"}
+            <p><a href="{url_title_path='insights/article'}"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg>  <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span> <span class="divider">|</span> Read More</a></p>
+          {if:else}
+            <p><a href="{path='{channel_short_name}/page/{url_title}'}">See Page</a></p>
+          {/if}
+        </footer>
+      </article>
+      
+      {paginate}
+        {if next_page}<a href="{auto_path}" class="button load">Load More</a>{/if}
+      {/paginate}
+      
+    {/exp:search:search_results}
+    
+  </div>
+</section>
+
+{exp:template_morsels:fetch name="foot"}

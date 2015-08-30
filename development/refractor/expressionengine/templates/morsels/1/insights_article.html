@@ -1,0 +1,78 @@
+<section class="main">
+  <div class="content single thoughts feature">
+  {exp:channel:entries
+    channel="articles"
+    limit="1"
+    cache="yes"
+    refresh="1440"
+    disable="category_fields|member_data|pagination"
+  }
+    {article_image}
+    <figure class="article-image">
+      <img src="{url:1080x400}" alt="Hero Image">
+    </figure>
+    {/article_image}
+    <article class="{categories limit="1"}{category_url_title}{/categories}">
+      <header>
+        <h1>{title}</h1>
+        {article_related_media}
+        <h5>Related: <a href="{path='{channel_short_name}/page/{url_title}'}">{title}</a></h5>
+        {/article_related_media}
+        <p class="by-line">{if article_author != ""}{article_author}{if:else}{author}{/if} <span class="spacer">|</span> <time datetime="{entry_date format='%Y-%m-%dT%H%i'}">{entry_date format="%F %j, %Y"}</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></a></p>
+      </header>
+      <div class="article-body">
+        {article_body}
+      </div>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u={url_title_path='insights/article'}"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status={url_title_path='insights/article'}"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url={url_title_path='insights/article'}&media={article_image}&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body={url_title_path='insights/article'}"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>
+  {/exp:channel:entries}
+        <div class="related">
+          <h4>Related Content</h4>
+          <ul>
+          {exp:tag:related_entries channel="articles" limit="3"}
+            <li class="{categories limit='1'}{category_url_title}{/categories}">
+              <a href="{url_title_path='insights/article'}">
+                <h5>{title}</h5>
+                <p class="meta">{categories}{category_name}{/categories} <span class="divider">|</span> <svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></p>
+                {article_related_media}
+                  <h6>{title}</h6>
+                {/article_related_media}
+              </a>
+            </li>
+          {/exp:tag:related_entries}
+          </ul>
+        </div>
+      </div>
+    </aside>
+    <div class="discussion" id="discussion">
+      <h1>Discussion</h1>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'screenprism';
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div>
+</section>

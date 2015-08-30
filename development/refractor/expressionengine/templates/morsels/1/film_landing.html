@@ -1,0 +1,56 @@
+<section class="filters">
+  <div class="inner">
+    <p class="sort-toggles">Sort by <a href="{path='{segment_1}'}"{if segment_2 != 'title'} class="active"{/if}>Release Date</a> <a href="{path='{segment_1}/title'}"{if segment_2 == 'title'} class="active"{/if}>Title</a></p>
+    <select data-placeholder="Filter by Genre" class="chosen-select">
+      <option></option>
+      {exp:channel:categories
+        category_group="1"
+        channel="film"
+        style="linear"
+        show_empty="no"
+        disable="category_fields"
+      }
+      <option {if segment_2 == "title"}value="{path='{segment_1}/title'}"{if:else}value="{path='{segment_1}'}"{/if}{if (segment_3 == category_url_title) OR (segment_4 == category_url_title)} selected{/if}>{category_name}</option>
+      {/exp:channel:categories}
+    </select>
+  </div>
+</section>
+<section id="media-list" class="main films-list">
+  <div class="inner">
+    {exp:channel:entries
+      channel="film"
+      {if segment_2 == "title"}
+        orderby="title"
+        sort="asc"
+      {/if}
+      limit="24"
+      show_future_entries="yes"
+      paginate="bottom"
+      cache="yes"
+      refresh="1440"
+      disable="category_fields|member_data"
+    }
+    {if count == 1}<ol>{/if}
+      <li>
+        <a href="{url_title_path='film/page'}">
+          <figure>
+            {if media_cover != ""}
+              <img src="{media_cover:url:270x400}" alt="Film Cover">
+            {if:else}
+              <img src="{site_url}assets/img/graphics/placeholder-cover-01.png" alt="Image not available">
+            {/if}
+          </figure>
+          <div class="details">
+            <h5>{title}</h5>
+          </div>
+        </a>
+      </li>
+    {if count == total_results}
+    </ol>
+    {paginate}
+    {if next_page}<a href="{auto_path}" class="button load">Load More</a>{/if}
+    {/paginate}
+    {/if}
+    {/exp:channel:entries}
+  </div>
+</section>

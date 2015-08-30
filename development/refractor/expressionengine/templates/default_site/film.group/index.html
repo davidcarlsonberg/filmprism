@@ -1,0 +1,13 @@
+{exp:template_morsels:fetch
+  name="head_landing"
+  meta_title="{exp:low_variables:single var='low_film_seotitle'}"
+  meta_description="{exp:low_variables:single var='low_film_seodescription'}"
+  meta_url="{path='film'}"
+  body_id="media"
+ }
+
+{exp:template_morsels:fetch name="header"}
+
+{exp:template_morsels:fetch name="film_landing" page="{current_url}"}
+
+{exp:template_morsels:fetch name="foot"}

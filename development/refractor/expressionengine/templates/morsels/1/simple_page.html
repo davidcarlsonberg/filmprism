@@ -1,0 +1,62 @@
+<section class="main">
+  <div class="content single">
+    {exp:channel:entries
+      channel="pages"
+      limit="1"
+      cache="yes"
+      refresh="1440"
+    }
+    <article>
+      <header>
+        <h1>{title}</h1>
+      </header>
+	  {page_body}
+    </article>
+	{/exp:channel:entries}
+    <aside>
+      <h4>Contact Info</h4>
+      {exp:low_variables:single var='low_message_contact'}
+      {exp:template_morsels:escape}
+      {exp:freeform:form
+        form_name="contact"
+        form:class="contact-form"
+        required="name|email|subject|message"
+        require_captcha="yes"
+        inline_errors="yes"
+        return="message-sent"
+      }
+        {if freeform:general_errors || freeform:field_errors}
+        <div class="errors">
+          <h4>The form contains the following errors:</h4>
+          <ul>
+            {if freeform:error:name}<li>Name is required.</li>{/if}
+            {if freeform:error:email}<li>Email Address is required.</li>{/if}
+            {if freeform:error:subject}<li>Subject is required.</li>{/if}
+            {if freeform:error:message}<li>Message is required.</li>{/if}
+            {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+          </ul>
+        </div>
+        {/if}
+        <h5><label for="name">{freeform:label:name}</label></h5>
+        {freeform:field:name}
+        <h5><label for="email">{freeform:label:email}</label></h5>
+        {freeform:field:email}
+        <h5><label for="subject">{freeform:label:subject}</label></h5>
+        {freeform:field:subject}
+        <h5><label for="message">{freeform:label:message}</label></h5>
+        {freeform:field:message}
+        {if freeform:captcha}
+        <div class="captcha-box">
+          <p><label for="captcha">Please enter the word you see in the image below</label></p>
+          <div class="captcha-field">
+            {freeform:captcha}
+            <input type="text" name="captcha">
+          </div>
+        </div>
+        {/if}
+        <input type="submit" name="submit" value="Send" />
+      {/exp:freeform:form}
+      {/exp:template_morsels:escape}
+    </aside>
+  </div>
+</section>

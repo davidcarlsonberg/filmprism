@@ -1,0 +1,77 @@
+<header class="site-header">
+  <div class="header-top inner">
+    {exp:template_morsels:escape}
+    {exp:search:simple_form
+      channel="film|tv|articles"
+      show_future_entries="yes"
+      search_in="everywhere"
+      results="20"
+      result_page="search/index"
+      no_result_page="search/empty"
+      form_class="search-bar"
+    }
+      <input type="hidden" name="orderby" value="date">
+      <input type="hidden" name="sort_order" value="asc">
+      <input type="text" name="keywords" id="keywords" value="" placeholder="Search by film title, genre, director&hellip;" />
+      <button>
+        <span>Search</span>
+        <svg viewBox="0 0 20 20" class="icon search-icon"><use xlink:href="#search-icon"></use></svg>
+      </button>
+    {/exp:search:simple_form}
+    {/exp:template_morsels:escape}
+    <div class="logo-group">
+      <h1><a href="{path='site_index'}">ScreenPrism</a></h1>
+      <p class="tagline">{exp:low_variables:single var='low_site_tagline'}</p>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="inner">
+      <nav>
+        <ol class="site-nav">
+          <li class="insights"><a href="{path='insights'}">Insights</a></li>
+          <li class="film"><a href="{path='film'}">Film</a></li>
+          <li class="tv"><a href="{path='tv'}">TV</a></li>
+          <li class="ask"><a href="{path='ask'}">Ask</a></li>
+          <li class="about"><a href="{path='about'}">About</a></li>
+          <li class="subscribe"><a href="#mailing-list">Email Subscribe</a></li>
+        </ol>
+      </nav>
+      <div class="header-links">
+        <div class="mailing-list">
+          <a href="#mailing-list">Email Subscribe</a>
+          <div class="form-wrapper">
+            <form>
+              <h6>Join Our Mailing List</h6>
+              <input type="text" placeholder="Email Address">
+              <input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+        <ol class="social-links">
+          {exp:low_variables:pair var="low_facebook_link"}
+            {if low_facebook_link != ""}
+            <li>
+              <a href="{low_facebook_link}">
+                <svg viewBox="0 0 20 20" class="icon facebook-icon">
+                  <use xlink:href="#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+            {/if}
+          {/exp:low_variables:pair}
+          {exp:low_variables:pair var="low_twitter_link"}
+            {if low_twitter_link != ""}
+            <li>
+              <a href="{low_twitter_link}">
+                <svg viewBox="0 0 20 20" class="icon twitter-icon">
+                  <use xlink:href="#twitter-icon"></use>
+                </svg>
+              </a>
+            </li>
+            {/if}
+          {/exp:low_variables:pair}
+        </ol>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,19 @@
+{exp:template_morsels:fetch
+  name="head_landing"
+  meta_title="No Results | {site_name}"
+  meta_description="{exp:low_variables:single var='low_home_seodescription'}"
+  meta_url="{site_url}"
+  body_id="search"
+ }
+{exp:template_morsels:fetch name="header"}
+
+<section class="main">
+  <div class="inner">
+    <article class="no-results">
+      <h2>No Results for: <span>{exp:search:keywords}</span></h2>
+      {exp:low_variables:single var='low_message_noresults'}
+    </article>
+  </div>
+</section>
+
+{exp:template_morsels:fetch name="foot"}

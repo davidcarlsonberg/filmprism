@@ -1,0 +1,27 @@
+<section class="recent">
+  <div class="inner">
+    <h5 class="section-heading">Recent Articles</h5>
+    <ol class="article-list">
+    {exp:channel:entries channel="articles" limit="12" cache="yes" refresh="1440" disable="category_fields|member_data|pagination"}
+      <li class="{categories limit="1"}{category_url_title}{/categories}">
+        <a href="{url_title_path='insights/article'}">
+          {article_image}
+          <figure>
+            <img src="{url:720x270}" alt="{alt_text}" />
+          </figure>
+          {/article_image}
+          <div class="summary">
+            <h3>{title}</h3>
+            <p>{article_summary}</p>
+            <p class="meta">{categories}{category_name}{/categories} <span class="divider">|</span> <svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></p>
+            {article_related_media}
+            <h6>{title}</h6>
+            {/article_related_media}
+          </div>
+        </a>
+      </li>
+    {/exp:channel:entries}
+    </ol>
+    <a href="{path='insights'}" class="button load">See More</a>
+  </div>
+</section>
