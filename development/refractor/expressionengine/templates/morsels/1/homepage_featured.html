@@ -6,7 +6,6 @@
 
 <section class="popular">
   <div class="inner">
-    <h5 class="section-heading">Popular Articles</h5>
     {exp:low_variables:parse}
     {exp:channel:entries channel="articles" limit="5" fixed_order="{low_home_featured}" cache="yes" refresh="1440"}
     {if count == 1}

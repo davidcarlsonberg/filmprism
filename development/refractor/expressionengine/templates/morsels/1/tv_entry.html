@@ -22,7 +22,11 @@
       {/if}
       </figure>
       <ul>
-        <li><strong>Orig. Air Date:</strong> <time datetime="{entry_date format='%Y-%m-%d'}">{entry_date format="%F %j, %Y"}</time></li>
+        {if tv_original_date != ""}
+          <li><strong>Orig. Air Date:</strong> <time datetime="{tv_original_date format='%Y-%m-%d'}">{tv_original_date format="%F %j, %Y"}</time></li>
+        {if:else}
+          <li><strong>Orig. Air Date:</strong> <time datetime="{entry_date format='%Y-%m-%d'}">{entry_date format="%F %j, %Y"}</time></li>
+        {/if}
         {if tv_creator != ""}<li><strong>Created By:</strong> {tv_creator}</li>{/if}
         {if tv_cast != ""}<li><strong>Principal Cast:</strong> {tv_cast backspace="2"}<span>{item}</span>, {/tv_cast}</li>{/if}
         {if tv_producers != ""}<li><strong>Produced By:</strong> {tv_producers}</li>{/if}
@@ -59,7 +63,7 @@
             <a href="{rel:url_title_path='insights/article'}">
               <h3>Q: <span>{rel:title}?</span></h3>
               <p>{rel:article_summary}</p>
-              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{rel:url_title_path='insights/article'}">0</span></p>
             </a>
           </li>
         {if {rel:count} == {rel:total_results}}
@@ -85,7 +89,7 @@
             <a href="{rel:url_title_path='insights/article'}">
               <h5>{rel:title}</h5>
               <p>{rel:article_summary}</p>
-              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{rel:url_title_path='insights/article'}">0</span></p>
             </a>
           </li>
         {if {rel:count} == {rel:total_results}}

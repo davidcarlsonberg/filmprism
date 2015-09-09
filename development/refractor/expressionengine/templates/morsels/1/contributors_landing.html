@@ -1,0 +1,31 @@
+<section class="main contributors-list">
+  <div class="inner">
+    <header>
+      <h1>{exp:low_variables:single var='low_contributors_seotitle'}</h1>
+    </header>
+    <ol>
+      {exp:channel:entries
+        channel="contributors"
+        disable="categories|category_fields|member_data|pagination"
+        orderby="url_title"
+        sort="asc"
+      }
+      <li>
+        <a href="{url_title_path='contributors/page'}">
+      	  <figure>
+      	    {if contributor_photo != ""}
+            <img src="{contributor_photo:600}" alt="{title} Photo">
+      	    {if:else}
+            <img src="http://placehold.it/600x600.jpg" alt="{title}">
+            {/if}
+          </figure>
+          <div class="contributors-list__details">
+            <h3>{title}</h3>
+            <p>{contributor_position}</p>
+          </div>
+        </a>
+      </li>
+      {/exp:channel:entries}
+    </ol>
+  </div>
+</section>

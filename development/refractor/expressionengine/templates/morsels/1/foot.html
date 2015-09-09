@@ -3,13 +3,14 @@
     <div class="footer-links">
       <h1><a href="{site_url}">{site_name}</a></h1>
       <ol class="legal-links">
+        <li><a href="{path='contributors'}">Contributors</a></li>
         <li><a href="{path='terms-and-conditions'}">Terms &amp; Conditions</a></li>
         <li><a href="{path='privacy-policy'}">Privacy Policy</a></li>
       </ol>
       <ol class="social-links">
       {exp:low_variables:pair var="low_facebook_link"}
         {if low_facebook_link != ""}
-        <li>
+        <li class="facebook">
           <a href="{low_facebook_link}">
             <svg viewBox="0 0 20 20" class="icon facebook-icon">
               <use xlink:href="#facebook-icon"></use>
@@ -20,10 +21,43 @@
       {/exp:low_variables:pair}
       {exp:low_variables:pair var="low_twitter_link"}
         {if low_twitter_link != ""}
-        <li>
+        <li class="twitter">
           <a href="{low_twitter_link}">
             <svg viewBox="0 0 20 20" class="icon twitter-icon">
               <use xlink:href="#twitter-icon"></use>
+            </svg>
+          </a>
+        </li>
+        {/if}
+      {/exp:low_variables:pair}
+      {exp:low_variables:pair var="low_youtube_link"}
+        {if low_youtube_link != ""}
+        <li class="youtube">
+          <a href="{low_youtube_link}">
+            <svg viewBox="0 0 22 20" class="icon youtube-icon">
+              <use xlink:href="#youtube-icon"></use>
+            </svg>
+          </a>
+        </li>
+        {/if}
+      {/exp:low_variables:pair}
+      {exp:low_variables:pair var="low_tumblr_link"}
+        {if low_tumblr_link != ""}
+        <li class="tumblr">
+          <a href="{low_tumblr_link}">
+            <svg viewBox="0 0 20 20" class="icon tumblr-icon">
+              <use xlink:href="#tumblr-icon"></use>
+            </svg>
+          </a>
+        </li>
+        {/if}
+      {/exp:low_variables:pair}
+      {exp:low_variables:pair var="low_pinterest_link"}
+        {if low_pinterest_link != ""}
+        <li class="pinterest">
+          <a href="{low_pinterest_link}">
+            <svg viewBox="0 0 20 20" class="icon pinterest-icon">
+              <use xlink:href="#pinterest-icon"></use>
             </svg>
           </a>
         </li>

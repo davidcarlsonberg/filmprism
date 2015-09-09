@@ -1,0 +1,55 @@
+{exp:template_morsels:fetch
+  name="head_entry"
+  meta_url="{current_url}"
+  body_id="contributors"
+ }
+{exp:template_morsels:fetch name="header"}
+
+<!-- {exp:template_morsels:fetch name="simple_page" page="{current_url}"} -->
+
+<section class="main">
+  <div class="contributors__page">
+    {exp:channel:entries
+      channel="contributors"
+      limit="1"
+      cache="yes"
+      refresh="1440"
+    }
+    <article>
+      <header>
+        <figure>
+          {if contributor_photo != ""}
+          <img src="{path='assets/img/graphics/empty-600.png'}" alt="{title} Photo">
+          {if:else}
+          <img src="{path='assets/img/graphics/placeholder-image-600.png'}" alt="No Photo Available">
+          {/if}
+        </figure>
+        <h1>{title}</h1>
+        <p>{contributor_position}</p>
+      </header>
+	  {contributor_bio}
+    </article>
+    <div class="contributors__articles">
+      <h2>Articles</h2>
+      <ul>
+        {exp:playa:parents
+          channel="articles"
+          disable="category_fields|member_data|pagination"
+        }
+        <li class="{categories limit='1'}{category_url_title}{/categories}">
+          <a href="{url_title_path='insights/article'}">
+            <h5>{title}</h5>
+            <p class="meta">{categories}{category_name}{/categories} <span class="divider">|</span> <svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="{url_title_path='insights/article'}">0</span></p>
+            {article_related_media}
+              <h6>{title}</h6>
+            {/article_related_media}
+          </a>
+        </li>
+        {/exp:playa:parents}
+      </ul>
+    </div>
+	{/exp:channel:entries}
+  </div>
+</section>
+
+{exp:template_morsels:fetch name="foot"}
