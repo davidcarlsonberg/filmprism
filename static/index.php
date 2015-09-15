@@ -31,6 +31,68 @@
   </div>
 </section>
 
+<section class="new-releases">
+  
+  <div class="inner">
+
+      <div class="col col-1">
+
+        <h5 class="section-heading">New Cinema Releases</h5>        
+        <ul>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col col-2">
+
+        <h5 class="section-heading">New TV Releases</h5>        
+        <ul>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+        </ul>        
+      </div>
+
+  </div>
+
+</section>
+
 <section class="recent">
   <div class="inner">
     <h5 class="section-heading">Recent Articles</h5>

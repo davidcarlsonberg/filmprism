@@ -2283,3 +2283,72 @@ body {
     @media screen and (min-width: 45em) {
       .submit-form input[type="submit"] {
         width: 50%; } }
+/********************************************
+NEW CINEMA RELEASES STYLE
+*********************************************/
+
+.new-releases {
+  background: #fff url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  padding-bottom: 4em;
+}
+.new-releases ul {
+  margin: 0;
+  padding: 0;
+}
+.new-releases .col ul > li {
+  list-style: none;
+  float: left;
+  width: 23%;
+  margin: 0 2.6% 0 0;
+  padding: 0;
+}
+.new-releases .col ul > li:last-child {
+  margin-right: 0;
+}
+.new-releases .col {
+  width: 45%;
+}
+.new-releases .col-1 {
+  float: left;
+  margin-right: 10%;
+}
+.new-releases .col-2 {
+  float: right;
+}
+.new-releases figure {
+  /*width: 5.5em;*/
+}
+.new-releases figure img {
+  border-radius: .2em;
+}
+@media screen and (max-width: 1080px) {
+  .new-releases .col {
+    width: 49%;
+  }
+  .new-releases .col-1 {
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .new-releases .col {
+    height: 100%;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .new-releases .col {
+    float: none;
+    width: 100%;
+  }
+  .new-releases .col.col-1 {
+    margin-bottom: 4em;
+  }
+  .new-releases .col ul > li {
+    margin-right: 1.9%;
+    display: inline-block;
+    float: none;
+  }
+  .new-releases figure {
+    width: auto;
+  }
+}

@@ -3,9 +3,9 @@
 $active_group = 'expressionengine';
 $active_record = TRUE;
 
-$db['expressionengine']['hostname'] = 'localhost';
+$db['expressionengine']['hostname'] = '127.0.0.1';
 $db['expressionengine']['username'] = 'root';
-$db['expressionengine']['password'] = 'root';
+$db['expressionengine']['password'] = '';
 $db['expressionengine']['database'] = 'scr33npri5m8WqSLr';
 $db['expressionengine']['dbdriver'] = 'mysql';
 $db['expressionengine']['pconnect'] = FALSE;
@@ -16,7 +16,7 @@ $db['expressionengine']['cache_on'] = FALSE;
 $db['expressionengine']['autoinit'] = FALSE;
 $db['expressionengine']['char_set'] = 'utf8';
 $db['expressionengine']['dbcollat'] = 'utf8_general_ci';
-$db['expressionengine']['cachedir'] = '/Users/kentonquatman/Sites/filmprism.dev/development/refractor/expressionengine/cache/db_cache/';
+$db['expressionengine']['cachedir'] = '/Users/dberg2/Personal/filmprism/development/refractor/expressionengine/cache/db_cache/';
 
 /* End of file database.php */
 /* Location: ./system/expressionengine/config/database.php */
