@@ -2308,6 +2308,9 @@ NEW CINEMA RELEASES STYLE
 .new-releases .col {
   width: 45%;
 }
+.new-releases .col-top {
+  margin-bottom: 4em;
+}
 .new-releases .col-1 {
   float: left;
   margin-right: 10%;
@@ -2340,7 +2343,7 @@ NEW CINEMA RELEASES STYLE
     float: none;
     width: 100%;
   }
-  .new-releases .col.col-1 {
+  .new-releases .col {
     margin-bottom: 4em;
   }
   .new-releases .col ul > li {

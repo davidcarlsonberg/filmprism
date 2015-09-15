@@ -28,14 +28,17 @@
         include '_partials/features-card.php';
       ?>
     </ol>
-  </div>
+
+
+
+  </div> <!-- end .inner -->
 </section>
 
 <section class="new-releases">
   
   <div class="inner">
 
-      <div class="col col-1">
+      <div class="col col-1 col-top">
 
         <h5 class="section-heading">New Cinema Releases</h5>        
         <ul>
@@ -62,7 +65,7 @@
         </ul>
       </div>
 
-      <div class="col col-2">
+      <div class="col col-2 col-top">
 
         <h5 class="section-heading">New TV Releases</h5>        
         <ul>
@@ -88,6 +91,61 @@
           </li>
         </ul>        
       </div>
+
+
+      <div class="col col-1">
+
+        <h5 class="section-heading">New on NetFlix and Amazon</h5>        
+        <ul>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col col-2">
+
+        <h5 class="section-heading">Classics and Film Festival Darlings</h5>        
+        <ul>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/img/photos/grand-budapest-square.jpg" />
+            </figure>
+          </li>
+        </ul>        
+      </div>      
 
   </div>
 
