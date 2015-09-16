@@ -28,9 +28,6 @@
         include '_partials/features-card.php';
       ?>
     </ol>
-
-
-
   </div> <!-- end .inner -->
 </section>
 
@@ -42,26 +39,12 @@
 
         <h5 class="section-heading">New in Theaters</h5>        
         <ul>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
+          <?php
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+          ?>
         </ul>
       </div>
 
@@ -69,26 +52,12 @@
 
         <h5 class="section-heading">New on TV</h5>        
         <ul>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
+          <?php
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+          ?>
         </ul>        
       </div>
 
@@ -97,26 +66,12 @@
 
         <h5 class="section-heading">New on NetFlix, Amazon and DVD</h5>        
         <ul>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
+          <?php
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+          ?>
         </ul>
       </div>
 
@@ -124,26 +79,12 @@
 
         <h5 class="section-heading">Classics</h5>        
         <ul>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="assets/img/photos/grand-budapest-square.jpg" />
-            </figure>
-          </li>
+          <?php
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+            include '_partials/new-card.php';
+          ?>
         </ul>        
       </div>      
 

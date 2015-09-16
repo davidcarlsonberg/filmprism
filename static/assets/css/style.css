@@ -1286,13 +1286,13 @@ body {
 /**************************************************
  CARD STYLES
 **************************************************/
-.popular .article-list, .films-list ol, .media-article .related-films ul {
+.popular .article-list, .films-list ol, .media-article .related-films ul, .new-releases {
   list-style: none;
   margin: 0; }
-  .popular .article-list li, .films-list ol li, .media-article .related-films ul li {
+  .popular .article-list li, .films-list ol li, .media-article .related-films ul li, .new-releases li {
     font-size: 10px;
     font-size: 1rem; }
-    .popular .article-list li a, .films-list ol li a, .media-article .related-films ul li a {
+    .popular .article-list li a, .films-list ol li a, .media-article .related-films ul li a, .new-releases li a {
       -moz-border-radius: 0.3rem;
       -webkit-border-radius: 0.3rem;
       border-radius: 0.3rem;
@@ -1306,12 +1306,12 @@ body {
         color: #1f5466; }
       .popular .article-list li a:hover p, .films-list ol li a:hover p, .media-article .related-films ul li a:hover p, .popular .article-list li a:focus p, .films-list ol li a:focus p, .media-article .related-films ul li a:focus p {
         color: #1f5466; }
-      .popular .article-list li a:hover figure img, .films-list ol li a:hover figure img, .media-article .related-films ul li a:hover figure img, .popular .article-list li a:focus figure img, .films-list ol li a:focus figure img, .media-article .related-films ul li a:focus figure img {
+      .popular .article-list li a:hover figure img, .films-list ol li a:hover figure img, .media-article .related-films ul li a:hover figure img, .popular .article-list li a:focus figure img, .films-list ol li a:focus figure img, .media-article .related-films ul li a:focus figure img, .new-releases li a:hover {
         filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
         opacity: 0.75; }
       .popular .article-list li a:hover .summary, .films-list ol li a:hover .summary, .media-article .related-films ul li a:hover .summary, .popular .article-list li a:focus .summary, .films-list ol li a:focus .summary, .media-article .related-films ul li a:focus .summary {
         background-color: #f1fafb; }
-    .popular .article-list li figure, .films-list ol li figure, .media-article .related-films ul li figure {
+    .popular .article-list li figure, .films-list ol li figure, .media-article .related-films ul li figure, .new-releases li figure {
       background-color: #2d9099; }
     .popular .article-list li .details, .films-list ol li .details, .media-article .related-films ul li .details {
       padding: 1em 1.5em; }
@@ -2283,10 +2283,10 @@ body {
     @media screen and (min-width: 45em) {
       .submit-form input[type="submit"] {
         width: 50%; } }
-/********************************************
-NEW CINEMA RELEASES STYLE
-*********************************************/
 
+/********************************************
+NEW CINEMA RELEASES STYLES
+*********************************************/
 .new-releases {
   background: #fff url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
   padding-bottom: 4em;
@@ -2301,6 +2301,9 @@ NEW CINEMA RELEASES STYLE
   width: 23%;
   margin: 0 2.6% 0 0;
   padding: 0;
+}
+.new-releases .col ul > li:hover {
+  transition: all .2s;
 }
 .new-releases .col ul > li:last-child {
   margin-right: 0;
@@ -2317,12 +2320,6 @@ NEW CINEMA RELEASES STYLE
 }
 .new-releases .col-2 {
   float: right;
-}
-.new-releases figure {
-  /*width: 5.5em;*/
-}
-.new-releases figure img {
-  border-radius: .2em;
 }
 @media screen and (max-width: 1080px) {
   .new-releases .col {
