@@ -40,7 +40,7 @@
 
       <div class="col col-1 col-top">
 
-        <h5 class="section-heading">New Cinema Releases</h5>        
+        <h5 class="section-heading">New in Theaters</h5>        
         <ul>
           <li>
             <figure>
@@ -67,7 +67,7 @@
 
       <div class="col col-2 col-top">
 
-        <h5 class="section-heading">New TV Releases</h5>        
+        <h5 class="section-heading">New on TV</h5>        
         <ul>
           <li>
             <figure>
@@ -95,7 +95,7 @@
 
       <div class="col col-1">
 
-        <h5 class="section-heading">New on NetFlix and Amazon</h5>        
+        <h5 class="section-heading">New on NetFlix, Amazon and DVD</h5>        
         <ul>
           <li>
             <figure>
@@ -122,7 +122,7 @@
 
       <div class="col col-2">
 
-        <h5 class="section-heading">Classics and Film Festival Darlings</h5>        
+        <h5 class="section-heading">Classics</h5>        
         <ul>
           <li>
             <figure>
