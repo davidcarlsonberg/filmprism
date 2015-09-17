@@ -7,7 +7,6 @@
 
 <section class="popular">
   <div class="inner">
-    <h5 class="section-heading">Popular Articles</h5>
     <article class="featured">
       <a href="qanda.php">
         <figure>
