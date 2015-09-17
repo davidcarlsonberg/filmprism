@@ -773,7 +773,7 @@ button, input[type='submit'] {
 .site-header {
   position: relative;
   z-index: 10;
-  background-color: #3b3b4f; }
+  background-color: #2e2e2e; }
   @media screen and (min-width: 56.25em) {
     .site-header {
       position: absolute;
@@ -859,7 +859,7 @@ button, input[type='submit'] {
 
 .header-bottom {
   padding: 1em 5%;
-  background-color: #353547; }
+  background-color: #282828; }
   @media screen and (min-width: 45em) {
     .header-bottom {
       padding-top: .5em;
@@ -973,7 +973,7 @@ button, input[type='submit'] {
     width: 25%;
     margin: 0;
     border: none;
-    background-color: #2d9099;
+    background-color: #4d99bf;
     color: #fff;
     text-align: center; }
     @media screen and (min-width: 56.25em) {
@@ -1286,13 +1286,13 @@ body {
 /**************************************************
  CARD STYLES
 **************************************************/
-.popular .article-list, .films-list ol, .media-article .related-films ul, .new-releases {
+.popular .article-list, .films-list ol, .media-article .related-films ul {
   list-style: none;
   margin: 0; }
-  .popular .article-list li, .films-list ol li, .media-article .related-films ul li, .new-releases li {
+  .popular .article-list li, .films-list ol li, .media-article .related-films ul li {
     font-size: 10px;
     font-size: 1rem; }
-    .popular .article-list li a, .films-list ol li a, .media-article .related-films ul li a, .new-releases li a {
+    .popular .article-list li a, .films-list ol li a, .media-article .related-films ul li a {
       -moz-border-radius: 0.3rem;
       -webkit-border-radius: 0.3rem;
       border-radius: 0.3rem;
@@ -1306,12 +1306,12 @@ body {
         color: #1f5466; }
       .popular .article-list li a:hover p, .films-list ol li a:hover p, .media-article .related-films ul li a:hover p, .popular .article-list li a:focus p, .films-list ol li a:focus p, .media-article .related-films ul li a:focus p {
         color: #1f5466; }
-      .popular .article-list li a:hover figure img, .films-list ol li a:hover figure img, .media-article .related-films ul li a:hover figure img, .popular .article-list li a:focus figure img, .films-list ol li a:focus figure img, .media-article .related-films ul li a:focus figure img, .new-releases li a:hover {
+      .popular .article-list li a:hover figure img, .films-list ol li a:hover figure img, .media-article .related-films ul li a:hover figure img, .popular .article-list li a:focus figure img, .films-list ol li a:focus figure img, .media-article .related-films ul li a:focus figure img {
         filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
         opacity: 0.75; }
       .popular .article-list li a:hover .summary, .films-list ol li a:hover .summary, .media-article .related-films ul li a:hover .summary, .popular .article-list li a:focus .summary, .films-list ol li a:focus .summary, .media-article .related-films ul li a:focus .summary {
         background-color: #f1fafb; }
-    .popular .article-list li figure, .films-list ol li figure, .media-article .related-films ul li figure, .new-releases li figure {
+    .popular .article-list li figure, .films-list ol li figure, .media-article .related-films ul li figure {
       background-color: #2d9099; }
     .popular .article-list li .details, .films-list ol li .details, .media-article .related-films ul li .details {
       padding: 1em 1.5em; }
@@ -1405,7 +1405,7 @@ body {
  "POPULAR" SECTION STYLES
 **************************************************/
 .popular {
-  background: #fff url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  background: #225873;
   padding-bottom: 4em; }
   @media screen and (min-width: 56.25em) {
     .popular {
@@ -2288,7 +2288,7 @@ body {
 NEW CINEMA RELEASES STYLES
 *********************************************/
 .new-releases {
-  background: #fff url("../img/backgrounds/background-tile-01.png") 50% 0 repeat;
+  background: lightgrey;
   padding-bottom: 4em;
 }
 .new-releases ul {
@@ -2301,9 +2301,11 @@ NEW CINEMA RELEASES STYLES
   width: 23%;
   margin: 0 2.6% 0 0;
   padding: 0;
+  background: #2d9099;
 }
-.new-releases .col ul > li:hover {
-  transition: all .2s;
+.new-releases .col ul > li img:hover {
+  transition: all .2s ease;
+  opacity: .75;
 }
 .new-releases .col ul > li:last-child {
   margin-right: 0;
