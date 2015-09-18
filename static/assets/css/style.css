@@ -1402,14 +1402,37 @@ body {
   padding-top: 4em; }
 
 /**************************************************
+ "CALLOUT" SECTION STYLES
+**************************************************/
+
+.callout {
+  background: #163a4c;
+  text-align: center;
+  letter-spacing: .125em;
+  padding: 11.1em 0 .1em;
+}
+@media screen and (max-width: 900px) {
+  .callout {
+    padding-top: .1em;
+  }
+}
+  .callout p {
+    color: #4d99bf;
+    font-size: 2.1rem;
+    font-family: "Lato",Helmet,Freesans,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+/**************************************************
  "POPULAR" SECTION STYLES
 **************************************************/
 .popular {
   background: #225873;
   padding-bottom: 4em; }
-  @media screen and (min-width: 56.25em) {
+/*  @media screen and (min-width: 56.25em) {
     .popular {
-      padding-top: 15em; } }
+      padding-top: 15em; } }*/
   .popular .featured {
     -moz-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
     -webkit-box-shadow: 0px 0px 8px rgba(48, 48, 64, 0.25);
@@ -2288,8 +2311,11 @@ body {
 NEW CINEMA RELEASES STYLES
 *********************************************/
 .new-releases {
-  background: lightgrey;
+  background: #163a4c;
   padding-bottom: 4em;
+}
+.new-releases h5 {
+  color: #4d99bf;
 }
 .new-releases ul {
   margin: 0;
@@ -2301,10 +2327,11 @@ NEW CINEMA RELEASES STYLES
   width: 23%;
   margin: 0 2.6% 0 0;
   padding: 0;
+}
+.new-releases .col ul > li figure {
   background: #2d9099;
 }
 .new-releases .col ul > li img:hover {
-  transition: all .2s ease;
   opacity: .75;
 }
 .new-releases .col ul > li:last-child {
@@ -2349,8 +2376,5 @@ NEW CINEMA RELEASES STYLES
     margin-right: 1.9%;
     display: inline-block;
     float: none;
-  }
-  .new-releases figure {
-    width: auto;
   }
 }
