@@ -5,6 +5,10 @@
   include '_partials/header.php';
 ?>
 
+<section class="callout">
+  <p>where all of your film and tv related questions are explained</p>
+</section>
+
 <section class="popular">
   <div class="inner">
     <article class="featured">
