@@ -1,0 +1,241 @@
+a:3:{s:4:"time";i:1443885694;s:3:"ttl";i:0;s:4:"data";s:13449:"<header>
+      <h1>Citizenfour</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://localhost:8500/assets/img/covers/_350x520/citizenfour-poster.jpeg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-10-24">October 24, 2014</time></li>
+        <li><strong>Directed By:</strong> Laura Poitras</li>
+        <li><strong>Written By:</strong> -</li>
+        <li><strong>Starring:</strong> <span>Edward Snowden</span>, <span>Glenn Greenwald</span>, <span>William Binney</span>, <span>Jacob Appelbaum</span>, <span>Ewen MacAskill</span></li>
+        <li><strong>Produced By:</strong> Laura Poitras, Mathilde Bonnefoy, Dirk Wilutzky</li>
+        <li><strong>Distributed By:</strong> Radius-TWC</li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations</strong>
+          <ul class="details__awards-list">
+          
+            <li>2014 National Society of Film Critics Award for Best Non-Fiction Film</li>
+          
+            <li>2014 New York Film Critics Circle Award for Best Non-Fiction Film</li>
+          
+            <li>2014 Gotham Independent Film Award for Best Documentary</li>
+          
+            <li>Oscar Nominated Best Documentary Feature (2014)</li>
+          
+            <li>DGA Nomination for Outstanding Directorial Achievement in Documentary (2014)</li>
+          
+            <li>Cinema Eye Honor for Outstanding Achievement in Nonfiction Feature Filmmaking (2014)</li>
+          
+            <li>Cinema Eye Honor for Outstanding Achievement in Direction (2014)</li>
+          
+            <li>Cinema Eye Honor for Outstanding Achievement in Editing (2014)</li>
+          
+            <li>Cinema Eye Honor for Outstanding Achievement in Production (2014)</li>
+          
+          </ul>
+        </li>
+        
+        
+        
+        <li><strong>Budget:</strong> $2.5 million</li>
+        
+        <li><strong>Official Website:</strong> <a href="https://citizenfourfilm.com" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/GiU2zinfotI" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>In January 2013, filmmaker Laura Poitras was in the process of constructing a film about abuses of national security in post-9/11 America when she started receiving encrypted e-mails from someone identifying himself as &ldquo;citizen four,&rdquo; who was ready to blow the whistle on the massive covert surveillance programs run by the NSA and other intelligence agencies. In June 2013, she and reporter Glenn Greenwald flew to Hong Kong for the first of many meetings with the man who turned out to be Edward Snowden. She brought her camera with her.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="102" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000021fd9c7b00000001519762da --}{if {rel:total_results} >= 1}
+        {!-- ra:0000000021fd9c4f00000001519762da --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/citizenfour">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000021fd9c5700000001519762da --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="102" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000021fd9cbf00000001519762da --}{if {rel:total_results} >= 1}
+        {!-- ra:0000000021fd9cb300000001519762da --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/citizenfour">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000021fd9c9b00000001519762da --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.indiewire.com/awardsspotlight/laura-poitras-on-citizenfour-the-most-dangerous-work-shes-ever-done-20150126" target="_blank">
+              <h5>Laura Poitras on 'Citizenfour,' The Most Dangerous Work She's Ever Done</h5>
+              <p>Laura Poitras reveals the driving forces of "Citizenfour," her unprecedented look into the events surrounding Edward Snowden.</p>
+              <p><strong>Source:</strong> IndieWire</p>
+            </a>
+          </li><li>
+            <a href="http://www.theguardian.com/world/interactive/2013/jun/06/verizon-telephone-data-court-order" target="_blank">
+              <h5>Verizon forced to hand over telephone data</h5>
+              <p>The first publication of Edward Snowden's leaks revealed this top secret Foreign Intelligence Surveillance Court order.</p>
+              <p><strong>Source:</strong> Edward Snowden</p>
+            </a>
+          </li><li>
+            <a href="http://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order" target="_blank">
+              <h5>NSA collecting phone records of millions of Verizon customers daily</h5>
+              <p>The first publication of Edward Snowden's revelations about the NSA.</p>
+              <p><strong>Source:</strong> Glenn Greenwald, The Guardian</p>
+            </a>
+          </li><li>
+            <a href="http://www.vanityfair.com/vf-hollywood/2014/10/laura-poitras-citizen-four" target="_blank">
+              <h5>From inside the Snowden saga</h5>
+              <p>How Laura Poitras covertly shot her new film, "Citizenfour"</p>
+              <p><strong>Source:</strong> Vanity Fair</p>
+            </a>
+          </li><li>
+            <a href="http://www.filmcomment.com/article/citizenfour-laura-poitras-edward-snowden" target="_blank">
+              <h5>Secrets and lies</h5>
+              <p>Laura Poitras’ riveting encounter with NSA whistleblower Edward Snowden confirms our worst fears.</p>
+              <p><strong>Source:</strong> Nicolas Rapold, Film Comment</p>
+            </a>
+          </li><li>
+            <a href="http://www.filmcomment.com/entry/interview-laura-poitras" target="_blank">
+              <h5>Interview: Laura Poitras</h5>
+              <p>Laura Poitras’ film premiered at the New York Film Festival to extraordinary applause, reflecting not only the grip its subject matter exerts on the public but also the efficacy of the filmmaking.</p>
+              <p><strong>Source:</strong> Film Comment</p>
+            </a>
+          </li><li>
+            <a href="http://www.nytimes.com/2014/10/24/movies/citizenfour-a-documentary-about-edward-j-snowden.html" target="_blank">
+              <h5>Intent on defying an all-seeing eye</h5>
+              <p>Thinking about the issues Ms. Poitras raises can induce a kind of epistemological vertigo. What do we know about what is known about us? Who knows it? Can we trust them? These questions are terrifying, and so is “Citizenfour.”</p>
+              <p><strong>Source:</strong> A.O. Scott, The New York Times</p>
+            </a>
+          </li><li>
+            <a href="http://www.newyorker.com/magazine/2014/10/20/holder-secrets" target="_blank">
+              <h5>The holder of secrets</h5>
+              <p>Laura Poitras’ closeup view of Edward Snowden.</p>
+              <p><strong>Source:</strong> George Packer, The New Yorker</p>
+            </a>
+          </li><li>
+            <a href="http://www.bfi.org.uk/news-opinion/sight-sound-magazine/reviews-recommendations/film-week-citizenfour" target="_blank">
+              <h5>Portrait of the whistleblower</h5>
+              <p>Electrifyingly, the film shows us history in the making. Has such a political actor ever before gone direct to a filmmaker in the heat of the action?</p>
+              <p><strong>Source:</strong> Nick Bradshaw, Sight & Sound</p>
+            </a>
+          </li><li>
+            <a href="http://timestalks.com/laura-poitras-glenn-greenwald-edward-snowden.html" target="_blank">
+              <h5>TimesTalks: Laura Poitras, Glenn Greenwald and Edward Snowden</h5>
+              <p>In his last public appearance, New York Times media columnist David Carr moderates a live talk with the filmmakers and subject of "Citizenfour."</p>
+              <p><strong>Source:</strong> The New York Times</p>
+            </a>
+          </li><li>
+            <a href="http://www.nybooks.com/blogs/nyrblog/2014/oct/25/citizenfour-denouncing-surveillance/" target="_blank">
+              <h5>Denouncing surveillance, on camera</h5>
+              <p>In their extraordinary revelations about what the NSA and its secret programs have been doing, Edward Snowden’s leaks have shown the precariousness of privacy in the digital age. But Laura Poitras’ film also demonstrates, unwittingly, that we are part of the problem. We have chosen to broadcast our lives.</p>
+              <p><strong>Source:</strong> David Cole, The New York Review of Books</p>
+            </a>
+          </li><li>
+            <a href="http://www.nybooks.com/articles/archives/2014/dec/04/question-edward-snowden/" target="_blank">
+              <h5>The question of Edward Snowden</h5>
+              <p>The undeclared subject of "Citizenfour" is integrity—the insistence by an individual that his life and the principle he lives by should be all of a piece. Something resembling an aesthetic correlative of that integrity can be found in the documentary style of Laura Poitras.</p>
+              <p><strong>Source:</strong> David Bromwich, The New York Review of Books</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="Citizenfour">
+          {!-- ra:0000000021fd9f2100000001519762da --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:0000000021fd9f3500000001519762da --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:0000000021fd9f0900000001519762da --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:0000000021fd9f1d00000001519762da --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:0000000021fd9f7f00000001519762da --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

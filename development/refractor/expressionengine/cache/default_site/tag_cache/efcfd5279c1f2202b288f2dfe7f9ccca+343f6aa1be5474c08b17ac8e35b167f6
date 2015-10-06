@@ -1,0 +1,38 @@
+a:3:{s:4:"time";i:1443890477;s:3:"ttl";i:0;s:4:"data";s:4645:"<figure class="article-image">
+      <img src="http://localhost:8500/assets/img/article/_1080x400/o-INTERSTELLAR-TRAILER-facebook.jpg" alt="Hero Image">
+    </figure>
+    
+    <article class="q-and-a">
+      <header>
+        <h1>Why does the hype over &#8220;Interstellar&#8221; draw comparisons to &#8220;2001: A Space Odyssey&#8221;</h1>
+        {exp:playa:children entry_id="131" field_id="10"  var_prefix="playak0OBKEZ4"}
+        <h5>Related: <a href="{playak0OBKEZ4:path='{playak0OBKEZ4:channel_short_name}/page/{playak0OBKEZ4:url_title}'}">{playak0OBKEZ4:title}</a></h5>
+        {/exp:playa:children}
+        <p class="by-line">{exp:playa:children entry_id="131" field_id="11"  var_prefix="playaRG0tAYbS"}{/exp:playa:children} <span class="spacer">|</span> <time datetime="2015-01-31T2333">January 31, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/why-does-the-hype-draw-comparisons-to-2001-a-space-odyssey">0</span></a></p>
+      </header>
+      <div class="article-body">
+        <p>When <em>Interstellar</em>&nbsp;was released, the trade papers and some of the promotion&nbsp;compared the production of the film&nbsp;to Stanley Kubrick&#39;s&nbsp;<em>2001: A Space Odyssey</em>. Why?</p>
+
+<p>Christopher Nolan may be the only filmmaker in the world currently who can get a&nbsp;Hollywood studio to finance a personal, large scale feature for hundreds of millions of dollars. Stanley Kubrick had a similar luxury, though <em>2001</em> is possibly the only feature he made that would&rsquo;ve approached <em>Inception</em> and <em>Interstellar</em> in terms of cost. Just as <em>2001</em> was known for its groundbreaking photography and special effects, so too does&nbsp;<em>Interstellar. &nbsp;</em>Additionally,&nbsp;both films recruited physicists as consultants. NASA consulted on <em>2001</em>, and Kip Thorne, an acclaimed physicist,&nbsp;was heavily involved with <em>Interstellar</em>.</p>
+
+<p>Both films clearly exhibit&nbsp;great artistic ambition, but&nbsp;they are&nbsp;very different works. While&nbsp;both are&nbsp;science fiction films involving space travel, <em>2001</em> is far more experimental. &nbsp;Unlike&nbsp;<em>Interstellar</em>, much of&nbsp;<em>2001</em>&nbsp;is left unexplained, relying on extended, wordless visuals, particularly in the abstract imagery&nbsp;of the climactic section of the film,&nbsp;which Kubrick designed to be a complete visual experience. &nbsp;<em>Interstellar</em>&lsquo;s presents a much more conventional narrative&nbsp;approach with&nbsp;dense&nbsp;explanations for all&nbsp;of its plot points&nbsp;and a&nbsp;tone that is much more sentimental.</p>
+      </div>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8500/insights/article/why-does-the-hype-draw-comparisons-to-2001-a-space-odyssey"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status=http://localhost:8500/insights/article/why-does-the-hype-draw-comparisons-to-2001-a-space-odyssey"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url=http://localhost:8500/insights/article/why-does-the-hype-draw-comparisons-to-2001-a-space-odyssey&media=http://localhost:8500/assets/img/article/o-INTERSTELLAR-TRAILER-facebook.jpg&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body=http://localhost:8500/insights/article/why-does-the-hype-draw-comparisons-to-2001-a-space-odyssey"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>";}

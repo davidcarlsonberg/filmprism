@@ -1,0 +1,202 @@
+a:3:{s:4:"time";i:1443885679;s:3:"ttl";i:0;s:4:"data";s:10663:"<header>
+      <h1>The Theory of Everything</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://localhost:8500/assets/img/covers/_350x520/Theory_of_Everything_Poster.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-11-21">November 21, 2014</time></li>
+        <li><strong>Directed By:</strong> James Marsh</li>
+        <li><strong>Written By:</strong> Anthony McCarten</li>
+        <li><strong>Starring:</strong> <span>Eddie Redmayne</span>, <span>Felicity Jones</span>, <span>Charlie Cox</span>, <span>Emily Watson</span>, <span>Simon McBurney</span>, <span>David Thewlis</span></li>
+        <li><strong>Produced By:</strong> Tim Bevan, Eric Fellner, Lisa Bruce, Anthony McCarten</li>
+        <li><strong>Distributed By:</strong> Universal Pictures (UK), Focus Features (US)</li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations</strong>
+          <ul class="details__awards-list">
+          
+            <li>SAG Award for Outstanding Performance by a Male Actor in a Leading Role - Eddie Redmayne (2014)</li>
+          
+            <li>Golden Globe Best Performance by an Actor in a Motion Picture Drama - Eddie Redmayne (2014)</li>
+          
+            <li>Oscar Nominated Best Motion Picture of the Year (2014)</li>
+          
+            <li>Oscar Nominated Best Performance by an Actor in a Leading Role - Eddie Redmayne (2014)</li>
+          
+            <li>Oscar Nominated Best Performance by an Actress in a Leading Role - Felicity Jones (2014)</li>
+          
+            <li>Oscar Nominated Best Writing, Screenplay Based on Material Previously Produced or Published - Anthony McCarten (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Music Written for Motion Pictures, Original Score - Jóhann Jóhannsson (2014)</li>
+          
+          </ul>
+        </li>
+        
+        <li><strong>Rotten Tomatoes Score:</strong> 80%</li>
+        <li><strong>Metacritic Score:</strong> 72%</li>
+        <li><strong>Budget:</strong> $10.3 million</li>
+        <li><strong>Box Office Score:</strong> $15 million</li>
+        <li><strong>Official Website:</strong> <a href="http://www.focusfeatures.com/the_theory_of_everything" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/Salz7uGp72c" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Once a healthy, active young man, Stephen Hawking (Eddie Redmayne) received an earth-shattering diagnosis at 21 years of age. With his wife Jane (Felicity Jones) fighting tirelessly by his side, Stephen embarks on his most ambitious scientific work, studying the very thing he now has precious little of - time. Together, they defy impossible odds, breaking new ground in medicine and science, and achieving more than they could ever have dreamed.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="51" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:000000004a2aee27000000015c35bd1b --}{if {rel:total_results} >= 1}
+        {!-- ra:000000004a2aee13000000015c35bd1b --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/the-theory-of-everything">0</span></p>
+            </a>
+          </li>
+        {!-- ra:000000004a2aee0b000000015c35bd1b --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="51" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:000000004a2aeee3000000015c35bd1b --}{if {rel:total_results} >= 1}
+        {!-- ra:000000004a2aeeef000000015c35bd1b --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/the-theory-of-everything">0</span></p>
+            </a>
+          </li>
+        {!-- ra:000000004a2aeec7000000015c35bd1b --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.salon.com/2014/11/06/the_theory_of_everything_this_sepia_toned_oscar_bait_could_have_been_so_much_more_powerful/" target="_blank">
+              <h5>This sepia-toned Oscar bait could have been so much more powerful</h5>
+              <p>Eddie Redmayne and Felicity Jones are wonderful, but the Hawkings' highly unusual love story deserves better</p>
+              <p><strong>Source:</strong> Andrew O'Hehir, salon.com</p>
+            </a>
+          </li><li>
+            <a href="http://www.nytimes.com/2014/11/07/movies/in-the-theory-of-everything-stephen-hawkings-home-life.html" target="_blank">
+              <h5>Marriage is hard, physics is easy</h5>
+              <p>Like so many cinematic lives of the famous, it loses track of the source of its subject’s fame. </p>
+              <p><strong>Source:</strong> A.O. Scott, The New York Times</p>
+            </a>
+          </li><li>
+            <a href="http://thedissolve.com/reviews/1187-the-theory-of-everything/" target="_blank">
+              <h5>The Dissolve: "The Theory of Everything"</h5>
+              <p>"The Theory Of Everything" stumbles into virtually every pitfall that afflicts biopics about geniuses.</p>
+              <p><strong>Source:</strong> Scott Tobias, The Dissolve</p>
+            </a>
+          </li><li>
+            <a href="http://variety.com/2014/film/news/eddie-redmayne-theory-of-everything-stephen-hawking-1201340498/" target="_blank">
+              <h5>How Eddie Redmayne became Stephen Hawking</h5>
+              <p>Redmayne pulls off a challenging physical transformation in “The Theory of Everything.”</p>
+              <p><strong>Source:</strong> variety.com</p>
+            </a>
+          </li><li>
+            <a href="http://www.nytimes.com/2014/10/28/science/stephen-hawkings-movie-life-story-is-not-very-scientific.html
+" target="_blank">
+              <h5>The leaky science of Hollywood</h5>
+              <p>The movie life story of Stephen Hawking is not very scientific</p>
+              <p><strong>Source:</strong> Dennis Overbye, The New York Times</p>
+            </a>
+          </li><li>
+            <a href="http://www.theguardian.com/film/filmblog/2014/nov/14/theory-of-everything-movie-jane-steven-hawking-memoir" target="_blank">
+              <h5>"The Theory of Everything" does Jane Hawking a disservice</h5>
+              <p>The film, based on her memoir of her marriage to Stephen Hawking, diverges so much from its source it seems dishonest</p>
+              <p><strong>Source:</strong> Michelle Dean, The Guardian</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="The Theory of Everything">
+          {!-- ra:000000004a2aed7d000000015c35bd1b --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:000000004a2aed69000000015c35bd1b --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:000000004a2aed55000000015c35bd1b --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:000000004a2aed41000000015c35bd1b --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:000000004a2aed23000000015c35bd1b --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

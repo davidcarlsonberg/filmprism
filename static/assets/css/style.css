@@ -2331,8 +2331,13 @@ NEW CINEMA RELEASES STYLES
 .new-releases .col ul > li figure {
   background: #2d9099;
 }
+.new-releases .col ul > li img {
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
 .new-releases .col ul > li img:hover {
   opacity: .75;
+  transition: opacity 0.2s linear;
 }
 .new-releases .col ul > li:last-child {
   margin-right: 0;

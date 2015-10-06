@@ -15,7 +15,7 @@ $config['app_version'] = '292';
 $config['license_contact'] = 'kentonquatman@gmail.com';
 $config['license_number'] = '4071-8231-1332-8186';
 $config['debug'] = '1';
-$config['cp_url'] = 'http://screenprism.dev/helmer.php';
+$config['cp_url'] = 'localhost:8500/helmer.php';
 $config['doc_url'] = 'http://ellislab.com/expressionengine/user-guide/';
 $config['is_system_on'] = 'y';
 $config['allow_extensions'] = 'y';
@@ -23,7 +23,7 @@ $config['cookie_prefix'] = '';
 $config['cookie_httponly'] = 'y';
 
 $config['index_page'] = '';
-$config['base_url'] = 'http://screenprism.dev/';
+$config['base_url'] = 'localhost:8500/helmer.php';
 $config['tz_country'] = 'us';
 
 // END EE config items

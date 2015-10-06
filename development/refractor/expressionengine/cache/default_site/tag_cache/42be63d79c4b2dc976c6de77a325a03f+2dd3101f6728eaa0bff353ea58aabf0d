@@ -1,0 +1,61 @@
+a:3:{s:4:"time";i:1443815475;s:3:"ttl";i:0;s:4:"data";s:2125:"
+
+	    <?php $urlTitle = "how-did-physicist-kip-thorne-help-create-visual-images-of-black-holes-for-i"; ?>
+
+	      {exp:playa:children entry_id="204" field_id="10"  orderby="entry_date" var_prefix="playarHD6EFAX"}
+	      <li>
+	        <a href="{playarHD6EFAX:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playarHD6EFAX:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+<h6>{playarHD6EFAX:entry_date format="%Y/%m/%d"}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+	  
+
+	    <?php $urlTitle = "is-hallucinating-common-for-creative-artists-like-in-birdman"; ?>
+
+	      {exp:playa:children entry_id="201" field_id="10"  orderby="entry_date" var_prefix="playaRSQiE5rv"}
+	      <li>
+	        <a href="{playaRSQiE5rv:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playaRSQiE5rv:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+<h6>{playaRSQiE5rv:entry_date format="%Y/%m/%d"}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+	  
+
+	    <?php $urlTitle = "why-is-there-so-much-sexual-imagery-and-in-jokes"; ?>
+
+	      {exp:playa:children entry_id="200" field_id="10"  orderby="entry_date" var_prefix="playaoAJPH9Kp"}
+	      <li>
+	        <a href="{playaoAJPH9Kp:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playaoAJPH9Kp:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+<h6>{playaoAJPH9Kp:entry_date format="%Y/%m/%d"}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+	  
+
+	    <?php $urlTitle = "how-did-linklater-work-with-the-passing-of-time"; ?>
+
+	      {exp:playa:children entry_id="28" field_id="10"  orderby="entry_date" var_prefix="playanLOyaeXZ"}
+	      <li>
+	        <a href="{playanLOyaeXZ:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playanLOyaeXZ:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+<h6>{playanLOyaeXZ:entry_date format="%Y/%m/%d"}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+	  ";}

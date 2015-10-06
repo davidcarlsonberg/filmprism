@@ -1,0 +1,113 @@
+a:3:{s:4:"time";i:1443804075;s:3:"ttl";i:0;s:4:"data";s:3629:"
+
+<h6>Article</h6>
+<h6>15/03/04</h6>
+<a href="http://localhost:8500/insights/article/how-did-physicist-kip-thorne-help-create-visual-images-of-black-holes-for-i"><h6>How did physicist Kip Thorne help create visual images of black holes for &#8220;Interstellar&#8221;</h6></a>
+
+<?php echo how-did-physicist-kip-thorne-help-create-visual-images-of-black-holes-for-i; ?>
+
+<h6>Q & A</h6>
+
+{exp:playa:children entry_id="204" field_id="10"  var_prefix="playaJEgoN8IA"}
+  <h6>Film</h6>
+  <h6>{playaJEgoN8IA:entry_date format='%y/%m/%d'}</h6>
+  <h6>{playaJEgoN8IA:title}</h6>
+  <h6>{playaJEgoN8IA:url_title}</h6>
+
+<a href="{playaJEgoN8IA:site_url}insights/article/<?php echo $title; ?>">
+  <figure>
+            {playaJEgoN8IA:!-- ra:00000000169c7e3600000001255fced3 --}{playaJEgoN8IA:if media_cover != ''}
+              <img src="{playaJEgoN8IA:media_cover:url:270x400}" alt="Film Cover">
+            {/playaJEgoN8IA:if}
+  </figure>
+</a>
+
+{/exp:playa:children}
+
+<hr/>
+
+
+
+<h6>Article</h6>
+<h6>15/03/04</h6>
+<a href="http://localhost:8500/insights/article/is-hallucinating-common-for-creative-artists-like-in-birdman"><h6>Is hallucinating common for creative artists like in &#8220;Birdman&#8221;</h6></a>
+
+<?php echo is-hallucinating-common-for-creative-artists-like-in-birdman; ?>
+
+<h6>Q & A</h6>
+
+{exp:playa:children entry_id="201" field_id="10"  var_prefix="playawRoe5bCp"}
+  <h6>Film</h6>
+  <h6>{playawRoe5bCp:entry_date format='%y/%m/%d'}</h6>
+  <h6>{playawRoe5bCp:title}</h6>
+  <h6>{playawRoe5bCp:url_title}</h6>
+
+<a href="{playawRoe5bCp:site_url}insights/article/<?php echo $title; ?>">
+  <figure>
+            {playawRoe5bCp:!-- ra:00000000169c7e3600000001255fced3 --}{playawRoe5bCp:if media_cover != ''}
+              <img src="{playawRoe5bCp:media_cover:url:270x400}" alt="Film Cover">
+            {/playawRoe5bCp:if}
+  </figure>
+</a>
+
+{/exp:playa:children}
+
+<hr/>
+
+
+
+<h6>Article</h6>
+<h6>15/03/01</h6>
+<a href="http://localhost:8500/insights/article/why-is-there-so-much-sexual-imagery-and-in-jokes"><h6>Can you explain the sexual in-jokes and imagery of &#8220;Dr. Strangelove&#8221;</h6></a>
+
+<?php echo why-is-there-so-much-sexual-imagery-and-in-jokes; ?>
+
+<h6>Q & A</h6>
+
+{exp:playa:children entry_id="200" field_id="10"  var_prefix="playalnMQ51aq"}
+  <h6>Film</h6>
+  <h6>{playalnMQ51aq:entry_date format='%y/%m/%d'}</h6>
+  <h6>{playalnMQ51aq:title}</h6>
+  <h6>{playalnMQ51aq:url_title}</h6>
+
+<a href="{playalnMQ51aq:site_url}insights/article/<?php echo $title; ?>">
+  <figure>
+            {playalnMQ51aq:!-- ra:00000000169c7e3600000001255fced3 --}{playalnMQ51aq:if media_cover != ''}
+              <img src="{playalnMQ51aq:media_cover:url:270x400}" alt="Film Cover">
+            {/playalnMQ51aq:if}
+  </figure>
+</a>
+
+{/exp:playa:children}
+
+<hr/>
+
+
+
+<h6>Article</h6>
+<h6>15/02/12</h6>
+<a href="http://localhost:8500/insights/article/how-did-linklater-work-with-the-passing-of-time"><h6>How did Linklater work with the passing of time in &#8220;Boyhood&#8221;</h6></a>
+
+<?php echo how-did-linklater-work-with-the-passing-of-time; ?>
+
+<h6>Q & A</h6>
+
+{exp:playa:children entry_id="28" field_id="10"  var_prefix="playaotNM7bZj"}
+  <h6>Film</h6>
+  <h6>{playaotNM7bZj:entry_date format='%y/%m/%d'}</h6>
+  <h6>{playaotNM7bZj:title}</h6>
+  <h6>{playaotNM7bZj:url_title}</h6>
+
+<a href="{playaotNM7bZj:site_url}insights/article/<?php echo $title; ?>">
+  <figure>
+            {playaotNM7bZj:!-- ra:00000000169c7e3600000001255fced3 --}{playaotNM7bZj:if media_cover != ''}
+              <img src="{playaotNM7bZj:media_cover:url:270x400}" alt="Film Cover">
+            {/playaotNM7bZj:if}
+  </figure>
+</a>
+
+{/exp:playa:children}
+
+<hr/>
+
+";}

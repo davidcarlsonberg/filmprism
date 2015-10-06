@@ -1,0 +1,188 @@
+a:3:{s:4:"time";i:1443885687;s:3:"ttl";i:0;s:4:"data";s:9610:"<header>
+      <h1>Nightcrawler</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://localhost:8500/assets/img/covers/_350x520/5454e16ae86e9.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-10-31">October 31, 2014</time></li>
+        <li><strong>Directed By:</strong> Dan Gilroy</li>
+        <li><strong>Written By:</strong> Dan Gilroy</li>
+        <li><strong>Starring:</strong> <span>Jake Gyllenhaal</span>, <span>Rene Russo</span>, <span>Riz Ahmed</span>, <span>Bill Paxton</span></li>
+        <li><strong>Produced By:</strong> Jennifer Fox, Jake Gyllenhaal, Tony Gilroy, David Lancaster, Michel Litvak</li>
+        <li><strong>Distributed By:</strong> Open Road Films (US), Entertainment One (UK)</li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations</strong>
+          <ul class="details__awards-list">
+          
+            <li>AFI Award for Movie of the Year (2014)</li>
+          
+            <li>Golden Globe Best Performance by an Actor in a Motion Picture Drama - Jake Gyllenhaal (2014)</li>
+          
+            <li>Oscar Nominated Best Writing, Screenplay Written Directly for the Screen - Dan Gilroy (2014)</li>
+          
+          </ul>
+        </li>
+        
+        <li><strong>Rotten Tomatoes Score:</strong> 95%</li>
+        <li><strong>Metacritic Score:</strong> 76%</li>
+        <li><strong>Budget:</strong> $8.5 million</li>
+        <li><strong>Box Office Score:</strong> $35.1 million</li>
+        
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/uqWqG_vOzYw" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Lou Bloom (Jake Gyllenhaal), a driven and intense young man desperate for work, discovers the high-speed world of L.A. crime journalism. Finding a group of freelance camera crews who film crashes, fires, murder and other mayhem, Lou muscles into the cut-throat, dangerous realm of nightcrawling -- where each police siren wail equals a possible windfall and victims are converted into dollars and cents. Aided by Nina (Rene Russo), a veteran of the blood-sport that is local TV news, Lou blurs the line between observer and participant to become the star of his own story.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="96" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:000000007df1f61d000000010f9648af --}{if {rel:total_results} >= 1}
+        {!-- ra:000000007df1f629000000010f9648af --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/nightcrawler">0</span></p>
+            </a>
+          </li>
+        {!-- ra:000000007df1f631000000010f9648af --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="96" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:000000007df1f6d9000000010f9648af --}{if {rel:total_results} >= 1}
+        {!-- ra:000000007df1f6d5000000010f9648af --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/nightcrawler">0</span></p>
+            </a>
+          </li>
+        {!-- ra:000000007df1f6fd000000010f9648af --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.filmcomment.com/entry/film-of-the-week-nightcrawler" target="_blank">
+              <h5>Film of the week: "Nightcrawler"</h5>
+              <p>The film’s trump card is Jake Gyllenhaal who seems to have set his heart on being the weirdest on-screen presence in North American cinema.</p>
+              <p><strong>Source:</strong> Jonathan Romney, Film Comment</p>
+            </a>
+          </li><li>
+            <a href="http://www.nytimes.com/2014/10/31/movies/nightcrawler-stars-jake-gyllenhaal-as-an-obsessive.html" target="_blank">
+              <h5>The first responder is a cameraman</h5>
+              <p>"Nightcrawler" is a slick and shallow movie desperate, like Lou himself, to be something more.</p>
+              <p><strong>Source:</strong> A.O. Scott, The New York Times</p>
+            </a>
+          </li><li>
+            <a href="http://thedissolve.com/reviews/1181-nightcrawler/" target="_blank">
+              <h5>The Dissolve: "Nightcrawler"</h5>
+              <p>There’s a scolding tone to "Nightcrawler" that runs counter to its pulp energy, but much as Gilroy tries to be his own killjoy, Gyllenhaal’s wickedness prevails.
+</p>
+              <p><strong>Source:</strong> Scott Tobias, The Dissolve</p>
+            </a>
+          </li><li>
+            <a href="http://www.theguardian.com/film/2014/oct/30/jake-gyllenhaal-nightcrawler-interview" target="_blank">
+              <h5>‘I’m a bit strange, you know?’</h5>
+              <p>For his most radical reinvention to date, Gyllenhaal lost 30 pounds and all apparent morals to play a freelance cameraman who rubbernecks at road accidents.</p>
+              <p><strong>Source:</strong> The Guardian</p>
+            </a>
+          </li><li>
+            <a href="http://www.latimes.com/entertainment/movies/la-et-mn-nightcrawler-20141026-story.html#page=1" target="_blank">
+              <h5>'Nightcrawler' shows how the news worm has turned</h5>
+              <p>Veterans in the industry will say that, until the late 1970s, TV journalism was largely considered a public service rather than a for-profit venture.</p>
+              <p><strong>Source:</strong> The Los Angeles Times</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="Nightcrawler">
+          {!-- ra:000000007df1f547000000010f9648af --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:000000007df1f553000000010f9648af --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:000000007df1f56f000000010f9648af --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:000000007df1f57b000000010f9648af --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:000000007df1f519000000010f9648af --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

@@ -1,0 +1,156 @@
+a:3:{s:4:"time";i:1443885700;s:3:"ttl";i:0;s:4:"data";s:8624:"<header>
+      <h1>Snowpiercer</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://localhost:8500/assets/img/covers/_350x520/Snowpiercer_poster.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-07-29">July 29, 2014</time></li>
+        <li><strong>Directed By:</strong> Bong Joon-ho</li>
+        <li><strong>Written By:</strong> Bong Joon-ho and Kelly Masterson </li>
+        <li><strong>Starring:</strong> <span>Chris Evans</span>, <span>Son Kang-ho</span>, <span>Tilda Swinton</span>, <span>Jamie Bell</span>, <span>Octavia Spencer</span>, <span>Ewen Bremner</span>, <span>Go Ah-sung</span>, <span>John Hurt</span>, <span>Ed Harris</span></li>
+        <li><strong>Produced By:</strong> Park Chan-wook, Lee Tae-hun, Jeong Tae-sung, Steven Nam</li>
+        <li><strong>Distributed By:</strong> RADiUS-TWC (US), CJ Entertainment (South Korea)</li>
+        
+        <li><strong>Rotten Tomatoes Score:</strong> 95%</li>
+        <li><strong>Metacritic Score:</strong> 84%</li>
+        <li><strong>Budget:</strong> $40 million</li>
+        <li><strong>Box Office Score:</strong> $86.8 million</li>
+        <li><strong>Official Website:</strong> <a href="http://snowpiercer-film.com/" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="854" height="510" src="https://www.youtube.com/embed/nX5PwfEMBM0" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Set in a future where a failed climate-change experiment kills all life on the planet except for a lucky few who boarded the Snowpiercer, a train that travels around the globe, where a class system emerges. &nbsp;Led by Curtis (Chris Evans), a ragtag group of lower-class citizens living in squalor at the back of the train, fight their way up to the front of the train (where the upper-class lives) in order to&nbsp;redistribute the wealth to all of the citizens on the train. &nbsp;With each section of the train they enter, they confront new obstacles that they must battle through in order to reach the front.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="205" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:00000000174465c20000000115942b0e --}{if {rel:total_results} >= 1}
+        {!-- ra:00000000174465f60000000115942b0e --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/snowpiercer">0</span></p>
+            </a>
+          </li>
+        {!-- ra:00000000174465ee0000000115942b0e --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="205" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:00000000174465060000000115942b0e --}{if {rel:total_results} >= 1}
+        {!-- ra:000000001744650a0000000115942b0e --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/snowpiercer">0</span></p>
+            </a>
+          </li>
+        {!-- ra:00000000174465220000000115942b0e --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.vulture.com/2014/07/snowpiecer-movie-discussion.html" target="_blank">
+              <h5>Let's Talk About the Ending of 'Snowpiercer'</h5>
+              <p>After the Snowpiercer train makes its final crash landing (and BOOM goes the Kronole!), what happens to humanity? Does the film end with hope (as it seems to imply), or would the odds still be impossibly stacked against our final two survivors making it on their own for very long, what with that polar bear giving them the big eye?</p>
+              <p><strong>Source:</strong> Lindsey Weber, Vulture.com</p>
+            </a>
+          </li><li>
+            <a href="http://www.vulture.com/2014/06/director-bong-joon-ho-talks-snowpiercers-ending.html" target="_blank">
+              <h5>Director Bong Joon-ho Breaks Down 'Snowpiercer's Ending</h5>
+              <p>Snowpiercer, South Korean filmmaker Bong Joon-ho's liberal adaptation of the French comic book of the same name, looks at the survivors of a population-decimating crisis trapped in the title train by fierce sub-Arctic temperatures. Two of them, Curtis and Nam (Chris Evans and Song Kang-Ho) lead the impoverished tail section in revolt against the oppressive front cars' aristocracy. With the help of translator Dooho Choi, Vulture talked to Bong about class warfare and Snowpiercer's ending.</p>
+              <p><strong>Source:</strong> Simon Abrams, Vulture.com</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="Snowpiercer">
+          {!-- ra:00000000174466980000000115942b0e --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:000000001744668c0000000115942b0e --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:00000000174466b00000000115942b0e --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:00000000174466a40000000115942b0e --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:00000000174466c60000000115942b0e --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

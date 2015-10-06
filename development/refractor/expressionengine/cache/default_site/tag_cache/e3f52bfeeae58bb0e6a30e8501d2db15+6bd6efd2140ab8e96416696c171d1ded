@@ -1,0 +1,69 @@
+a:3:{s:4:"time";i:1443817569;s:3:"ttl";i:0;s:4:"data";s:2629:"
+
+	    <?php $urlTitle = "how-did-physicist-kip-thorne-help-create-visual-images-of-black-holes-for-i"; ?>
+
+	      {exp:playa:children entry_id="204" field_id="10"  var_prefix="playa6lOTpZ8G"}
+	      <li>
+	        <a href="{playa6lOTpZ8G:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playa6lOTpZ8G:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+                <h6>{playa6lOTpZ8G:entry_date format="%Y/%m/%d"}</h6>
+                <h6>Film Channel, inner loop: {playa6lOTpZ8G:channel_id}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  
+
+	    <?php $urlTitle = "is-hallucinating-common-for-creative-artists-like-in-birdman"; ?>
+
+	      {exp:playa:children entry_id="201" field_id="10"  var_prefix="playaJSbGRGvC"}
+	      <li>
+	        <a href="{playaJSbGRGvC:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playaJSbGRGvC:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+                <h6>{playaJSbGRGvC:entry_date format="%Y/%m/%d"}</h6>
+                <h6>Film Channel, inner loop: {playaJSbGRGvC:channel_id}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  
+
+	    <?php $urlTitle = "why-is-there-so-much-sexual-imagery-and-in-jokes"; ?>
+
+	      {exp:playa:children entry_id="200" field_id="10"  var_prefix="playaYmaHx6xA"}
+	      <li>
+	        <a href="{playaYmaHx6xA:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playaYmaHx6xA:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+                <h6>{playaYmaHx6xA:entry_date format="%Y/%m/%d"}</h6>
+                <h6>Film Channel, inner loop: {playaYmaHx6xA:channel_id}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  
+
+	    <?php $urlTitle = "how-did-linklater-work-with-the-passing-of-time"; ?>
+
+	      {exp:playa:children entry_id="28" field_id="10"  var_prefix="playaXN5gv57Y"}
+	      <li>
+	        <a href="{playaXN5gv57Y:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playaXN5gv57Y:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+                <h6>{playaXN5gv57Y:entry_date format="%Y/%m/%d"}</h6>
+                <h6>Film Channel, inner loop: {playaXN5gv57Y:channel_id}</h6>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  ";}

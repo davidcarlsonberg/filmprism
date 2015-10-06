@@ -1,0 +1,52 @@
+a:3:{s:4:"time";i:1443890174;s:3:"ttl";i:0;s:4:"data";s:5974:"<figure class="article-image">
+      <img src="http://localhost:8500/assets/img/article/_1080x400/Into-the-Woods-3.jpg" alt="Hero Image">
+    </figure>
+    
+    <article class="q-and-a">
+      <header>
+        <h1>Is it true that Disney watered down &#8220;Into the Woods&#8221;</h1>
+        {exp:playa:children entry_id="128" field_id="10"  var_prefix="playaq7zPkNzW"}
+        <h5>Related: <a href="{playaq7zPkNzW:path='{playaq7zPkNzW:channel_short_name}/page/{playaq7zPkNzW:url_title}'}">{playaq7zPkNzW:title}</a></h5>
+        {/exp:playa:children}
+        <p class="by-line">{exp:playa:children entry_id="128" field_id="11"  var_prefix="playagSOeJNEC"}{/exp:playa:children} <span class="spacer">|</span> <time datetime="2015-01-31T2330">January 31, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/is-it-true-that-disney-watered-down-the-musical">0</span></a></p>
+      </header>
+      <div class="article-body">
+        <p>The film has notable changes from the musical, some of which dealt with concerns of an adult nature, but others were made for different reasons. Many of these changes remain controversial.</p>
+
+<p>In Sondheim&rsquo;s original musical, the action is narrated by the Mysterious Man, who turns out to be the Baker&rsquo;s father, a key figure that casts a shadow over the entire story. In both the musical and film, the witch catches the Baker&rsquo;s father stealing from her garden. She punishes him by claiming his unborn daughter (who becomes Rapunzel) and curses his entire family. This sinks the Baker&rsquo;s father into deep depression, prompting him to leave home. But in the film, he only reappears briefly as a ghost, while the idea of the Mysterious Man is dropped altogether - the narration is retained, but it&rsquo;s been stripped of its resonance.</p>
+
+<p>As Alyssa Rosenberg of the Washington Post wrote, &ldquo;the Mysterious Man&rsquo;s narration of the action, and the subtle help he provides the baker and his wife along the way, is meant to be penance for the hole he left in his son&rsquo;s life...In the tremendous song &lsquo;No More,&rsquo; the Mysterious Man pays off as much of his debt to his son as he can by convincing the Baker not abandon his own son. &lsquo;Trouble is, son, the farther you run, / The more you&rsquo;ll feel undefined. / For what you have left undone, and more, / What you&rsquo;ve left behind,&rsquo; the Mysterious Man tells the Baker, warning him that running away and giving himself up to the grief he feels over his wife&rsquo;s betrayal and death will only produce more regrets...&lsquo;No More&rsquo; ends with the Baker&rsquo;s lament that the happy ending he was promised seems awfully distant. But his belief that the happy ending exists at all is the very notion that <em>Into the Woods</em> is designed to disabuse us of. It&rsquo;s not just that the giants, wolves, witches and princes keep coming. It&rsquo;s that once the conditions for your happy ending arrive, you have to keep working. And no matter how much effort you make, sometimes your happy ending gets smashed by the careless placement of a giantess&rsquo; foot or ruined through your own reckless action. The Mysterious Man, who&rsquo;s lived with this knowledge for longer than any of the other characters in the show, is the real hero of <em>Into the Woods</em>.&rdquo;</p>
+
+<p>Other changes:</p>
+
+<p>The sexual undertones between the Wolf and Little Red Riding Hood were toned down due to Disney&rsquo;s concerns of pedophilia.</p>
+
+<p>The film removes a subplot where the two princes have affairs with Snow White and Sleeping Beauty.</p>
+
+<p>Jack&#39;s mother&rsquo;s death is far less violent.</p>
+
+<p>Cinderella&#39;s father was cut, as it&rsquo;s explained that he&rsquo;s already dead.</p>
+
+<p>Rapunzel no longer dies. According to director Rob Marhsall, "Rapunzel&#39;s end is still pretty dark, it&#39;s just a different kind of dark, and it&#39;s just as harrowing, and just as sad."</p>
+
+<p>&ldquo;Ever After&rdquo; is now an instrumental.</p>
+      </div>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8500/insights/article/is-it-true-that-disney-watered-down-the-musical"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status=http://localhost:8500/insights/article/is-it-true-that-disney-watered-down-the-musical"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url=http://localhost:8500/insights/article/is-it-true-that-disney-watered-down-the-musical&media=http://localhost:8500/assets/img/article/Into-the-Woods-3.jpg&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body=http://localhost:8500/insights/article/is-it-true-that-disney-watered-down-the-musical"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>";}

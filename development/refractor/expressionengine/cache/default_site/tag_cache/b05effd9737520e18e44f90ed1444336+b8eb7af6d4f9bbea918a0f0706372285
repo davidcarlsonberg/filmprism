@@ -1,0 +1,211 @@
+a:3:{s:4:"time";i:1443885683;s:3:"ttl";i:0;s:4:"data";s:12302:"<header>
+      <h1>American Sniper</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://localhost:8500/assets/img/covers/_350x520/American-Sniper-Movie-Poster.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-11-11">November 11, 2014</time></li>
+        <li><strong>Directed By:</strong> Clint Eastwood</li>
+        <li><strong>Written By:</strong> Chris Kyle (Story by) and Jason Hall (Screenplay)</li>
+        <li><strong>Starring:</strong> <span>Bradley Cooper</span>, <span>Sienna Miller</span>, <span>Luke Grimes</span>, <span>Jake McDorman</span>, <span>Kyle Gallner</span>, <span>Cory Hardict</span>, <span>Sam Jaeger</span>, <span>Max Charles</span></li>
+        <li><strong>Produced By:</strong> Clint Eastwood, Robert Lorenz, Andrew Lazar, Bradley Cooper, Peter Morgan, based on the autobiography by Chris Kyle, Scott McEwen and Jim DeFelice</li>
+        <li><strong>Distributed By:</strong> Warner Bros. Pictures</li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations</strong>
+          <ul class="details__awards-list">
+          
+            <li>BFCA Critics' Choice Award for Best Actor in an Action Movie - Bradley Cooper (2015)</li>
+          
+            <li>AFI Movies of the Year (2014)</li>
+          
+            <li>National Board of Review: Top Ten Films (2015)</li>
+          
+            <li>Denver Film Critics Society Awards for Best Actor - Bradley Cooper (2014)</li>
+          
+            <li>Denver Film Critics Society Awards for Best Picture (2014)</li>
+          
+            <li>Iowa Film Critics Award for Best Movie Yet to Open in Iowa (2014)</li>
+          
+            <li>Oscar Nominated Best Motion Picture of the Year (2014)</li>
+          
+            <li>Oscar Nominated Best Performance by an Actor in a Leading Role - Bradley Cooper (2014)</li>
+          
+            <li>Oscar Nominated Best Writing, Screenplay Based on Material Previously Produced or Published - Jason Hall (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Film Editing (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Sound Mixing (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Sound Editing (2014)</li>
+          
+          </ul>
+        </li>
+        
+        <li><strong>Rotten Tomatoes Score:</strong> 72%</li>
+        <li><strong>Metacritic Score:</strong> 72%</li>
+        <li><strong>Budget:</strong> $60 million</li>
+        <li><strong>Box Office Score:</strong> $321.6 million</li>
+        <li><strong>Official Website:</strong> <a href="http://www.americansnipermovie.com" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/99k3u9ay1gs" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>U.S. Navy SEAL Chris Kyle is sent to Iraq with only one mission: to protect his brothers-in-arms. His pinpoint accuracy saves countless lives on the battlefield and, as stories of his courageous exploits spread, he earns the nickname &ldquo;Legend.&rdquo; However, his reputation is also growing behind enemy lines, putting a price on his head and making him a prime target of insurgents. He is also facing a different kind of battle on the home front: striving to be a good husband and father from halfway around the world. Despite the danger, as well as the toll on his family at home, Chris serves through four harrowing tours of duty in Iraq, personifying the SEAL creed to &ldquo;leave no man behind.&rdquo; But upon returning to his wife, Taya Renae Kyle (Sienna Miller), and kids, Chris finds that it is the war he can&#39;t leave behind.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="62" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000076817679000000010623736d --}{if {rel:total_results} >= 1}
+        {!-- ra:000000007681764d000000010623736d --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/american-sniper">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000076817655000000010623736d --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="62" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:00000000768176bd000000010623736d --}{if {rel:total_results} >= 1}
+        {!-- ra:00000000768176b1000000010623736d --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/american-sniper">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000076817699000000010623736d --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.rogerebert.com/reviews/american-sniper-2014" target="_blank">
+              <h5>RogerEbert.com: "American Sniper"</h5>
+              <p>One of the more tough-minded and effective war pictures of post-American-Century American cinema.</p>
+              <p><strong>Source:</strong> Glenn Kenny, rogerebert.com</p>
+            </a>
+          </li><li>
+            <a href="https://thedissolve.com/features/exposition/898-when-film-critics-matter-the-american-sniper-contr/" target="_blank">
+              <h5>The "American Sniper" controversy proves film critics matter</h5>
+              <p>It’s been heartening to follow the quieter, more rigorous conversation about this film among those whose job it is to treat it as a FILM, not a political talking point.</p>
+              <p><strong>Source:</strong> Keith Phipps, thedissolve.com</p>
+            </a>
+          </li><li>
+            <a href="http://www.avclub.com/article/american-sniper-movie-politics-and-snipe-hunt-accu-214062" target="_blank">
+              <h5>"American Sniper," movie politics, and the snipe hunt for accuracy</h5>
+              <p>True, the movie is bogus and made-up and inauthentic, but it’s only misleading if one presumes that the sole purpose of "American Sniper" is to lead the viewer to Chris Kyle.</p>
+              <p><strong>Source:</strong> Ignatiy Vishnevetsky, The A.V. Club</p>
+            </a>
+          </li><li>
+            <a href="http://variety.com/2015/film/columns/clint-eastwoods-walking-wounded-from-dirty-harry-to-american-sniper-1201392603/" target="_blank">
+              <h5>Clint Eastwood’s Walking Wounded: From ‘Dirty Harry’ to ‘American Sniper’</h5>
+              <p>Chris Kyle saw the world in clearly demarcated terms of good and evil, but Eastwood (and his screenwriter, Jason Hall) sees only shades of gray.</p>
+              <p><strong>Source:</strong> Scott Foundas, Variety</p>
+            </a>
+          </li><li>
+            <a href="http://www.nybooks.com/blogs/nyrblog/2015/feb/13/great-american-shooter/" target="_blank">
+              <h5>The great American shooter</h5>
+              <p>For all its patriotic rhetoric, "American Sniper" is not a moral lesson but a tragedy. The causal link Eastwood establishes between the trauma of September 11 and the catastrophe of Iraq is less the dramatization of history than an illustration of historical paralysis—elaborating the implications of an endless, unwinnable war. </p>
+              <p><strong>Source:</strong> J. Hoberman, The New York Review of Books</p>
+            </a>
+          </li><li>
+            <a href="http://www.salon.com/2015/02/19/american_sniper_is_not_a_war_movie_its_a_classic_revisionist_western_and_one_of_eastwoods_finest/" target="_blank">
+              <h5>It’s a classic revisionist western, and one of Eastwood’s finest</h5>
+              <p>“American Sniper’s” harshest critics have neglected the nuances of its plot and camera work in order to discredit the film’s humanization of Kyle. They have largely done so by focusing on the divergence between the Kyle of the film and the Kyle of the ghostwritten memoir. That these critiques treat a carefully engineered Harper Collins bestseller as an authentic account of its putative author’s inner life is rather remarkable.  </p>
+              <p><strong>Source:</strong> Alex Trimble Young, salon.com</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="American Sniper">
+          {!-- ra:0000000076817523000000010623736d --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:0000000076817537000000010623736d --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:000000007681750b000000010623736d --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:000000007681751f000000010623736d --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:000000007681757d000000010623736d --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

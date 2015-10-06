@@ -1,0 +1,36 @@
+a:3:{s:4:"time";i:1443890475;s:3:"ttl";i:0;s:4:"data";s:4156:"<figure class="article-image">
+      <img src="http://localhost:8500/assets/img/article/_1080x400/5d_kipthorne4_f.jpg" alt="Hero Image">
+    </figure>
+    
+    <article class="q-and-a">
+      <header>
+        <h1>How were physicists &amp; scientists involved in the making of &#8220;Interstellar&#8221;</h1>
+        {exp:playa:children entry_id="132" field_id="10"  var_prefix="playa8rFkPneF"}
+        <h5>Related: <a href="{playa8rFkPneF:path='{playa8rFkPneF:channel_short_name}/page/{playa8rFkPneF:url_title}'}">{playa8rFkPneF:title}</a></h5>
+        {/exp:playa:children}
+        <p class="by-line">{exp:playa:children entry_id="132" field_id="11"  var_prefix="playaMmw9vCYK"}{/exp:playa:children} <span class="spacer">|</span> <time datetime="2015-01-31T2335">January 31, 2015</time> <span class="spacer">|</span> <a href="#discussion"><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/what-did-physicists-actually-do-for-the-film">0</span></a></p>
+      </header>
+      <div class="article-body">
+        <p>Much of <em>Interstellar&nbsp;</em>is&nbsp;based on the work of Kip Thorne, a renowned physicist and one of the world&#39;s leading experts on the astrophysical implications of Einstein&#39;s general theory of relativity. He and film producer Lynda Obst came up with the idea of a film about &ldquo;the most exotic events in the universe suddenly becoming accessible to humans." Thorne co-wrote a treatment that Steven Spielberg was to direct for Paramount Pictures. Eventually Christopher Nolan and his brother Jonathan scooped up the project. &nbsp;Thorne served as a consultant on the film.&nbsp; He&nbsp;tried to bring&nbsp;a measure of accuracy to what&rsquo;s otherwise a fiction film that draws heavily on scientific theory. For example, Thorne said he worked extensively on the film&rsquo;s depiction of wormholes and the black hole. &ldquo;[Nolan and I would discuss] how to go about it, and then I worked out the equations that would enable tracing of light rays as they traveled through a wormhole or around a black hole&mdash;so what you see is based on Einstein&#39;s general relativity equations."</p>
+
+<div><iframe allowfullscreen="" frameborder="0" height="390" src="https://www.youtube.com/embed/z9tUFJG0lWA" width="640"></iframe></div>
+      </div>
+      <footer>
+        <ul class="tags">
+        {exp:tag:tags case="title" websafe_separator="-"}
+          <li><a href="{path='insights/tag'}/{websafe_tag}">{tag}</a></li>
+        {/exp:tag:tags}
+        </ul>
+      </footer>
+    </article>
+    <aside>
+      <div class="aside-content">
+        <div class="share-links">
+          <h4>Share this article</h4>
+          <ul>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:8500/insights/article/what-did-physicists-actually-do-for-the-film"><svg viewBox="0 0 20 20" class="icon facebook-icon"><use xlink:href="#facebook-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://twitter.com/home?status=http://localhost:8500/insights/article/what-did-physicists-actually-do-for-the-film"><svg viewBox="0 0 20 20" class="icon twitter-icon"><use xlink:href="#twitter-icon"></use></svg></a></li>
+            <li><a onclick="window.open(this.href,'_blank','height=520,width=570');return false;" href="https://pinterest.com/pin/create/button/?url=http://localhost:8500/insights/article/what-did-physicists-actually-do-for-the-film&media=http://localhost:8500/assets/img/article/5d_kipthorne4_f.jpg&description=From%20ScreenPrism"><svg viewBox="0 0 20 20" class="icon pinterest-icon"><use xlink:href="#pinterest-icon"></use></svg></a></li>
+            <li><a href="mailto:?&body=http://localhost:8500/insights/article/what-did-physicists-actually-do-for-the-film"><svg viewBox="0 0 20 20" class="icon email-icon"><use xlink:href="#email-icon"></use></svg></a></li>
+          </ul>
+        </div>";}

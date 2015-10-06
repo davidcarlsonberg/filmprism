@@ -1,0 +1,102 @@
+<?php $filmArray = array(); ?>
+
+<section class="new-releases">
+  
+  <div class="inner">
+
+      <div class="col col-1 col-top">
+
+        <h5 class="section-heading">New in Theaters</h5>
+
+        <ul>
+
+	  {exp:channel:entries
+	    channel="articles" 
+            orderby="entry_date"
+	    limit="4" 
+	    cache="yes" 
+	    refresh="1440" }
+
+	    <?php $urlTitle = "{url_title}"; ?>
+
+	      {article_related_media}
+	      <li>
+	        <a href="{site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+	      </li>
+	      {/article_related_media}
+
+	  {/exp:channel:entries}
+
+        </ul>
+
+      </div>
+
+      <div class="col col-2 col-top">
+
+        <h5 class="section-heading">New on TV</h5>
+
+          {exp:channel:entries 
+           channel="articles" 
+           orderby="entry_date" 
+           limit="4"}
+
+                  <?php
+                    $filmObject = new stdClass();
+                    $filmObject->urlTitle = "{url_title}"; 
+                  ?>
+
+                      {exp:playa:children
+                       channel="film"}
+
+                          <?php 
+                            $filmObject->mediaCover = "{media_cover:url:270x400}";
+                            $filmObject->releaseDate = "{entry_date}";
+                            array_push($filmArray, $filmObject);
+                          ?>                      
+
+                      {/exp:playa:children}
+            {/exp:channel:entries}
+
+        <ul>
+
+<?php 
+  function filmSort( $a, $b) {
+    return $a->releaseDate == $b->releaseDate ? 0 : ( $a->releaseDate < $b->releaseDate ) ? 1 : -1;
+  }
+
+  usort( $filmArray, 'filmSort' );
+
+for ($x = 0; $x < 4; $x++) {
+  echo "<li><a href='http://localhost:8500/insights/article/{$filmArray[$x]->urlTitle}'><figure><img src='{$filmArray[$x]->mediaCover}' alt='Film Cover'/></figure></a></li>";
+}
+
+?>
+        </ul>        
+      </div>
+
+
+      <div class="col col-1">
+
+        <h5 class="section-heading">New Streaming and on DVD</h5>        
+        <ul>
+
+        </ul>
+      </div>
+
+      <div class="col col-2">
+
+        <h5 class="section-heading">Classics</h5>        
+        <ul>
+
+UNITS HERE
+
+        </ul>        
+      </div>      
+
+  </div>
+
+</section>

@@ -1,0 +1,61 @@
+a:3:{s:4:"time";i:1443883380;s:3:"ttl";i:0;s:4:"data";s:2037:"
+
+	    <?php $urlTitle = "how-did-physicist-kip-thorne-help-create-visual-images-of-black-holes-for-i"; ?>
+
+	      {exp:playa:children entry_id="204" field_id="10"  var_prefix="playa5Ryg8twC"}
+	      <li>
+	        <a href="{playa5Ryg8twC:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playa5Ryg8twC:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  
+
+	    <?php $urlTitle = "is-hallucinating-common-for-creative-artists-like-in-birdman"; ?>
+
+	      {exp:playa:children entry_id="201" field_id="10"  var_prefix="playaaKP4Nz7b"}
+	      <li>
+	        <a href="{playaaKP4Nz7b:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playaaKP4Nz7b:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  
+
+	    <?php $urlTitle = "why-is-there-so-much-sexual-imagery-and-in-jokes"; ?>
+
+	      {exp:playa:children entry_id="200" field_id="10"  var_prefix="playakJHqRD3h"}
+	      <li>
+	        <a href="{playakJHqRD3h:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playakJHqRD3h:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  
+
+	    <?php $urlTitle = "how-did-linklater-work-with-the-passing-of-time"; ?>
+
+	      {exp:playa:children entry_id="28" field_id="10"  var_prefix="playaV7Orucnb"}
+	      <li>
+	        <a href="{playaV7Orucnb:site_url}insights/article/<?php echo $urlTitle; ?>">
+	          <figure>
+	            <img src="{playaV7Orucnb:media_cover:url:270x400}" alt="Film Cover">
+	          </figure>
+	        </a>
+	      </li>
+	      {/exp:playa:children}
+
+            <h6>Articles Channel, outer loop: 3</h6>
+	  ";}

@@ -1,0 +1,201 @@
+a:3:{s:4:"time";i:1443885698;s:3:"ttl";i:0;s:4:"data";s:10588:"<header>
+      <h1>Gone Girl</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://localhost:8500/assets/img/covers/_350x520/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX640_SY720_.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-10-03">October 3, 2014</time></li>
+        <li><strong>Directed By:</strong> David Fincher</li>
+        <li><strong>Written By:</strong> Gillian Flynn, based on the novel by Gillian Flynn</li>
+        <li><strong>Starring:</strong> <span>Ben Affleck</span>, <span>Rosamund Pike</span>, <span>Neil Patrick Harris</span>, <span>Tyler Perry</span>, <span>Carrie Coon</span>, <span>Kim Dickens</span></li>
+        <li><strong>Produced By:</strong> Leslie Dixon, Bruna Papandrea, Reese Witherspoon, Ceánn Chaffin</li>
+        <li><strong>Distributed By:</strong> 20th Century Fox</li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations</strong>
+          <ul class="details__awards-list">
+          
+            <li>Oscar Nominated Best Performance by an Actress in a Leading Role - Rosamund Pike (2014)</li>
+          
+            <li>Golden Globe Nomination for Best Performance by an Actress in a Motion Picture Drama - Rosamund Pike (2014)</li>
+          
+            <li>Golden Globe Nomination for Best Director - David Fincher (2014)</li>
+          
+            <li>Golden Globe Nomination for Best Screenplay - Gillian Flynn (2014)</li>
+          
+            <li>Golden Globe Nomination for Best Original Score - Trent Reznor and Atticus Ross (2014)</li>
+          
+          </ul>
+        </li>
+        
+        <li><strong>Rotten Tomatoes Score:</strong> 88%</li>
+        <li><strong>Metacritic Score:</strong> 79%</li>
+        <li><strong>Budget:</strong> $61 million</li>
+        <li><strong>Box Office Score:</strong> $334.7 million</li>
+        <li><strong>Official Website:</strong> <a href="http://www.gonegirlmovie.com" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/2-_-1nJf8Vg" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>On the occasion of his fifth wedding anniversary, Nick Dunne (Ben Affleck) reports that his beautiful wife, Amy (Rosamund Pike), has gone missing. Under pressure from the police and a growing media frenzy, Nick&#39;s portrait of a blissful union begins to crumble. Soon his lies, deceits and strange behavior have everyone asking the same dark question: Did Nick Dunne kill his wife?</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="114" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000045116bca000000014ce44e29 --}{if {rel:total_results} >= 1}
+        {!-- ra:0000000045116bfe000000014ce44e29 --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/gone-girl">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000045116be6000000014ce44e29 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="114" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:0000000045116b0e000000014ce44e29 --}{if {rel:total_results} >= 1}
+        {!-- ra:0000000045116b02000000014ce44e29 --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/gone-girl">0</span></p>
+            </a>
+          </li>
+        {!-- ra:0000000045116b2a000000014ce44e29 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.filmcomment.com/entry/interview-david-fincher
+" target="_blank">
+              <h5>Film Comment: Interview with David Fincher</h5>
+              <p>"I don’t think Gillian [Flynn] is a misogynist. She’s taking everybody to task in a very subtle way."</p>
+              <p><strong>Source:</strong> Film Comment</p>
+            </a>
+          </li><li>
+            <a href="http://www.theguardian.com/books/2014/oct/03/gone-girl-phenomenon-gillian-flynn
+" target="_blank">
+              <h5>The Gone Girl phenomenon: Gillian Flynn speaks out</h5>
+              <p>Flynn talks about her leap to fame, writing the screenplay of the new film, and why no one should read her dark books expecting to find a likable character</p>
+              <p><strong>Source:</strong> The Guardian</p>
+            </a>
+          </li><li>
+            <a href="http://www.filmcomment.com/entry/bombast-gone-finching
+" target="_blank">
+              <h5>Bombast: Gone Finching</h5>
+              <p>For all of Fincher’s marvelous control, I can’t look past the accumulation of Nineties tropes that riddle his filmography, a particular form of PTSD that comes with having gone through adolescence in that era.</p>
+              <p><strong>Source:</strong> Nick Pinkerton, Film Comment</p>
+            </a>
+          </li><li>
+            <a href="http://www.newyorker.com/culture/richard-brody/david-finchers-portrait-marriage" target="_blank">
+              <h5>David Fincher's portrait of a marriage</h5>
+              <p>“Gone Girl” is David Fincher’s “Eyes Wide Shut.” As Stanley Kubrick did in his final film, Fincher lifts the lid off the black box of marriage.</p>
+              <p><strong>Source:</strong> Richard Brody, The New Yorker</p>
+            </a>
+          </li><li>
+            <a href="http://cinema-scope.com/currency/pursuits-happiness-david-finchers-gone-girl/" target="_blank">
+              <h5>Pursuits of happiness</h5>
+              <p>"Gone Girl"’s portrait of domestic bliss as a kind of personalized thermonuclear détente is glib and obvious, but it’s also deeply satisfying.</p>
+              <p><strong>Source:</strong> Adam Nayman, cinema scope</p>
+            </a>
+          </li><li>
+            <a href="http://www.nybooks.com/articles/archives/2014/dec/04/gone-girl-hard-work-marriage/" target="_blank">
+              <h5>The hard work of marriage</h5>
+              <p>The belief that conjugal happiness can be earned only by rigorous and sustained emotional labor is so deeply entrenched in the common culture that when Amy Dunne boasts cheerfully of finding marriage “easy,” it is as if she had entered Dracula’s castle scoffing at the existence of vampires: the audience knows at once that her hubris must be punished.
+</p>
+              <p><strong>Source:</strong> Zoë Heller, The New York Review of Books</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="Gone Girl">
+          {!-- ra:0000000045116890000000014ce44e29 --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:0000000045116884000000014ce44e29 --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:00000000451168b8000000014ce44e29 --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:00000000451168ac000000014ce44e29 --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:00000000451168ce000000014ce44e29 --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

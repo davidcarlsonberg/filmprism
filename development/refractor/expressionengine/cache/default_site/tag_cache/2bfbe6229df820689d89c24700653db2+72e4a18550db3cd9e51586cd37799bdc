@@ -1,0 +1,188 @@
+a:3:{s:4:"time";i:1443890178;s:3:"ttl";i:0;s:4:"data";s:9326:"<header>
+      <h1>Still Alice</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="http://localhost:8500/assets/img/covers/_350x520/STILL-ALICE-onesheet.jpg" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-12-25">December 25, 2014</time></li>
+        <li><strong>Directed By:</strong> Richard Glatzer, Wash Westmoreland</li>
+        <li><strong>Written By:</strong> Richard Glatzer, Wash Westmoreland</li>
+        <li><strong>Starring:</strong> <span>Julianne Moore</span>, <span>Alec Baldwin</span>, <span>Kristen Stewart</span>, <span>Hunter Parrish</span>, <span>Kate Bosworth</span></li>
+        <li><strong>Produced By:</strong> James Brown, Pamela Koffler, Lex Lutzus</li>
+        <li><strong>Distributed By:</strong> Sony Pictures Classics</li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations</strong>
+          <ul class="details__awards-list">
+          
+            <li>Oscar Nominated Best Performance by an Actress in a Leading Role - Julianne Moore (2014)</li>
+          
+            <li>Golden Globe Best Performance by an Actress, Drama - Julianne Moore (2014)</li>
+          
+            <li>SAG Award for Outstanding Performance by a Female Actor in a Leading Role - Julianne Moore (2014)</li>
+          
+          </ul>
+        </li>
+        
+        
+        
+        <li><strong>Budget:</strong> $4 million</li>
+        <li><strong>Box Office Score:</strong> Est. $1,815,508 (domestic total)</li>
+        <li><strong>Official Website:</strong> <a href="http://sonyclassics.com/stillalice/" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/X_bN96H_kXU" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Alice Howland (Julianne Moore), a successful Columbia University linguistics professor happily married with three grown children, struggles to maintain her mind after being diagnosed with early onset Alzheimer&rsquo;s.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="59" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:00000000283b5b31000000017c57e230 --}{if {rel:total_results} >= 1}
+        {!-- ra:00000000283b5b05000000017c57e230 --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/still-alice">0</span></p>
+            </a>
+          </li>
+        {!-- ra:00000000283b5b1d000000017c57e230 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="59" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:00000000283b5bf5000000017c57e230 --}{if {rel:total_results} >= 1}
+        {!-- ra:00000000283b5bf9000000017c57e230 --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/still-alice">0</span></p>
+            </a>
+          </li>
+        {!-- ra:00000000283b5bd1000000017c57e230 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://www.salon.com/2014/12/03/still_alice_julianne_moores_pulpy_oscar_worthy_alzheimers_role/" target="_blank">
+              <h5>Julianne Moore’s pulpy, Oscar-worthy Alzheimer’s role</h5>
+              <p>The star is luminous as a brilliant academic fading into dementia - in a manufactured Lifetime-style melodrama</p>
+              <p><strong>Source:</strong> Andrew O'Hehir, salon.com</p>
+            </a>
+          </li><li>
+            <a href="http://www.nytimes.com/2014/12/05/movies/in-still-alice-a-professor-slides-into-alzheimers.html" target="_blank">
+              <h5>Losing her bearings in familiar places
+</h5>
+              <p>The story is sad and sincerely told, but it is too removed from life to carry the full measure of pain that Alice deserves.</p>
+              <p><strong>Source:</strong> A.O. Scott, The New York Times</p>
+            </a>
+          </li><li>
+            <a href="http://www.newyorker.com/magazine/2015/01/19/losing-way" target="_blank">
+              <h5>The New Yorker: "Still Alice"</h5>
+              <p>Time and again, as it comes to the next stage of deterioration or distress, it flinches.</p>
+              <p><strong>Source:</strong> Anthony Lane, The New Yorker</p>
+            </a>
+          </li><li>
+            <a href="http://www.indiewire.com/article/how-julianne-moore-pulled-off-her-devastating-performance-in-still-alice-20141212" target="_blank">
+              <h5>How Julianne Moore pulled off her performance in 'Still Alice'</h5>
+              <p>Moore spoke with Indiewire about the work that went into her portrayal of the disease.</p>
+              <p><strong>Source:</strong> indiewire.com</p>
+            </a>
+          </li><li>
+            <a href="http://variety.com/2014/film/reviews/toronto-film-review-julianne-moore-in-still-alice-1201301421/" target="_blank">
+              <h5>Toronto Film Review: "Still Alice"</h5>
+              <p>Julianne Moore plays a woman slowly disappearing within her own body in this sensitive and restrained look at early-onset Alzheimer's.</p>
+              <p><strong>Source:</strong> Peter Debruge, Variety Magazine</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="Still Alice">
+          {!-- ra:00000000283b586b000000017c57e230 --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:00000000283b587f000000017c57e230 --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:00000000283b5843000000017c57e230 --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:00000000283b5857000000017c57e230 --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:00000000283b5835000000017c57e230 --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

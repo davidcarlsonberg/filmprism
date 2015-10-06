@@ -213,6 +213,84 @@
 }
 
 /**************************************************
+ "NEW" SECTION STYLES
+**************************************************/
+
+.new-releases {
+  background: #163a4c;
+  padding-bottom: 4em;
+}
+.new-releases h5 {
+  color: #4d99bf;
+}
+.new-releases ul {
+  margin: 0;
+  padding: 0;
+}
+.new-releases .col ul > li {
+  list-style: none;
+  float: left;
+  width: 23%;
+  margin: 0 2.6% 0 0;
+  padding: 0;
+}
+.new-releases .col ul > li figure {
+  background: #2d9099;
+}
+.new-releases .col ul > li img {
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+.new-releases .col ul > li img:hover {
+  opacity: .75;
+  transition: opacity 0.2s linear;
+}
+.new-releases .col ul > li:last-child {
+  margin-right: 0;
+}
+.new-releases .col {
+  width: 45%;
+}
+.new-releases .col-top {
+  margin-bottom: 4em;
+}
+.new-releases .col-1 {
+  float: left;
+  margin-right: 10%;
+}
+.new-releases .col-2 {
+  float: right;
+}
+@media screen and (max-width: 1080px) {
+  .new-releases .col {
+    width: 49%;
+  }
+  .new-releases .col-1 {
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .new-releases .col {
+    height: 100%;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .new-releases .col {
+    float: none;
+    width: 100%;
+  }
+  .new-releases .col {
+    margin-bottom: 4em;
+  }
+  .new-releases .col ul > li {
+    margin-right: 1.9%;
+    display: inline-block;
+    float: none;
+  }
+}
+
+/**************************************************
  "RECENT" SECTION STYLES
 **************************************************/
 

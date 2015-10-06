@@ -1,0 +1,73 @@
+/*
+Error: Undefined variable: "$black".
+        on line 20 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/00variables/compass-variables.scss
+
+15: $default-box-ordinal-group: 1;
+16: $default-box-direction: normal;
+17: $default-box-lines: single;
+18: $default-box-pack: start;
+19: 
+20: $default-box-shadow-color: transparentize($black, .75);
+21: $default-box-shadow-h-offset: 0px;
+22: $default-box-shadow-v-offset: 0px;
+23: $default-box-shadow-blur: 8px;
+24: $default-box-shadow-spread: false;
+25: $default-box-shadow-inset: false;
+
+Backtrace:
+/Users/dberg2/Personal/filmprism/development/html/assets/sass/00variables/compass-variables.scss:20
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/node.rb:50:in `perform'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/funcall.rb:170:in `perform_arg'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/funcall.rb:124:in `each'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/funcall.rb:124:in `each_with_index'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/funcall.rb:124:in `each'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/funcall.rb:124:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/funcall.rb:124:in `_perform'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/script/tree/node.rb:50:in `perform'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:469:in `visit_variable'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:20:in `render'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:278:in `render'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:293:in `watch'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `call'
+/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/usr/local/bin/compass:23:in `load'
+/usr/local/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$black\".\A         on line 20 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/00variables/compass-variables.scss\A \A 15: $default-box-ordinal-group: 1;\A 16: $default-box-direction: normal;\A 17: $default-box-lines: single;\A 18: $default-box-pack: start;\A 19: \A 20: $default-box-shadow-color: transparentize($black, .75);\A 21: $default-box-shadow-h-offset: 0px;\A 22: $default-box-shadow-v-offset: 0px;\A 23: $default-box-shadow-blur: 8px;\A 24: $default-box-shadow-spread: false;\A 25: $default-box-shadow-inset: false;"; }

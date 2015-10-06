@@ -1,0 +1,57 @@
+a:3:{s:4:"time";i:1443808599;s:3:"ttl";i:0;s:4:"data";s:1541:"
+
+<?php $urlTitle = "how-did-physicist-kip-thorne-help-create-visual-images-of-black-holes-for-i"; ?>
+
+{exp:playa:children entry_id="204" field_id="10"  var_prefix="playaaTYMQEZo"}
+<li>
+  <a href="{playaaTYMQEZo:site_url}insights/article/<?php echo $urlTitle; ?>">
+    <figure>
+      <img src="{playaaTYMQEZo:media_cover:url:270x400}" alt="Film Cover">
+    </figure>
+  </a>
+</li>
+{/exp:playa:children}
+
+
+
+<?php $urlTitle = "is-hallucinating-common-for-creative-artists-like-in-birdman"; ?>
+
+{exp:playa:children entry_id="201" field_id="10"  var_prefix="playaQen82uof"}
+<li>
+  <a href="{playaQen82uof:site_url}insights/article/<?php echo $urlTitle; ?>">
+    <figure>
+      <img src="{playaQen82uof:media_cover:url:270x400}" alt="Film Cover">
+    </figure>
+  </a>
+</li>
+{/exp:playa:children}
+
+
+
+<?php $urlTitle = "why-is-there-so-much-sexual-imagery-and-in-jokes"; ?>
+
+{exp:playa:children entry_id="200" field_id="10"  var_prefix="playafjuJFIf4"}
+<li>
+  <a href="{playafjuJFIf4:site_url}insights/article/<?php echo $urlTitle; ?>">
+    <figure>
+      <img src="{playafjuJFIf4:media_cover:url:270x400}" alt="Film Cover">
+    </figure>
+  </a>
+</li>
+{/exp:playa:children}
+
+
+
+<?php $urlTitle = "how-did-linklater-work-with-the-passing-of-time"; ?>
+
+{exp:playa:children entry_id="28" field_id="10"  var_prefix="playazsbJrAC3"}
+<li>
+  <a href="{playazsbJrAC3:site_url}insights/article/<?php echo $urlTitle; ?>">
+    <figure>
+      <img src="{playazsbJrAC3:media_cover:url:270x400}" alt="Film Cover">
+    </figure>
+  </a>
+</li>
+{/exp:playa:children}
+
+";}
