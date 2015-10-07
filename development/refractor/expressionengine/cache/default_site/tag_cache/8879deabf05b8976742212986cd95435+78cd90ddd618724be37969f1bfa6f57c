@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1443890147;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
+a:3:{s:4:"time";i:1444181198;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
       <h1>A Most Violent Year</h1>
       <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
     </header>
@@ -49,8 +49,8 @@ a:3:{s:4:"time";i:1443890147;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
         disable="category_fields|member_data|pagination"
         var_prefix="rel"
       }
-      {!-- ra:000000002d911d08000000012ff79499 --}{if {rel:total_results} >= 1}
-        {!-- ra:000000002d911d74000000012ff79499 --}{if {rel:count} == 1}
+      {!-- ra:00000000216c7fb7000000011466e8e2 --}{if {rel:total_results} >= 1}
+        {!-- ra:00000000216c7fbb000000011466e8e2 --}{if {rel:count} == 1}
         <div id="qanda" class="related-questions">
         <h2>Q &amp; A</h2>
         <ul>
@@ -62,7 +62,7 @@ a:3:{s:4:"time";i:1443890147;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
               <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/a-most-violent-year">0</span></p>
             </a>
           </li>
-        {!-- ra:000000002d911d52000000012ff79499 --}{if {rel:count} == {rel:total_results}}
+        {!-- ra:00000000216c7fd3000000011466e8e2 --}{if {rel:count} == {rel:total_results}}
         </ul>
         </div>
         {/if}
@@ -75,8 +75,8 @@ a:3:{s:4:"time";i:1443890147;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
         disable="category_fields|member_data|pagination"
         var_prefix="rel"
       }
-      {!-- ra:000000002d911d4b000000012ff79499 --}{if {rel:total_results} >= 1}
-        {!-- ra:000000002d911eb7000000012ff79499 --}{if {rel:count} == 1}
+      {!-- ra:00000000216c7feb000000011466e8e2 --}{if {rel:total_results} >= 1}
+        {!-- ra:00000000216c7fff000000011466e8e2 --}{if {rel:count} == 1}
         <div id="articles" class="related-articles">
         <h2>Articles</h2>
         <ul>
@@ -88,7 +88,7 @@ a:3:{s:4:"time";i:1443890147;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
               <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://localhost:8500/insights/article/a-most-violent-year">0</span></p>
             </a>
           </li>
-        {!-- ra:000000002d911ead000000012ff79499 --}{if {rel:count} == {rel:total_results}}
+        {!-- ra:00000000216c7c17000000011466e8e2 --}{if {rel:count} == {rel:total_results}}
         </ul>
         </div>
         {/if}
@@ -141,13 +141,13 @@ a:3:{s:4:"time";i:1443890147;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
           return="question-received"
         }
           <input type="hidden" name="related_media" id="related_media" value="A Most Violent Year">
-          {!-- ra:000000002d911cd9000000012ff79499 --}{if freeform:general_errors || freeform:field_errors}
+          {!-- ra:00000000216c7c6d000000011466e8e2 --}{if freeform:general_errors || freeform:field_errors}
           <div class="errors">
             <h4>The form contains the following errors:</h4>
             <ul>
-              {!-- ra:000000002d911ced000000012ff79499 --}{if freeform:error:name}<li>Name is required.</li>{/if}
-              {!-- ra:000000002d911ce0000000012ff79499 --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
-              {!-- ra:000000002d911e3b000000012ff79499 --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {!-- ra:00000000216c7c71000000011466e8e2 --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:00000000216c7c85000000011466e8e2 --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:00000000216c7c89000000011466e8e2 --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
               {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
             </ul>
           </div>
@@ -162,7 +162,7 @@ a:3:{s:4:"time";i:1443890147;s:3:"ttl";i:0;s:4:"data";s:9874:"<header>
           </div>
           <h5><label for="user_question">{freeform:label:user_question}</label></h5>
           {freeform:field:user_question}
-          {!-- ra:000000002d911e15000000012ff79499 --}{if freeform:captcha}
+          {!-- ra:00000000216c7cab000000011466e8e2 --}{if freeform:captcha}
           <div class="captcha-box">
             <p><label for="captcha">Please enter the word you see in the image below</label></p>
             <div class="captcha-field">

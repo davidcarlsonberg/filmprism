@@ -1,12 +1,12 @@
-a:3:{s:4:"time";i:1444134669;s:3:"ttl";i:0;s:4:"data";s:1825:"
+a:3:{s:4:"time";i:1444182128;s:3:"ttl";i:0;s:4:"data";s:1825:"
 
 	    <?php $urlTitle = "how-did-physicist-kip-thorne-help-create-visual-images-of-black-holes-for-i"; ?>
 
-	      {exp:playa:children entry_id="204" field_id="10"  var_prefix="playatwrvHuDx"}
+	      {exp:playa:children entry_id="204" field_id="10"  var_prefix="playaiLk5U3un"}
 	      <li>
-	        <a href="{playatwrvHuDx:site_url}insights/article/<?php echo $urlTitle; ?>">
+	        <a href="{playaiLk5U3un:site_url}insights/article/<?php echo $urlTitle; ?>">
 	          <figure>
-	            <img src="{playatwrvHuDx:media_cover:url:270x400}" alt="Film Cover">
+	            <img src="{playaiLk5U3un:media_cover:url:270x400}" alt="Film Cover">
 	          </figure>
 	        </a>
 	      </li>
@@ -16,11 +16,11 @@ a:3:{s:4:"time";i:1444134669;s:3:"ttl";i:0;s:4:"data";s:1825:"
 
 	    <?php $urlTitle = "is-hallucinating-common-for-creative-artists-like-in-birdman"; ?>
 
-	      {exp:playa:children entry_id="201" field_id="10"  var_prefix="playav5yGOkmt"}
+	      {exp:playa:children entry_id="201" field_id="10"  var_prefix="playaKS5esWt1"}
 	      <li>
-	        <a href="{playav5yGOkmt:site_url}insights/article/<?php echo $urlTitle; ?>">
+	        <a href="{playaKS5esWt1:site_url}insights/article/<?php echo $urlTitle; ?>">
 	          <figure>
-	            <img src="{playav5yGOkmt:media_cover:url:270x400}" alt="Film Cover">
+	            <img src="{playaKS5esWt1:media_cover:url:270x400}" alt="Film Cover">
 	          </figure>
 	        </a>
 	      </li>
@@ -30,11 +30,11 @@ a:3:{s:4:"time";i:1444134669;s:3:"ttl";i:0;s:4:"data";s:1825:"
 
 	    <?php $urlTitle = "why-is-there-so-much-sexual-imagery-and-in-jokes"; ?>
 
-	      {exp:playa:children entry_id="200" field_id="10"  var_prefix="playaeM219yGy"}
+	      {exp:playa:children entry_id="200" field_id="10"  var_prefix="playa0nv06iNN"}
 	      <li>
-	        <a href="{playaeM219yGy:site_url}insights/article/<?php echo $urlTitle; ?>">
+	        <a href="{playa0nv06iNN:site_url}insights/article/<?php echo $urlTitle; ?>">
 	          <figure>
-	            <img src="{playaeM219yGy:media_cover:url:270x400}" alt="Film Cover">
+	            <img src="{playa0nv06iNN:media_cover:url:270x400}" alt="Film Cover">
 	          </figure>
 	        </a>
 	      </li>
@@ -44,11 +44,11 @@ a:3:{s:4:"time";i:1444134669;s:3:"ttl";i:0;s:4:"data";s:1825:"
 
 	    <?php $urlTitle = "how-did-linklater-work-with-the-passing-of-time"; ?>
 
-	      {exp:playa:children entry_id="28" field_id="10"  var_prefix="playaJ3u7iSVq"}
+	      {exp:playa:children entry_id="28" field_id="10"  var_prefix="playagGDdDwNb"}
 	      <li>
-	        <a href="{playaJ3u7iSVq:site_url}insights/article/<?php echo $urlTitle; ?>">
+	        <a href="{playagGDdDwNb:site_url}insights/article/<?php echo $urlTitle; ?>">
 	          <figure>
-	            <img src="{playaJ3u7iSVq:media_cover:url:270x400}" alt="Film Cover">
+	            <img src="{playagGDdDwNb:media_cover:url:270x400}" alt="Film Cover">
 	          </figure>
 	        </a>
 	      </li>
