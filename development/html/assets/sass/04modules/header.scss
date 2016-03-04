@@ -43,14 +43,14 @@
       display: block;
       overflow: hidden;
       height: 0;
-      width: 22em;
+      width: 23.1em;
       margin: 0 auto;
       padding-top: 6em;
       background-position: 0 0;
       background-repeat: no-repeat;
       @include hires("../img/logo/screenprism-header-logo.png", "../img/logo/screenprism-header-logo-2x.png");
       @include break-up($small){width:36em}
-      @include break-up($medium){width:22em}
+      @include break-up($medium){width:23.1em}
       @include break-up($large){width:36em}
     }
   }
@@ -107,7 +107,7 @@
           margin-left: 1.75em;
         }
       }
-      h1 a { width: 4.2em }
+      h1 a { width: 5.2em }
     }
   }
 }

@@ -1,101 +1,152 @@
-<?php $filmArray = array(); ?>
+<?php
+  $filmArray = array();
+  $tvArray = array();
+  $streamingArray = array();
+  $classicArray = array();
+  $date = new DateTime();
+  $currentTime = $date->getTimestamp();
+?>
 
 <section class="new-releases">
   
   <div class="inner">
 
+{exp:channel:entries channel="film" limit="12" orderby="entry_date"}
+
+  {exp:playa:parents channel="articles" limit="1"}
+
+    {if total_results > 0}
+
+      <?php
+        $filmObject = new stdClass();
+        $filmObject->filmArticleURLTitle = "{url_title}";
+      ?>
+
+         {exp:playa:children channel="film"}
+
+           <?php
+             $filmObject->filmCover = "{media_cover:url:270x400}";
+             array_push($filmArray, $filmObject);
+           ?> 
+          
+
+         {/exp:playa:children}
+
+    {/if}
+
+  {/exp:playa:parents}
+
+{/exp:channel:entries}
+
       <div class="col col-1 col-top">
-
         <h5 class="section-heading">New in Theaters</h5>
-
-        <ul>
-
-	  {exp:channel:entries
-	    channel="articles" 
-            orderby="entry_date"
-	    limit="4" 
-	    cache="yes" 
-	    refresh="1440" }
-
-	    <?php $urlTitle = "{url_title}"; ?>
-
-	      {article_related_media}
-	      <li>
-	        <a href="{site_url}insights/article/<?php echo $urlTitle; ?>">
-	          <figure>
-	            <img src="{media_cover:url:270x400}" alt="Film Cover">
-	          </figure>
-	        </a>
-	      </li>
-	      {/article_related_media}
-
-	  {/exp:channel:entries}
-
-        </ul>
-
+          <ul>
+            <?php 
+              for ($z = 0; $z < 4; $z++) {
+                echo "<li><a href='http://localhost:8500/insights/article/{$filmArray[$z]->filmArticleURLTitle}'><figure><img src=" . "{$filmArray[$z]->filmCover}" . " /></figure></a></li>";
+              }
+            ?>
+          </ul>
       </div>
+
+{exp:channel:entries channel="tv" limit="12" orderby="entry_date"}
+
+  {exp:playa:parents channel="articles" limit="1"}
+
+    {if total_results > 0}
+
+      <?php
+        $tvObject = new stdClass();
+        $tvObject->tvArticleURLTitle = "{url_title}";
+      ?>
+
+         {exp:playa:children channel="tv"}
+
+           <?php
+             $tvObject->tvCover = "{tv_cover:url:270x400}";
+             array_push($tvArray, $tvObject);
+           ?> 
+          
+         {/exp:playa:children}
+
+    {/if}
+
+  {/exp:playa:parents}
+
+{/exp:channel:entries}
 
       <div class="col col-2 col-top">
-
         <h5 class="section-heading">New on TV</h5>
-
-          {exp:channel:entries 
-           channel="articles" 
-           orderby="entry_date" 
-           limit="4"}
-
-                  <?php
-                    $filmObject = new stdClass();
-                    $filmObject->urlTitle = "{url_title}"; 
-                  ?>
-
-                      {exp:playa:children
-                       channel="film"}
-
-                          <?php 
-                            $filmObject->mediaCover = "{media_cover:url:270x400}";
-                            $filmObject->releaseDate = "{entry_date}";
-                            array_push($filmArray, $filmObject);
-                          ?>                      
-
-                      {/exp:playa:children}
-            {/exp:channel:entries}
-
-        <ul>
-
-<?php 
-  function filmSort( $a, $b) {
-    return $a->releaseDate == $b->releaseDate ? 0 : ( $a->releaseDate < $b->releaseDate ) ? 1 : -1;
-  }
-
-  usort( $filmArray, 'filmSort' );
-
-for ($x = 0; $x < 4; $x++) {
-  echo "<li><a href='http://localhost:8500/insights/article/{$filmArray[$x]->urlTitle}'><figure><img src='{$filmArray[$x]->mediaCover}' alt='Film Cover'/></figure></a></li>";
-}
-
-?>
-        </ul>        
+          <ul>
+            <?php 
+              for ($x = 0; $x < 4; $x++) {
+                echo "<li><a href='http://localhost:8500/insights/article/{$tvArray[$x]->tvArticleURLTitle}'><figure><img src=" . "{$tvArray[$x]->tvCover}" . " /></figure></a></li>";
+              }
+            ?>
+          </ul>
       </div>
-
 
       <div class="col col-1">
 
-        <h5 class="section-heading">New Streaming and on DVD</h5>        
-        <ul>
+        <h5 class="section-heading">New Streaming and on DVD</h5>
 
+        {exp:channel:entries channel="film|tv">}
+          <?php
+            $streamingObject = new stdClass();
+            $streamingObject ->streamingURLTitle = "{url_title}";
+            if ("{media_cover:url:270x400}") {
+              $streamingObject->streamingMediaCover = "{media_cover:url:270x400}";
+            } else {
+              $streamingObject->streamingMediaCover = "{tv_cover:url:270x400}";
+            }
+            if (("{media_on_demand_release_date}" > 1 || "{tv_on_demand_release_date}" > 1) && ($currentTime > "{media_on_demand_release_date}" ||  $currentTime > "{tv_on_demand_release_date}")) {
+              array_push($streamingArray, $streamingObject);
+            };
+          ?>
+        {/exp:channel:entries}
+
+        <ul>
+          <?php 
+            for ($w = 0; $w < 4; $w++) {
+
+              echo "<li><a href='http://localhost:8500/film/page/{$streamingArray[$w]->streamingURLTitle}'><figure><img src=" . "{$streamingArray[$w]->streamingMediaCover}" . " /></figure></a></li>";
+
+}
+          ?>
         </ul>
+
       </div>
 
       <div class="col col-2">
 
-        <h5 class="section-heading">Classics</h5>        
+        <h5 class="section-heading">Classics</h5>
+
+        <?php
+          $classicCounter = 0;
+        ?>
+
+          {exp:channel:entries channel="film" category="27" limit="12" orderby="entry_date"}
+            <?php
+              $classicObject = new stdClass();
+              $classicObject->classicURLTitle = "{url_title}";
+              $classicObject->classicFilmCover = "{media_cover:url:270x400}";
+              if ("{media_feature_end_date}" > $currentTime && ("{media_feature_start_date}" > 1 && "{media_feature_start_date}" < $currentTime)) {
+                array_splice($classicArray, $classicCounter, 0, [$classicObject]);
+                $classicCounter++;
+              } else {
+                array_push($classicArray, $classicObject);
+              };
+            ?>
+          {/exp:channel:entries}
+
         <ul>
-
-UNITS HERE
-
-        </ul>        
-      </div>      
+          <?php
+            for ($y = 0; $y < 4; $y++) {
+              echo "<li><a href='http://localhost:8500/film/page/{$classicArray[$y]->classicURLTitle}'><figure><img src=" . "{$classicArray[$y]->classicFilmCover}" . " /></figure></a></li>";
+            }
+          ?>
+        </ul>
+      </div>
 
   </div>
 

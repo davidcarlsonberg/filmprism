@@ -1,23 +1,17 @@
+HEADER LOW SEARCH CODE
+
 <header class="site-header">
   <div class="header-top inner">
     {exp:template_morsels:escape}
-    {exp:search:simple_form
-      channel="film|tv|articles"
-      show_future_entries="yes"
-      search_in="everywhere"
-      results="20"
-      result_page="search/index"
-      no_result_page="search/empty"
+    {exp:low_search:form 
       form_class="search-bar"
     }
-      <input type="hidden" name="orderby" value="date">
-      <input type="hidden" name="sort_order" value="asc">
       <input type="text" name="keywords" id="keywords" value="" placeholder="Search by film title, genre, director&hellip;" />
       <button>
         <span>Search</span>
         <svg viewBox="0 0 20 20" class="icon search-icon"><use xlink:href="#search-icon"></use></svg>
       </button>
-    {/exp:search:simple_form}
+    {/exp:low_search:form}
     {/exp:template_morsels:escape}
     <div class="logo-group">
       <h1><a href="{path='site_index'}">ScreenPrism</a></h1>
@@ -40,11 +34,24 @@
         <div class="mailing-list">
           <a href="#mailing-list">Mailing List</a>
           <div class="form-wrapper">
-            <form>
-              <h6>Join Our Mailing List</h6>
-              <input type="text" placeholder="Email Address">
-              <input type="submit" value="Subscribe">
-            </form>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="//screenprism.us11.list-manage.com/subscribe/post?u=11bbbde22831d1d4fe52c1860&amp;id=d5c40c709a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <h6>Join Our Mailing List</h6>
+                <div id="mc_embed_signup_scroll">
+                  <input type="email" value="" placeholder="Email Address" name="EMAIL" class="required email" id="mce-EMAIL">
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                  <div style="position: absolute; left: -5000px;">
+                    <input type="text" name="b_11bbbde22831d1d4fe52c1860_d5c40c709a" tabindex="-1" value="">
+                  </div>
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->            
           </div>
         </div>
         <ol class="social-links">
@@ -103,8 +110,35 @@
             </li>
             {/if}
           {/exp:low_variables:pair}
+          {exp:low_variables:pair var="low_instagram_link"}
+            {if low_instagram_link != ""}
+            <li class="instagram">
+              <a href="{low_instagram_link}">
+                <svg viewBox="0 0 20 20" class="icon instagram-icon">
+                  <use xlink:href="#instagram-icon"></use>
+                </svg>
+              </a>
+            </li>
+            {/if}
+          {/exp:low_variables:pair}
         </ol>
       </div>
     </div>
   </div>
 </header>
+
+<script type="text/javascript">
+window.onload = function () {
+
+  var inputField = $('#keywords');
+  inputField.on('keyup', function () {
+    if ( $(this).is(':focus') && this.value.length > 2) {
+      console.log('at least three characters in focussed field');
+    }
+  });
+
+};
+
+</script>
+
+

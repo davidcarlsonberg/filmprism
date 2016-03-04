@@ -1,28 +1,39 @@
 /*
-Error: Undefined mixin 'break-up'.
-        on line 9 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss, in `break-up'
-        from line 9 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss
+Error: Undefined mixin 'font-size'.
+        on line 31 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss, in `font-size'
+        from line 31 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss
 
-4: 
-5: .search {
-6:   &-results {
-7:     @extend %article-list;
-8:     .summary {
-9:       @include break-up($small){
-10:         padding: 3em 3em 1.5em;
-11:       }
-12:       h3 {
-13:         margin: 0 0 .75em;
-14:         &.q-and-a {
+26:         &.q-and-a {
+27:           a {@extend %qanda-title}
+28:         }
+29:       }
+30:       p {
+31:         @include font-size(14);
+32:         padding-right: 25px;
+33:       }
+34:     }
+35:   }
+36:   &-heading {
 
 Backtrace:
-/Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss:9:in `break-up'
-/Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss:9
+/Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss:31:in `font-size'
+/Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss:31
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `block in with_mixin'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `with_mixin'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:431:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
@@ -83,20 +94,16 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
 /usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:293:in `watch'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `call'
-/usr/local/lib/ruby/gems/2.2.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-/usr/local/bin/compass:23:in `load'
-/usr/local/bin/compass:23:in `<main>'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/usr/local/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:305:in `call'
+/usr/local/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:305:in `_process_changes'
+/usr/local/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:269:in `block in _wait_for_changes'
+/usr/local/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:252:in `loop'
+/usr/local/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:252:in `_wait_for_changes'
+/usr/local/lib/ruby/gems/2.2.0/gems/listen-2.10.1/lib/listen/listener.rb:341:in `block in _start_wait_thread'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'break-up'.\A         on line 9 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss, in `break-up'\A         from line 9 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss\A \A 4: \A 5: .search {\A 6:   &-results {\A 7:     @extend %article-list;\A 8:     .summary {\A 9:       @include break-up($small){\A 10:         padding: 3em 3em 1.5em;\A 11:       }\A 12:       h3 {\A 13:         margin: 0 0 .75em;\A 14:         &.q-and-a {"; }
+  content: "Error: Undefined mixin 'font-size'.\A         on line 31 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss, in `font-size'\A         from line 31 of /Users/dberg2/Personal/filmprism/development/html/assets/sass/05sections/search-page.scss\A \A 26:         &.q-and-a {\A 27:           a {@extend %qanda-title}\A 28:         }\A 29:       }\A 30:       p {\A 31:         @include font-size(14);\A 32:         padding-right: 25px;\A 33:       }\A 34:     }\A 35:   }\A 36:   &-heading {"; }

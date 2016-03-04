@@ -1,4 +1,73 @@
 /**************************************************
+ TOP CTA (for snowstorm)
+**************************************************/
+
+.temp-cta {
+  padding: 1em $side-padding;
+  text-align: center;
+  & .inner {
+    & img {
+      // display: block;
+      // padding-bottom: 10px;
+      // position: absolute;
+      // z-index: -1000;
+    }
+    & p {
+      color: $call-out-text;
+      display: inline-block;
+      @include font-size(18);    
+      font-family: $lato;
+      font-weight: 300;
+      margin: .3em .5em 0;
+      position: relative;
+      text-transform: uppercase;
+      z-index: 10;
+
+      & span {
+        padding-right: 5px;
+      }
+    }
+    & p:first-child:before {
+      background: url(/assets/img/logo/screenprism-ask-logo.png) no-repeat 0 0;
+      content: '';
+      display: block;
+      height: 36px;
+      left: -8px;
+      position: absolute;
+      top: -3px;
+      width: 51px;
+      z-index: -1000;
+    }
+    & span {
+      color: #2e2e2e;
+      transition: all 0.2s ease;
+    }
+    & p:hover {
+      & a {
+        color: #fff;
+      }
+      & span {
+        color: #fff;
+        transition: all 0.1s ease;
+      }
+    }   
+  }   
+  @include break-up($large){
+    padding-top: 12.5em;
+    letter-spacing: .125em;
+    & .inner {
+      & p {
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+    }
+  }
+  @include break-up($x-large){
+    p { @include font-size(21) }
+  }  
+}
+
+/**************************************************
  TOP CALL OUT
 **************************************************/
 
@@ -15,7 +84,7 @@
     text-transform: uppercase;
   }
   @include break-up($large){
-    padding-top: 14.5em;
+    padding-top: 2em; // was 14.5 before cta above
     letter-spacing: .125em;
   }
   @include break-up($x-large){

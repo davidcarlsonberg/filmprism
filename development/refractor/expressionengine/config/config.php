@@ -22,6 +22,9 @@ $config['allow_extensions'] = 'y';
 $config['cookie_prefix'] = '';
 $config['cookie_httponly'] = 'y';
 
+$config['template_debugging']  = 'n';
+$config['show_profiler']       = 'n';
+
 $config['index_page'] = '';
 $config['base_url'] = 'localhost:8500/helmer.php';
 $config['tz_country'] = 'us';
