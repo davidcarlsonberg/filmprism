@@ -1,0 +1,62 @@
+<section class="filters">
+  <div class="inner">
+    <p class="sort-toggles">Sort by <a href="{path='{segment_1}'}"{if segment_2 != 'title'} class="active"{/if}>Release Date</a> <a href="{path='{segment_1}/title'}"{if segment_2 == 'title'} class="active"{/if}>Title</a></p>
+    <select data-placeholder="Filter by Genre" class="chosen-select">
+      <option></option>
+      {exp:channel:categories
+        category_group="1"
+        channel="film"
+        style="linear"
+        show_empty="no"
+        disable="category_fields"
+      }
+      <option {if segment_2 == "title"}value="{path='{segment_1}/title'}"{if:else}value="{path='{segment_1}'}"{/if}{if (segment_3 == category_url_title) OR (segment_4 == category_url_title)} selected{/if}>{category_name}</option>
+      {/exp:channel:categories}
+    </select>
+  </div>
+</section>
+
+<?php
+  $filmArray = array();
+?>
+
+<section id="media-list" class="main films-list">
+  <div class="inner">
+
+{exp:channel:entries channel="film" limit="60" orderby="entry_date"}
+
+  {exp:playa:parents channel="articles" limit="1"}
+
+    {if total_results > 0}
+
+      <?php
+        $filmObject = new stdClass();
+        $filmObject->filmArticleURLTitle = "{url_title}";
+      ?>
+
+         {exp:playa:children channel="film"}
+
+           <?php
+             $filmObject->filmCover = "{media_cover:url:270x400}";
+             array_push($filmArray, $filmObject);
+           ?> 
+          
+
+         {/exp:playa:children}
+
+    {/if}
+
+  {/exp:playa:parents}
+
+{/exp:channel:entries}
+
+          <ol>
+            <?php 
+              for ($z = 0; $z < 20; $z++) {
+                echo "<li><a href='http://localhost:8500/insights/article/{$filmArray[$z]->filmArticleURLTitle}'><figure><img src=" . "{$filmArray[$z]->filmCover}" . " /></figure></a></li>";
+              }
+            ?>
+          </ol>
+
+  </div>
+</section>
