@@ -6,21 +6,22 @@ $serif: Georgia, Times, "Times New Roman", serif;
 $sans-serif: Helmet, Freesans, sans-serif;
 $monospace: "courier new", monospace, serif;
 
-$oswald: "Oswald", $sans-serif;
 $lato: "Lato", $sans-serif;
-$merriweather: "Merriweather", $serif;
+
+$poppins: "Poppins", $sans-serif;
 
 /**************************************************
  FONTS IN USE
 **************************************************/
 
-$body-font: $merriweather;
-$headline-font: $oswald;
-$subheadline-font: $lato;
-$nav-font: $lato;
-$button-font: $lato;
-$label-font: $lato;
-$code-font: $monospace;
+$body-font: $poppins;
 
-$filters-font: $lato;
-$by-line-font: $lato;
+$headline-font: $poppins;
+$subheadline-font: $poppins;
+$nav-font: $poppins;
+$button-font: $poppins;
+$label-font: $poppins;
+$code-font: $poppins;
+
+$filters-font: $poppins;
+$by-line-font: $poppins;

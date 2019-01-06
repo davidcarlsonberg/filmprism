@@ -14,7 +14,7 @@
       @include float(right);
       width: 70%;
       padding: 3em 3em 1.5em;
-      border-bottom: 1px solid $x-lt-gray;
+      border-bottom: 1px solid $border-color;
     }
     @include break-up($large){width:75%}
     h1 {
@@ -23,12 +23,13 @@
     .inner-nav {
       @include font-size(14);
       margin-top: 1em;
-      font-family: $lato;
       line-height: 1.4;
-      a {white-space:nowrap}
+      a {
+        white-space: nowrap;
+      }
       span {
         margin: 0 .5em;
-        color: $lt-gray;
+        color: $border-color;
       }
     }
   }
@@ -40,8 +41,9 @@
     @include break-up($large){width:25%}
     &.details {
       overflow: hidden;
-      background-color: $media-cover-bg;
+      background-color: $media-details-bg;
       figure {
+        background-color: $media-cover-bg;
         @include break-up($small){
           float: left;
           width: 30%;
@@ -71,7 +73,6 @@
         @include font-size(12);
         margin: 0;
         padding: .75em 1em;
-        background-color: $media-details-bg;
         border-top: 1px solid $media-details-border;
         &:first-child{border-top:none}
         @include break-up($medium){@include font-size(11)}
@@ -155,13 +156,15 @@
         @include font-size(21);
         margin:0 0 .5em;
         line-height: 1.2;
-        span {color:$media-link-block-hover}
+        color: $media-link-block-hover;
       }
       p {
         @include font-size(14);
         margin: .125em 0;
       }
-      h3,p{color:$media-link-block-text}
+      h3, p {
+        color: $media-link-block-text;
+      }
       a {
         @include border-radius;
         display: block;
@@ -170,7 +173,9 @@
         &:hover,
         &:focus {
           background-color: $media-link-block-hover-bg;
-          h3, p {color:$media-link-block-hover}
+          h3, p {
+            color: $media-link-block-hover;
+          }
         }
       }
     }
@@ -178,6 +183,9 @@
   .related-articles {
     background-color: $related-articles-bg;
     @include break-up($medium){border-left: 1px solid darken($related-articles-bg, 10%)}
+    h2 {
+      color: $related-articles-heading;
+    }
     ul {
       @include break-up($small){width:102%;margin-left:-2%}
     }
@@ -203,11 +211,9 @@
         display: block;
         padding: 1.5em 1.5em .5em;
         background-color: $media-link-block-bg;
-        border: 1px solid $border-color;
         &:hover,
         &:focus {
           background-color: $media-link-block-hover-bg;
-          border-color: $media-link-block-hover;
           h5, p {color:$media-link-block-hover}
         }
       }
@@ -216,7 +222,10 @@
   .related-links {
     background-color: $related-links-bg;
     ul {
-      @include break-up($small){width:102%;margin-left:-2%}
+      @include break-up($small){
+        width: 102%;
+        margin-left: -2%;
+      }
     }
     li {
       @include font-size(10);
@@ -240,10 +249,11 @@
         display: block;
         padding: 1.5em 1.5em .5em;
         background-color: $media-link-block-bg;
-        border: 1px solid darken($related-links-bg,10%);
-        &:hover,
-        &:focus {
-          h5, p {color:$md-blue}
+        &:hover, &:focus {
+          background-color: $media-link-block-hover-bg;
+          h5, p {
+            color: $media-link-block-hover;
+          }
         }
       }
     }
@@ -304,6 +314,11 @@
     }
     input[type="submit"]{
       margin-top: 0;
+      background-color: $submit-question-button;
+      &:hover,
+      &:focus {
+        background-color: darken($submit-question-button, 10%);
+      }
       @include break-up($medium){
         width: 50%;
       }

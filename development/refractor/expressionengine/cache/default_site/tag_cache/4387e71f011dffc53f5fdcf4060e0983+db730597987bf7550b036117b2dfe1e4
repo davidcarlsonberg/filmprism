@@ -1,0 +1,215 @@
+a:3:{s:4:"time";i:1546743244;s:3:"ttl";i:0;s:4:"data";s:12023:"<header>
+      <h1>Birdman</h1>
+      <nav class="inner-nav"><a href="#summary">Summary</a> <span>|</span> <a href="#qanda">Q &amp; A</a> <span>|</span> <a href="#articles">Articles</a> <span>|</span> <a href="#related-links">Around the Web</a> <span>|</span> <a href="#submit-question">Submit a Question</a></nav>
+    </header>
+    <aside class="details">
+      <figure>
+      
+        <img src="" alt="Media graphic">
+      
+      </figure>
+      <ul>
+        <li><strong>Released:</strong> <time datetime="2014-10-17">October 17, 2014</time></li>
+        <li><strong>Directed By:</strong> Alejandro González Iñárritu</li>
+        <li><strong>Written By:</strong> Alexander Dinelaris, Alejandro González Iñárritu, Armando Bo, Nicolás Giacobone</li>
+        <li><strong>Starring:</strong> <span>Michael Keaton</span>, <span>Emma Stone</span>, <span>Zach Galifianakis</span>, <span>Edward Norton</span>, <span>Naomi Watts</span>, <span>Amy Ryan</span>, <span>Andrea Riseborough</span></li>
+        <li><strong>Produced By:</strong> Alejandro González Iñárritu, John Lesher, Arnon Milchan, James W. Skotchdopole</li>
+        <li><strong>Distributed By:</strong> Fox Searchlight Pictures</li>
+        
+        <li class="details__awards">
+          <strong>Awards &amp; Nominations</strong>
+          <ul class="details__awards-list">
+          
+            <li>Oscar Nominated Best Motion Picture of the Year (2014)</li>
+          
+            <li>Oscar Nominated Best Performance by an Actor in a Leading Role - Michael Keaton (2014)</li>
+          
+            <li>Oscar Nominated Best Performance by an Actor in a Supporting Role - Edward Norton (2014)</li>
+          
+            <li>Oscar Nominated Best Performance by an Actress in a Supporting Role - Emma Stone (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Directing - Alejandro González Iñárritu (2014)</li>
+          
+            <li>Oscar Nominated Best Writing, Screenplay Written Directly for the Screen - Alejandro González Iñárritu, Nicolás Giacobone,  Alexander Dinelaris,  Armando Bo  (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Cinematography - Emmanuel Lubezki (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Sound Mixing (2014)</li>
+          
+            <li>Oscar Nominated Best Achievement in Sound Editing (2014)</li>
+          
+            <li>Golden Globe Best Performance by an Actor in a Motion Picture Comedy or Musical - Michael Keaton (2014)</li>
+          
+            <li>Golden Globe Best Screenplay for Motion Picture - Alejandro González Iñárritu, Nicolás Giacobone, Alexander Dinelaris, and Armando Bo (2014)</li>
+          
+            <li>SAG Award for Outstanding Performance by a Cast in a Motion Picture (2014)</li>
+          
+            <li>AFI Award for Movie of the Year (2014)</li>
+          
+          </ul>
+        </li>
+        
+        <li><strong>Rotten Tomatoes Score:</strong> 94%</li>
+        <li><strong>Metacritic Score:</strong> 89%</li>
+        <li><strong>Budget:</strong> $18 million</li>
+        
+        <li><strong>Official Website:</strong> <a href="http://www.birdmanthemovie.com" target="_blank">Click Here</a></li>
+      </ul>
+    </aside>
+    
+    <div class="article-body">
+      <div class="media-player"><iframe width="560" height="315" src="https://www.youtube.com/embed/uJfLoE6hanc" frameborder="0" allowfullscreen></iframe></div>
+      <article id="summary">
+        <h4 class="section-heading">Summary</h4>
+        <div class="summary">
+          <p>Actor Riggan Thomson (Michael Keaton) --&nbsp;most famous for portraying an iconic superhero "Birdman" over twenty years ago --&nbsp;struggles to mount a Broadway play. &nbsp;Thomson&#39;s association with the Birdman character&nbsp;has overtaken his life and his acting career. &nbsp;Now past middle age, Riggan is trying to establish himself as a true artist by writing, directing, starring in and co-producing a Broadway play with his best friend Jake (Zack Galifianakis).&nbsp;Thomson is staking his reputation and his entire life savings on the project and will do anything to make the play&nbsp;a success.&nbsp;In the days leading up to opening night, he battles his ego and attempts to recover his family, his career, and himself.</p>
+        </div>
+        <h5 class="summary-toggle"><a href="javascript:void(0)">Show Full Summary</a></h5>
+      </article>
+      
+      {exp:playa:parents entry_id="6" 
+        channel="articles"
+        category="5"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:000000000e8232cd0000000157e81410 --}{if {rel:total_results} >= 1}
+        {!-- ra:000000000e8232f90000000157e81410 --}{if {rel:count} == 1}
+        <div id="qanda" class="related-questions">
+        <h2>Q &amp; A</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h3>Q: <span>{rel:title}?</span></h3>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://the-take.localhost/insights/article/birdman">0</span></p>
+            </a>
+          </li>
+        {!-- ra:000000000e8232e10000000157e81410 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+      {exp:playa:parents entry_id="6" 
+        channel="articles"
+        category="6"
+        disable="category_fields|member_data|pagination"
+        var_prefix="rel"
+      }
+      {!-- ra:000000000e8232090000000157e81410 --}{if {rel:total_results} >= 1}
+        {!-- ra:000000000e8232050000000157e81410 --}{if {rel:count} == 1}
+        <div id="articles" class="related-articles">
+        <h2>Articles</h2>
+        <ul>
+        {/if}
+          <li>
+            <a href="{rel:url_title_path='insights/article'}">
+              <h5>{rel:title}</h5>
+              <p>{rel:article_summary}</p>
+              <p><svg viewBox="0 0 20 20" class="icon comment-icon"><use xlink:href="#comment-icon"></use></svg> <span class="disqus-comment-count" data-disqus-url="http://the-take.localhost/insights/article/birdman">0</span></p>
+            </a>
+          </li>
+        {!-- ra:000000000e82322d0000000157e81410 --}{if {rel:count} == {rel:total_results}}
+        </ul>
+        </div>
+        {/if}
+      {/if}
+      {/exp:playa:parents}
+      
+            
+      <div id="related-links" class="related-links">
+        <h2>Around the Web</h2>
+        <ul>
+          <li>
+            <a href="http://thedissolve.com/features/exposition/792-the-irreducible-element-of-michael-keaton/" target="_blank">
+              <h5>The irreducible element of Michael Keaton</h5>
+              <p>Keaton conveys that kind of haunted, something’s-kind-of-off-about-him quality better than almost anyone, even if there hasn’t been enough room for him to do so in Hollywood of late.</p>
+              <p><strong>Source:</strong> thedissolve.com</p>
+            </a>
+          </li><li>
+            <a href="http://www.newyorker.com/culture/richard-brody/birdman-never-achieves-flight" target="_blank">
+              <h5>"Birdman" never achieves flight</h5>
+              <p>“Birdman” trades on facile, casual dichotomies of theatre versus cinema and art versus commerce.</p>
+              <p><strong>Source:</strong> Richard Brody, The New Yorker</p>
+            </a>
+          </li><li>
+            <a href="http://somecamerunning.typepad.com/some_came_running/2014/10/the-invented-worlds-of-birdman-and-whiplash.html" target="_blank">
+              <h5>The invented worlds of "Birdman" and "Whiplash"</h5>
+              <p>Iñnaritu's instinct was to create a work that laughed at his midlife crisis rather than sink into it. I believe this instinct was correct.</p>
+              <p><strong>Source:</strong> Glenn Kenny, somecamerunning</p>
+            </a>
+          </li><li>
+            <a href="http://variety.com/2014/film/news/alejandro-gonzalez-inarritu-birdman-interview-1201292156/
+" target="_blank">
+              <h5>Alejandro Gonzalez Inarritu on his first comedy, "Birdman"</h5>
+              <p>“It was like I was on a ladder, and I was getting a little too comfortable...I was stuck, half out of fear and half out of safety. And I said to myself, ‘I’m going to let go of the ladder.’ ”
+</p>
+              <p><strong>Source:</strong> Variety</p>
+            </a>
+          </li><li>
+            <a href="http://cinema-scope.com/currency/easy-virtue-alejandro-gonzalez-inarritus-birdman/" target="_blank">
+              <h5>Easy virtue</h5>
+              <p>For all its carping about the virtues of unfettered creativity, "Birdman" is little more than a rote confirmation of what middlebrow artists and prestige-charmed critics already believe: that a little formal bombast, shallowly conceived and laboriously, ostentatiously achieved, is all one needs to make great art.</p>
+              <p><strong>Source:</strong> Angelo Muredda, cinema scope</p>
+            </a>
+          </li><li>
+            <a href="http://www.nybooks.com/blogs/nyrblog/2015/jan/28/birdman-nightmare-broadway/" target="_blank">
+              <h5>A nightmare on Broadway</h5>
+              <p>Alejandro González Iñárritu has taken his cinematic nightmare to the Great White Way, illuminated it with Broadway footlights, located the pathos—and the hilarity—in the New York stage, and given us a cast of nuanced and beautifully acted minor characters.</p>
+              <p><strong>Source:</strong> Francine Prose, The New York Review of Books</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <div id="submit-question" class="submit-question">
+        <h2>Submit a Question</h2>
+        <p>{exp:low_variables:single var="low_ask_text"}</p>
+        {exp:template_morsels:escape}
+        {exp:freeform:form
+          form_name="ask"
+          form:class="ask-form"
+          required="name|email|related_media|user_question"
+          require_captcha="yes"
+          inline_errors="yes"
+          return="question-received"
+        }
+          <input type="hidden" name="related_media" id="related_media" value="Birdman">
+          {!-- ra:000000000e8231970000000157e81410 --}{if freeform:general_errors || freeform:field_errors}
+          <div class="errors">
+            <h4>The form contains the following errors:</h4>
+            <ul>
+              {!-- ra:000000000e8231830000000157e81410 --}{if freeform:error:name}<li>Name is required.</li>{/if}
+              {!-- ra:000000000e8231bf0000000157e81410 --}{if freeform:error:email}<li>Email Address is required.</li>{/if}
+              {!-- ra:000000000e8231ab0000000157e81410 --}{if freeform:error:user_question}<li>Question is required.</li>{/if}
+              {freeform:general_errors}<li>{freeform:error_message}</li>{/freeform:general_errors}
+            </ul>
+          </div>
+          {/if}
+          <div class="half first">
+            <h5><label for="name">Name</label></h5>
+            {freeform:field:name}
+          </div>
+          <div class="half last">
+            <h5><label for="email">Email Address</label></h5>
+            {freeform:field:email}
+          </div>
+          <h5><label for="user_question">{freeform:label:user_question}</label></h5>
+          {freeform:field:user_question}
+          {!-- ra:000000000e8231c90000000157e81410 --}{if freeform:captcha}
+          <div class="captcha-box">
+            <p><label for="captcha">Please enter the word you see in the image below</label></p>
+            <div class="captcha-field">
+              {freeform:captcha}
+              <input type="text" name="captcha">
+            </div>
+          </div>
+          {/if}
+          <input type="submit" name="submit" value="Submit" />
+        {/exp:freeform:form}
+        {/exp:template_morsels:escape}
+      </div>";}

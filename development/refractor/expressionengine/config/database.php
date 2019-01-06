@@ -3,9 +3,9 @@
 $active_group = 'expressionengine';
 $active_record = TRUE;
 
-$db['expressionengine']['hostname'] = '127.0.0.1';
+$db['expressionengine']['hostname'] = 'localhost';
 $db['expressionengine']['username'] = 'root';
-$db['expressionengine']['password'] = '';
+$db['expressionengine']['password'] = 'root';
 $db['expressionengine']['database'] = 'scr33npri5m8WqSLr';
 $db['expressionengine']['dbdriver'] = 'mysql';
 $db['expressionengine']['pconnect'] = FALSE;

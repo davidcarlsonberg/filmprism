@@ -32,6 +32,7 @@
     h1 { margin: 0 }
     h5 {
       margin: 1em 0 0;
+      font-weight: 500;
       a {
         white-space: nowrap;
       }
@@ -124,7 +125,7 @@
         float: left;
         margin: 0 .25em .25em 0;
         color: $headline-color;
-        font-family: $headline-font;
+        font-weight: 700;
       }
     }
   }

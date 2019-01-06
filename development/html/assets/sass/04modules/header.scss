@@ -25,7 +25,6 @@
     text-align: center;
     @include break-up($medium){
       float: left;
-      margin-left: -2em;
       text-align: left;
     }
   }
@@ -43,15 +42,15 @@
       display: block;
       overflow: hidden;
       height: 0;
-      width: 23.1em;
+      width: 26em;
       margin: 0 auto;
       padding-top: 6em;
-      background-position: 0 0;
+      background-position: -64px 50%;
       background-repeat: no-repeat;
-      @include hires("../img/logo/screenprism-header-logo.png", "../img/logo/screenprism-header-logo-2x.png");
-      @include break-up($small){width:36em}
-      @include break-up($medium){width:23.1em}
-      @include break-up($large){width:36em}
+      @include hires("../img/logo/thetake-header-logo.png", "../img/logo/thetake-header-logo-2x.png");
+      @include break-up($small){width:38.6em}
+      @include break-up($medium){width:26em}
+      @include break-up($large){width:38.6em}
     }
   }
   .tagline {
@@ -62,7 +61,6 @@
 .header-bottom{
   @extend %clearfix;
   padding: 1em $side-padding;
-  background-color: darken($header-bg,2.5%);
   @include break-up($medium){
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -94,10 +92,10 @@
       .header-bottom { padding: 0; background-color: transparent }
       .search-bar { width: 48.75% }
       nav {
-        margin-top: -4.375em;
-        margin-left: 4em;
+        margin-top: -4.25em;
+        margin-left: 6em;
         @include break-up($x-large){
-          margin-left: 5em;
+          margin-top: -4.375em;
         }
       }
       .site-nav li {
@@ -107,7 +105,15 @@
           margin-left: 1.75em;
         }
       }
-      h1 a { width: 5.2em }
+      .logo-group {
+        margin-left: -3em;
+      }
+      h1 {
+        a {
+          width: 6em;
+          background-position: 0 50%;
+        }
+      }
     }
   }
 }
@@ -118,17 +124,23 @@
 
 .search-bar {
   @include border-radius(0);
+  @include box-shadow(none);
   overflow: hidden;
   margin-bottom: 1.5em;
   padding: 0;
   background-color: transparent;
   @include break-up($medium){
     float: right;
-    width: 66.66%;
+    width: 55%;
     margin-bottom: 0;
     margin-top: 1.25em;
   }
-  @include break-up($large){width: 48.75%}
+  @include break-up($large){
+    width: 50%;
+  }
+  @include break-up($x-large){
+    width: 55%;
+  }
   input[type="text"]{
     @include border-right-radius(0);
     @include font-size(16);

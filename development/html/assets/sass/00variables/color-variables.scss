@@ -7,7 +7,6 @@ $md-blue: #4d99bf;
 $lt-blue: #7ec3e6;
 $x-lt-blue: #cee6f2;
 
-$black: #1a1a1a;
 $dk-gray: #2e2e2e;
 $md-gray: #666666;
 $lt-gray: #bfbfbf;
@@ -16,6 +15,14 @@ $white: #ffffff;
 
 $red: #e66045;
 
+$cyan: #06acff;
+$magenta: #f7007c;
+$yellow: #ffec00;
+$black: #000;
+
+$deep-blue: #06017c;
+$green: #0c9f01;
+
 /**************************************************
  COLORS IN USE
 **************************************************/
@@ -23,27 +30,27 @@ $red: #e66045;
 // Base Colors
 
 $selection-text: $white;
-$selection-bg: $md-blue;
+$selection-bg: $magenta;
 
 $body-text: $black;
-$body-bg: #faf9f7;
+$body-bg: $white;
 
-$headline-color: $dk-blue;
-$subheadline-color: $md-gray;
+$headline-color: $cyan;
+$subheadline-color: $deep-blue;
 
-$link-color: $md-blue;
+$link-color: $cyan;
 $link-hover: darken($link-color,10%);
 
-$border-color: darken($x-lt-blue,10%);
+$border-color: $x-lt-gray;
 
 // Button Colors
 
 $button-text: $white;
-$button-bg: $md-blue;
+$button-bg: $cyan;
 $button-hover: darken($button-bg,10%);
 
-$load-button-bg: $dk-gray;
-$load-button-hover: $dk-blue;
+$load-button-bg: $deep-blue;
+$load-button-hover: darken($load-button-bg,10%);
 
 // Form Colors
 
@@ -51,8 +58,8 @@ $form-bg: $white;
 $form-label-color: $black;
 $form-field-color: $white;
 $form-field-border: darken($form-bg,15%);
-$form-field-focus: $white;
-$form-button-color: $md-blue;
+$form-field-focus: lighten($cyan, 45%);
+$form-button-color: $cyan;
 $form-button-hover: darken($form-button-color,10%);
 
 $form-error-bg: lighten($red,35%);
@@ -63,108 +70,114 @@ $chosen-select-bg: $white;
 $chosen-select-border: $lt-gray;
 $chosen-select-text: $black;
 $chosen-select-disabled: $lt-gray;
-$chosen-select-selection-bg: $x-lt-blue;
-$chosen-select-selection-text: $dk-blue;
+$chosen-select-selection-bg: $cyan;
+$chosen-select-selection-text: $white;
 $chosen-select-noresults-bg: $x-lt-gray;
 $chosen-select-noresults-text: $dk-gray;
 
 // Header Colors
 
-$header-bg: $dk-gray;
+$header-bg: $cyan;
 $header-shadow: transparentize($black,0.5);
 
 $header-button-text: $white;
 $header-button-bg: transparent;
-$header-button-border: $md-gray;
-$header-button-hover-bg: $lt-blue;
-$header-button-hover-border: $lt-blue;
+$header-button-border: $white;
+$header-button-hover-bg: $deep-blue;
+$header-button-hover-border: $deep-blue;
 
-$header-social-icon-color: $md-gray;
-$header-social-icon-hover: $lt-blue;
+$header-social-icon-color: $white;
+$header-social-icon-hover: $deep-blue;
 
 $nav-link-text: $white;
-$nav-link-hover: $lt-blue;
+$nav-link-hover: $deep-blue;
 
 $narrow-nav-text: $white;
-$narrow-nav-bg: $dk-gray;
+$narrow-nav-bg: $deep-blue;
 
 $search-input-bg: $white;
-$search-button-bg: $md-blue;
+$search-button-bg: $deep-blue;
 $search-button-text: $white;
 
 // Footer Colors
 
 $footer-text: $white;
-$footer-bg: $dk-gray;
+$footer-bg: $black;
 $footer-link: $white;
-$footer-hover: $lt-blue;
-$footer-icon: $lt-gray;
-$footer-border: $md-gray;
+$footer-hover: $yellow;
+$footer-icon: $white;
+$footer-border: $cyan;
 
 // Card Colors
 
 $card-bg-color: $white;
-$card-bg-hover: $x-lt-blue;
-$card-image-bg: $md-blue;
-$card-link-color: $md-blue;
-$card-link-hover: $dk-blue;
+$card-bg-hover: lighten($cyan,45%);
+$card-image-bg: $magenta;
+$card-link-color: $cyan;
+$card-link-hover: $deep-blue;
 
 // Module Colors
 
 $module-bg: $white;
-$module-header-bg: $md-blue;
+$module-header-bg: $magenta;
 $module-header-text: $white;
-$module-footer-bg: $x-lt-gray;
-$module-footer-link: $md-blue;
-$module-footer-hover: $dk-blue;
+$module-footer-bg: lighten($cyan, 45%);
+$module-footer-link: $cyan;
+$module-footer-hover: $deep-blue;
 
-$module-aside-bg: $dk-gray;
+$module-aside-bg: $deep-blue;
 $module-aside-text: $white;
-$module-aside-button: $md-blue;
-$module-aside-border: lighten($dk-gray,10%);
+$module-aside-button: $cyan;
+$module-aside-border: lighten($module-aside-bg, 10%);
 $module-aside-blocklink-bg: $white;
-$module-aside-blocklink-hover: $dk-blue;
-$module-aside-blocklink-bg-hover: $x-lt-blue;
+$module-aside-blocklink-hover: $deep-blue;
+$module-aside-blocklink-bg-hover: lighten($cyan, 45%);
 
-$discussion-module-bg: $dk-blue;
+$discussion-module-bg: $black;
 $discussion-module-headline: $white;
 $discussion-module-text: $white;
 
 // Media Article
 
-$media-cover-bg: $dk-blue;
-$media-details-bg: $x-lt-gray;
+$media-cover-bg: $deep-blue;
+$media-details-bg: lighten($cyan, 45%);
 $media-details-border: darken($media-details-bg,10%);
 $media-subsection-headline: $white;
 $media-link-block-bg: $white;
-$media-link-block-text: $dk-gray;
-$media-link-block-hover: $dk-blue;
-$media-link-block-hover-bg: $x-lt-blue;
+$media-link-block-text: $black;
+$media-link-block-hover: $deep-blue;
+$media-link-block-hover-bg: lighten($cyan, 45%);
 
-$related-qanda-bg: $md-blue;
-$related-articles-bg: $lt-blue;
-$related-links-bg: $x-lt-blue;
+$related-qanda-bg: $cyan;
+$related-articles-bg: $yellow;
+$related-articles-heading: $deep-blue;
+$related-links-bg: darken($deep-blue, 10%);
 
-$submit-question-bg: $dk-blue;
+$submit-question-bg: $magenta;
 $submit-question-text: $white;
+$submit-question-button: $deep-blue;
 
 // Thoughts Article
 
-$artice-image-bg: $dk-blue;
-$share-icons-fill: $lt-blue;
-$share-icons-hover: $md-blue;
+$artice-image-bg: $deep-blue;
+$share-icons-fill: $white;
+$share-icons-hover: $yellow;
 
 // Filters Bar
 
-$filters-bar-bg: $x-lt-gray;
-$filters-bar-text: $dk-gray;
+$filters-bar-bg: lighten($cyan,45%);
+$filters-bar-text: $black;
 $filters-bar-link-text: $white;
-$filters-bar-link-bg: $dk-blue;
-$filters-bar-link-hover: $dk-blue;
-$filter-bar-link-active: $md-blue;
+$filters-bar-link-bg: $cyan;
+$filters-bar-link-hover: $deep-blue;
+$filter-bar-link-active: $magenta;
 
 // Home Page Colors
 
-$call-out-bg: darken($dk-blue,10%);
-$call-out-text: $md-blue;
-$popular-posts-bg: $dk-blue;
+$call-out-bg: $deep-blue;
+$call-out-text: $magenta;
+$popular-posts-bg: $white;
+$new-releases-bg: lighten($cyan, 45%);
+$new-releases-heading: $white;
+
+$section-heading-color: $black;

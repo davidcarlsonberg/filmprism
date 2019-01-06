@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9 ]><html class="no-js ie ltie9 ltie10" lang="en"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie ie9 ltie10"> <![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+
+  <meta charset="utf-8">
+  
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta content="false" http-equiv="imagetoolbar">
+  <meta content="on" http-equiv="cleartype">
+  
+  <meta content="True" name="HandheldFriendly">
+  <meta content="320" name="MobileOptimized">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>Terms of Use & Conditions | ScreenPrism</title>
+<meta content='ScreenPrism is the hub for film and TV analysis.  Currently, we are building the largest digital library of film and television inquiry and related content by producing original articles, curating content from other esteemed sources and facilitating user generated comment and discussion.' name='description'>
+<meta content='film, tv, analysis, screenprism, movies' name='keywords'>
+<meta content='ScreenPrism' name='author'>
+<meta content='Terms of Use & Conditions | ScreenPrism' name='DC.title'>
+<meta content='ScreenPrism is the hub for film and TV analysis.  Currently, we are building the largest digital library of film and television inquiry and related content by producing original articles, curating content from other esteemed sources and facilitating user generated comment and discussion.' name='DC.subject'>
+<meta content='ScreenPrism' name='DC.creator'>
+<meta content='http://screenprism.com/assets/img/fav/facebook.png' property='og:image'>
+<meta content='Terms of Use & Conditions | ScreenPrism' property='og:title'>
+<meta content='ScreenPrism is the hub for film and TV analysis.  Currently, we are building the largest digital library of film and television inquiry and related content by producing original articles, curating content from other esteemed sources and facilitating user generated comment and discussion.' property='og:description'>
+<meta content='http://screenprism.com/terms-and-conditions' property='og:url'>
+<link content='http://screenprism.com/terms-and-conditions' rel='canonical'>
+  
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,700,700i" rel="stylesheet">
+  <link href="http://the-take.localhost/assets/css/style.css" rel="stylesheet" type="text/css">
+  
+  <script>
+    var b = document.documentElement;
+    b.setAttribute('data-useragent',  navigator.userAgent);
+    b.setAttribute('data-platform', navigator.platform );
+  </script>
+  
+  <script src="http://screenprism.com/assets/js/modernizr.js"></script>
+  
+  <link href="http://screenprism.com/assets/img/fav/apple-touch-icon-144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <link href="http://screenprism.com/assets/img/fav/apple-touch-icon-114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <link href="http://screenprism.com/assets/img/fav/apple-touch-icon-72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <link href="http://screenprism.com/assets/img/fav/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+  <link href="http://screenprism.com/favicon.ico" rel="shortcut icon">
+  
+  <!-- Facebook Pixel Code -->
+
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1083438155053367');
+    fbq('track', "PageView");
+  </script>
+
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1083438155053367&ev=PageView&noscript=1" />
+  </noscript>
+
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Start Google Analytics Code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58999700-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  <!-- End Google Analytics Code -->
+
+</head>
+
+<body id="page">
+
+<svg style="display:none">
+  <defs>
+
+    <symbol id="search-icon">
+      <path fill="currentColor" d="M12.8,2.3c-2.9-2.9-7.5-2.9-10.4,0s-2.9,7.5,0,10.4c2.4,2.4,6.1,2.8,9,1.1l5.4,5.4c0.7,0.7,1.9,0.7,2.6,0
+      c0.7-0.7,0.7-1.9,0-2.6l-5.4-5.4C15.6,8.5,15.2,4.8,12.8,2.3z M11.5,11.5c-2.2,2.2-5.7,2.2-7.8,0s-2.2-5.7,0-7.8s5.7-2.2,7.8,0
+      S13.6,9.3,11.5,11.5z"/>
+    </symbol>
+    
+    <symbol id="comment-icon">
+      <path fill="currentColor" d="M16,1H4C1.8,1,0,2.8,0,5v7c0,2.2,1.8,4,4,4h2l4,4l4-4h2c2.2,0,4-1.8,4-4V5C20,2.8,18.2,1,16,1z"/>
+    </symbol>
+    
+    <symbol id="facebook-icon">
+      <path fill="currentColor" d="M11.3,19H7.8v-9H6V6.9h1.8V5c0-2.5,1-4,3.8-4H14v3.1h-1.5c-1.1,0-1.2,0.4-1.2,1.2l0,1.6H14L13.7,10h-2.4V19z"/>
+    </symbol>
+    
+    <symbol id="pinterest-icon">
+      <path fill="currentColor" d="M10.4,1c-5,0-7.5,3.5-7.5,6.5c0,1.8,0.7,3.4,2.2,3.9c0.2,0.1,0.5,0,0.5-0.3c0-0.2,0.2-0.6,0.2-0.8c0.1-0.3,0-0.4-0.2-0.6
+      c-0.4-0.5-0.7-1.1-0.7-2c0-2.6,2-5,5.2-5c2.8,0,4.4,1.7,4.4,4c0,3-1.3,5.5-3.3,5.5c-1.1,0-1.9-0.9-1.7-2c0.3-1.3,0.9-2.7,0.9-3.7
+      C10.5,5.7,10,5,9,5C7.9,5,7,6.2,7,7.7c0,1,0.3,1.6,0.3,1.6S6.2,14.1,6,15c-0.4,1.7-0.1,3.7,0,3.9C6,19,6.1,19,6.2,18.9
+      c0.1-0.1,1.4-1.8,1.9-3.4c0.1-0.5,0.7-2.8,0.7-2.8c0.4,0.7,1.4,1.3,2.6,1.3c3.4,0,5.7-3,5.7-7.1C17.1,3.9,14.5,1,10.4,1z"/>
+    </symbol>
+    
+    <symbol id="twitter-icon">
+      <path fill="currentColor" d="M19.4,4.3L19.4,4.3L19.4,4.3 M13.6,2.5c-2.1,0-3.8,1.7-3.8,3.8c0,0.3,0,0.6,0.1,0.9c-3.2-0.2-6-1.7-7.9-4
+      C1.6,3.8,1.4,4.4,1.4,5.1c0,1.3,0.7,2.5,1.7,3.1c-0.6,0-1.2-0.2-1.7-0.5c0,0,0,0,0,0c0,1.8,1.3,3.4,3.1,3.7c-0.3,0.1-0.7,0.1-1,0.1
+      c-0.2,0-0.5,0-0.7-0.1c0.5,1.5,1.9,2.6,3.6,2.6c-1.3,1-3,1.6-4.8,1.6c-0.3,0-0.6,0-0.9-0.1c1.7,1.1,3.7,1.7,5.9,1.7
+      c7.1,0,10.9-5.8,10.9-10.8c0-0.2,0-0.3,0-0.5c0.8-0.5,1.4-1.2,1.9-2c-0.7,0.3-1.4,0.5-2.2,0.6c0.8-0.5,1.4-1.2,1.7-2.1
+      c-0.7,0.4-1.6,0.7-2.4,0.9C15.7,3,14.7,2.5,13.6,2.5"/>
+    </symbol>
+    
+    <symbol id="youtube-icon">
+  		<path fill="currentColor" d="M21.5,5.7c0,0-0.2-1.5-0.9-2.1c-0.8-0.8-1.7-0.9-2.1-0.9c-3-0.2-7.5-0.2-7.5-0.2h0c0,0-4.5,0-7.5,0.2
+			c-0.4,0-1.3,0.1-2.1,0.9C0.7,4.3,0.5,5.7,0.5,5.7S0.3,7.5,0.3,9.2v1.6c0,1.7,0.2,3.5,0.2,3.5s0.2,1.5,0.9,2.1
+			c0.8,0.8,1.9,0.8,2.4,0.9c1.7,0.2,7.3,0.2,7.3,0.2s4.5,0,7.5-0.2c0.4,0,1.3-0.1,2.1-0.9c0.6-0.6,0.9-2.1,0.9-2.1s0.2-1.7,0.2-3.5
+			V9.2C21.7,7.5,21.5,5.7,21.5,5.7z M8.8,12.8l0-6l5.8,3L8.8,12.8z"/>
+    </symbol>
+
+    <symbol id="tumblr-icon">
+      <path fill="currentColor" d="M12.6,15.5c-0.8,0-2-0.5-2-0.8v-3.4V8.6h3.8V7.9V6h-3.8V2H8.5C8.4,3,8.1,3.9,7.7,4.6C7.4,4.9,7.2,5.2,6.9,5.4
+      C6.5,5.8,6,6,5.4,6H5.1v2.6h1.8v0.7v5.8c0,2.5,2.2,2.9,3.7,2.9c0.3,0,0.7,0,1,0c2.3,0,2.8-0.2,3.3-0.5v-2.8v0c0,0,0,0,0,0
+      C14.2,15.1,13.4,15.5,12.6,15.5z"/>
+    </symbol>
+    
+    <symbol id="email-icon">
+      <path fill="currentColor" d="M2,4v12h16V4H2z M16.1,5.2l-5.6,5.6c-0.1,0-0.3,0.1-0.5,0.1c-0.1,0-0.4,0-0.5-0.1L3.9,5.2H16.1z M3.2,5.9
+      l4,4.1l-4,4.1V5.9z M3.9,14.9l4-4.1l0.8,0.8c0.4,0.4,0.8,0.5,1.3,0.5s1.1-0.3,1.3-0.5l0.7-0.8l4,4.1H3.9z M16.8,14.1l-4-4.1l4-4
+      V14.1z"/>
+    </symbol>
+    
+    <symbol id="instagram-icon">
+      <path fill="currentColor" d="M16.9,1H3.1C2,1,1,2,1,3.1v13.7C1,18,2,19,3.1,19h13.7c1.2,0,2.1-1,2.1-2.1V3.1C19,2,18,1,16.9,1z M13.5,3.6
+	c0-0.3,0.2-0.5,0.5-0.5h2.4c0.3,0,0.5,0.2,0.5,0.5V6c0,0.3-0.2,0.5-0.5,0.5H14c-0.3,0-0.5-0.2-0.5-0.5V3.6z M10,6.6
+	c1.9,0,3.5,1.5,3.5,3.5c0,1.9-1.5,3.5-3.5,3.5c-1.9,0-3.5-1.5-3.5-3.5C6.6,8.1,8.1,6.6,10,6.6z M17,16.4c0,0.3-0.2,0.5-0.5,0.5H3.6
+	c-0.3,0-0.5-0.2-0.5-0.5V8.6h1.7C4.6,9,4.5,9.5,4.5,10c0,3,2.5,5.5,5.5,5.5c3,0,5.5-2.5,5.5-5.5c0-0.5-0.1-1-0.2-1.4H17V16.4z"/>
+    </symbol>    
+
+  </defs>
+</svg>
+<header class="site-header">
+  <div class="header-top inner">
+    
+    <form class="search-bar" method="post" action="http://screenprism.com/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="66" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="d39b1589520c78755aa97787a37656b10fd1d06b" />
+</div>
+
+
+      <input type="text" name="keywords" id="keywords" value="" placeholder="Search by film title, genre, director&hellip;" />
+      <button>
+        <span>Search</span>
+        <svg viewBox="0 0 20 20" class="icon search-icon"><use xlink:href="#search-icon"></use></svg>
+      </button>
+    </form>
+    
+    <div class="logo-group">
+      <h1><a href="http://screenprism.com/">ScreenPrism</a></h1>
+      <p class="tagline">Film & TV explained</p>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="inner">
+      <nav>
+        <ol class="site-nav">
+          <li class="insights"><a href="http://screenprism.com/insights">Insights</a></li>
+          <li class="film"><a href="http://screenprism.com/film">Film</a></li>
+          <li class="tv"><a href="http://screenprism.com/tv">TV</a></li>
+          <li class="ask"><a href="http://screenprism.com/ask">Ask</a></li>
+          <li class="about"><a href="http://screenprism.com/about">About</a></li>
+          <li class="subscribe"><a href="#mailing-list">Mailing List</a></li>
+        </ol>
+      </nav>
+      <div class="header-links">
+        <div class="mailing-list">
+          <a href="#mailing-list">Mailing List</a>
+          <div class="form-wrapper">
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="//screenprism.us11.list-manage.com/subscribe/post?u=11bbbde22831d1d4fe52c1860&amp;id=d5c40c709a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <h6>Join Our Mailing List</h6>
+                <div id="mc_embed_signup_scroll">
+                  <input type="email" value="" placeholder="Email Address" name="EMAIL" class="required email" id="mce-EMAIL">
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>
+                  <div style="position: absolute; left: -5000px;">
+                    <input type="text" name="b_11bbbde22831d1d4fe52c1860_d5c40c709a" tabindex="-1" value="">
+                  </div>
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->            
+          </div>
+        </div>
+        <ol class="social-links">
+          <li class="facebook">
+              <a href="https://www.facebook.com/screenprism">
+                <svg viewBox="0 0 20 20" class="icon facebook-icon">
+                  <use xlink:href="#facebook-icon"></use>
+                </svg>
+              </a>
+            </li>
+          <li class="twitter">
+              <a href="https://twitter.com/screenprism">
+                <svg viewBox="0 0 20 20" class="icon twitter-icon">
+                  <use xlink:href="#twitter-icon"></use>
+                </svg>
+              </a>
+            </li>
+          <li class="youtube">
+              <a href="https://www.youtube.com/c/screenprism">
+                <svg viewBox="0 0 22 20" class="icon youtube-icon">
+                  <use xlink:href="#youtube-icon"></use>
+                </svg>
+              </a>
+            </li>
+          
+          <li class="pinterest">
+              <a href="https://www.pinterest.com/source/screenprism.com/">
+                <svg viewBox="0 0 20 20" class="icon pinterest-icon">
+                  <use xlink:href="#pinterest-icon"></use>
+                </svg>
+              </a>
+            </li>
+          <li class="instagram">
+              <a href="https://instagram.com/screenprism">
+                <svg viewBox="0 0 20 20" class="icon instagram-icon">
+                  <use xlink:href="#instagram-icon"></use>
+                </svg>
+              </a>
+            </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="main">
+  <div class="content single">
+    
+    <article>
+      <header>
+        <h1>Terms of Use &amp; Conditions</h1>
+      </header>
+	  <p>LEGAL NOTICE, DISCLAIMER, TERMS OF USE &amp; COPYRIGHT NOTICE</p>
+
+<p>Last Updated: February 2017</p>
+
+<p>ScreenPrism is provided for your information and entertainment, and we hope you enjoy using it. Please browse the website and make use of its various features, but please be aware that your use of the website is subject to the following Terms of Use. Your use of this website and the Services (defined below) demonstrate agreement to the Terms of Use.</p>
+
+<p>IF YOU DO NOT AGREE TO THESE TERMS OF USE, PLEASE DO NOT USE THIS WEBSITE.</p>
+
+<p><strong>1. Ownership, Operation and Agreement to be&nbsp;Bound by these Terms of Use and Conditions</strong></p>
+
+<p>Unless otherwise stated, these terms of use apply to users of this Website ("Website") and any affiliated websites including the websites located at the URL www.screenprism.com; and URL screenprism.com; (plus any other affiliated or directly associated domains). This site is operated by ScreenPrism Media, Inc.&nbsp;("ScreenPrism", "we" or "us"). In this agreement, the term Website includes all websites and web pages within the Website as well as any equivalent, mirror, replacement, substitute, redirected or backup websites and web pages thereto and thereof. Please also review the terms of our Privacy Policy which forms part of these Terms of Use. Your use of this Website is&nbsp;subject to these Terms of Use, Privacy Policy, and any other terms, conditions or restrictions set forth within any of the materials provided on the Website. You agree to the Terms of Use by accessing this Website and/or by accepting any information from this Website. If you do not agree with any of these Terms of Use, do not use this Website or any of the other ScreenPrism Websites.</p>
+
+<p>You agree that we may change or revise these Terms of Use from time to time by updating this posting, and that such changes or revision will take effect immediately upon our posting. Visit this area each time you visit the website to keep up to date with the current Terms of Use. Your use of the website reaffirms your continuing agreement to the then-current Terms of Use. &nbsp;We&nbsp;assume&nbsp;(and by using this Website you warrant that) you have legal capacity to enter into the agreement set out in theses Terms of Use. We will assume (and by using this Website you warrant that) you have legal capacity to enter into the agreement set out in these Terms of Use.</p>
+
+<p>This agreement does not cover your rights or responsibilities with respect to third party content, sites or any links that may direct your browser or your connection to third party sites or pages. You shall be responsible and shall indemnify ScreenPrism for any claims related to such activities. This is the entire and exclusive agreement between you and us regarding use of the Website and it cannot be modified, except as specifically described herein. Notwithstanding the foregoing, any downloadable widget, computer software, player, or other downloadable files linked from the Website may or may not be under our control and you assume the full responsibility and legal responsibility with respect to any downloaded media, content, files, music, artwork, information, text, or photographs (collectively, "Materials") located or found on the Website. All Materials contained and existing on the Website are protected by United States and international copyright law, and other federal and international laws.&nbsp;</p>
+
+<p><strong>2. &nbsp;Eligibility and Access</strong></p>
+
+<p>You may not use the Website and may not accept the Terms of Use if (a) you are under 13&nbsp;years of age; (b) you are under 18 years of age but over 13 years of age and do not have the consent or permission of a legal guardian to use the Website;&nbsp;or (c) you are barred or otherwise legally prohibited from using or accessing the Website under the laws of the country in which you are resident.&nbsp;</p>
+
+<p>Access to the website is permitted on a temporary basis, and we reserve the right in our sole discretion to modify or discontinue the website or specific portions of it without notice to you. We will not be liable if for any reason our site is unavailable at any time or for any period.</p>
+
+<p>Subject to applicable law, we reserve the right to suspend or terminate access to the Website and/or the Services without notice, liability or responsibility for failure to comply with the Terms of Use or the Privacy Policy, for infringing copyright or any other intellectual property right, or for any other reason (including repeat minor offences).&nbsp; The decision to terminate an individual&rsquo;s access to the website or the Services shall be final and binding.</p>
+
+<p>You must not copy, monitor or access any part of the Website using an automated mechanism or process such as a robot or spider. You must not attempt to gain unauthorized access to any part of the website by hacking or any other similar means. You must not use the site for an unlawful purpose or unlawful purposes.&nbsp;</p>
+
+<p>The Website and the information contained in reference herein are for informational and entertainment purposes only. Despite our efforts to provide useful and accurate information, errors may appear from time to time. Before you act on information you&#39;ve found on the Website, you should confirm any facts that are important to your decision. You may print material from the Website for personal or educational purposes only, and you must include any copyright notice originally included with the Materials in all copies. (Please refer to the Copyright and Trademark Notice below). You may not modify or use the Materials for any other purpose without our express written consent. You may not reproduce, republish, post, transmit, publicly display, publicly perform, or distribute in print or electronically any Material published or provided on this Website.</p>
+
+<p>This Website and its information providers make no warranty as to the reliability, accuracy, timeliness, usefulness or completeness of the information on the Website. We are&nbsp;not responsible for, and cannot guarantee the performance of, the goods and services provided by our advertisers or others to whose websites we link, or the promotions or events promoted by the advertisers or sponsor who promote such events.</p>
+
+<p><strong>3. &nbsp;Privacy</strong></p>
+
+<p>We take your privacy very seriously and will use and protect any personal information you provide on this website in accordance with our Privacy Policy. By using the Services you agree that we can use the personal information you provide in accordance with the aforementioned Privacy Policy.</p>
+
+<p><strong>4. &nbsp;Ownership and Use of Website Materials, Products and Services</strong></p>
+
+<p>We own the intellectual property rights for all of the materials on the Website or have a valid right from a third party to use materials on the website. We also own or have a valid right to use all trade marks, service marks, graphics and logos&nbsp;used on this Website and any other legally protectible elements of the Website, including without limitation, the selection, sequence and "look and feel" and arrangement of items. Unless expressly stated, no part of the Website may be copied, reproduced, republished, uploaded, posted, transmitted, or distributed in any way. Your use of the trade marks, service marks, graphics and logos on this website in any manner other than as authorized in these Terms of Use, or as authorized in writing by us, is strictly prohibited.&nbsp; You (and not us) assume the entire cost of all servicing, repair, or correction that may be necessary for your computer equipment and software as a result of any viruses, harmful components, errors or any other problems whatsoever you may have as a result of visiting this website.&nbsp;Decompiling, reverse engineering, disassembling or otherwise reducing the code used in any software on this Website into a readable form in order to examine the construction of such software and/or to copy or create other products based (in whole or in part) on such software, is prohibited.</p>
+
+<p><strong>5. &nbsp;Geographic Scope of the Website</strong></p>
+
+<p>We control and operate this website from the United States. We make no representation that materials in this website are appropriate or available for use in your location. All visitors to this website are responsible for compliance with all local laws applicable to them with respect to the content and operation of this website.&nbsp; You agree not to link to this website from a website not operated by us, unless you have obtained our prior written consent.</p>
+
+<p><strong>6. &nbsp;Links to Other Websites</strong></p>
+
+<p>For your convenience and enjoyment, this website may provide links to other websites on the world wide web that are not operated by us. We have no control over these websites and are not responsible for their availability. We do not endorse, approve or sponsor, nor are we responsible or liable for, any information or content available at the linked sites or any products, or other materials on or available from such sites. We are not responsible for webcasting or any other form of transmission received from any linked site.&nbsp; In addition, we are not liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with your use of such content, information, products, goods or services available on or through any such linked websites.</p>
+
+<p>Any third party Website that links to the Website (a) shall not create a frame, browse or border environment around any of the content of the Website; (b) may link to, but not replicate, Website content; (c) shall not state directly or imply that we iare&nbsp;endorsing or sponsoring it or its products or services; (d) shall not present false information about us or its products or services; (e) shall not use our trademarks without our&nbsp;prior written permission; (f) shall not contain content that could be construed as distasteful, offensive, obscene or controversial; and (g) shall not otherwise violate any copyright interest of ours or other artist, movie, studio&nbsp;or affiliated party whose information and/or material&nbsp;available on the Website.</p>
+
+<p><strong>7. &nbsp;No Solicitation</strong></p>
+
+<p>You agree not to use the Website to advertise or to solicit anyone to buy or sell products or services or to make donations of any kind without our&nbsp;express written approval.<br />
+<br />
+<strong>8. &nbsp;No Spamming</strong></p>
+
+<p>Users of this Website may include chat rooms, forums and/or other public-posting areas and users may post their e-mail addresses in those public areas. In the event such posting are made, you agree not to utilize these e-mail addresses for purposes of spamming (i.e., unsolicited e-mail).<br />
+<br />
+<strong>9. &nbsp;Chat Rooms, Bulletin Boards, Other Forums</strong></p>
+
+<p>If&nbsp;this Website includes chat rooms, forums and/or other public-posting areas such as user comments, ScreenPrism will not and cannot review every posting that may be made in those public areas. We will not endorse or guarantee the accuracy of any posting regardless of whether the posting comes from a user, from a celebrity or "expert" guest or from a member of our&nbsp;staff. &nbsp;ScreenPrism will not be responsible for any material posted in any chat room or on any bulletin board or forum and will not be responsible or liable to any person or entity for any loss, damage (whether actual, consequential, punitive or otherwise), injury, claim, liability or other cause of any kind or character based upon or resulting from any material provided through this Website.<br />
+<br />
+ScreenPrism&nbsp;shall have the right but not the obligation to monitor, from time to time, the content of the Website including, without limitation, the chat room, bulletin boards and forums to determine compliance with this Agreement and any operating rules established by us and to satisfy any law, regulation or authorized government request. We shall have the right in its sole and absolute discretion to edit, refuse to post or remove any material submitted to or posted on the Website.<br />
+<br />
+By using the Website, you agree not to post any content which libels, defames, invades privacy or is indecent, obscene, pornographic, abusive, threatening, illegal, solicits gambling or engages in any gambling activity, contains a virus or other harmful component, infringes on the ability of others to enjoy the Website or that infringes on the rights of others including, without limitation, any intellectual property rights of any entity or person, impersonates or misrepresents your connection to any other entity or person or otherwise manipulates headers or identifiers to disguise the origin of the content, contains links to other sites that contain the kind of content which falls within the description set out above. We&nbsp;reserve&nbsp;the right to delete, move or edit any content and refuse access to anyone who we believes in its sole and absolute discretion has violated these terms or any other term of this Agreement. You hereby waive any and all rights you may have with respect to the alteration, modification or removal of any such content. We additionally reserves the right to terminate this Agreement against any further use of any person or entity who violates any term of this Agreement. If ScreenPrism&nbsp;receives a request to disclose the identities of users who post content to the Website and if ScreenPrism discloses the identify of a user pursuant to the Terms of Use or the Privacy Policy, you understand and agree that we may do so and you waive all rights in connection therewith.<br />
+<br />
+By submitting material to the Website, you are representing that you are the owner of the material or are making your submission with the express consent of the owner. Submitting material that is the property of another, without the consent of its owner, is not only a violation of this Agreement but may also subject you to legal liability for copyright, trademark or other intellectual property infringement.<br />
+<br />
+All material you submit to the Website, including e-mails, becomes our&nbsp;sole and exclusive property. ScreenPrism may reproduce, distribute, display, exhibit and otherwise exploit that material in all markets and media now known or hereafter devised throughout the Universe in perpetuity without payment of any compensation or other consideration to you. You hereby waive all moral rights you may have in and to that material. ScreenPrism does not consider any material you submit to the Website to be confidential or proprietary.</p>
+
+<p><strong>10. &nbsp;Contents of the Website Disclaimer</strong></p>
+
+<p>The material on the Website (including any graphics, software, digital content, recommendations or other materials) and any material made available through the Website is provided "as is" and &ldquo;as available&rdquo; and without conditions or warranties of any kind, either express or implied. To the fullest extent permissible pursuant to applicable law, we disclaim all conditions and warranties, express or implied, including, but not limited to, all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement. We do not warrant or make any representations regarding the use or the results of the use of the material on the website in terms of its correctness, accuracy, reliability, or otherwise. The material on this Website could include technical inaccuracies or typographical errors and could be inaccurate or become inaccurate as a result of developments occurring after their respective dates. We undertake no obligation to verify or maintain the currency of such information.&nbsp;</p>
+
+<p><strong>11. &nbsp;Promotions and Contests</strong></p>
+
+<p>The Website may, from time to time, contain sweepstakes and other contests and promotions that require you to send material or information about yourself. Those sweepstakes, contests or promotions may be governed by a separate set of rules that may have eligibility requirements. It is your responsibility to read such rules to determine whether your participation, registration and/or entry are valid. You agree to read and comply with such rules before entering any sweepstakes, contest or promotion on this Website.<br />
+<br />
+<strong>12. &nbsp;Membership and Registration</strong></p>
+
+<p>Certain areas of this Website may, in the future, require you to register or ask you to provide information to participate in certain features or access certain content. Your decision to provide that information is purely optional. If you elect not to provide that information, however, you may not be able to access that area, feature or content. If you elect to provide that information, you agree to provide information that is true and accurate. You also may be required to choose a user name and password. It is your responsibility alone to ensure the confidentiality of that name and password. You agree not to register under the name of any other person. We reserve&nbsp;the right to reject any user name that is, in ScreenPrism&#39;s sole and absolute judgment, offensive. You agree to notify us of any unauthorized use of your user name and/or password. You must be at least 13 years old to register on the Website.</p>
+
+<p><strong>13. &nbsp;Purchase of Merchandise</strong></p>
+
+<p>In the event any merchandise or services are offered for sale via this Website which are listed at an incorrect price or contain other incorrect information, ScreenPrism&nbsp;shall have the absolute right to refuse or cancel any order placed for such merchandise or services and we are&nbsp;released from liability for same. Your only remedy is to return to us&nbsp;or a third party offering that merchandise for a refund, at our&nbsp;or the third party&#39;s sole discretion.</p>
+
+<p><strong>14. Submissions</strong></p>
+
+<p>ScreenPrism welcomes your comments but does not accept unsolicited submissions for programming, Websites and other products and we cannot review your submissions. ScreenPrism has adopted this policy to avoid misunderstandings about projects we develop which may appear to be similar to someone else&#39;s idea, suggestion or material. If you choose to submit material to us&nbsp;despite this request not to submit ideas for programming, Websites and other products, we&nbsp;will not treat any submission as confidential. We&nbsp;will not be liable for any use or disclosure of that submission to any third party and/or for loss of any material submitted and may use it for any purpose. By submitting material to this Website you acknowledge that the material may be identical with or similar to themes, plots, ideas, formats or other elements that ScreenPrism has independently developed or that has or may come to us from other sources. You represent and warrant that the submission is wholly original to you and its use will not violate the rights, common law or otherwise, of any kind or nature whatsoever of any third party or entity. Any submission will become the sole property of ScreenPrism and will not be returned to you and we&nbsp;shall not be required to respond to any submission received. You agree that you are not entitled to any compensation by reason of ScreenPrism&#39;s&nbsp;use of similar or identical material.</p>
+
+<p><strong>15. &nbsp;Operation of the Website Disclaimer</strong></p>
+
+<p>We endeavor to maintain this Website and its operation, but is not, and cannot be, responsible for the results of any defects that may exist in the website or its operation. As to the operation of the Website, we expressly disclaims all conditions and warranties of any kind, whether express or implied, including, but not limited to all implied warranties of merchantability or fitness for a particular purpose, title and non-infringement. We make no warranty that (i) the operation of the website will meet the user&#39;s requirements; (ii) access to the website will be uninterrupted, timely, secure, free of viruses, worms, trojan horses or other harmful components, or free of defects or errors; (iii) the results that may be obtained from the use of the website will be accurate or reliable; or (iv) defects will be corrected. You (and not us) assume the entire cost of all servicing, repair, or correction that may be necessary for your computer equipment and software as a result of any viruses, harmful components, errors or any other problems whatsoever you may have as a result of visiting this Website.&nbsp;&nbsp;</p>
+
+<p><strong>16. &nbsp;Limitation of Liability</strong></p>
+
+<p>Subject to applicable law, under no circumstances shall we be liable to you or any other person or entity for any direct, indirect, special, incidental, consequential, punitive or other damages, including lost profits, goodwill, business opportunity, personal injury (including death) and property damage, that may result from (a) the use of, or the inability to use, the Website or any material on the website, (b) the conduct of any user of the Website, whether in contract, tort (including negligence) or otherwise. We shall not be liable even if we or an authorized representative of ours has been advised of the possibility of such damages. These include but are not limited to damages or injury caused by error, omission, interruption, defect, failure of performance, loss or corruption of data, delay in operation or transmission, line failure or computer virus, worm, trojan horse or other harmful component.</p>
+
+<p>Applicable law may not allow the exclusion of certain warranties or the limitation or exclusion of liability for incidental or consequential damages. Accordingly, some of the above limitations or exclusions may not apply to you. However, in no event shall our total liability to you for damages, losses, and causes of action whether in contract, tort (including, negligence) or otherwise exceed the amount paid by you, if any, for accessing the website.</p>
+
+<p><strong>17. &nbsp;Indemnification</strong></p>
+
+<p>You hereby agree to defend, indemnify and hold us and each of our respective agents, licensees, successors and assigns, harmless from and against any and all claims, actions or proceedings of any kind and from any and all damages, liabilities, costs and expenses, including reasonable legal fees, relating to or arising out of, directly or indirectly, any&nbsp;use of the Website, the materials on the Website&nbsp;and/or any breach or alleged breach of any of your warranties, representations or agreements hereunder. &nbsp;You agree not to take any action that interferes with the proper working of the Website, imposes an unreasonable or disproportionately large load on the Website&#39;s infrastructure, might compromise the security of the Website, render the Website inaccessible to others or otherwise cause damage to the Website or any content in the Website.</p>
+
+<p><strong>18. &nbsp;Termination</strong></p>
+
+<p>The Terms of Use and the Privacy Policy are and shall remain effective until terminated.&nbsp; You may terminate these Terms of Use by ceasing to use the Website and destroying any and all material obtained by you from the Website.&nbsp; We may immediately terminate the Terms of Use and the Privacy Policy, including your access to the Website, if you breach or fail to comply with any material term or provision of the Terms of Use.&nbsp; Upon termination, you must discontinue use of the website and destroy any and all material obtained by you from the Website.</p>
+
+<p><strong>19. &nbsp;Applicable Law and Jurisdiction</strong></p>
+
+<p>These Terms of Use and any disputes arising under or related to these Terms of Use (whether in contract, tort (including negligence), statute or otherwise) will be governed by, construed and enforced in accordance with the laws of the State of New York, without reference to its conflicts of law principles. Any legal actions, suits or proceedings arising out of these Terms of Use (whether in contract, tort (including negligence), statute or otherwise) will be brought exclusively in New York, New York and you hereby accept and submit to the personal jurisdiction of these courts with respect to any legal actions, suits or proceedings arising out of these Terms of Use.</p>
+
+<p>Any cause of action you may have with respect to your use of this Website must be commenced within one (1) year after the claim or cause of action arises and you hereby expressly waive any right you may have under applicable federal, state or local statutes of limitations. We make no representations regarding the legality of access to or use of the Website or the materials contained herein from other countries. Access in countries where the materials contained herein are illegal is prohibited. Users who access the Website from outside the United States do so at their own risk.</p>
+
+<p>YOU ALSO WAIVE TO THE FULLEST EXTENT PERMITTED BY LAW ANY RIGHT TO A TRIAL BY JURY IN ANY ACTION, SUIT OR PROCEEDING BROUGHT TO ENFORCE, DEFEND OR INTERPRET ANY RIGHT OR REMEDIES UNDER, OR ARISING IN CONNECTION WITH OR RELATING TO, THESE TERMS OF USE.</p>
+
+<p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, NO CLAIM UNDER THIS AGREEMENT SHALL BE JOINED TO ANY OTHER CLAIM, INCLUDING ANY CLAIM INVOLVING ANY OTHER CURRENT OR FORMER USER OF THE SITE, THE DOMAIN, OR THE SERVICES, AND NO CLASS PROCEEDINGS SHALL BE PERMITTED.</p>
+
+<p><strong>20. &nbsp;Severability</strong></p>
+
+<p>If any provision of these Terms of Use shall be found to be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from these Terms of Use and shall not affect the validity and enforceability of any remaining provisions.</p>
+
+<p><strong>21. &nbsp;No Waiver</strong></p>
+
+<p>No failure on our part to enforce any part of these Terms of Use shall constitute a waiver of any of our rights under these Terms of Use whether for past or future actions on the part of any person. Neither the receipt of any funds by us nor the reliance of any person on our actions shall be deemed to constitute a waiver of any part of these Terms of Use. Only a specific, written waiver signed by our authorized representative shall have any legal effect whatsoever.</p>
+
+<p><strong>22. &nbsp;Entire Agreement</strong></p>
+
+<p>This Agreement, the Privacy Policy, and any rules for the Website established by ScreenPrism constitutes the entire agreement between the parties concerning the subject matter hereof and supersedes all previous written or oral agreements between the parties with respect to that subject matter.</p>
+
+<p><strong>23. &nbsp;No Legal Effect</strong></p>
+
+<p>The paragraph titles in these Terms of Use are for convenience only and have no legal or contractual effect.</p>
+    </article>
+	
+    <aside>
+      <h4>Contact Info</h4>
+      <p>Have questions, comments, or concerns? Please reach out to us using the form below.</p>
+
+<p>If you want to submit a question about a particular film or tv show, please email us at <a href="mailto:Ask@screenprism.com?subject=I%20have%20a%20question">Ask@screenprism.com</a> or visit our&nbsp;<a href="http://stage.screenprism.com">Ask Page</a>.</p>
+      
+      <form action="http://screenprism.com/?ACT=43" accept-charset="utf-8" class="contact-form" method="post"><div style="display:none">
+<input type="hidden" name="params_id" value="1147261" />
+<input type="hidden" name="csrf_token" value="d39b1589520c78755aa97787a37656b10fd1d06b" />
+</div> 
+        <h5><label for="name">Name</label></h5>
+        <input type="text" name="name" value="" id="freeform_name" maxlength="150"  />
+        <h5><label for="email">Email</label></h5>
+        <input type="text" name="email" value="" id="freeform_email" maxlength="150"  />
+        <h5><label for="subject">Subject</label></h5>
+        <input type="text" name="subject" value="" id="freeform_subject" maxlength="150"  />
+        <h5><label for="message">Message</label></h5>
+        <textarea name="message" cols="50" rows="6" id="freeform_message" ></textarea>
+        
+        <div class="captcha-box">
+          <p><label for="captcha">Please enter the word you see in the image below</label></p>
+          <div class="captcha-field">
+            <img src="http://screenprism.com/images/captchas/1546735301.0604.jpg" width="140" height="30" style="border:0;" alt=" " />
+            <input type="text" name="captcha">
+          </div>
+        </div>
+        
+        <input type="submit" name="submit" value="Send" /></form>
+      
+    </aside>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="inner">
+    <div class="footer-links">
+      <h1><a href="http://screenprism.com/">ScreenPrism</a></h1>
+      <ol class="legal-links">
+        <li><a href="http://screenprism.com/terms-and-conditions">Terms &amp; Conditions</a></li>
+        <li><a href="http://screenprism.com/privacy-policy">Privacy Policy</a></li>
+      </ol>
+      <ol class="social-links">
+      <li class="facebook">
+          <a href="https://www.facebook.com/screenprism">
+            <svg viewBox="0 0 20 20" class="icon facebook-icon">
+              <use xlink:href="#facebook-icon"></use>
+            </svg>
+          </a>
+        </li>
+      <li class="twitter">
+          <a href="https://twitter.com/screenprism">
+            <svg viewBox="0 0 20 20" class="icon twitter-icon">
+              <use xlink:href="#twitter-icon"></use>
+            </svg>
+          </a>
+        </li>
+      <li class="youtube">
+          <a href="https://www.youtube.com/c/screenprism">
+            <svg viewBox="0 0 22 20" class="icon youtube-icon">
+              <use xlink:href="#youtube-icon"></use>
+            </svg>
+          </a>
+        </li>
+      
+      <li class="pinterest">
+          <a href="https://www.pinterest.com/source/screenprism.com/">
+            <svg viewBox="0 0 20 20" class="icon pinterest-icon">
+              <use xlink:href="#pinterest-icon"></use>
+            </svg>
+          </a>
+        </li>
+      <li class="instagram">
+          <a href="https://instagram.com/screenprism">
+            <svg viewBox="0 0 20 20" class="icon instagram-icon">
+              <use xlink:href="#instagram-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ol>
+    </div>
+    <aside id="mailing-list" class="mailing-list">
+      <h5>Join our Mailing List</h5>
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//screenprism.us11.list-manage.com/subscribe/post?u=11bbbde22831d1d4fe52c1860&amp;id=d5c40c709a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" placeholder="Email Address" name="EMAIL" class="required email" id="mce-EMAIL">
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <div style="position: absolute; left: -5000px;">
+              <input type="text" name="b_11bbbde22831d1d4fe52c1860_d5c40c709a" tabindex="-1" value="">
+            </div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </aside>
+    <small class="copyright">&copy; 2019 ScreenPrism, LLC</small>
+  </div>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="http://screenprism.com/assets/js/jquery.js"%3E%3C/script%3E'))</script>
+<script src="http://screenprism.com/assets/js/scripts.foot.deploy.js"></script>
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="http://screenprism.com/assets/js/ie8.scripts.deploy.js"></script>
+<![endif]-->
+<!--[if (lt IE 8) & (!IEMobile)]>
+<script src='assets/js/imgsizer.js'></script>
+<script>
+  addLoadEvent(function() {
+    if (document.getElementById && document.getElementsByTagName) {
+      var aImgs = document.getElementById("content").getElementsByTagName("img");
+      imgSizer.collate(aImgs);
+    }
+  });
+</script>
+<![endif]-->
+
+<!--
+<script type="text/javascript">
+  var disqus_shortname = 'screenprism';
+  (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
+-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-58999700-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- Start Popup Architect -->
+<script src="//app.popuparchitect.com/widgets/show/6hFUNCc6vB6VH4QE9F3ECw.js" type="text/javascript"></script>
+<div id="popup_architect_container"></div>
+<!--<a href="http://popuparchitect.com">popuparchitect.com</a>-->
+<!-- End Popup Architect -->
+
+<!-- Start Pub-Exchange -->
+<script>(function(w, d, s, id) {
+  w.PUBX=w.PUBX || {pub: "screenprism", discover: false, lazy: true};
+  var js, pjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//main.pubexchange.com/loader.min.js";
+  pjs.parentNode.insertBefore(js, pjs);
+}(window, document, "script", "pubexchange-jssdk"));</script>
+<!-- End Pub-Exchange -->
+
+</body>
+</html>

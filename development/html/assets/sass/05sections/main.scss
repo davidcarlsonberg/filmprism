@@ -23,14 +23,14 @@
   li {
     @include font-size(10);
     a {
-      @include border-radius;
-      @include box-shadow;
+      @include border-radius();
+      @include box-shadow();
       display: block;
       overflow: hidden;
       background-color: $card-bg-color;
       &:hover, 
       &:focus {
-        figure img {@include opacity(.5)}
+        figure img {@include opacity(0.5)}
         h5,h6,p {color:$card-link-hover}
         .summary {background-color: lighten($card-bg-hover,0%)}
       }
@@ -70,7 +70,6 @@
 .filters {
   padding: 1.5em $side-padding;
   background-color: $filters-bar-bg;
-  border-bottom: 1px solid darken($filters-bar-bg,10%);
   @include break-up($large){
     padding-top: 14.5em;
   }
@@ -80,6 +79,7 @@
     margin: 0 auto;
     color: $filters-bar-text;
     font-family: $filters-font;
+    font-weight: 700;
     text-transform: uppercase;
     @include break-up($medium){
       float: left;
@@ -93,6 +93,7 @@
       padding: .25em .75em;
       background-color: $filters-bar-link-bg;
       color: $filters-bar-link-text;
+      font-weight: 500;
       &:hover,&:focus{background-color:$filters-bar-link-hover}
       &.active {background-color: $filter-bar-link-active}
     }

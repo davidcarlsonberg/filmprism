@@ -36,7 +36,7 @@
   &-heading {
     margin: 0 0 1em;
     span {
-      color: $md-blue;
+      color: $black;
     }
   }
   &-link,
@@ -45,7 +45,6 @@
   }
   &-label {
     float: left;
-    font-family: $lato;
   }
   &-link {
     svg {

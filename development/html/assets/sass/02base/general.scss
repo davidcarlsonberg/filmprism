@@ -23,6 +23,7 @@ html {
 body {
   @extend %footer-bg;
   font-family: $body-font;
+  font-weight: 500;
 }
 
 body,
@@ -31,6 +32,7 @@ select,
 textarea {
   color: $body-text;
   font-family: $body-font;
+  font-weight: 500;
 }
 
 section {

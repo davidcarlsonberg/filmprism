@@ -20,18 +20,18 @@
     @include font-size(10);
     margin: 0 auto 1em;
     @include break-up($medium){
-      margin: 0 0 .75em -1em;
+      margin: 0 0 .75em;
     }
     a {
       display: block;
       overflow: hidden;
       height: 0;
-      width: 16em;
-      padding-top: 4.4em;
+      width: 18em;
+      padding-top: 2.5em;
       margin: 0 auto;
       background-position: 0 0;
       background-repeat: no-repeat;
-      @include hires("../img/logo/screenprism-footer-logo.png", "../img/logo/screenprism-footer-logo-2x.png");
+      @include hires("../img/logo/thetake-footer-logo.png", "../img/logo/thetake-footer-logo-2x.png");
       @include break-up($medium){
         margin: 0;
       }
@@ -114,7 +114,11 @@
     }
     input {
       @include font-size(14);
-      margin: 0 0 .5em;
+      margin: 0;
+      &[type='email']{
+        background: $x-lt-gray;
+        margin-bottom: .75em;
+      }
     }
   }
   small {

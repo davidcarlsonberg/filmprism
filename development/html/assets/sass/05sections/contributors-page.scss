@@ -8,7 +8,7 @@
   overflow: hidden;
   max-width: 90em;
   margin: 0 auto;
-  background-color: $dk-blue;
+  background-color: $magenta;
   header {
     margin-bottom: 2em;
     padding-bottom: 1.5em;
@@ -18,7 +18,7 @@
     }
     figure {
       margin-bottom: 3em;
-      background-color: $lt-gray;
+      background-color: $x-lt-gray;
       @include break-up($small){
         float: right;
         width: 45%;
