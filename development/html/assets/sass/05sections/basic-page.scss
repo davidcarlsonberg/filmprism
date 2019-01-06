@@ -43,7 +43,6 @@
       margin: 2em 0 -2.25em;
       padding: .5em 0;
       border-top: 1px solid $border-color;
-      font-family: $by-line-font;
       .spacer{margin:0 .375em;color:$border-color}
       a {@include inline-block(baseline)}
     }

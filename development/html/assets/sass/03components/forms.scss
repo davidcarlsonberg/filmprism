@@ -79,7 +79,6 @@ input[type='submit']{
     display: block;
     padding: .75em 1em;
     background-color: $white;
-    font-family: $lato;
     &:after {
       @include font-size(12);
       content: $down-triangle;
@@ -111,7 +110,7 @@ input[type='submit']{
 }
 
 .errors {
-  @include border-radius;
+  @include border-radius();
   margin-bottom: 1.5em;
   padding: 1.5em 1.5em 1em;
   background-color: $form-error-bg;

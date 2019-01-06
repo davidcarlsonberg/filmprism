@@ -54,7 +54,6 @@
   .legal-links {
     li {
       @include font-size(16);
-      font-family: $nav-font;
       font-weight: 300;
       &:before {
         content: '\007C';

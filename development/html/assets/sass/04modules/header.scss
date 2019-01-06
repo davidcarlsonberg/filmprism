@@ -197,7 +197,6 @@
       background-color: $header-button-bg;
       border: 2px solid $header-button-border;
       color: $header-button-text;
-      font-family: $button-font;
       font-weight: 400;
       text-align: center;
       &:hover {
@@ -207,6 +206,7 @@
     }
     .form-wrapper {
       @extend %transition;
+      @include box-shadow();
       @include opacity(0);
       overflow: hidden;
       position: absolute;
@@ -217,7 +217,7 @@
       &:before {
         content: "";
         position: absolute;
-        top: -1em;
+        top: -.75em;
         right: 5em;
         border-bottom: 1em solid $form-bg;
         border-left: 1em solid transparent;
@@ -228,7 +228,6 @@
         overflow: visible;
         top: 3.25em;
         max-height: 50em;
-        @include break-up($x-large){top:3.5em}
       }
       h6 {
         @include font-size(16);
@@ -239,8 +238,10 @@
       form {
         @include border-radius(.25em);
       }
-      input[type="text"]{
+      input[type="text"],
+      input[type="email"]{
         margin-bottom: .5em;
+        background-color: $x-lt-gray;
       }
       input[type="submit"]{
         @include font-size(16);

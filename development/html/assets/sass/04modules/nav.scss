@@ -34,7 +34,6 @@ nav {
       @include inline-block;
       @include font-size(14);
       margin: .125em .025em;
-      font-family: $nav-font;
       font-weight: 500;
       text-transform: uppercase;
       @include break-up($medium){

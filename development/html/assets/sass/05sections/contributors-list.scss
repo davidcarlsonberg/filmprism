@@ -64,7 +64,7 @@
     background-color: $card-image-bg;
     img {@extend %transition}
   }
-  .contributors-list__details {
+  &__details {
     padding: 1.5em;
   }
   h3 {
@@ -77,14 +77,14 @@
     color: $body-text;
   }
   a {
-    @include border-radius;
-    @include box-shadow;
+    @include border-radius();
+    @include box-shadow();
     overflow: hidden;
     display: block;
     background: $card-bg-color;
     &:hover,
     &:focus {
-      background-color: lighten($md-blue,55%);
+      background-color: $card-bg-hover;
       figure img {@include opacity(.75)}
       h3,p{color:$card-link-hover}
     }

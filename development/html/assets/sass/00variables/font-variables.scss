@@ -2,12 +2,8 @@
  FONT STACKS
 **************************************************/
 
-$serif: Georgia, Times, "Times New Roman", serif;
 $sans-serif: Helmet, Freesans, sans-serif;
 $monospace: "courier new", monospace, serif;
-
-$lato: "Lato", $sans-serif;
-
 $poppins: "Poppins", $sans-serif;
 
 /**************************************************
@@ -15,13 +11,4 @@ $poppins: "Poppins", $sans-serif;
 **************************************************/
 
 $body-font: $poppins;
-
-$headline-font: $poppins;
-$subheadline-font: $poppins;
-$nav-font: $poppins;
-$button-font: $poppins;
-$label-font: $poppins;
-$code-font: $poppins;
-
-$filters-font: $poppins;
-$by-line-font: $poppins;
+$code-font: $monospace;

@@ -420,8 +420,7 @@
     & p {
       color: $call-out-text;
       display: inline-block;
-      @include font-size(18);    
-      font-family: $lato;
+      @include font-size(18);
       font-weight: 300;
       margin: .3em .5em 0;
       position: relative;
