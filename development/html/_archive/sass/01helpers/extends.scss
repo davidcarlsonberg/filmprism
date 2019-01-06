@@ -1,0 +1,25 @@
+/**************************************************
+ EXTENDABLE STYLES
+**************************************************/
+
+%transition {
+  @include transition;
+}
+
+%clearfix {
+  zoom: 1;
+  &:before,
+  &:after {
+    display:table;
+    visibility:hidden;
+    content:"";
+  }
+  &:after {
+    clear:both;
+  }
+}
+
+%qanda-title {
+  &:before {content: "\0051\003A\0020"}
+  &:after {content: "\003F"}
+}

@@ -1,0 +1,131 @@
+/**************************************************
+ BASIC PAGE STYLES
+**************************************************/
+
+.single {
+  @include border-radius;
+  @include box-shadow;
+  overflow: hidden;
+  background-color: $module-aside-bg;
+  article {
+    padding: 1.5em 1.5em 3em;
+    background-color: $module-bg;
+    @include break-up($small){
+      padding: 3em 3em 6em;
+    }
+    @include break-up($medium){
+      float: left;
+      width: 60%;
+      padding-right: 4.5em;
+    }
+    @include break-up($large){
+      width: 70%;
+    }
+    p {
+      max-width: 36em;
+    }
+  }
+  header {
+    margin-bottom: 3em;
+    padding: 1.5em 0 3em;
+    border-bottom: 1px solid $border-color;
+    h1 { margin: 0 }
+    h5 {
+      margin: 1em 0 0;
+      a {
+        white-space: nowrap;
+      }
+    }
+    .by-line{
+      @include font-size(12);
+      max-width: none;
+      margin: 2em 0 -2.25em;
+      padding: .5em 0;
+      border-top: 1px solid $border-color;
+      font-family: $by-line-font;
+      .spacer{margin:0 .375em;color:$border-color}
+      a {@include inline-block(baseline)}
+    }
+  }
+  aside {
+    position: relative;
+    padding: 3em 1.5em;
+    color: $module-aside-text;
+    @include break-up($small){padding:3em}
+    @include break-up($medium){float:right;width:40%}
+    @include break-up($large){
+      width: 30%;
+    }
+    .aside-content {
+      @include break-up($large){
+        &.sticky {position:fixed;top:9em}
+        &.sticky.bottom {position:absolute;top:auto;bottom:1.5em}
+      }
+    }
+    h4 {
+      @include font-size(18);
+      margin: 0 0 1em;
+      color: $module-aside-text;
+      text-transform: uppercase;
+    }
+    p {
+      @include font-size(14);
+    }
+    form {
+      @include border-radius(0);
+      @include box-shadow(none);
+      margin-top: 3em;
+      padding: 3em 0 0;
+      background-color: transparent;
+      border-top: 1px solid $module-aside-border;
+      h5 {
+        @include font-size(14);
+        color: $module-aside-text;
+        text-transform: uppercase;
+      }
+      input,
+      textarea {
+        border: none;
+      }
+      input[type="submit"]{
+        background-color: $module-aside-button;
+        &:hover,
+        &:focus {
+          background-color: darken($module-aside-button,5%);
+        }
+      }
+    }
+    .captcha-box {
+      @include border-radius;
+      background-color: lighten($module-aside-bg,10%);
+      p {
+        @include font-size(12);
+      }
+    }
+    .errors {
+      h4 {
+        @include font-size(16);
+        color: $form-error-text;
+      }
+      li {
+        @include font-size(12);
+      }
+    }
+  }
+  .q-and-a {
+    header h1 {
+      @extend %qanda-title;
+    }
+    .article-body {
+      &:before {
+        @include font-size(36);
+        content: "\0041\003A";
+        display: block;
+        float: left;
+        margin: 0 .25em .25em 0;
+        color: $headline-color;
+        font-family: $headline-font;
+      }
+    }
+  }
+}

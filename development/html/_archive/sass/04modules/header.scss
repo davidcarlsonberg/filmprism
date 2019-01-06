@@ -1,0 +1,274 @@
+/**************************************************
+ HEADER STYLES
+**************************************************/
+
+.site-header {
+  @extend %clearfix;
+  position: relative;
+  z-index: 10;
+  background-color: $header-bg;
+  @include break-up($large){
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    &.smallheader {position:fixed;top:-150px}
+    &.fixedheader {top:0;}
+  }
+  .header-top {
+    @extend %clearfix;
+    @include box-sizing(content-box);
+    padding: 1.5em $side-padding;
+  }
+  .logo-group {
+    overflow: hidden;
+    text-align: center;
+    @include break-up($medium){
+      float: left;
+      margin-left: -2em;
+      text-align: left;
+    }
+  }
+  h1 {
+    @include font-size(10);
+    margin: 0;
+    @include break-up($small){
+      @include inline-block;
+    }
+    @include break-up($medium){
+      float: left;
+    }
+    a {
+      @include transition(none);
+      display: block;
+      overflow: hidden;
+      height: 0;
+      width: 27em;
+      margin: 0 auto;
+      padding-top: 6em;
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      @include hires("../img/logo/screenprism-header-logo.png", "../img/logo/screenprism-header-logo-2x.png");
+      @include break-up($small){width:36em}
+      @include break-up($medium){width:27em}
+      @include break-up($large){width:36em}
+    }
+  }
+  .tagline {
+    display: none;
+  }
+}
+
+.header-bottom{
+  @extend %clearfix;
+  padding: 1em $side-padding;
+  background-color: darken($header-bg,2.5%);
+  @include break-up($medium){
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+}
+
+.header-links {
+  display: none;
+  @include break-up($medium){
+    display: block;
+    float: right;
+  }
+}
+
+/**************************************************
+ SMALL HEADER STYLES
+**************************************************/
+
+.smallheader {
+  background-color: darken($header-bg,2.5%);
+  &.site-header {
+    @include break-up($large){
+      @include box-shadow(0 0 10px $header-shadow);
+      overflow: hidden;
+      padding: .5em $side-padding;
+      .header-top { padding: 0 }
+      .tagline,
+      .header-links { display: none }
+      .header-bottom { padding: 0; background-color: transparent }
+      .search-bar { width: 48.75% }
+      nav {
+        margin-top: -4.375em;
+        margin-left: 4em;
+        @include break-up($x-large){
+          margin-left: 5em;
+        }
+      }
+      .site-nav li {
+        @include font-size(16);
+        @include break-up($x-large){
+          @include font-size(18);
+          margin-left: 1.75em;
+        }
+      }
+      h1 a { width: 5.2em }
+    }
+  }
+}
+
+/**************************************************
+ HEADER SEARCH BAR STYLES
+**************************************************/
+
+.search-bar {
+  @include border-radius(0);
+  overflow: hidden;
+  margin-bottom: 1.5em;
+  padding: 0;
+  background-color: transparent;
+  @include break-up($medium){
+    float: right;
+    width: 66.66%;
+    margin-bottom: 0;
+    margin-top: 1.25em;
+  }
+  @include break-up($large){width: 48.75%}
+  input[type="text"]{
+    @include border-right-radius(0);
+    @include font-size(16);
+    float: left;
+    height: 2.25em;
+    width: 75%;
+    margin: 0;
+    padding: .5em 0 .5em .75em;
+    border: none;
+    @include break-up($large){width:80%}
+  }
+  button{
+    @include border-left-radius(0);
+    @include box-shadow(none);
+    @include font-size(16);
+    float: left;
+    height: 2.25em;
+    width: 25%;
+    margin: 0;
+    border: none;
+    background-color: $search-button-bg;
+    color: $search-button-text;
+    text-align: center;
+    @include break-up($large){width:20%}
+    &:hover,&:focus {background-color:darken($search-button-bg,5%)}
+    svg {
+      @include inline-block(top);
+      width: 1.25em;
+      margin: 0 .5em;;
+      .ltie9 & {display:none}
+    }
+    span {display:none;
+      .ltie9 & {display:inline}
+    }
+  }
+}
+
+/**************************************************
+ HEADER MAILING LIST STYLES
+**************************************************/
+
+.mailing-list {
+  .site-header & {
+    position: relative;
+    display: none;
+    float: right;
+    width: auto;
+    @include break-up($medium){display:block}
+    a {
+      @include border-radius(0.375em);
+      @include font-size(14);
+      display: block;
+      padding: .45em .625em;
+      background-color: $header-button-bg;
+      border: 2px solid $header-button-border;
+      color: $header-button-text;
+      font-family: $button-font;
+      font-weight: 400;
+      text-align: center;
+      &:hover {
+        background-color: $header-button-hover-bg;
+        border-color: $header-button-hover-border;
+      }
+    }
+    .form-wrapper {
+      @extend %transition;
+      @include opacity(0);
+      overflow: hidden;
+      position: absolute;
+      top: 1em;
+      right: -1.5em;
+      max-height: 0;
+      width: 25em;
+      &:before {
+        content: "";
+        position: absolute;
+        top: -1em;
+        right: 5em;
+        border-bottom: 1em solid $form-bg;
+        border-left: 1em solid transparent;
+        border-right: 1em solid transparent;
+      }
+      &.open {
+        @include opacity(1);
+        overflow: visible;
+        top: 3.25em;
+        max-height: 50em;
+        @include break-up($x-large){top:3.5em}
+      }
+      h6 {
+        @include font-size(16);
+        margin: 0 0 .75em;
+        font-weight: 400;
+        text-align: center;
+      }
+      form {
+        @include border-radius(.25em);
+      }
+      input[type="text"]{
+        margin-bottom: .5em;
+      }
+      input[type="submit"]{
+        @include font-size(16);
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+/**************************************************
+ HEADER SOCIAL LINKS
+**************************************************/
+
+.social-links {
+  .site-header & {
+    list-style: none;
+    display: none;
+    float: right;
+    margin: .5em .5em 0 0;
+    text-align: right;
+    @include break-up($medium){display:block}
+    li {
+      @include inline-block;
+      @include font-size(10);
+      margin: 0 .75em 0 0;
+      a {
+        color: $header-social-icon-color;
+        &:hover,&:focus {
+          color: $header-social-icon-hover;
+        }
+      }
+      svg {
+        height: 2em;
+        width: 2em;
+      }
+      &.youtube {
+        svg {
+          width: 2.2em;
+        }
+      }
+    }
+  }
+}

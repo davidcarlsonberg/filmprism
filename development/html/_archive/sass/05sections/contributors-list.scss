@@ -1,0 +1,92 @@
+/**************************************************
+ CONTRIBUTORS LIST STYLES
+**************************************************/
+
+.contributors-list {
+  header {
+    margin-bottom: 3em;
+    h1 {
+      margin: 0;
+      text-align: center;
+    }
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+    @include break-up($small){
+      width: 105%;
+      margin-left: -5%;
+    }
+    @include break-up($medium){
+      width: 103.33%;
+      margin-left: -3.33%;
+    }
+    @include break-up($large){
+      width: 102.5%;
+      margin-left: -2.5%;
+    }
+    @include break-up($large){
+      width: 101.75%;
+      margin-left: -1.75%;
+    }
+  }
+  li {
+    @include font-size(10);
+    max-width: 30em;
+    margin: 0 auto 3em;
+    @include break-up($small){
+      float: left;
+      width: 45%;
+      max-width: none;
+      margin: 0 0 3em 5%;
+      &:nth-child(2n+1){clear:left}
+    }
+    @include break-up($medium){
+      width: 30%;
+      margin-left: 3.33%;
+      &:nth-child(2n+1){clear:none}
+      &:nth-child(3n+1){clear:left}
+    }
+    @include break-up($large){
+      width: 22.5%;
+      margin: 0 0 2.75em 2.5%;
+      &:nth-child(3n+1){clear:none}
+      &:nth-child(4n+1){clear:left}
+    }
+    @include break-up($x-large){
+      width: 18.25%;
+      margin: 0 0 2.25em 1.75%;
+      &:nth-child(4n+1){clear:none}
+      &:nth-child(5n+1){clear:left}
+    }
+  }
+  figure {
+    background-color: $card-image-bg;
+    img {@extend %transition}
+  }
+  .contributors-list__details {
+    padding: 1.5em;
+  }
+  h3 {
+    margin: 0;
+    color: $link-color;
+  }
+  p {
+    @include font-size(14);
+    margin: .5em 0 0;
+    color: $body-text;
+  }
+  a {
+    @include border-radius;
+    @include box-shadow;
+    overflow: hidden;
+    display: block;
+    background: $card-bg-color;
+    &:hover,
+    &:focus {
+      background-color: lighten($md-blue,55%);
+      figure img {@include opacity(.75)}
+      h3,p{color:$card-link-hover}
+    }
+  }
+}

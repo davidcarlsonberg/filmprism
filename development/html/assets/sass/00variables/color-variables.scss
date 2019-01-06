@@ -13,10 +13,7 @@ $black: #000;
 
 $deep-blue: #06017c;
 $green: #0c9f01;
-
-// Utility Colors
-
-$red: #e66045;
+$red: #f70000;
 
 $dk-gray: #2e2e2e;
 $md-gray: #666666;
@@ -97,7 +94,7 @@ $narrow-nav-text: $white;
 $narrow-nav-bg: $deep-blue;
 
 $search-input-bg: $white;
-$search-button-bg: $deep-blue;
+$search-button-bg: $magenta;
 $search-button-text: $white;
 
 // Footer Colors
@@ -175,8 +172,8 @@ $filter-bar-link-active: $magenta;
 
 // Home Page Colors
 
-$call-out-bg: $deep-blue;
-$call-out-text: $magenta;
+$call-out-bg: $yellow;
+$call-out-text: $red;
 $popular-posts-bg: $white;
 $new-releases-bg: lighten($cyan, 45%);
 $new-releases-heading: $white;

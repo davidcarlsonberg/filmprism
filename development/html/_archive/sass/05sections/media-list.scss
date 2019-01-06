@@ -1,0 +1,41 @@
+/**************************************************
+ FILM LIST PAGE STYLES
+**************************************************/
+
+.films-list {
+  @extend %filters-main;
+  .inner{max-width:900px}
+  ol {
+    @extend %card-styles;
+    width: 105%;
+    margin: 0 0 15px -5%;
+    @include break-up($small){
+      width: 103.33%;
+      margin-left: -3.33%;
+    }
+    @include break-up($small){
+      width: 102.5%;
+      margin-left: -2.5%;
+    }
+  }
+  li {
+    @include float;
+    width: 45%;
+    margin: 0 0 5% 5%;
+    &:nth-child(2n+1){clear:left}
+    @include break-up($small){
+      width: 30%;
+      margin-left: 3.33%;
+      margin-bottom: 3.33%;
+      &:nth-child(2n+1){clear:none}
+      &:nth-child(3n+1){clear:left}
+    }
+    @include break-up($medium){
+      width: 22.5%;
+      margin-left: 2.5%;
+      margin-bottom: 2.5%;
+      &:nth-child(3n+1){clear:none}
+      &:nth-child(4n+1){clear:left}
+    }
+  }
+}

@@ -1,0 +1,39 @@
+/**************************************************
+ BUTTON STYLES
+**************************************************/
+
+%button {
+  @include transition();
+  @include border-radius();
+  @include box-shadow();
+  @include font-size(24);
+  display: block;
+  width: 100%;
+  padding: .5em;
+  background-color: $button-bg;
+  color: $button-text;
+  font-family: $button-font;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover, 
+  &:focus {
+    background-color: $button-hover;
+    color: $button-text;
+  }
+}
+
+.button {
+  @extend %button;
+}
+
+.load {
+  @include font-size(30);
+  margin-top: 1em;
+  background-color: $load-button-bg;
+  font-weight: 300;
+  &:hover, 
+  &:focus {
+    background-color: $load-button-hover;
+  }
+}
